@@ -1,0 +1,35 @@
+[
+  {
+    "name": "OpenAI News",
+    "category": "官方资讯",
+    "url": "https://openai.com/news/rss.xml"
+  },
+  {
+    "name": "Google AI",
+    "category": "官方资讯",
+    "url": "https://blog.google/technology/ai/rss/"
+  },
+  {
+    "name": "Hugging Face Blog",
+    "category": "官方资讯",
+    "url": "https://huggingface.co/blog/feed.xml"
+  },
+  {
+    "name": "OpenAI Codex",
+    "category": "工具更新",
+    "url": "https://github.com/openai/codex/releases.atom",
+    "exclude_prerelease": true
+  },
+  {
+    "name": "Claude Code",
+    "category": "工具更新",
+    "url": "https://github.com/anthropics/claude-code/releases.atom",
+    "exclude_prerelease": true
+  },
+  {
+    "name": "Ollama",
+    "category": "工具更新",
+    "url": "https://github.com/ollama/ollama/releases.atom",
+    "exclude_prerelease": true
+  }
+]

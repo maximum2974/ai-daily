@@ -8,10 +8,18 @@
 
 ## 收录内容
 
+优先读取 **AI Radar 技能**使用的公开数据，每次最多 20 条雷达精选，提供中文标题、上游导读、来源分层及原文链接。参考讨论单列，官方 RSS 与工具更新作为补充。
+
+- 数据入口：`https://news.learnprompt.pro/data/daily-brief.json`。
+- 精选超过 48 小时未更新时降级到 `latest-24h.json`；该文件超过 36 小时则不当作今日资讯，明确记录不可用并使用 RSS。
+- 主站网络异常时使用技能指定的 LearnPrompt/ai-news-radar 官方 GitHub 原始数据备用地址。
+- 中文标题、导读和可选点评由上游提供，本仓库不调用大模型、不编造缺失字段。
+- 实现依据：[AI Radar 技能来源项目](https://github.com/LearnPrompt/ai-news-radar)。`SKILL.md` 是给 AI 助手的操作说明；Actions 执行的是本仓库将其流程实现后的 Python 脚本。
+
 - 官方资讯：OpenAI News、Google AI、Hugging Face Blog。
 - 开发工具版本：OpenAI Codex、Claude Code、Ollama；按标题过滤 alpha、beta、rc 等预发布版本。
-- 每条保留原始标题、来源时间和原文链接，不复制文章全文，不生成未经核验的摘要。
-- 日报栏目使用中文；原始标题保留来源语言。无需大模型 API Key，也不调用收费 AI 服务。
+- 每条保留来源时间和原文链接，不复制文章全文；雷达导读明确标记为上游提供。
+- 日报栏目使用中文；雷达条目优先中文标题，RSS 条目保留来源语言。无需大模型 API Key，也不调用收费 AI 服务。
 
 ## 运行方式
 

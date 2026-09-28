@@ -3,10 +3,29 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
-from daily import generate, parse_feed, SHANGHAI, is_prerelease
+from daily import generate, parse_feed, SHANGHAI, is_prerelease, parse_radar, fetch_radar
+from unittest.mock import patch
 
 
 class DailyTests(unittest.TestCase):
+    def test_radar_freshness_chinese_titles_and_fallback(self):
+        now = datetime.now(SHANGHAI)
+        record = {'title': 'English', 'title_zh': '中文标题', 'url': 'https://example.com/radar',
+                  'published_at': (now - timedelta(hours=1)).isoformat(), 'source': 'Original Publisher',
+                  'source_tier_rank': 5, 'ai_label': 'developer_tool'}
+        data = {'generated_at': now.isoformat(), 'items_ai': [record]}
+        items, skipped, stamp = parse_radar(data, 'latest', now)
+        self.assertEqual(items[0]['title'], '中文标题')
+        self.assertEqual(items[0]['source'], 'Original Publisher')
+        self.assertEqual(items[0]['category'], '值得注意（热议参考）')
+        with self.assertRaises(ValueError):
+            parse_radar({**data, 'generated_at': (now-timedelta(hours=37)).isoformat()}, 'latest', now)
+        with patch('daily.read_json', side_effect=[OSError('403'), OSError('403'), data]) as reader:
+            result = fetch_radar({'name': 'Radar', 'kind': 'radar', 'url': 'https://news.learnprompt.pro/data'})
+            self.assertIsNone(result['error'])
+            self.assertEqual(reader.call_count, 3)
+            self.assertIn('备用数据', result['note'])
+
     def test_prerelease_filter(self):
         for title in ["rust-v0.160.0-alpha.1", "v1.0.0-rc1", "v2.0-beta.2"]:
             self.assertTrue(is_prerelease(title))

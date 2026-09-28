@@ -72,6 +72,8 @@ def parse_feed(data):
 
 
 def fetch_source(source):
+    if source.get("kind") == "radar":
+        return fetch_radar(source)
     for attempt in range(3):
         try:
             request = Request(source["url"], headers={
@@ -89,6 +91,80 @@ def fetch_source(source):
             if attempt < 2:
                 time.sleep(2 ** attempt)
     return {**source, "items": [], "skipped": 0, "error": error}
+
+
+def read_json(url):
+    with urlopen(Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; ai-daily/1.0)"}), timeout=25) as response:
+        raw = response.read(8_000_001)
+    if len(raw) > 8_000_000:
+        raise ValueError("Radar response exceeds 8 MB limit")
+    return json.loads(raw)
+
+
+def parse_radar(data, mode, now):
+    generated = parse_date(data["generated_at"])
+    limit = 48 if mode == "brief" else 36
+    age = (now - generated).total_seconds() / 3600
+    if age > limit or age < -1:
+        raise ValueError(f"数据时间 {generated.isoformat()}，已超过 {limit} 小时新鲜度限制或时间异常")
+    records = data["items"] if mode == "brief" else data["items_ai"]
+    if not isinstance(records, list):
+        raise ValueError("Invalid Radar items")
+    def rank(item):
+        return (int(item.get("source_tier_rank", 3)), -float(item.get("ai_score", 0)))
+    records = sorted(records, key=rank)
+    labels = {"model_release": "模型发布", "ai_product_update": "产品与工具",
+              "developer_tool": "产品与工具", "agent_workflow": "产品与工具",
+              "research_paper": "论文与技术", "infra_compute": "论文与技术",
+              "robotics": "论文与技术", "ai_tech": "论文与技术"}
+    items, skipped, references = [], 0, 0
+    for record in records:
+        try:
+            url = record["url"]
+            if urlsplit(url).scheme not in ("http", "https") or not urlsplit(url).netloc:
+                raise ValueError("Invalid Radar link")
+            stamp = record.get("published_at") or record.get("first_seen_at")
+            date = parse_date(stamp) if stamp else generated
+            if not now - timedelta(hours=48) <= date <= now:
+                continue
+            tier = int(record.get("source_tier_rank", 3))
+            if tier >= 5:
+                if references >= 3:
+                    continue
+                references += 1
+            title = clean_title(record.get("title_zh") or record.get("title_bilingual") or record["title"])
+            category = "值得注意（热议参考）" if tier >= 5 else labels.get(record.get("ai_label"), "行业与综合")
+            items.append({"title": title, "url": url, "date": date, "category": category,
+                          "source": record.get("source_name") or record.get("source") or "AI News Radar",
+                          "tier": record.get("source_tier_label", "未分层"),
+                          "tier_rank": tier,
+                          "review": clean_title(record.get("persona_review") or ""),
+                          "intro": clean_title(record.get("recommend_reason_zh") or "")[:180]})
+        except (KeyError, TypeError, ValueError):
+            skipped += 1
+        if len(items) >= 20:
+            break
+    return items, skipped, generated
+
+
+def fetch_radar(source):
+    base = source["url"].rstrip("/")
+    endpoints = [(base + "/daily-brief.json", "brief"),
+                 (base + "/latest-24h.json", "latest"),
+                 ("https://raw.githubusercontent.com/LearnPrompt/ai-news-radar/master/data/latest-24h.json", "latest")]
+    errors = []
+    for url, mode in endpoints:
+        try:
+            items, skipped, generated = parse_radar(read_json(url), mode, datetime.now(timezone.utc))
+            note = f"数据时间 {generated.astimezone(SHANGHAI):%Y-%m-%d %H:%M}（北京时间）"
+            if errors:
+                note += "；主入口不可用或过期，已使用备用数据"
+            return {**source, "items": items, "skipped": skipped, "error": None, "note": note,
+                    "data_url": url}
+        except Exception as exc:
+            errors.append(f"{type(exc).__name__}: {exc}")
+    return {**source, "items": [], "skipped": 0, "error": "; ".join(errors),
+            "note": "雷达数据不可用或过期，本次仅收录可用 RSS 来源"}
 
 
 def is_prerelease(title):
@@ -121,16 +197,24 @@ def generate(root=ROOT, now=None, fetcher=fetch_source):
             if result.get("exclude_prerelease") and is_prerelease(item["title"]):
                 continue
             if cutoff <= item["date"] <= now and item["url"] not in seen:
-                entries.append({**item, "source": result["name"], "category": result["category"]})
+                entries.append({**item, "source": item.get("source", result["name"]),
+                                "category": item.get("category", result["category"])})
                 seen[item["url"]] = item["date"].isoformat()
-    entries.sort(key=lambda item: (item["date"], item["url"]), reverse=True)
+    entries.sort(key=lambda item: (item.get("tier_rank", 0), -item["date"].timestamp(), item["url"]))
     success = sum(result["error"] is None for result in results)
     lines = [f"# AI 每日观察 · {day}", "",
-             "> 本文由 GitHub Actions 自动采集；标题保留原文，事实与细节请以来源为准。", "",
+             "> 本文由 GitHub Actions 自动采集；雷达中文标题与导读来自 AI News Radar，事实与细节请以原始来源为准。", "",
              f"- 检查时间：{now:%Y-%m-%d %H:%M}（北京时间）",
              "- 收录范围：最近 48 小时发布或更新、且未在历史日报收录的条目。",
              f"- 信息源：{success}/{len(results)} 可用；本次新增：{len(entries)} 条。", ""]
-    for category in dict.fromkeys(source["category"] for source in sources):
+    for result in results:
+        if result.get("kind") == "radar" and result.get("note"):
+            lines += ["> 雷达状态：" + result["note"] + "。", ""]
+    categories = ["模型发布", "产品与工具", "论文与技术", "行业与综合", "官方资讯", "工具更新", "值得注意（热议参考）"]
+    categories += [item["category"] for item in entries if item["category"] not in categories]
+    for category in dict.fromkeys(categories):
+        if not any(item["category"] == category for item in entries):
+            continue
         lines += [f"## {category}", ""]
         selected = [item for item in entries if item["category"] == category]
         if not selected:
@@ -139,15 +223,28 @@ def generate(root=ROOT, now=None, fetcher=fetch_source):
             safe_url = quote(item["url"], safe=":/?&=#%+@~!$;,-._")
             lines += [f"- **[{markdown(item['title'])}]({safe_url})**",
                       f"  - 来源：{markdown(item['source'])} · 来源时间：{item['date'].astimezone(SHANGHAI):%m-%d %H:%M}（北京时间）"]
+            if item.get("tier"):
+                lines.append(f"  - 信源分层：{markdown(item['tier'])}")
+            if item.get("intro"):
+                lines.append(f"  - 雷达导读（上游提供）：{markdown(item['intro'])}")
+            if item.get("review"):
+                lines.append(f"  - 雷达点评（上游提供）：{markdown(item['review'])}")
         lines.append("")
+    if not entries:
+        lines += ["本次从可用信息源中未检索到符合收录条件的新条目。", ""]
     lines += ["## 来源检查", "", "| 来源 | 状态 |", "| --- | --- |"]
     for result in results:
         status = "获取成功" if result["error"] is None else "获取失败（不代表没有更新）"
         if result["skipped"]:
             status += f"；跳过 {result['skipped']} 条缺失日期或格式异常的条目"
+        if result.get("note"):
+            status += "；" + markdown(result["note"])
         lines.append(f"| [{markdown(result['name'])}]({result['url']}) | {status} |")
         if result["error"]:
             print(f"Source failed: {result['name']}: {result['error']}")
+    for result in results:
+        if result.get("data_url"):
+            lines += ["", f"雷达数据文件：{result['data_url']}", "", result["note"] + "。"]
     lines += ["", "## 我的阅读笔记", "", "<!-- 可以在这里补充自己的学习笔记；当天补跑不会覆盖本文件。 -->", ""]
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text("\n".join(lines), encoding="utf-8")

@@ -1,5 +1,11 @@
 [
   {
+    "name": "AI News Radar",
+    "kind": "radar",
+    "category": "雷达精选",
+    "url": "https://news.learnprompt.pro/data"
+  },
+  {
     "name": "OpenAI News",
     "category": "官方资讯",
     "url": "https://openai.com/news/rss.xml"

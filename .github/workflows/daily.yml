@@ -1,0 +1,50 @@
+name: AI Daily
+
+on:
+  schedule:
+    # UTC 02:00 / 02:37 = 北京时间 10:00 / 10:37。
+    - cron: '0 2 * * *'
+    - cron: '37 2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/daily.yml'
+      - 'daily.py'
+      - 'test_daily.py'
+      - 'sources.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-daily
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    if: github.repository == 'maximum2974/ai-daily'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TZ: Asia/Shanghai
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Test collector
+        run: python3 -m unittest -v
+      - name: Collect today's updates
+        run: python3 daily.py
+      - name: Commit daily archive
+        run: |
+          git config user.name 'maximum2974'
+          git config user.email '125869982+maximum2974@users.noreply.github.com'
+          git add daily data LATEST.md ARCHIVE.md
+          if git diff --cached --quiet; then
+            echo 'Today is already archived; nothing to commit.'
+            exit 0
+          fi
+          git commit -m "docs(daily): archive AI updates for $(date +%F)" -m 'Automatically collected by GitHub Actions; original sources are linked.'
+          git pull --rebase origin main
+          git push origin HEAD:main

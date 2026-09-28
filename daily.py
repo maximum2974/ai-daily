@@ -110,6 +110,20 @@ def parse_radar(data, mode, now):
     records = data["items"] if mode == "brief" else data["items_ai"]
     if not isinstance(records, list):
         raise ValueError("Invalid Radar items")
+    if mode == "brief":
+        normalized = []
+        for story in records:
+            primary = story.get("primary_item") or {}
+            original = next((s for s in story.get("sources", []) if s.get("url") == story.get("url")), {})
+            item = {**primary, **original, **story}
+            item["source"] = original.get("source") or primary.get("source") or story.get("source")
+            item["published_at"] = original.get("published_at") or story.get("published_at") or story.get("latest_at")
+            item["title_zh"] = original.get("title_zh") or primary.get("title_zh")
+            if "source_tier_rank" not in item:
+                item["source_tier_rank"] = 0 if story.get("category") == "official" else 5 if story.get("category") == "multi_source" else 3
+                item["source_tier_label"] = "官方一手源" if item["source_tier_rank"] == 0 else "热议参考" if item["source_tier_rank"] == 5 else "聚合资讯（未提供细分层级）"
+            normalized.append(item)
+        records = normalized
     def rank(item):
         return (int(item.get("source_tier_rank", 3)), -float(item.get("ai_score", 0)))
     records = sorted(records, key=rank)
@@ -124,7 +138,9 @@ def parse_radar(data, mode, now):
             if urlsplit(url).scheme not in ("http", "https") or not urlsplit(url).netloc:
                 raise ValueError("Invalid Radar link")
             stamp = record.get("published_at") or record.get("first_seen_at")
-            date = parse_date(stamp) if stamp else generated
+            if not stamp:
+                raise ValueError("Missing item timestamp")
+            date = parse_date(stamp)
             if not now - timedelta(hours=48) <= date <= now:
                 continue
             tier = int(record.get("source_tier_rank", 3))
@@ -133,9 +149,9 @@ def parse_radar(data, mode, now):
                     continue
                 references += 1
             title = clean_title(record.get("title_zh") or record.get("title_bilingual") or record["title"])
-            category = "值得注意（热议参考）" if tier >= 5 else labels.get(record.get("ai_label"), "行业与综合")
+            category = "值得注意（热议参考）" if tier >= 5 else labels.get(record.get("ai_label"), "官方资讯" if tier == 0 else "行业与综合")
             items.append({"title": title, "url": url, "date": date, "category": category,
-                          "source": record.get("source_name") or record.get("source") or "AI News Radar",
+                          "source": record.get("source") or record.get("source_name") or "AI News Radar",
                           "tier": record.get("source_tier_label", "未分层"),
                           "tier_rank": tier,
                           "review": clean_title(record.get("persona_review") or ""),

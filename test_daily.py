@@ -8,6 +8,20 @@ from unittest.mock import patch
 
 
 class DailyTests(unittest.TestCase):
+    def test_brief_nested_schema_uses_article_time_and_source(self):
+        now = datetime.now(SHANGHAI)
+        stamp = (now - timedelta(hours=4)).isoformat()
+        primary = {'title_zh': '中文', 'source': 'Original Blog', 'published_at': stamp,
+                   'url': 'https://example.com/brief', 'recommend_reason_zh': '上游导读'}
+        story = {'title': 'Bilingual', 'url': primary['url'], 'source_name': 'Aggregator',
+                 'category': 'official', 'latest_at': stamp, 'sources': [primary], 'primary_item': primary}
+        items, _, _ = parse_radar({'generated_at': now.isoformat(), 'items': [story]}, 'brief', now)
+        self.assertEqual(items[0]['date'].isoformat(), (now - timedelta(hours=4)).astimezone(items[0]['date'].tzinfo).isoformat())
+        self.assertEqual(items[0]['source'], 'Original Blog')
+        self.assertEqual(items[0]['title'], '中文')
+        self.assertEqual(items[0]['category'], '官方资讯')
+        self.assertEqual(items[0]['intro'], '上游导读')
+
     def test_radar_freshness_chinese_titles_and_fallback(self):
         now = datetime.now(SHANGHAI)
         record = {'title': 'English', 'title_zh': '中文标题', 'url': 'https://example.com/radar',

@@ -1,117 +1,119 @@
-# AI 每日观察 · 2026-10-13
+# AI 每日观察 · 2026-10-14
 
 > 本文由 GitHub Actions 自动采集；雷达中文标题与导读来自 AI News Radar，事实与细节请以原始来源为准。
 
-- 检查时间：2026-10-13 16:42（北京时间）
+- 检查时间：2026-10-14 14:54（北京时间）
 - 收录范围：最近 48 小时发布或更新、且未在历史日报收录的条目。
-- 信息源：7/7 可用；本次新增：21 条。
+- 信息源：7/7 可用；本次新增：23 条。
 
-> 雷达状态：数据时间 2026-10-13 15:47（北京时间）；主入口不可用或过期，已使用备用数据。
+> 雷达状态：数据时间 2026-10-14 14:11（北京时间）；主入口不可用或过期，已使用备用数据。
 
 ## 模型发布
 
-- **[字节跳动单设大模型安全部门：给狂奔的智能体套上对齐的缰绳](https://www.aibase.com/news/31604)**
-  - 来源：AIbase · 来源时间：10-13 15:47（北京时间）
+- **[Google DeepMind 与新加坡政府合作，打造用于诈骗检测的微调 AI 模型](https://deepmind.google/blog/on-device-ai-scam-detection-mddi)**
+  - 来源：Google DeepMind · 来源时间：10-14 10:00（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：Google DeepMind 与 GovTech Singapore 用轻量级 on-device Gemma 模型，在本地诈骗对话上微调，实时识别冒充官方、银行等骗局并预警，数据不出设备；新加坡此类诈骗占报告犯罪过半，2019年来损失超 S$4 billion。
+- **[负责任且安全地开发 Gemini 4 Argon](https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely)**
+  - 来源：Google DeepMind · 来源时间：10-14 03:43（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：标题称要负责任且安全地开发Gemini 4 Argon，但正文仅三句重复的引导语，指向Google关于其安全与保障做法的说明，没有任何具体细节或数据。
+- **[Gemini 4 Argon in GitHub Copilot](https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot)**
+  - 来源：GitHub Changelog · 来源时间：10-14 02:39（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：Google 新前沿模型 Gemini 4 Argon 已在 GitHub Copilot 全面可用，专攻复杂编码、agentic 与推理；早期测试中它在每项编码基准上解决任务数均超此前 Gemini，Copilot CLI 提升最大，并会测试边缘情况后再收尾。
+- **[GitHub 的密钥检测模型：更少噪音，发现更多密钥](https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise)**
+  - 来源：GitHub AI & ML · 来源时间：10-14 01:56（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：GitHub 详解其 context-aware secret classifier 如何取代旧 LLM pipeline 以减少误报，weighted acceptance 提升 11.5%，扫描执行时间中位数降低 86%。
+- **[Google DeepMind 发布 Gemini 4 Argon 机器人模型，ERQA 基准得分 87%](https://deepmind.google/blog/gemini-4-argon-for-robotics)**
+  - 来源：Google DeepMind · 来源时间：10-14 00:01（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：Gemini 4 Argon 在 ERQA 纯推理得 87%，控制 Boston Dynamics Spot 学会踩踏板扔易拉罐，并生成 MuJoCo 数字孪生。
+- **[Google 发布 Gemini 4 Argon：面向复杂工程与科研任务的前沿模型](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon)**
+  - 来源：Google AI Blog · 来源时间：10-14 00:00（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：Gemini 4 Argon 被称为最新前沿模型，全文只提到开发者、企业、科学家和消费者可获取访问权限，没有参数或能力细节。
+- **[“软硬模”三位一体！STEPX 首款大模型原生智能体手机 Neo 登场，售价 3999 元起](https://www.aibase.com/news/31633)**
+  - 来源：AIbase · 来源时间：10-14 14:11（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：10月13日，ByteDance 的 Seed 新设直接向 Wu Yonghui 汇报的 Seed Model - Alignment & Preparedness，由 Yan Lin 领导，专管大模型安全风险与 alignment，并影响 Doubao 的合规、回答质量与价值取向。
-- **[Anthropic 拉响红色警报：小型 AI 模型几个月内或将学会自我复制，而且你关不掉它](https://www.aibase.com/news/31600)**
-  - 来源：AIbase · 来源时间：10-13 14:54（北京时间）
+  - 雷达导读（上游提供）：STEPX 在上海发布首款大模型原生智能体手机 STEPX Neo，售价3999元，配六麦克风阵列、Whisper1.0拾音和MiniLED点阵背屏，搭载Step AOS 1.0与Step大模型矩阵，实现端云协同。
+- **[Google DeepMind 亮出 Gemini 4 Argon：单次输出飙到百万 Token，专啃长周期硬活](https://www.aibase.com/news/31634)**
+  - 来源：AIbase · 来源时间：10-14 14:11（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：Anthropic10月13日报告警告，部分AI模型或在几个月内获得自我复制能力，90亿参数模型已在九类硬件中的八类运行推理，且缺乏中心开关难以关闭。
-- **[Epic押注AI优先开发：迪士尼射击游戏代码交给Claude写，美术全走AI工作流](https://www.aibase.com/news/31595)**
-  - 来源：AIbase · 来源时间：10-13 14:14（北京时间）
-  - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：Epic Games 要求未公布的 Disney 合作射击游戏全面转向 AI 优先开发，用 Anthropic 的 Claude 写代码、全 AI 工作流做美术，人类只任顾问、管理与审核；Bloomberg 称该作原定 2027 年 3 月发售，现无限期推迟。
-- **[NTT为Anthropic建日本首座专用数据中心，算力主权之战把Claude留在本地](https://www.aibase.com/news/31596)**
-  - 来源：AIbase · 来源时间：10-13 14:14（北京时间）
-  - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：NTT计划为Anthropic建日本首座专用数据中心，运行和训练Claude系列模型，体现日本借数据主权减少对外国数字基础设施依赖、推动算力本地化。
-- **[从模型能力到安全边界，字节 Seed 组建新部门应对前沿AI风险](https://www.aibase.com/news/31592)**
-  - 来源：AIbase · 来源时间：10-13 13:38（北京时间）
-  - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：ByteDance Seed 新设 Seed Model-Alignment & Preparedness 部门，由 Yan Lin 领导并向 Wu Yonghui 汇报，原 Responsible AI 与部分 Chat 团队加入，重点防范 Agent Models 及 CBRN 风险，并推进安全评估、对齐训练与风险监控。
+  - 雷达导读（上游提供）：Google DeepMind 于9月30日发布 Gemini 4 Argon，单次输出从64K提升到100万Token，DeepSWE v1.1 在长周期软件工程任务达77.9%、LVBench 达91.7%，专为法律、金融与网络安全等长周期复杂工作流设计。
 
 ## 产品与工具
 
-- **[GitHub Copilot 新手入门应用：如何让 Copilot 了解你的代码库](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase)**
-  - 来源：GitHub AI & ML · 来源时间：10-13 01:43（北京时间）
+- **[用 LFM2.5-24B-A2B 在设备端运行快速、私密的 Agent](https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b)**
+  - 来源：Hugging Face Blog · 来源时间：10-14 01:05（北京时间）
   - 信源分层：官方一手源
-  - 雷达导读（上游提供）：文章用四种方式教 GitHub Copilot 融入代码库：添加 .github/copilot-instructions.md 与 .github/instructions 指令、在 .github/skills 放 SKILL.md 技能、创建自定义 agents，并连接 Playwright 等 MCP servers，让 Copilot 自动遵循项目
-- **[微软给新版 Outlook"瘦身"：10 月全球停用 Copilot 主题，重新押注聊天入口](https://www.aibase.com/news/31601)**
-  - 来源：AIbase · 来源时间：10-13 15:47（北京时间）
+  - 雷达导读（上游提供）：LFM2.5-24B-A2B 用 24B 参数、2B 激活实现端侧私有 agent，支持 131K 上下文和工具调用，在 M5 Max 上解码 184 tokens/s，比次优模型快 1.7 倍。
+- **[密钥扫描默认拦截 Anthropic 密钥，新增 Salesforce 支持](https://github.blog/changelog/2026-10-13-secret-scanning-blocks-anthropic-keys-by-default-adds-salesforce)**
+  - 来源：GitHub Changelog · 来源时间：10-14 00:12（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：GitHub secret scanning 新增 Salesforce、Anthropic 和 Cloudsmith 密钥类型，其中 Anthropic 密钥默认被 push protection 拦截，Salesforce 成为新合作伙伴，免费公开仓库启用后含这些密钥的提交也会自动阻止。
+- **[Higgsfield 将 AI 视频从 1 分钟拉长到 10 分钟以上](https://openai.com/index/higgsfield-longer-videos-voice)**
+  - 来源：OpenAI News · 来源时间：10-13 20:00（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：Higgsfield AI 用 GPT-6 Astra 将 AI 视频从约 1 分钟延长到 10 分钟以上，并让创意代理在长视频里保持一致性，帮小团队做高端内容
+- **[OPPO 牵手 Manus：Find X10 系列首发"会办事"的 AI 智能体](https://www.aibase.com/news/31631)**
+  - 来源：AIbase · 来源时间：10-14 14:11（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：Microsoft计划2026年10月中下旬全球停用新版Outlook的Copilot主题，并撤掉侧栏自动摘要，把Copilot入口重新转向更简单的聊天式设计。
-- **[Anthropic 警告：AI 离"自我复制"只差几个月，关都关不掉](https://www.aibase.com/news/31603)**
-  - 来源：AIbase · 来源时间：10-13 15:47（北京时间）
+  - 雷达导读（上游提供）：OPPO 与 Manus 合作，将 agent 能力集成进 AI Mind Pilot，并在预装 ColorOS 17 的 Find X10 系列首发，让手机从“回答问题”转向“完成任务”，可自动拆解多步骤任务，如汇总机票酒店生成旅行日程或整理照片产出 PPT。
+- **[1400万企业的 AI 同事上线:WorkBuddy 进通讯录，群聊勾选即成任务、产物直接发回企微](https://www.aibase.com/news/31632)**
+  - 来源：AIbase · 来源时间：10-14 14:11（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：Anthropic 报告警告 AI 或在数月内获得自我复制能力：9B 参数模型已能在 9 类硬件中的 8 类上推理，含智能烤箱、廉价 Android TV box，GLM-5.2 已在简化评测中跑通全流程。
-- **[字节跳动Seed单拆安全对齐部门，严林挂帅专防智能体越界与CBRN风险](https://www.aibase.com/news/31593)**
-  - 来源：AIbase · 来源时间：10-13 13:38（北京时间）
-  - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：ByteDance's Seed 内部邮件宣布成立 Seed Model-Alignment & Preparedness，由 Yan Lin 领导、直接向 Wu Yonghui 汇报，整合原 Responsible AI 与部分 Chat 团队，重点提升 Agent Models 安全能力并防范 CBRN 风险，意味着安全对齐升为 Seed 顶层部门。
-- **[3 个月烧掉 5000 亿 Token，AI 把《现代战争 2》源代码"复刻"了 83%](https://www.aibase.com/news/31576)**
-  - 来源：AIbase · 来源时间：10-13 11:34（北京时间）
-  - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：10 月 9 日，Maurice Hoieman 发布报告称团队用 3 个月、超 50 billion tokens，让 AI agents 在 Claude Code 和 Codex 中把 2009 年 Call of Duty: Modern Warfare 2 反编译并重建成 C++ 源码，再用逐字节比对 EXE 和 PDB 验证，标题称复刻 83%。
-- **[Meta 发 Muse Wonder 叫板 Anthropic 与 OpenAI，扎克伯格边烤肉边剧透"大西瓜"](https://www.aibase.com/news/31584)**
-  - 来源：AIbase · 来源时间：10-13 11:34（北京时间）
-  - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：Meta 当地周一发布 Muse Wonder 与 Muse Wonder Full，测试称其推理、写作、编码接近 Anthropic 顶级水平，目标追赶 Anthropic 与 OpenAI；内部代号“Watermelon”，由 Scale AI 创始人 Alexander Wang 领导开发。
-
-## 论文与技术
-
-- **[落子大阪：Anthropic 首座日本数据中心谈妥在即，500MW 算力要烧掉万亿日元](https://www.aibase.com/news/31605)**
-  - 来源：AIbase · 来源时间：10-13 15:47（北京时间）
-  - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：Anthropic与NTT DATA洽谈在Osaka建首座日本数据中心，规划500MW、成本超1万亿日元，预计本财年签约、2028年部分运营，初期自发电供电。
+  - 雷达导读（上游提供）：WorkBuddy 10月14日宣布与 Enterprise WeChat 深度集成，可作为机器人进入通讯录并调用消息、文档、会议等十项能力；群聊勾选消息即成任务，自动识别关联文档、日程，产物直接发回 Enterprise WeChat。
 
 ## 行业与综合
 
-- **[从思考到构建一气呵成:xAI重磅推出全流程AI打包订阅计划](https://www.aibase.com/news/31602)**
-  - 来源：AIbase · 来源时间：10-13 15:47（北京时间）
+- **[OpenAI 拟收购知名安全公司 Trail of Bits，谈判正在进行中](https://www.aibase.com/news/31628)**
+  - 来源：AIbase · 来源时间：10-14 14:11（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：xAI推出全流程AI打包订阅The X Subscription，首次整合Grok、Grok Bot、Cursor与X Premium，设$0至$200共五档月费，并让Grok与Cursor共享配额，Cursor编码用量至少为单独版两倍，面向全球用户。
-- **[千问回应"千问 Go！"传闻：非独立 App，体验资格已开放申请](https://www.aibase.com/news/31597)**
-  - 来源：AIbase · 来源时间：10-13 14:14（北京时间）
-  - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：Qwen团队澄清Qwen Go!非独立App，而是内嵌Qwen APP的Personal Agent，已开放体验申请，实测可理赔航班延误70 yuan。
-- **[可灵AI带着Kling 4. 0 杀向好莱坞：AI视频要从玩具变成企业的生产流水线](https://www.aibase.com/news/31598)**
-  - 来源：AIbase · 来源时间：10-13 14:14（北京时间）
-  - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：Kling AI将于10月14日亮相2026 Los Angeles Tech Week，预告Kling 4.0即将发布，并与Oxen AI、Obsidian Studio圆桌讨论AI视频从社交短片进入企业产品与日常工作流，验证大模型能否被行业真正用起来并变现。
-- **[1688全面接入AI电商工作台Accio 赋能超1亿买家与百万源头厂商](https://www.aibase.com/news/31599)**
-  - 来源：AIbase · 来源时间：10-13 14:14（北京时间）
-  - 信源分层：AI垂直源
-- **[千问回应:「千问Go!」不是独立APP，已开放体验申请](https://www.aibase.com/news/31594)**
-  - 来源：AIbase · 来源时间：10-13 13:38（北京时间）
-  - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：Qwen于10月13日回应，QwenGo!并非独立APP，而是内嵌Qwen APP并开放体验申请，可办理航班延误赔偿等，测试用户获70元赔偿。
+  - 雷达导读（上游提供）：10月13日，OpenAI 被曝正早期谈判收购安全公司 Trail of Bits，后者专长系统安全、密码审计与软件漏洞发现，交易若成将补强其模型底层防御。
 
 ## 官方资讯
 
-- **[客户端遥测用户归因与可配置采集](https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture)**
-  - 来源：GitHub Changelog · 来源时间：10-13 06:38（北京时间）
+- **[GitHub App 在最小权限和管理方面的改进](https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management)**
+  - 来源：GitHub Changelog · 来源时间：10-14 07:17（北京时间）
   - 信源分层：官方一手源
-  - 雷达导读（上游提供）：GitHub企业管理员可用telemetry.capture.identity归因Copilot活动到用户，向OTel加三身份属性，默认关闭且独立于假名标识。
-- **[推送归属功能面向 commit 开放有限公开预览](https://github.blog/changelog/2026-10-12-push-attribution-public-preview)**
-  - 来源：GitHub Changelog · 来源时间：10-13 00:30（北京时间）
+  - 雷达导读（上游提供）：GitHub 发布多项 GitHub Apps 改进，新增两个细粒度权限，含 repository\_creation:write，让开发者摆脱 classic PATs，以更小权限创建仓库，并允许仓库管理员为已获组织批准的 App 添加仓库。
+- **[审计 GitHub Code Quality 问题的忽略与重新打开记录](https://github.blog/changelog/2026-10-13-audit-github-code-quality-finding-dismissals-and-reopenings)**
+  - 来源：GitHub Changelog · 来源时间：10-14 01:58（北京时间）
   - 信源分层：官方一手源
-  - 雷达导读（上游提供）：GitHub 现于 UI 和 API 中持久记录每次提交的认证推送者身份，并与 author、committer 字段并列，以应对低权限账户伪造可信维护者提交的风险；该功能面向 GitHub Enterprise 客户以 limited public preview 开放，并支持在 ruleset 添加 Committer must match pusher
-- **[Dependabot 支持匿名组织级注册表](https://github.blog/changelog/2026-10-12-anonymous-organization-level-registries-for-dependabot)**
-  - 来源：GitHub Changelog · 来源时间：10-12 22:04（北京时间）
+  - 雷达导读（上游提供）：GitHub 现可在组织或企业审计日志中查看 Code Quality 发现项的人工关闭与重新打开，两个新事件记录操作者、时间、仓库、规则及受影响发现项的数量和标识，Team 与 Enterprise Cloud 可用，Enterprise Server 不支持。
+- **[Gemini 4 Argon: Built to solve your hardest problems](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/)**
+  - 来源：Google AI · 来源时间：10-14 00:00（北京时间）
+- **[企业托管设置强制执行更新](https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates)**
+  - 来源：GitHub Changelog · 来源时间：10-13 23:20（北京时间）
   - 信源分层：官方一手源
-  - 雷达导读（上游提供）：GitHub 为 Dependabot 的组织级私有 registry 新增 Anonymous 认证，适合无需凭据即可访问的内部镜像；由于不能更改现有 registry 的认证方式，曾用占位 token 绕过的用户需删除后重建，该功能已在 github.com 全面可用，并将随 GitHub Enterprise Server 3.24 推出。
+  - 雷达导读（上游提供）：GitHub 新增 forceRemoteSettingsRefresh，可让 Enterprise 管理员要求 Copilot CLI、VS Code 和 GitHub Copilot app 启动时刷新 server-managed settings，无法确认当前策略就 fail closed；sandbox key 开始强制最低客户端版本。
+- **[改进对已撤销 Dependabot 警报的检测](https://github.blog/changelog/2026-10-13-improved-detection-for-withdrawn-dependabot-alerts)**
+  - 来源：GitHub Changelog · 来源时间：10-13 22:03（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：Dependabot 在安全公告或漏洞失效时撤回并移除警报，GitHub 新增两项改动帮助检测，适用于 github.com 所有仓库，并将纳入 GitHub Enterprise Server 3.24。
+- **[预算搜索与筛选功能现已上线](https://github.blog/changelog/2026-10-13-search-and-filter-for-budgets-now-available)**
+  - 来源：GitHub Changelog · 来源时间：10-13 20:06（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：GitHub 账单设置的“Budgets and alerts”页面现支持搜索和筛选，个人账户、企业或组织的所有预算集中一列，无需翻页即可找到特定预算。
+- **[Code scanning 中 AI Scan 指标现已在 security overview 中展示](https://github.blog/changelog/2026-10-13-code-scanning-ai-scan-metrics-in-security-overview)**
+  - 来源：GitHub Changelog · 来源时间：10-13 20:03（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：GitHub 安全概览新增 AI Scan 指标，管理员可看 pull requests 生成、解决与修复率、涉及仓库、趋势和 autofix 采用频率，页面也分设 CodeQL 与 AI Scan 标签。
 
 ## 工具更新
 
-- **[v0.40.4](https://github.com/ollama/ollama/releases/tag/v0.40.4-rc1)**
-  - 来源：Ollama · 来源时间：10-13 13:26（北京时间）
+- **[v2.1.299](https://github.com/anthropics/claude-code/releases/tag/v2.1.299)**
+  - 来源：Claude Code · 来源时间：10-14 10:49（北京时间）
+- **[v0.40.4](https://github.com/ollama/ollama/releases/tag/v0.40.4)**
+  - 来源：Ollama · 来源时间：10-14 10:23（北京时间）
 
 ## 来源检查
 
 | 来源 | 状态 |
 | --- | --- |
-| [AI News Radar](https://news.learnprompt.pro/data) | 获取成功；数据时间 2026-10-13 15:47（北京时间）；主入口不可用或过期，已使用备用数据 |
+| [AI News Radar](https://news.learnprompt.pro/data) | 获取成功；数据时间 2026-10-14 14:11（北京时间）；主入口不可用或过期，已使用备用数据 |
 | [OpenAI News](https://openai.com/news/rss.xml) | 获取成功 |
 | [Google AI](https://blog.google/technology/ai/rss/) | 获取成功 |
 | [Hugging Face Blog](https://huggingface.co/blog/feed.xml) | 获取成功 |
@@ -121,7 +123,7 @@
 
 雷达数据文件：https://raw.githubusercontent.com/LearnPrompt/ai-news-radar/master/data/latest-24h.json
 
-数据时间 2026-10-13 15:47（北京时间）；主入口不可用或过期，已使用备用数据。
+数据时间 2026-10-14 14:11（北京时间）；主入口不可用或过期，已使用备用数据。
 
 ## 我的阅读笔记
 

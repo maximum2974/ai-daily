@@ -1,113 +1,119 @@
-# AI 每日观察 · 2026-10-15
+# AI 每日观察 · 2026-10-16
 
 > 本文由 GitHub Actions 自动采集；雷达中文标题与导读来自 AI News Radar，事实与细节请以原始来源为准。
 
-- 检查时间：2026-10-15 14:43（北京时间）
+- 检查时间：2026-10-16 14:34（北京时间）
 - 收录范围：最近 48 小时发布或更新、且未在历史日报收录的条目。
-- 信息源：7/7 可用；本次新增：23 条。
+- 信息源：7/7 可用；本次新增：26 条。
 
-> 雷达状态：数据时间 2026-10-15 13:56（北京时间）；主入口不可用或过期，已使用备用数据。
+> 雷达状态：数据时间 2026-10-16 13:54（北京时间）；主入口不可用或过期，已使用备用数据。
 
 ## 模型发布
 
-- **[Amp 携手 OpenAI 模型，让 AI agent 不止于写代码](https://openai.com/index/amp-beyond-coding)**
-  - 来源：OpenAI News · 来源时间：10-14 20:00（北京时间）
+- **[Claude Opus 5.5 fast mode 结束研究预览并移除等待名单](https://x.com/ClaudeDevs/status/2110825294655562048)**
+  - 来源：X：Claude Devs (@ClaudeDevs) · 来源时间：10-16 04:09（北京时间）
   - 信源分层：官方一手源
-  - 雷达导读（上游提供）：Amp 称 OpenAI 模型占多数 token，有用户周耗 100 亿 token；GPT-6 Astra 让 agent 做文档和设计页，Puck 可实时对话。
-- **[OpenAI加紧研发下一代旗舰模型，循环推理与安全对齐成关键](https://www.aibase.com/news/31646)**
-  - 来源：AIbase · 来源时间：10-15 13:56（北京时间）
+  - 雷达导读（上游提供）：这条更新称 Claude Platform 的 Opus 5.5 fast mode 已结束 research preview 并取消 waitlist，开发者可直接使用，速度最高提升 2.5 倍，价格为 $8 / $40 每百万 tokens，且已在 Microsoft Foundry（Hosted on Azure）上线，Google Cloud 即将支
+- **[GitHub Copilot 部分模型将于 11 月中旬弃用](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november)**
+  - 来源：GitHub Changelog · 来源时间：10-16 03:35（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：GitHub 宣布 2026 年 11 月 16 日在 Copilot Chat、inline edits、ask/agent 模式及代码补全等所有 Copilot 体验中弃用部分模型，用户需在期限前更新工作流与集成，但 Claude Opus 4.8 仍向年度订阅个人用户保留。
+- **[将 GPT-Rosalind 引入学术研究实验室](https://openai.com/index/introducing-the-rosalind-academic-plan)**
+  - 来源：OpenAI News · 来源时间：10-16 03:00（北京时间）
+  - 信源分层：官方一手源
+- **[Apertus 1.5 Release Notes](https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes)**
+  - 来源：Hugging Face Blog · 来源时间：10-15 17:08（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：Apertus 1.5为8B/70B加入图像/音频理解、thinking mode与四倍上下文，8B增训4T tokens，Apache 2.0开放权重。
+- **[Claude Opus5.5极速模式全面开放，输出速度提升2.5倍](https://www.aibase.com/news/31682)**
+  - 来源：AIbase · 来源时间：10-16 13:54（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：该链接返回404、正文未能加载，仅从标题可见OpenAI正加紧研发下一代旗舰模型，循环推理与安全对齐被列为关键，或可据此追踪其技术路线与安全考量。
-- **[7人团队靠 Claude 仅用 5 个月重造全新源码系统](https://www.aibase.com/news/31650)**
-  - 来源：AIbase · 来源时间：10-15 13:56（北京时间）
+- **[Meta 发布 Muse Spark Open：自称"美国最强开源"，两台 Mac Studio 就能跑](https://www.aibase.com/news/31685)**
+  - 来源：AIbase · 来源时间：10-16 13:54（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：这篇文章讲述一个7人小团队如何借助 Claude，在仅5个月时间里重造出一套全新源码系统，值得关注其具体做法与效率背后的取舍。
-- **[DeepSeek网页端、App及部分API服务异常，官方排查原因](https://www.aibase.com/news/31651)**
-  - 来源：AIbase · 来源时间：10-15 13:56（北京时间）
+  - 雷达导读（上游提供）：Meta 发布开源模型 Muse Spark Open，自称"美国最强开源"，仅需两台 Mac Studio 就能跑，推荐给关注开源大模型本地部署与竞争格局的读者。
+- **[​摩尔线程率先完成阶跃星辰 Step 5 Preview 大模型 Day-0 适配](https://www.aibase.com/news/31688)**
+  - 来源：AIbase · 来源时间：10-16 13:54（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：DeepSeek 网页端、App 及部分 API 服务出现异常，官方正在排查原因，这条消息记录了故障本身与官方排查动作，可供关注该服务可用性的读者参考。
-- **[单张消费级显卡也能玩转视频大模型游戏！昆仑万维全球首发 Matrix-Game 4.0 并宣布开源](https://www.aibase.com/news/31654)**
-  - 来源：AIbase · 来源时间：10-15 13:56（北京时间）
+- **[DeepSeek 突发故障 4 小时 53 分，腾讯 WorkBuddy 补偿：积分全退再送 500](https://www.aibase.com/news/31693)**
+  - 来源：AIbase · 来源时间：10-16 13:54（北京时间）
   - 信源分层：AI垂直源
-- **[MiniMax 发布 IPO 辅导第二期进展，加速推进上市合规完善](https://www.aibase.com/news/31655)**
-  - 来源：AIbase · 来源时间：10-15 13:56（北京时间）
-  - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：MiniMax 发布 IPO 辅导第二期进展，显示公司正加速推进上市合规完善，想跟进这家大模型企业上市节奏的读者，可从中了解其辅导期最新披露节点。
-- **[中国大模型迎来历史性突破！科学家依托书生大模型成功破解困扰数学界 30 年的世界级难题](https://www.aibase.com/news/31658)**
-  - 来源：AIbase · 来源时间：10-15 13:56（北京时间）
-  - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：点开后正文仅显示404错误提示，称所找文章不存在或已被删除，标题中书生大模型破解30年数学难题的说法在页面内没有任何正文可核实，建议读者谨慎对待。
+  - 雷达导读（上游提供）：DeepSeek 突发故障持续 4 小时 53 分，腾讯 WorkBuddy 公布补偿方案：积分全额退还并额外赠送 500 积分，本文记录了故障时长与补偿细节。
 
 ## 产品与工具
 
-- **[GitHub Actions workflow 锁文件进入公开预览](https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview)**
-  - 来源：GitHub Changelog · 来源时间：10-14 21:49（北京时间）
+- **[GitHub Copilot 在 Slack 和 Microsoft Teams 中支持多仓库及其他改进](https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates)**
+  - 来源：GitHub Changelog · 来源时间：10-16 10:16（北京时间）
   - 信源分层：官方一手源
-- **[SentinelOne 将恶意软件分析从数周缩短至数小时](https://openai.com/index/sentinelone)**
-  - 来源：OpenAI News · 来源时间：10-14 20:00（北京时间）
+- **[借助 Google Antigravity 加速抗菌肽探索](https://deepmind.google/blog/accelerating-antimicrobial-discovery)**
+  - 来源：Google DeepMind · 来源时间：10-16 00:08（北京时间）
   - 信源分层：官方一手源
-  - 雷达导读（上游提供）：SentinelOne 借助 OpenAI Daybreak 将恶意软件逆向工程从 4–6 周缩短到约 8 小时，让安全研究人员能分析更多样本并发现跨样本关联。
-- **[Block 如何借助 OpenAI 技术打造 AI 驱动的安全体系](https://openai.com/index/block-ai-powered-security)**
-  - 来源：OpenAI News · 来源时间：10-14 15:00（北京时间）
+  - 雷达导读（上游提供）：Google Antigravity 借 ProtNLM 扫描 UniProt 数百万未表征蛋白，数小时找到对呼吸道感染病原体有预测活性的抗菌肽候选物，已进入湿实验验证。
+- **[可灵 Kling 4.0 正式全量开放，新增 MCP 和 CLI 接入](https://x.com/Kling_ai/status/2110747537187709424)**
+  - 来源：X：可灵 Kling AI (@Kling\_ai) · 来源时间：10-15 23:00（北京时间）
   - 信源分层：官方一手源
-  - 雷达导读（上游提供）：Block用OpenAI Daybreak，检测变更1小时内可回溯七个月遥测，高层级漏洞18分钟自动生成补丁提议，每季度约600分析师小时从误报分诊中释放。
-- **[Third Moment Research 如何让 10,000 个 Agent 持续运行 36 小时以上](https://openai.com/index/third-moment-research)**
-  - 来源：OpenAI News · 来源时间：10-14 15:00（北京时间）
+  - 雷达导读（上游提供）：KLING 4.0 已全面可用，今天起可通过刷新后的创作界面以及 MCP 和 CLI 接入，提升视频创作工作流灵活性，并预告将推出 10-bit HDR。
+- **[代码扫描警报的 Agent 自动修复功能正式可用](https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability)**
+  - 来源：GitHub Changelog · 来源时间：10-15 21:49（北京时间）
   - 信源分层：官方一手源
-  - 雷达导读（上游提供）：Third Moment Research 让 10,000 个 agents 并发跑 36–48 小时自主研究，并用 Codex 结合 GPT-5.6 把一年订单级美股回测从约 3 小时缩到 3–5 分钟，使回测时间减少 97%。
-- **[Epic 用 AI"氛围编程"重写启动器：自嘲传统编程太难，冷启动 5.47 秒甩开 Steam](https://www.aibase.com/news/31648)**
-  - 来源：AIbase · 来源时间：10-15 13:56（北京时间）
+  - 雷达导读（上游提供）：Agentic autofix for code scanning alerts 现已正式 GA，把告警分配给 Copilot 后，它会探索相关文件、提出修复并重跑 CodeQL 确认关闭告警，再开 PR；需企业管理员启用新策略，并消耗 AI Credits 和 GitHub Actions minutes。
+- **[教学生通过提问来思考和学习](https://openai.com/index/teaching-students-to-think-and-learn-through-questions)**
+  - 来源：OpenAI News · 来源时间：10-15 21:00（北京时间）
+  - 信源分层：官方一手源
+- **[Cursor 调查 Grok Bot 内部测试数据或涉机密信息问题](https://www.aibase.com/news/31686)**
+  - 来源：AIbase · 来源时间：10-16 13:54（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：Epic 如何用 AI「氛围编程」重写启动器，并自嘲传统编程太难，最终把冷启动做到 5.47 秒、甩开 Steam，这篇内容值得看看 AI 重构的真实效果。
+  - 雷达导读（上游提供）：Cursor 就 Grok Bot 内部测试数据是否涉及机密信息展开调查，原文页面返回 404 未能完整加载，事件本身关乎 AI 公司内部测试数据的访问边界与合规风险。
 
 ## 行业与综合
 
-- **[托瓦兹交出首个 AI 辅助内核补丁：并发读文件提速约 3 倍](https://www.aibase.com/news/31649)**
-  - 来源：AIbase · 来源时间：10-15 13:56（北京时间）
+- **[​蚂蚁阿福、支付宝AI支付入选《时代》全球年度最佳发明](https://www.aibase.com/news/31692)**
+  - 来源：AIbase · 来源时间：10-16 13:54（北京时间）
   - 信源分层：AI垂直源
-- **[YouTube Music将为AI生成歌曲添加标签，未来扩展至主应用](https://www.aibase.com/news/31652)**
-  - 来源：AIbase · 来源时间：10-15 13:56（北京时间）
-  - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：YouTube Music将为平台上的AI生成歌曲添加标签，并计划未来将该标识机制扩展至主应用，这篇报道讲清了平台如何区分AI生成内容与人类创作。
-- **[Anthropic第三季度营收达168亿美元，计划11月启动IPO路演](https://www.aibase.com/news/31653)**
-  - 来源：AIbase · 来源时间：10-15 13:56（北京时间）
-  - 信源分层：AI垂直源
-- **[OpenAI 拟收购 Trail of Bits：把老牌安全审计厂收编，专防 AI 出事](https://www.aibase.com/news/31656)**
-  - 来源：AIbase · 来源时间：10-15 13:56（北京时间）
-  - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：OpenAI 拟收购老牌安全审计公司 Trail of Bits，把外部安全审计能力直接收编进内部，用于防范 AI 系统出事——这条消息透露出大模型厂商正把安全治理从外包转向自建。
-- **[AI冲击叠加债务压力，Getty Images启动全面财务重组](https://www.aibase.com/news/31657)**
-  - 来源：AIbase · 来源时间：10-15 13:56（北京时间）
-  - 信源分层：AI垂直源
-- **[报道称苹果 AI 国内供应商或包括阿里、百度，iOS 27.3 或 12 月落地](https://www.aibase.com/news/31661)**
-  - 来源：AIbase · 来源时间：10-15 13:56（北京时间）
-  - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：报道称 Apple AI 国内供应商或包括 Alibaba、Baidu，iOS 27.3 或 12 月落地；但正文页面返回 404，提示文章不存在或已删除，上述信息暂无法核实。
+  - 雷达导读（上游提供）：标题显示蚂蚁阿福与支付宝AI支付入选《时代》全球年度最佳发明，但正文页面返回404、内容已删除，读者只能从标题获知这一入选信息，无法看到具体发明细节与评选理由。
 
 ## 官方资讯
 
-- **[HydraFusion 更新及全新 Max 选项](https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option)**
-  - 来源：GitHub Changelog · 来源时间：10-15 04:01（北京时间）
+- **[Indic 预训练扩展：2.8 万亿 Token 与开放数据生成 Pipeline](https://huggingface.co/blog/nvidia/scaling-indic-pretraining)**
+  - 来源：Hugging Face Blog · 来源时间：10-16 09:44（北京时间）
   - 信源分层：官方一手源
-- **[HiRO-ACEv2：以极低成本实现3公里分辨率极端天气模拟](https://huggingface.co/blog/allenai/hiro-acev2)**
-  - 来源：Hugging Face Blog · 来源时间：10-15 00:12（北京时间）
+  - 雷达导读（上游提供）：NVIDIA与IIT Madras的AI4Bharat发布约2.8万亿tokens的Nemotron-pretraining-Indic-v1，覆盖22种印度语言和12种罗马化文本，并开放GPU加速的数据生成与质量检查管线。
+- **[Granite Switch 4.1：一个端点搞定对话、决策与语音](https://huggingface.co/blog/ibm-granite/granite-switch-4-1)**
+  - 来源：Hugging Face Blog · 来源时间：10-16 04:34（北京时间）
   - 信源分层：官方一手源
-  - 雷达导读（上游提供）：Ai2 的 HiRO-ACEv2 以约 X-SHiELD 的 1/300 成本生成全球 3 km 数据，HiROv2 能同时预测多种高分辨率场，甚至对百万数据点一遇的极端风雨压事件统计匹配到 3% 内。
-- **[The EU’s next chapter in AI is agentic](https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic)**
-  - 来源：OpenAI News · 来源时间：10-14 08:00（北京时间）
+  - 雷达导读（上游提供）：Granite Switch 4.1把聊天、决策和语音识别收进同一个托管endpoint，8B与30B占用显存接近基础模型，ASR在OpenASR榜排第一。
+- **[将 GitHub Code Quality 许可证使用情况下载为 CSV](https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv)**
+  - 来源：GitHub Changelog · 来源时间：10-16 04:11（北京时间）
+  - 信源分层：官方一手源
+- **[AI Scan for pull requests 正式可用](https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available)**
+  - 来源：GitHub Changelog · 来源时间：10-15 23:04（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：AI Scan for pull requests 正式可用，补足 CodeQL 未覆盖的 PHP、Shell/Bash、Terraform HCL 等，在 PR 中自动发现漏洞并可给出解释和 autofix，与 CodeQL 结果并列、以 AI 标识区分，结果仅建议、不会阻止合并。
+- **[仓库 push 事件的邮件通知已停用](https://github.blog/changelog/2026-10-15-email-notifications-for-repository-push-events-have-been-retired)**
+  - 来源：GitHub Changelog · 来源时间：10-15 21:42（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：GitHub 自 2026年10月15日起停用仓库 push 事件邮件通知，因收件人无需同意易被滥用，建议改用 GitHub Actions 加自有 SMTP 发送邮件。
+- **[Welcome FLUX.3 Image Klein in Diffusers](https://huggingface.co/blog/flux-3)**
+  - 来源：Hugging Face Blog · 来源时间：10-15 08:00（北京时间）
+- **[Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta](https://huggingface.co/blog/meta-muse-spark-open)**
+  - 来源：Hugging Face Blog · 来源时间：10-15 08:00（北京时间）
+- **[Sullivan & Cromwell brings legal expertise into agreement review](https://openai.com/index/sullivan-cromwell)**
+  - 来源：OpenAI News · 来源时间：10-15 08:00（北京时间）
 
 ## 工具更新
 
-- **[v0.40.5](https://github.com/ollama/ollama/releases/tag/v0.40.5-rc0)**
-  - 来源：Ollama · 来源时间：10-15 03:45（北京时间）
-- **[v2.1.300](https://github.com/anthropics/claude-code/releases/tag/v2.1.300)**
-  - 来源：Claude Code · 来源时间：10-15 02:24（北京时间）
+- **[0.163.0](https://github.com/openai/codex/releases/tag/rust-v0.163.0)**
+  - 来源：OpenAI Codex · 来源时间：10-16 05:33（北京时间）
+- **[v2.1.301](https://github.com/anthropics/claude-code/releases/tag/v2.1.301)**
+  - 来源：Claude Code · 来源时间：10-16 03:22（北京时间）
+- **[v0.40.5](https://github.com/ollama/ollama/releases/tag/v0.40.5)**
+  - 来源：Ollama · 来源时间：10-16 03:18（北京时间）
 
 ## 来源检查
 
 | 来源 | 状态 |
 | --- | --- |
-| [AI News Radar](https://news.learnprompt.pro/data) | 获取成功；数据时间 2026-10-15 13:56（北京时间）；主入口不可用或过期，已使用备用数据 |
+| [AI News Radar](https://news.learnprompt.pro/data) | 获取成功；数据时间 2026-10-16 13:54（北京时间）；主入口不可用或过期，已使用备用数据 |
 | [OpenAI News](https://openai.com/news/rss.xml) | 获取成功 |
 | [Google AI](https://blog.google/technology/ai/rss/) | 获取成功 |
 | [Hugging Face Blog](https://huggingface.co/blog/feed.xml) | 获取成功 |
@@ -117,7 +123,7 @@
 
 雷达数据文件：https://raw.githubusercontent.com/LearnPrompt/ai-news-radar/master/data/latest-24h.json
 
-数据时间 2026-10-15 13:56（北京时间）；主入口不可用或过期，已使用备用数据。
+数据时间 2026-10-16 13:54（北京时间）；主入口不可用或过期，已使用备用数据。
 
 ## 我的阅读笔记
 

@@ -1,0 +1,20 @@
+name: Collector Tests
+
+on:
+  pull_request:
+    paths:
+      - 'daily.py'
+      - 'test_daily.py'
+      - 'sources.json'
+      - '.github/workflows/tests.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test collector
+        run: python3 -m unittest -v

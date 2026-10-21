@@ -3,39 +3,328 @@
     "name": "AI News Radar",
     "kind": "radar",
     "category": "雷达精选",
-    "url": "https://news.learnprompt.pro/data"
+    "url": "https://news.learnprompt.pro/data",
+    "max_items": null,
+    "max_references": 10
   },
   {
     "name": "OpenAI News",
     "category": "官方资讯",
-    "url": "https://openai.com/news/rss.xml"
+    "url": "https://openai.com/news/rss.xml",
+    "tier": "官方一手源",
+    "tier_rank": 0
   },
   {
     "name": "Google AI",
     "category": "官方资讯",
-    "url": "https://blog.google/technology/ai/rss/"
+    "url": "https://blog.google/technology/ai/rss/",
+    "tier": "官方一手源",
+    "tier_rank": 0
   },
   {
     "name": "Hugging Face Blog",
     "category": "官方资讯",
-    "url": "https://huggingface.co/blog/feed.xml"
+    "url": "https://huggingface.co/blog/feed.xml",
+    "tier": "官方一手源",
+    "tier_rank": 0
   },
   {
     "name": "OpenAI Codex",
     "category": "工具更新",
     "url": "https://github.com/openai/codex/releases.atom",
-    "exclude_prerelease": true
+    "exclude_prerelease": true,
+    "tier": "官方一手源",
+    "tier_rank": 0
   },
   {
     "name": "Claude Code",
     "category": "工具更新",
     "url": "https://github.com/anthropics/claude-code/releases.atom",
-    "exclude_prerelease": true
+    "exclude_prerelease": true,
+    "tier": "官方一手源",
+    "tier_rank": 0
   },
   {
     "name": "Ollama",
     "category": "工具更新",
     "url": "https://github.com/ollama/ollama/releases.atom",
+    "exclude_prerelease": true,
+    "tier": "官方一手源",
+    "tier_rank": 0
+  },
+  {
+    "name": "DeepMind",
+    "url": "https://deepmind.google/blog/rss.xml",
+    "category": "官方资讯",
+    "tier": "官方一手源",
+    "tier_rank": 0
+  },
+  {
+    "name": "Google Research",
+    "url": "https://research.google/blog/rss/",
+    "category": "论文与技术",
+    "tier": "官方一手源",
+    "tier_rank": 0
+  },
+  {
+    "name": "Microsoft Research",
+    "url": "https://www.microsoft.com/en-us/research/feed/",
+    "category": "论文与技术",
+    "tier": "官方一手源",
+    "tier_rank": 0
+  },
+  {
+    "name": "NVIDIA Developer",
+    "url": "https://developer.nvidia.com/blog/feed/",
+    "category": "融资与算力",
+    "tier": "官方一手源",
+    "tier_rank": 0,
+    "ai_only": true
+  },
+  {
+    "name": "AWS ML",
+    "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+    "category": "产品与工具",
+    "tier": "官方一手源",
+    "tier_rank": 0
+  },
+  {
+    "name": "GitHub AI",
+    "url": "https://github.blog/ai-and-ml/feed/",
+    "category": "产品与工具",
+    "tier": "官方一手源",
+    "tier_rank": 0
+  },
+  {
+    "name": "Anthropic News（社区转订）",
+    "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
+    "category": "官方资讯",
+    "tier": "社区维护转订（链接指向官方原文）",
+    "tier_rank": 1
+  },
+  {
+    "name": "Anthropic Engineering（社区转订）",
+    "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml",
+    "category": "论文与技术",
+    "tier": "社区维护转订（链接指向官方原文）",
+    "tier_rank": 1
+  },
+  {
+    "name": "Anthropic Research（社区转订）",
+    "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml",
+    "category": "论文与技术",
+    "tier": "社区维护转订（链接指向官方原文）",
+    "tier_rank": 1
+  },
+  {
+    "name": "Mistral News（社区转订）",
+    "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_mistral.xml",
+    "category": "官方资讯",
+    "tier": "社区维护转订（链接指向官方原文）",
+    "tier_rank": 1
+  },
+  {
+    "name": "量子位",
+    "url": "https://www.qbitai.com/feed",
+    "category": "国内动态",
+    "tier": "媒体报道",
+    "tier_rank": 3
+  },
+  {
+    "name": "IT之家 · AI",
+    "url": "https://www.ithome.com/rss/",
+    "category": "国内动态",
+    "tier": "媒体报道",
+    "tier_rank": 3,
+    "ai_only": true
+  },
+  {
+    "name": "InfoQ 中文 · AI",
+    "url": "https://www.infoq.cn/feed",
+    "category": "国内动态",
+    "tier": "媒体报道",
+    "tier_rank": 3,
+    "ai_only": true
+  },
+  {
+    "name": "TechCrunch AI",
+    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "category": "行业与综合",
+    "tier": "媒体报道",
+    "tier_rank": 3
+  },
+  {
+    "name": "The Verge AI",
+    "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    "category": "行业与综合",
+    "tier": "媒体报道",
+    "tier_rank": 3
+  },
+  {
+    "name": "WIRED AI",
+    "url": "https://www.wired.com/feed/tag/ai/latest/rss",
+    "category": "行业与综合",
+    "tier": "媒体报道",
+    "tier_rank": 3
+  },
+  {
+    "name": "InfoQ AI",
+    "url": "https://feed.infoq.com/ai-ml-data-eng/",
+    "category": "行业与综合",
+    "tier": "媒体报道",
+    "tier_rank": 3
+  },
+  {
+    "name": "Simon Willison",
+    "url": "https://simonwillison.net/atom/everything/",
+    "category": "深度阅读",
+    "tier": "个人或社区分析",
+    "tier_rank": 4,
+    "ai_only": true
+  },
+  {
+    "name": "Latent Space",
+    "url": "https://www.latent.space/feed",
+    "category": "深度阅读",
+    "tier": "个人或社区分析",
+    "tier_rank": 4
+  },
+  {
+    "name": "Interconnects",
+    "url": "https://www.interconnects.ai/feed",
+    "category": "深度阅读",
+    "tier": "个人或社区分析",
+    "tier_rank": 4
+  },
+  {
+    "name": "MIT AI",
+    "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+    "category": "论文与技术",
+    "tier": "高校研究动态",
+    "tier_rank": 1
+  },
+  {
+    "name": "arXiv AI",
+    "url": "https://rss.arxiv.org/rss/cs.AI",
+    "category": "论文预印本",
+    "tier": "研究预印本（未经同行评审）",
+    "tier_rank": 2
+  },
+  {
+    "name": "arXiv CL",
+    "url": "https://rss.arxiv.org/rss/cs.CL",
+    "category": "论文预印本",
+    "tier": "研究预印本（未经同行评审）",
+    "tier_rank": 2
+  },
+  {
+    "name": "arXiv CV",
+    "url": "https://rss.arxiv.org/rss/cs.CV",
+    "category": "论文预印本",
+    "tier": "研究预印本（未经同行评审）",
+    "tier_rank": 2
+  },
+  {
+    "name": "arXiv ML",
+    "url": "https://rss.arxiv.org/rss/cs.LG",
+    "category": "论文预印本",
+    "tier": "研究预印本（未经同行评审）",
+    "tier_rank": 2
+  },
+  {
+    "name": "vLLM",
+    "url": "https://github.com/vllm-project/vllm/releases.atom",
+    "category": "工具更新",
+    "tier": "官方一手源",
+    "tier_rank": 0,
     "exclude_prerelease": true
+  },
+  {
+    "name": "SGLang",
+    "url": "https://github.com/sgl-project/sglang/releases.atom",
+    "category": "工具更新",
+    "tier": "官方一手源",
+    "tier_rank": 0,
+    "exclude_prerelease": true
+  },
+  {
+    "name": "Transformers",
+    "url": "https://github.com/huggingface/transformers/releases.atom",
+    "category": "工具更新",
+    "tier": "官方一手源",
+    "tier_rank": 0,
+    "exclude_prerelease": true
+  },
+  {
+    "name": "Diffusers",
+    "url": "https://github.com/huggingface/diffusers/releases.atom",
+    "category": "工具更新",
+    "tier": "官方一手源",
+    "tier_rank": 0,
+    "exclude_prerelease": true
+  },
+  {
+    "name": "Gemini CLI",
+    "url": "https://github.com/google-gemini/gemini-cli/releases.atom",
+    "category": "工具更新",
+    "tier": "官方一手源",
+    "tier_rank": 0,
+    "exclude_prerelease": true
+  },
+  {
+    "name": "LangGraph",
+    "url": "https://github.com/langchain-ai/langgraph/releases.atom",
+    "category": "工具更新",
+    "tier": "官方一手源",
+    "tier_rank": 0,
+    "exclude_prerelease": true
+  },
+  {
+    "name": "Open WebUI",
+    "url": "https://github.com/open-webui/open-webui/releases.atom",
+    "category": "工具更新",
+    "tier": "官方一手源",
+    "tier_rank": 0,
+    "exclude_prerelease": true
+  },
+  {
+    "name": "ComfyUI",
+    "url": "https://github.com/Comfy-Org/ComfyUI/releases.atom",
+    "category": "工具更新",
+    "tier": "官方一手源",
+    "tier_rank": 0,
+    "exclude_prerelease": true
+  },
+  {
+    "name": "Dify",
+    "url": "https://github.com/langgenius/dify/releases.atom",
+    "category": "工具更新",
+    "tier": "官方一手源",
+    "tier_rank": 0,
+    "exclude_prerelease": true
+  },
+  {
+    "name": "国内模型动态 · 新闻聚合",
+    "url": "https://news.google.com/rss/search?q=(DeepSeek+OR+Qwen+OR+%E6%99%BA%E8%B0%B1+OR+%E8%B1%86%E5%8C%85+OR+Kimi+OR+MiniMax)+when:2d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "category": "国内动态",
+    "tier": "新闻聚合（需核对原文）",
+    "tier_rank": 5,
+    "ai_only": true
+  },
+  {
+    "name": "AI 政策与安全 · 新闻聚合",
+    "url": "https://news.google.com/rss/search?q=(%22artificial+intelligence%22+OR+%22AI%22)+(regulation+OR+policy+OR+copyright+OR+safety)+when:2d&hl=en-US&gl=US&ceid=US:en",
+    "category": "政策与安全",
+    "tier": "新闻聚合（需核对原文）",
+    "tier_rank": 5,
+    "ai_only": true
+  },
+  {
+    "name": "AI 融资与芯片 · 新闻聚合",
+    "url": "https://news.google.com/rss/search?q=(%22artificial+intelligence%22+OR+%22AI%22)+(funding+OR+acquisition+OR+chip)+when:2d&hl=en-US&gl=US&ceid=US:en",
+    "category": "融资与算力",
+    "tier": "新闻聚合（需核对原文）",
+    "tier_rank": 5,
+    "ai_only": true
   }
 ]

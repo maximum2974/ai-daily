@@ -1,1583 +1,2028 @@
-# AI 每日观察 · 2026-11-23
+# AI 每日观察 · 2026-11-24
 
 > 本文由 GitHub Actions 自动采集；雷达中文标题与导读来自 AI News Radar，事实与细节请以原始来源为准。
 
-- 检查时间：2026-11-23 17:59（北京时间）
+- 检查时间：2026-11-24 19:49（北京时间）
 - 收录范围：最近 48 小时发布或更新、且未在历史日报收录的条目。
-- 信息源：44/44 可用；本次新增：1006 条。
+- 信息源：44/44 可用；本次新增：2124 条。
 
-> 雷达状态：数据时间 2026-11-23 17:10（北京时间）；已合并精选与完整时间线。
+> 雷达状态：数据时间 2026-11-24 19:01（北京时间）；已合并精选与完整时间线。
 
 ## 栏目导航
 
-- [模型发布](#模型发布)：19 条
-- [产品与工具](#产品与工具)：20 条
-- [国内动态](#国内动态)：112 条
-- [行业与综合](#行业与综合)：47 条
-- [政策与安全](#政策与安全)：73 条
-- [融资与算力](#融资与算力)：59 条
-- [论文与技术](#论文与技术)：9 条
-- [论文预印本](#论文预印本)：655 条
-- [值得注意（热议参考）](#值得注意热议参考)：12 条
+- [模型发布](#模型发布)：34 条
+- [官方资讯](#官方资讯)：10 条
+- [产品与工具](#产品与工具)：31 条
+- [国内动态](#国内动态)：117 条
+- [行业与综合](#行业与综合)：81 条
+- [政策与安全](#政策与安全)：83 条
+- [融资与算力](#融资与算力)：75 条
+- [工具更新](#工具更新)：6 条
+- [论文与技术](#论文与技术)：10 条
+- [深度阅读](#深度阅读)：4 条
+- [论文预印本](#论文预印本)：1663 条
+- [值得注意（热议参考）](#值得注意热议参考)：10 条
 
 ## 模型发布
 
-- **[AI 与人各交一份千禧难题答卷：一边靠 Claude 写完 79 页证明，一边掏出 12 年手写的 940 页草稿](https://www.aibase.com/news/32450)**
-  - 来源：AIbase · 来源时间：11-23 11:43（北京时间）
+- **[蚂蚁OceanBase发布AI数据平台:统一管理多模态数据，为Agent提供业务上下文](https://www.aibase.com/news/32492)**
+  - 来源：AIbase · 来源时间：11-24 14:57（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：同一天，Levent Alpöge与NYU教授和Claude合作完成79页论文，声称证明三维Navier–Stokes有限时间爆破，却因关键数值证书未公开仍待验证；Alessandro Maria Masullo则用近12年、940页草稿全程无AI挑战广义黎曼猜想。
-- **[微软 AI 掌门人罕见“交底”：公开 MAI-2 模型关键指标，响应 OpenAI 透明度倡议](https://www.aibase.com/news/32452)**
-  - 来源：AIbase · 来源时间：11-23 11:43（北京时间）
+  - 雷达导读（上游提供）：11月24日北京，OceanBase发布湖库一体AI数据平台OceanLake，统一管理多模态数据、为Agent提供业务上下文，并宣布开源核心AI数据库引擎。
+- **[蚂蚁OceanBase发布经营数据：AI与全球化成为新增长点，海外营收同比增长超100%](https://www.aibase.com/news/32495)**
+  - 来源：AIbase · 来源时间：11-24 14:57（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：11月22日，Mustafa Suleyman 罕见交底：Microsoft 支持 OpenAI 透明度倡议并共享预训练进展，还披露 MAI-2 在 OpenAI 评估数据集上的 log perplexity 为 0.819，接近 GPT-5.6 Sol。
-- **[OpenAI 首席科学家提议给全行业模型开发“画线”：能力涨到哪儿算停，先得看人类能不能看住它](https://www.aibase.com/news/32454)**
-  - 来源：AIbase · 来源时间：11-23 11:43（北京时间）
+  - 雷达导读（上游提供）：蚂蚁OceanBase公布经营数据，将AI与全球化列为新增长点，其中海外营收同比增长超100%，值得关注其出海与AI业务的具体进展。
+- **[谷歌让 Gemini 4 智能体“开会”改造量子算法：最高提速 290 倍，还附带数学正确性证明](https://www.aibase.com/news/32481)**
+  - 来源：AIbase · 来源时间：11-24 11:20（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：OpenAI Chief Scientist Jakub Pachocki 提议用 perplexity 等指标给全行业模型设共同能力上限，开发者在理解监控 AI 行为达到特定里程碑前不得越线，并警告最早 2027 年 AI 或加速自身进化。
-- **[MiniMax 拿内部模型开刀密码学：把纸面攻击变成秒级实战，NIST 竞赛算法首次被真攻破](https://www.aibase.com/news/32456)**
-  - 来源：AIbase · 来源时间：11-23 11:43（北京时间）
+  - 雷达导读（上游提供）：Google DeepMind与Google Quantum AI让多个Gemini 4智能体协作优化量子算法，在惯性约束聚变模拟中将计算成本降11.8倍、纠错量子比特从5650减至4338，药物模拟最高提速8倍，并称最高290倍且附数学证明。
+- **[GPT-6.2 Sol 全量登陆 ChatGPT：看得清停车标志，还会主动提醒你“该降价了”](https://www.aibase.com/news/32482)**
+  - 来源：AIbase · 来源时间：11-24 11:20（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：MiniMax 用内部模型自动做密码分析，首次真正攻破多个 NIST 竞赛候选算法，把纸面攻击推进到秒级或分钟级，并在近期顶会方案上实现密文伪造、密钥恢复和破译轮数新纪录。
-- **[腾讯混元团队 Reddit 答问 120 分钟：不刻意刷榜，下一代模型规模将“显著扩大”](https://www.aibase.com/news/32460)**
-  - 来源：AIbase · 来源时间：11-23 11:43（北京时间）
+  - 雷达导读（上游提供）：GPT-6.2 Sol于11月24日登陆ChatGPT，能看清停车标志细小符号并主动提醒商品降价，GPT-5.6系列部分模型12月23日下线。
+- **[Anthropic 推出 Claude Ship 测试版：代码审查、修复、批准，AI 一条龙全包了](https://www.aibase.com/news/32483)**
+  - 来源：AIbase · 来源时间：11-24 11:20（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：腾讯混元团队在Reddit的120分钟AMA中回答近100个问题，披露Hy4为770B总参数、Hy4flash为224B，并称下一代Hy模型规模将显著扩大，同时规划Hy4-mini与24B至31B密集模型。
-- **[靠 Kimi K2.5 起家的 Cursor 向国会表态：有意逐步淘汰中国大模型](https://www.aibase.com/news/32461)**
-  - 来源：AIbase · 来源时间：11-23 11:43（北京时间）
+  - 雷达导读（上游提供）：Anthropic 推出 Claude Ship Beta，三个 agent 分工：Code Review 已 GA 负责审查，PR Steward 清理 CI 失败与合并冲突并逐次说明改动和撤销方式，Claude Approvals 按仓库内自然语言策略审批，后两者仍 beta。
+- **[AI 连代码合入权都接走了：Anthropic 上线 Claude Ship](https://www.aibase.com/news/32485)**
+  - 来源：AIbase · 来源时间：11-24 11:20（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：Cursor开发商Anysphere向美国国会提交“告别计划”，称将逐步淘汰中国开源大模型但无时间表，而它今年靠Moonshot AI的Kimi K2.5构建Composer2后用户激增，文章点出这一反差。
-- **[Desktop AI apps are generally a security & privacy nightmare. We worked with Windows to ship a world-class security model for Replit Desktop. Which is why Christie’s, the world’s preeminent custodian of rare art,...](https://x.com/amasad/status/2124604574606795002)**
-  - 来源：Follow Builders · X · Amjad Masad · 来源时间：11-23 04:42（北京时间）
+  - 雷达导读（上游提供）：11月23日据TechCrunch，Anthropic上线Claude Ship beta，用AI agents接管代码评审、修复与审批：Code Review已正式可用，PR Steward处理失败CI与合并冲突并说明撤销方式，Claude Approvals按自然语言策略审批，建议先观察并设月度支出上限。
+- **[新款深蓝 L07 定档广州车展：800V 平台全系上激光雷达，豆包大模型把语音“喊”出座舱](https://www.aibase.com/news/32480)**
+  - 来源：AIbase · 来源时间：11-23 23:58（北京时间）
+  - 信源分层：AI垂直源
+  - 雷达导读（上游提供）：新款 Deepal L07 定档11月27日广州车展，800V平台加全系激光雷达，Doubao大模型把语音交互延伸到车外，值得一看。
+- **[用 T3 Code 组建多模型智能体团队](https://waytoagi.feishu.cn/wiki/GxOfwycB3ihhBqktDN3cKFFWnAg?from=from_copylink)**
+  - 来源：社区更新 · 2026-11-23 · 来源时间：11-24 11:20（北京时间）
+  - 信源分层：社区更新
+  - 雷达导读（上游提供）：这篇指南把 Theo 在 11 月 9 日至 18 日三款前沿模型发布后组建的团队，展开成 T3 Code 六步搭建流程，并加入 Grok Bot 实现离线派发任务。
+- **[Gemini Pro黑五五折，99.99刀用一年！](https://waytoagi.feishu.cn/wiki/QL5zwmijyiDA1KkDxPzcKuq2nBd?from=from_copylink)**
+  - 来源：社区更新 · 2026-11-23 · 来源时间：11-24 11:20（北京时间）
+  - 信源分层：社区更新
+  - 雷达导读（上游提供）：文章讲Gemini Pro黑五首年99.99美元可用Gemini 4 Neon，并提醒Jio占Google One订阅位需先删除、再开4.99美元月付刷新包年页。
+- **[.@ChatGPT Dots still feels very buggy - it sends emails without me reviewing and randomly just stops responding. I really want to like this product but maybe I’m prompting it wrong?](https://x.com/petergyang/status/2125060785667969399)**
+  - 来源：Follow Builders · X · Peter Yang · 来源时间：11-24 10:55（北京时间）
   - 信源分层：Builders/X源
-  - 雷达导读（上游提供）：Replit称桌面AI应用安全隐私堪忧，联合Windows为Replit Desktop推安全模型，Christie’s因此选Replit做agentic工作。
-- **[GPT-6.2 Astra 和 Sol 更快切中要点，但透明度得分不及 Claude](https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude)**
-  - 来源：The Decoder AI News · 来源时间：11-22 17:41（北京时间）
+  - 雷达导读（上游提供）：用户吐槽 @ChatGPT Dots 仍很 buggy：会在未经其审阅时擅自发送邮件，还会随机停止响应，他虽想喜欢这款产品，却怀疑是不是自己提示词用错了。
+- **[You should feel a significant jump in quality of answers on ChatGPT once rolled out to you. Together with all the investments we are making across simplifying the app, making it faster and merging chat & work, it's go...](https://x.com/thsottiaux/status/2124998553856844186)**
+  - 来源：Follow Builders · X · Thibault Sottiaux · 来源时间：11-24 06:48（北京时间）
+  - 信源分层：Builders/X源
+  - 雷达导读（上游提供）：文中称 ChatGPT 回答质量将迎来显著跃升，并提到正投入简化应用、提升速度、合并 chat 与 work，年底前日常使用体验会有明显改善。
+- **[v2.1.331](https://github.com/anthropics/claude-code/releases/tag/v2.1.331)**
+  - 来源：Claude Code Releases · 来源时间：11-24 05:34（北京时间）
   - 信源分层：精选AI媒体
-  - 雷达导读（上游提供）：Artificial Analysis评估显示，GPT-6.2 Astra平均回答从352词降至210词、Sol从337降至223词，但Astra的Admits Uncertainty分数从96跌至24、Sol从98降至51，透明度指数41和57远低于Claude的81和90。
-- **[安谋科技发布“星辰100e” AIoT 原型平台，AI推理性能最高提升 340 倍](https://www.infoq.cn/article/pdjVKiH3ONYjePlUDufv)**
-  - 来源：InfoQ CN · 来源时间：11-23 14:22（北京时间）
+  - 雷达导读（上游提供）：Claude Code v2.1.331 在 Amazon Bedrock、Google Cloud's Agent Platform、Microsoft Foundry 和 Claude Platform on AWS 的终端会话中新增 Code Mode 支持，并加入 oidc.groups\_jsonpath 配置项。
+- **[Claude Ship — 写代码有多快，发布代码就有多快](https://www.producthunt.com/products/claude-code)**
+  - 来源：Product Hunt · 来源时间：11-24 05:00（北京时间）
+  - 信源分层：新产品
+  - 雷达导读（上游提供）：这篇题为Claude Ship的文章正文仅显示Just a moment与Performing security verification提示，需通过CAPTCHA验证才能访问，可用于排查抓取失败的原因。
+- **[There’s now one way to connect your tools to Claude, teach it a new skill, or do both. Connectors and skills come together as plugins. Live on Free, Pro, Max, and Ultra plans, with Team and Enterprise coming soon. Bro...](https://x.com/claudeai/status/2124970294523945328)**
+  - 来源：Follow Builders · X · Claude · 来源时间：11-24 04:56（北京时间）
+  - 信源分层：Builders/X源
+  - 雷达导读（上游提供）：Claude 将 Connectors 和 skills 合并为 plugins，一种方式即可连接工具或教它新技能，已在 Free、Pro、Max、Ultra 套餐上线，可浏览 10,000+ 个插件。
+- **[OpenAI 升级 ChatGPT，更可靠地处理复杂的日常问题、网页搜索和图像](https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably)**
+  - 来源：The Decoder AI News · 来源时间：11-24 04:39（北京时间）
+  - 信源分层：精选AI媒体
+  - 雷达导读（上游提供）：OpenAI将GPT-6.2 Sol设为ChatGPT默认模型，测试图像理解从47.4%升至71.7%，难题指令正确率78.1%，安全遵守率91%–94%。
+- **[It multiplies my velocity. I don’t need to wait around for code review or babysit PRs, and the results are better. Code Review looks for bugs, PR Steward works on fixes and failing checks, and Claude Approvals approve...](https://x.com/bcherny/status/2124961487454384442)**
+  - 来源：Follow Builders · X · Boris Cherny · 来源时间：11-24 04:21（北京时间）
+  - 信源分层：Builders/X源
+  - 雷达导读（上游提供）：文中称Code Review负责找bug，PR Steward处理修复与失败检查，Claude Approvals按团队策略审批，后两者仍为beta，让作者不必等代码评审、盯PR。
+- **[Anyone can use /ship. If you’re on a Team or Enterprise plan, your admin can turn on Claude Ship per GitHub repo. I’d start with one repo and run Approvals in observe mode until you trust it. https://t.co/p0T6zDSIwM](https://x.com/bcherny/status/2124961488691740941)**
+  - 来源：Follow Builders · X · Boris Cherny · 来源时间：11-24 04:21（北京时间）
+  - 信源分层：Builders/X源
+  - 雷达导读（上游提供）：介绍 /ship 用法：Team 或 Enterprise 计划的管理员可按 GitHub repo 开启 Claude Ship，作者建议先从一个 repo 试起，用 Approvals 的 observe 模式观察直到建立信任。
+- **[A year ago we launched Opus 4.5, the first model to write 100% of my code. Shipping PRs hasn’t caught up, so today we’re launching Claude Ship in beta for Team and Enterprise. I use it all day every day and can’t imag...](https://x.com/bcherny/status/2124961485801836573)**
+  - 来源：Follow Builders · X · Boris Cherny · 来源时间：11-24 04:21（北京时间）
+  - 信源分层：Builders/X源
+  - 雷达导读（上游提供）：作者称一年前发布的 Opus 4.5 是首个写出他 100% 代码的模型，但 PR 交付速度没跟上，于是今天面向 Team 和 Enterprise 推出 Claude Ship 测试版，他每天都在用。
+- **[Claude AI现在能自主审查PR并提交修复了](https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests)**
+  - 来源：The Verge · 来源时间：11-24 04:00（北京时间）
+  - 信源分层：精选AI媒体
+  - 雷达导读（上游提供）：Anthropic推出Claude Ship，Claude可审查、修复并批准PR，beta代理PR Steward处理CI失败和合并冲突，支持GitHub。
+- **[EFS is available on the Claude Platform, Claude Platform on AWS, Amazon Bedrock, and Claude on Google Cloud. Support for EFS in Microsoft Foundry is coming soon.](https://x.com/claudeai/status/2124929946925793294)**
+  - 来源：Follow Builders · X · Claude · 来源时间：11-24 02:15（北京时间）
+  - 信源分层：Builders/X源
+  - 雷达导读（上游提供）：EFS 已在 Claude Platform、Amazon Bedrock 等四个平台上线，Microsoft Foundry 的支持即将推出。
+- **[Zero data retention (ZDR) with Enterprise Frontier Safeguards (EFS) is now in public beta for eligible businesses. It looks for misuse across many requests while remaining compatible with ZDR. We developed it with ove...](https://x.com/claudeai/status/2124929944530587712)**
+  - 来源：Follow Builders · X · Claude · 来源时间：11-24 02:15（北京时间）
+  - 信源分层：Builders/X源
+  - 雷达导读（上游提供）：Zero data retention (ZDR) 与 Enterprise Frontier Safeguards (EFS) 面向符合条件企业开放 public beta，可在兼容 ZDR 的前提下跨多次请求识别 misuse，并称与超过100家客户共同开发。
+- **[I asked Fable to study all my https://t.co/3Z4NESzNKd coding sessions and decide whether Opus or Gemini Neon is best. Think of it as a 'personal eval'. It picked Neon. Google being so, so back seems widely (and wildly...](https://x.com/rauchg/status/2124880074168242369)**
+  - 来源：Follow Builders · X · Guillermo Rauch · 来源时间：11-23 22:57（北京时间）
+  - 信源分层：Builders/X源
+  - 雷达导读（上游提供）：作者让 Fable 分析自己全部编码会话记录做“个人评测”，在 Opus 与 Gemini Neon 中二选一，Fable 选了 Neon，作者因此认为 Google 的回归被严重低估。
+- **[GPT-6.2 Astra 解开了一道其他 AI 都攻克不了的数学定理，还自创了一套证明策略](https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy)**
+  - 来源：The Decoder AI News · 来源时间：11-23 20:17（北京时间）
+  - 信源分层：精选AI媒体
+  - 雷达导读（上游提供）：OpenAI的GPT-6.2 Astra在Autoform-Hard上独立生成了Smoktunowicz gap theorem的Lean可验证证明，因Mathlib缺少关键基础而自选“capacity”路线，94分钟、花费21.58美元写出1800行证明，并以49/56居首。
+- **[Figma MCP — 让 Claude Code 或 Codex 直接编辑你打开的 Figma 文件](https://www.producthunt.com/products/figmamcp)**
+  - 来源：Product Hunt · 来源时间：11-23 07:28（北京时间）
+  - 信源分层：新产品
+- **[Pinterest 让大模型取代多阶段聚类，但最大的提速来自“少推理”](https://www.infoq.cn/article/vaEUVvWD9AIaFXZhzSMH)**
+  - 来源：InfoQ CN · 来源时间：11-24 11:00（北京时间）
   - 信源分层：RSS/OPML
-- **[Anthropic 创纪录 IPO 未能扭转 AI 市场悲观情绪，Claude 上市当天突发性能降级！靠失业焦虑撑起的万亿估值，该踩刹车了](https://www.infoq.cn/article/OPbZhT0OHL4IbZz8exvA)**
-  - 来源：InfoQ CN · 来源时间：11-23 09:20（北京时间）
+  - 雷达导读（上游提供）：Pinterest用微调40亿参数Qwen3取代多阶段聚类推断用户旅程，邮件点击率和推送打开率分别提升1.1%、1.3%，关键提速靠跳过此前几天已处理用户、少做推理。
+- **[构建主权 AI 技术栈：开放权重、前沿模型与企业控制平面](https://www.infoq.cn/video/pZRYMTB7olLHTR3BuxaB)**
+  - 来源：InfoQ CN · 来源时间：11-23 19:08（北京时间）
   - 信源分层：RSS/OPML
-  - 雷达导读（上游提供）：Anthropic以83美元发行价上市，首日散户交易超7.5亿美元创纪录，次日股价跌约9%，Claude同日性能下降，文章拆解其将AI替代白领焦虑转为收入的估值逻辑。
-- **[这个文章又火了... 实际相关研究那时候就有不少了，只是模型还不行，没有引起广泛关注 Agent（智能体）并非生成式人工智能时代的新概念，其思想源于20世纪中期的人工智能研究，在20世纪80—90年代逐步形成较为成熟的理论体系。2022年以后，随着大语言模型、工具调用和自主规划技术的发展，传统智能体理论与大语言模型相结合，推动了新一代AI Agent技术的快速发展。](https://x.com/woodbear009/status/2124780391739609519)**
-  - 来源：@woodbear009 · 来源时间：11-23 16:21（北京时间）
+  - 雷达导读（上游提供）：Satya Nadella 与 Sridhar Ramaswamy 讨论企业如何用开放权重模型和企业控制平面捕获工作流轨迹、专家修正，避免专有知识流失。
+- **[💰 Looking for ways to earn EXTRA INCOME online? What if you could use your knowledge to help improve Artificial Intelligence? Explore opportunities involving: 🤖 AI model training 🧠 LLM evaluation 📊 Data labeling 🔍 Quali…](https://x.com/raliel01/status/2125178820273623119)**
+  - 来源：@raliel01 · 来源时间：11-24 18:44（北京时间）
   - 信源分层：高级源
-- **[别背 AI 黑话：一篇文章把模型、提示词、Agent、MCP 讲清楚 https://t.co/S6I7aHh6jX](https://x.com/gao_le25312/status/2124760800162439636)**
-  - 来源：@gao\_le25312 · 来源时间：11-23 15:03（北京时间）
+  - 雷达导读（上游提供）：文章介绍如何用知识在线赚外快，参与 AI model training、LLM evaluation 和 data labeling 等任务来帮助改进人工智能。
+- **[LLM is everything：为什么第一个端出 Personal Agent 的是字节？ 今天体验了一下字节刚上线的小豆，完成度比预想的要高 为什么第一个把 Personal Agent 跑出来的，不是阿里，也不是腾讯？ 连接商品和交易闭环，阿里是天花板 社交关系链、用户黏性，还有国内最早铺开的Workbuddy基本盘，腾讯手里的牌明显更好 因为LLM is everything 模型能力，就是一切 AI 业务的底层地基 普通人…](https://x.com/zzjinmu/status/2125175534099247291)**
+  - 来源：@zzjinmu · 来源时间：11-24 18:31（北京时间）
   - 信源分层：高级源
-- **[现在开始学agent就和18年干抖音一样 要是你能从20年就开始学做自媒体，现在一定能积累出不小的成绩吧，从现在开始学习AI Agent开发也是一样 在当年没有人意识到自媒体意味着内容分发模式的颠覆，能够得到成百上千的关注不再是明星的特权，想要宣传产品也不再一定要和传统媒体合作。现在AI Agent就是对生产模式的一次颠覆，重复性的简单脑力工作将被代替，并且这个“简单”的阈值还会随着大模型的进步而升高，个人还能将自己解决问题的技能，方…](https://x.com/Deng_Gulou/status/2124722241283993641)**
-  - 来源：@Deng\_Gulou · 来源时间：11-23 12:30（北京时间）
+  - 雷达导读（上游提供）：作者体验字节刚上线的小豆后认为完成度超出预期，并分析为何率先做出 Personal Agent 的是字节而非阿里、腾讯——后两者分别握有商品交易闭环和社交关系链，但字节靠的是 LLM is everything：基座模型足够强，Agent 无需精细调节就能应对长尾个人需求。
+- **[在群里聊到：做 AI 自媒体，平时怎么找选题角度？ 先说说我的情况👇 小红书做 AI 刚过 1.2 万粉，不算涨粉很猛，也没有万赞大爆款。 但每篇笔记数据稳定，商业化跑得很顺： 1️⃣ 1000+粉接了第一条头部模型商单，4000+ 粉起每个月商单不断，8000+粉签了MCN（仅推商单，无内容扶持） 2️⃣ 现在每月能收到几十个合作邀约，产品丰富度很高（大模型、办公Agent、AIGC、硬件都有），报价也很可观。 3️⃣ 因为有主业，…](https://x.com/siwusuAI/status/2125170246080467321)**
+  - 来源：@siwusuAI · 来源时间：11-24 18:10（北京时间）
   - 信源分层：高级源
-- **[周末最大的新闻，不是美股崩盘，而是AI"证"了黎曼猜想 这个周末，真正震动全球的并非美股的大幅下挫，而是一条来自数学界的消息：11月20日，Anthropic公司34岁的数学家莱文特·阿尔珀格（Levent Alpöge）在个人网站发布声明，称自己与该公司的大模型Claude合作，找到了困扰数学界167年的黎曼猜想的一个证明，并称这一方法还可推广至更强的广义黎曼猜想。 消息一出，不只是数学界，整个资本市场也被瞬间点燃——毕竟Anthr…](https://x.com/sumacoinVision/status/2124601219058733110)**
-  - 来源：@sumacoinVision · 来源时间：11-23 04:29（北京时间）
+  - 雷达导读（上游提供）：作者以小红书AI账号1.2万粉为例，复盘1000+粉接首条头部模型商单、4000+粉起商单不断、8000+粉签MCN的经历，并分享每月几十个邀约下如何靠选题留出广告位。
+- **[Cloud engine users, you can now launch your own cloud engine directly from your AI agent. Arshavir shows us how he launches a cloud engine, and runs an app to it, directly from his phone without leaving @ChatGPT. @\_\_wi…](https://x.com/dfinity/status/2125168414297555366)**
+  - 来源：@dfinity · 来源时间：11-24 18:03（北京时间）
   - 信源分层：高级源
-  - 雷达导读（上游提供）：Anthropic公司34岁数学家Levent Alpöge于11月20日声明，与Claude合作找到困扰数学界167年的黎曼猜想的一个证明，称方法可推广至广义黎曼猜想，而消息恰在Anthropic登陆纳斯达克次日发出，时间节点被其称为"糟糕透顶"。
-- **[Humanity's Predictions Before Large AI Models Took Off. 1950 — Alan Turing: "Can machines think?" 2014 — Stephen Hawking: "The development of full artificial intelligence could spell the end of the human race." 2014 — E…](https://x.com/Nieuw_Michael/status/2124587904705913178)**
-  - 来源：@Nieuw\_Michael · 来源时间：11-23 03:36（北京时间）
+  - 雷达导读（上游提供）：Arshavir 在手机上不离开 ChatGPT，就从 AI agent 启动 cloud engine 并运行一个应用，cloud engine 用户现已可照做。
+- **[Google AI Pro 黑五可能真是今年最狠的 AI 全家桶！首年 $99.99，折合每月 $8.33！Gemini 4 Neon、AI Agent、5TB 云盘、200 个 GPU 计算单元，还有每月 $10 开发者赠金！ 兄弟们，今年黑五，Google 这波值得认真看一下。 Google AI Pro 年付出现了首年 $99.99 的半价优惠，相比常规 $199.99/年，直接便宜 $100。 折算下来，每月约 $8.33。…](https://x.com/Leo_zhang2018/status/2125158719361282240)**
+  - 来源：@Leo\_zhang2018 · 来源时间：11-24 17:24（北京时间）
   - 信源分层：高级源
-  - 雷达导读（上游提供）：1950年Alan Turing问“机器能思考吗”，2014年Stephen Hawking警告AI、Elon Musk称“召唤恶魔”，本文回顾了这些预测。
-- **[🏆 编程智能体榜第一换人了，要不要马上换工具？ 别只看榜单名次。 Google 的 @\_mohansolo 说，Neon 配上他们自家的 Antigravity 命令行（AGY CLI），现在是 AA 编程智能体指数第一；他还特别提到，这次提升很大一块来自 harness（调度外壳）。 这句比名次更值得记：同一个模型，换个外壳，成绩就能差一截。所以换工具前，我会先看 4 条： 1. 榜单测的是「模型」，还是「模型 + 某个外壳」。你用…](https://x.com/YH31377807/status/2124543429325811814)**
-  - 来源：@YH31377807 · 来源时间：11-23 00:40（北京时间）
+  - 雷达导读（上游提供）：Google AI Pro 黑五首年 $99.99、月均 $8.33，打包 Gemini 4 Neon、AI Agent、5TB 云盘与 200 个 GPU 计算单元。
+- **[传统软件工程的"经典时代" 基本是欧美人的主场：Dijkstra、Knuth、Linus、Martin Fowler、Eric Evans、Uncle Bob…… 到了 AI 时代画风变了：何恺明、孙剑的 ResNet；再到这波 LLM，梁文锋（DeepSeek）、杨植麟（Kimi）、唐杰（智谱）、阿里 Qwen 、闫俊杰（MiniMax） https://x.com/i/article/2125120829847691264](https://x.com/dizha88/status/2125124618629615693)**
+  - 来源：@dizha88 · 来源时间：11-24 15:09（北京时间）
   - 信源分层：高级源
-  - 雷达导读（上游提供）：Google 的 @\_mohansolo 称 Neon 配 Antigravity 命令行（AGY CLI）登顶 AA 编程智能体指数，提升很大来自 harness；文章提醒同一模型换外壳成绩会差一截，并给出换工具前查榜单测什么、跑一周真实任务、算几万 token 额度等 4 条建议。
-- **[两个月没有更新了，《深入理解 AI Agent》发布 3.0 版本了！ - 重写了各章节的大部分内容，消除了一些 AI 味，把综述式的文风改成了教学式的，更容易理解 - 新增 Jev 类决策模型在事件过滤、工具安全判断、评测 rubric、RAG 筛选、多模态信息稀疏化等方面的应用 - 新增 Meta Muse、Pine、dsh superagent 等 personal agent 的办事逻辑 - 新增 Multica、LobeHu…](https://x.com/bojie_li/status/2124530971710308709)**
-  - 来源：@bojie\_li · 来源时间：11-22 23:50（北京时间）
+- **[从零构建大语言模型（LLM） 链接：https://link.amazon/B0453HYra #MachineLearning #ML #AI #LLMs](https://x.com/rasangarocks/status/2125106494429618534)**
+  - 来源：@rasangarocks · 来源时间：11-24 13:57（北京时间）
   - 信源分层：高级源
-  - 雷达导读（上游提供）：《深入理解 AI Agent》发布 3.0 版本，重写大部分章节，把综述式改为教学式，并新增 Jev 类决策模型在事件过滤、工具安全判断、RAG 筛选等场景的应用。
-- **[先说个扎心的：让一件事显得有门槛，最好的办法就是把它复杂化。AI 圈一大堆黑话，很多就是这么来的。 今天不叫你背名词，一条主线串明白：谁在回答你、你怎么把话说清楚、它怎么自己动手。 第一层｜谁在回答你 豆包、DeepSeek 只是外壳，内核是 LLM 大语言模型，相当于博览群书的智囊。 只处理文字是基础，能看图、听音、解析视频，就是多模态。 AI 没有标准答案，靠概率推理，一本正经瞎编叫幻觉；生图反复试出满意效果叫抽卡；文字、图片、视…](https://x.com/gao_le25312/status/2124488516302463193)**
-  - 来源：@gao\_le25312 · 来源时间：11-22 21:01（北京时间）
+- **[I tested Gemini 4 Neon vs Opus 5.5 for autonomous AI research: I gave each model Andrej Karpathy’s autoresearch, an H100 and a full night. No human in the loop. For context, autoresearch gives an AI a small but real GPT…](https://x.com/harris_p10/status/2124953374349013449)**
+  - 来源：@harris\_p10 · 来源时间：11-24 03:48（北京时间）
   - 信源分层：高级源
-  - 雷达导读（上游提供）：文章从豆包、DeepSeek只是外壳而内核是LLM讲起，用多模态、幻觉、抽卡、AIGC和Token等例子，把AI黑话串成谁回答你、怎么把话说清楚、怎么自己动手一条主线。
-- **[大家一讨论模型，就喜欢比较谁的智商更高、哪个模型榜单排名第一、谁的代码能力最强、哪个视频模型画质最好。 但真正开始做一个需要长期运行、需要面对用户、需要控制成本的产品时，你会发现模型能力只是其中一部分。 还有一个问题可能比模型排名更重要。 完成一次真正合格的任务，你究竟需要付出多少成本？ 这里有一个传统影视行业已经用了很久的思路，特别值得所有做 AI Agent 和 AI 视频的人研究。 在影视制作中，制片人不会把整部电影的预算平均分…](https://x.com/UPing123zzz/status/2124467648545378772)**
-  - 来源：@UPing123zzz · 来源时间：11-22 19:38（北京时间）
-  - 信源分层：高级源
-  - 雷达导读（上游提供）：文章从传统影视制片人不会把整部电影预算平均分配到每个镜头的做法切入，讨论做 AI Agent 和 AI 视频时，完成一次合格任务的成本为何可能比模型排名更重要。
+  - 雷达导读（上游提供）：作者让 Gemini 4 Neon 与 Opus 5.5 各在 H100 上整夜无人介入地运行 Andrej Karpathy 的 autoresearch，自主修改真实的小型 GPT 训练代码做研究，并对比两者的结果。
+
+## 官方资讯
+
+- **[OpenAI and Cisco introduce Shirudo](https://openai.com/index/introducing-shirudo)**
+  - 来源：OpenAI News · 来源时间：11-24 05:20（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：OpenAI and Cisco推出开源运行时Shirudo，帮助团队在打补丁期间保护运行中的Linux系统；受控测试中，Codex生成的shield无需重启便挡住了针对Elasticsearch的Java4Shell攻击。
+  - 雷达点评（上游提供）：OpenAI 和思科联合做的企业安全产品，短期落不到你代码里，等它公开 API 和定价再看。
+- **[Issue 状态与仓库看板现已进入公开预览](https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview)**
+  - 来源：GitHub Changelog · 来源时间：11-24 04:37（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：GitHub 在公开预览中让 issue 不再只分 open/closed，而可用更细状态并在 repository boards 按 status: 筛选进度，还支持 GraphQL、REST API 和 MCP server 读写状态及 Copilot 自动化触发状态变更。
+  - 雷达点评（上游提供）：管理项目时能省一步；现在就能在预览里试用。迁移前先用小仓库验证，别急着全量切换。
+- **[密钥扫描减少 Slack 的误报](https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack)**
+  - 来源：GitHub Changelog · 来源时间：11-24 02:32（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：GitHub 的 secret scanning 现已针对 Slack 密钥降低误报检测，其中 slack\_incoming\_webhook\_url 检测器通过排除特定 URL 来减少误匹配，帮助开发者减少无效告警干扰。
+  - 雷达点评（上游提供）：用 GHAS 又接了 Slack 的团队能少几条误报告警，其他人可以跳过。
+- **[RoboTrack：面向真实世界机器人操作的点跟踪](https://huggingface.co/blog/allenai/robotrack)**
+  - 来源：Hugging Face Blog · 来源时间：11-24 01:20（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：Ai2发布RoboTrack基准与数据套件，含307个来自DROID等的人工标注视频，显示领先tracker在真实操作场景得分远低于既有基准，并推出在5项评测中4项达SOTA的RoboTracker-Warp。
+  - 雷达点评（上游提供）：做具身智能和机器人视觉的可以去看权重和用法；普通开发者暂时用不上。
+- **[更贴合你的 Google Search，独一无二只属于你](https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps)**
+  - 来源：Google AI Blog · 来源时间：11-24 01:00（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：Google Search 的 Personal Intelligence 允许用户自愿连接 Google Wallet、Drive 和 Gemini app，用支出、文档和聊天记录定制 AI Mode 回答；Wallet 今日起推送，Drive 和 Gemini 未来几周跟进，并可在设置中随时调整或关闭。
+  - 雷达点评（上游提供）：面向消费者的搜索个性化灰度，没 API 没参数可调，开发者只能等它自己铺开。
+- **[用 Agent 和形式化验证寻找更快的量子算法](https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification)**
+  - 来源：Google DeepMind · 来源时间：11-24 00:59（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：Google DeepMind与Google Quantum AI用Gemini 4 agent改进量子算法，经Lean形式化验证生成聚变能源、化学和酶模拟的高效量子电路并开源。
+  - 雷达点评（上游提供）：智能体+形式化验证的思路可借鉴，但没开源代码，量子算法离日常交付还远。
+- **[代码覆盖率上传现在会标记无效的报告格式](https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats)**
+  - 来源：GitHub Changelog · 来源时间：11-23 23:28（北京时间）
+  - 信源分层：官方一手源
+  - 雷达导读（上游提供）：GitHub Code Quality 的 upload-code-coverage action 现在校验报告须为 Cobertura XML，格式不符会让上传失败并在 Actions 日志报错，此前却看似成功但 PR 无覆盖率。
+  - 雷达点评（上游提供）：覆盖率格式错会直接报错，不再静默通过，CI 排查省事；现有流程不用改。
+- **[Richpanel helps companies automate 50% of support in 30 days](https://openai.com/business/customer-stories/richpanel-ai-customer-support)**
+  - 来源：OpenAI News · 来源时间：11-23 16:00（北京时间）
+  - 信源分层：官方一手源
+  - 来源摘要（截取）：Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.
+- **[Connected intelligence for in-house legal](https://openai.com/business/learn/connected-intelligence-for-in-house-legal)**
+  - 来源：OpenAI News · 来源时间：11-23 16:00（北京时间）
+  - 信源分层：官方一手源
+  - 来源摘要（截取）：Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusabl
+- **[How to build and maintain an agentic evaluation](https://huggingface.co/blog/agentic-evals)**
+  - 来源：Hugging Face Blog · 来源时间：11-23 08:00（北京时间）
+  - 信源分层：官方一手源
 
 ## 产品与工具
 
-- **[写代码从输入变输出：纳德拉承认 VS Code 半年内被改写地位](https://www.aibase.com/news/32451)**
-  - 来源：AIbase · 来源时间：11-23 11:43（北京时间）
+- **[Introducing the Amazon Bedrock Trusted Access API with Anthropic’s Enterprise Frontier Safeguards and Enterprise Data Controls](https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/)**
+  - 来源：AWS ML · 来源时间：11-24 13:01（北京时间）
+  - 信源分层：官方一手源
+  - 来源摘要（截取）：Amazon Bedrock now offers a trusted access program API: one place to discover, request, and enroll in model provider programs. The first two offerings, in public preview, are Anthr
+- **[没等股价起飞就落袋：Anthropic CEO 上市当天套现 2.8 亿美元](https://www.aibase.com/news/32486)**
+  - 来源：AIbase · 来源时间：11-24 11:20（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：Satya Nadella承认Claude Code让传统编辑器与IDE约六个月内失去相关性，Microsoft未能立刻回应，开发者数月不打开VS Code。
-- **[给 AI 发展划一条“困惑度”红线：OpenAI 首席科学家提议设行业门槛](https://www.aibase.com/news/32455)**
-  - 来源：AIbase · 来源时间：11-23 11:43（北京时间）
+  - 雷达导读（上游提供）：Anthropic CEO Dario Amodei 在IPO当天按$83发行价卖出3,378,378股，套现约$280.4 million，未等股价上涨。
+- **[补丁要等数周，防护今晚就能上线：OpenAI 携手思科开源 Shirudo](https://www.aibase.com/news/32487)**
+  - 来源：AIbase · 来源时间：11-24 11:20（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：Bloomberg 11月23日报道，OpenAI首席科学家Jakub Pachocki提议全行业共建标准并设AI发展硬门槛，企业未达安全要求不得越线；11月22日Microsoft AI CEO Suleyman转发该文，称将共同公开预训练进展。
-- **[只给一下午写代码，交 PPT 反而能拿奖：AI 黑客松正在变味](https://www.aibase.com/news/32463)**
-  - 来源：AIbase · 来源时间：11-23 11:43（北京时间）
+  - 雷达导读（上游提供）：11月23日OpenAI携手Cisco开源基于Linux eBPF的Shirudo，无需重启即可给运行系统加临时防护盾，测试中Codex生成的防护层拦下针对Elasticsearch的Java4Shell攻击。
+- **[OpenAI 携手思科开源 Shirudo：给 AI 智能体系统装上“不打烊的防弹衣”](https://www.aibase.com/news/32489)**
+  - 来源：AIbase · 来源时间：11-24 11:20（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：1999年OpenBSD用一周集成IPv6，如今中国每年数百场AI hackathon压缩到一个下午，仅凭概念PPT也能拿奖，文章揭示其正变成PPT创意大赛。
-- **["Agents are very harsh customers." From @clamanna (EVP @Microsoft Copilot) on what happens when agents become the main users of software: "\[Agents\] will look for the best performance, price, and reliability. What an a...](https://x.com/petergyang/status/2124669298191090033)**
-  - 来源：Follow Builders · X · Peter Yang · 来源时间：11-23 09:00（北京时间）
+  - 雷达导读（上游提供）：OpenAI于November 24与Cisco开源Shirudo，这个Linux运行时环境让AI agents编写动态eBPF规则，在不改内核、不重启系统的情况下为漏洞攻击提供即时防护，为安全团队争取测试和部署补丁的窗口。
+- **[阿里云 AgentLoop 三项功能 12 月 7 日起计费](https://www.aibase.com/news/32478)**
+  - 来源：AIbase · 来源时间：11-23 23:58（北京时间）
+  - 信源分层：AI垂直源
+  - 雷达导读（上游提供）：阿里云宣布 AgentLoop 的 memory store、experience store 与 optimization tasks 将于 12 月 7 日 0 点起按 AI Credits 实际消耗计费，文章解读这三项功能如何让 Agent 跨会话记忆、沉淀经验并持续调优。
+- **[90 分钟全 AI 造出的故事片上线三家卫视：深圳首部 AIGC 电影长片《奇妙连接》没有一台实景摄像机](https://www.aibase.com/news/32479)**
+  - 来源：AIbase · 来源时间：11-23 23:58（北京时间）
+  - 信源分层：AI垂直源
+  - 雷达导读（上游提供）：深圳首部AIGC电影长片《奇妙连接》11月23日在深圳卫视、湖南卫视、芒果TV同步首播，90分钟无实景摄像机，讲普通员工与韩国、墨西哥、印尼、智利客户深圳奇遇。
+- **[AI音乐周刊 W.A 055](https://waytoagi.feishu.cn/wiki/Cyf6w4NAsiYInFkwiMFc1m1Znyf?from=from_copylink)**
+  - 来源：社区更新 · 2026-11-23 · 来源时间：11-24 11:20（北京时间）
+  - 信源分层：社区更新
+  - 雷达导读（上游提供）：SoundCloud 11月17日新增AI Abuse四类违规，禁止用AI刷量、假充真人并追回分成；本期还收录Spotify、Suno等更新。
+- **[🔥不学建模、不找美术！一个人靠 AI 搓出真能打的 3D 动作大作，从单图绑骨到双端试玩的全套提示词全公开](https://waytoagi.feishu.cn/wiki/DiWkwP3fYiylbpkrfLtclYN5nkb?from=from_copylink)**
+  - 来源：社区更新 · 2026-11-23 · 来源时间：11-24 11:20（北京时间）
+  - 信源分层：社区更新
+  - 雷达导读（上游提供）：文章以《暗黑三国·孤枪入夜》为例，拆解从单图绑骨到电脑手机双端60帧试玩的流程，公开9段实测提示词、无损瘦身脚本、防滑步公式和6门禁AI总控指令，全章3D资产成本不到42块钱。
+- **[一个人带 18 个 AI 助手，最后全堵在了“等我看”这一格](https://waytoagi.feishu.cn/wiki/RGkuwjizqibQxxkMueCc5u8anhd?from=from_copylink)**
+  - 来源：社区更新 · 2026-11-23 · 来源时间：11-24 11:20（北京时间）
+  - 信源分层：社区更新
+  - 雷达导读（上游提供）：作者带18个AI助手、主Bot派活却积压149件待确认成果，对照麦肯锡2到5人看住50到100个智能体，拆解AI原生组织为何堵在等我看这一格。
+- **[从全民养虾到 AI 同事：2026 AI Agent 演进启示录](https://waytoagi.feishu.cn/wiki/VpR9wIfMKiEPAYkxpZQcoiKLnZb?from=from_copylink)**
+  - 来源：社区更新 · 2026-11-23 · 来源时间：11-24 11:20（北京时间）
+  - 信源分层：社区更新
+  - 雷达导读（上游提供）：从OpenClaw 60天GitHub星标破25万，到WorkBuddy截至7月月活658.2万、阿里与字节重组办公Agent，文章追问单点效率为何难成业务突破，并指向企业级Agent OS。
+- **[Worth listening to if you're curious what goes on in the minds of the people at OpenAI who are obsessively trying to patch all the flaws in OSS software and infrastructure we all rely on https://t.co/afNTCaRewj](https://x.com/thsottiaux/status/2125027477877887231)**
+  - 来源：Follow Builders · X · Thibault Sottiaux · 来源时间：11-24 08:43（北京时间）
   - 信源分层：Builders/X源
-  - 雷达导读（上游提供）：Microsoft Copilot 的 EVP @clamanna 指出，当 agents 成为软件的主要用户，它们会是极其苛刻的客户，只追求最佳性能、价格与可靠性，其偏好未必与人类一致。
-- **[OpenAI首席科学家对如何限制AI发展有自己的想法](https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development)**
-  - 来源：TechCrunch AI · 来源时间：11-23 05:14（北京时间）
-  - 信源分层：精选AI媒体
-  - 雷达导读（上游提供）：OpenAI首席科学家谈如何限制AI发展：要给AI发展设速度上限，首先得就“用什么指标衡量速度”达成一致，这正是文章聚焦的核心问题。
-- **[OpenAI proposes perplexity as the universal metric for industry self regulation and pacing (as opposed to eg FLOPS) “Given that the main way new surprising capabilities emerge is by progress on compression, a measure...](https://x.com/swyx/status/2124583459356373052)**
-  - 来源：Follow Builders · X · Swyx · 来源时间：11-23 03:19（北京时间）
+  - 雷达导读（上游提供）：这段内容带你了解 OpenAI 内部那些执着修补我们共同依赖的 OSS 软件与基础设施漏洞的人究竟在想什么，适合对开源安全幕后思路好奇的听众。
+- **[Sotto — 按住一个键说话，干净的文本就直接落到 Linux 光标处](https://www.producthunt.com/products/sotto-11)**
+  - 来源：Product Hunt · 来源时间：11-24 06:13（北京时间）
+  - 信源分层：新产品
+  - 雷达导读（上游提供）：Sotto 的用法是按住一个键说话，经过清理的文本就直接落在 Linux 光标所在处，省去语音输入后再手动搬运的中间步骤。
+- **[这是一个不需要你写提示词的 Agent，它会主动行动。很期待这次发布。https://t.co/KrINO0HQUT](https://x.com/adityaag/status/2124947675913367832)**
+  - 来源：Follow Builders · X · Aditya Agarwal · 来源时间：11-24 03:26（北京时间）
   - 信源分层：Builders/X源
-- **[《The Binding of Isaac》开发者从 Repentance Plus 中移除 AI 音乐](https://www.theverge.com/games/1039770/binding-of-isaac-ai-music)**
-  - 来源：The Verge · 来源时间：11-23 01:25（北京时间）
+  - 雷达导读（上游提供）：这条内容宣布一款无需写prompt、能主动行动的agent发布，正文只反复一句Excited about this launch，核心信息是agent从被动响应转向主动执行的产品思路。
+- **[Google Search 的 AI Mode 现在可以调用 Drive 和 Wallet，提供更个性化的回答](https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses)**
+  - 来源：TechCrunch AI · 来源时间：11-24 03:14（北京时间）
   - 信源分层：精选AI媒体
-  - 雷达导读（上游提供）：Reddit用户ShweetsStuff发现《The Binding of Isaac: Repentance Plus》的GTA主题段落音频带有Suno元数据，Edmund McMillen称自己不知情并道歉，Nicalis随后移除相关AI音乐，但Steam上仍遭差评轰炸、评价为“overwhelmingly negative”。
-- **[Replit Missions — 设定预算，协调 AI Agent 团队协同作战](https://www.producthunt.com/products/replit)**
-  - 来源：Product Hunt · 来源时间：11-23 01:13（北京时间）
-  - 信源分层：新产品
-  - 雷达导读（上游提供）：原文正文被 CAPTCHA 拦截，仅标题可见：Replit Missions 宣称可设定预算并协调多个 AI agents 团队，适合想追踪多智能体协作与成本控制的人留意这一主题。
-- **[Plango — Plango 让你的 AI Agent 整夜安全工作，安全无忧](https://www.producthunt.com/products/plango)**
-  - 来源：Product Hunt · 来源时间：11-23 01:08（北京时间）
-  - 信源分层：新产品
-  - 雷达导读（上游提供）：该页面正文实际只显示要求 CAPTCHA 安全验证的拦截提示，没有任何关于 Plango 的实质内容，仅标题称其能让 AI agents 彻夜安全工作，具体机制无法核实。
-- **[Mobile Agent Testers — 免费开源的 AI Agent，在手机上为你的应用做 beta 测试](https://www.producthunt.com/products/mobile-agent-testers)**
-  - 来源：Product Hunt · 来源时间：11-23 00:08（北京时间）
-  - 信源分层：新产品
-  - 雷达导读（上游提供）：标题称 Mobile Agent Testers 是免费开源的 AI agent，能在手机上为你的 app 做 beta 测试，但正文实际只有 CAPTCHA 安全验证页面，没有可读的具体细节。
-- **[Perplexity 新推出的 Monitor API，让网页搜索从一次性查询变成永不停歇的监控器](https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog)**
-  - 来源：The Decoder AI News · 来源时间：11-22 22:20（北京时间）
+  - 雷达导读（上游提供）：Google Search 的 AI Mode 现可接入 Drive 和 Wallet，借 Personal Intelligence 利用生态内用户数据提供更个性化回答。
+- **[Anthropic 对算力的胃口，正推动 xAI 转向“以租代建”的策略](https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy)**
+  - 来源：The Decoder AI News · 来源时间：11-24 02:47（北京时间）
   - 信源分层：精选AI媒体
-  - 雷达导读（上游提供）：Perplexity推出Monitor API，可按15分钟至每周定时搜索网页，仅在相关变化时通过webhook通知代理，并用决策模型过滤无关结果。
-- **[银行对你的 AI Agent 已经忍无可忍](https://www.wired.com/story/banks-are-cracking-down-on-ai-agents)**
-  - 来源：Wired AI · 来源时间：11-22 19:00（北京时间）
+  - 雷达导读（上游提供）：xAI在6月IPO后转向出租算力，Anthropic每月支付约31亿美元、Google支付8亿美元，算力租赁已占总收入过半，解散Grok Imagine团队。
+- **[OpenAI warns that upcoming AI systems could outpace safety checks and urges rivals to agree on shared limits](https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits)**
+  - 来源：The Decoder AI News · 来源时间：11-24 02:42（北京时间）
+  - 信源分层：精选AI媒体
+  - 雷达导读（上游提供）：OpenAI的Jakub Pachocki首次公开GPT系列内部perplexity分数，称GPT-4约0.91解锁思维链，并呼吁建立行业共享安全限制。
+- **[在 OpenAI 内部，dots 正迅速成为完成任务的主要方式。我们甚至让 dots 来搭建 dots 系统。](https://x.com/thsottiaux/status/2124923055072043052)**
+  - 来源：Follow Builders · X · Thibault Sottiaux · 来源时间：11-24 01:48（北京时间）
+  - 信源分层：Builders/X源
+  - 雷达导读（上游提供）：OpenAI内部「dots」正快速成为主要做事方式，原文还提到用dots构建dots系统的自举情形，虽仅一句话，却透出AI工具渗透内部流程的速度。
+- **[Fleetify — 为你的 AI 编程 Agent 打造的开源指挥中心](https://www.producthunt.com/products/fleetify)**
+  - 来源：Product Hunt · 来源时间：11-24 00:11（北京时间）
+  - 信源分层：新产品
+  - 雷达导读（上游提供）：标题显示 Fleetify 是面向 AI coding agents 的开源指挥中心，但正文页面实际只返回了 CAPTCHA 安全验证提示，未给出任何产品细节或数据，可读内容有限。
+- **[Clam AI — 让你的收件箱安全地与AI agents共享](https://www.producthunt.com/products/clam-ai)**
+  - 来源：Product Hunt · 来源时间：11-23 16:44（北京时间）
+  - 信源分层：新产品
+  - 雷达导读（上游提供）：标题称 Clam AI 可让收件箱安全共享给 AI agents，但正文实际只返回 CAPTCHA 安全验证页，未给出任何产品细节或数据，可读内容仅限标题这一线索。
+- **[doola MCP — 在 AI 助手里创办并运营你的美国公司](https://www.producthunt.com/products/doola-mcp)**
+  - 来源：Product Hunt · 来源时间：11-23 03:23（北京时间）
+  - 信源分层：新产品
+  - 雷达导读（上游提供）：标题称 doola MCP 可让用户在 AI 助手中创办并运营美国公司，但正文实际只显示 CAPTCHA 安全验证页面，没有任何产品细节、数字或操作说明，读者需等页面放行后才能判断其内容价值。
+- **[谷歌发现，技术债务会通过“智能体分心”导致编码智能体偏离正轨](https://www.infoq.cn/article/sFmubmDWkulIOTBLX0Dr)**
+  - 来源：InfoQ CN · 来源时间：11-24 13:00（北京时间）
   - 信源分层：RSS/OPML
-  - 雷达导读（上游提供）：Wells Fargo将于周二起实施新协议，警告使用任何AI Agent风险自负；JPMorgan Chase、Bank of America、Citibank和PNC也已修改条款，限制第三方bot用客户凭证登录。
-- **[智能体企业新前沿：驱动高效智能](https://www.infoq.cn/video/Ly5HbhY4pNMCF04abkFo)**
-  - 来源：InfoQ CN · 来源时间：11-22 17:38（北京时间）
+  - 雷达导读（上游提供）：Google 分析数亿次智能体操作发现，13% 会话因 TODO/FIXME 分心，6% 触发绕道、41% 处理已关闭工单，并开发扫描智能体清理过时引用。
+- **[数据分析的下一站：智能体分析](https://www.infoq.cn/video/Q0rXqh3OmSAhcePiDjh2)**
+  - 来源：InfoQ CN · 来源时间：11-24 12:40（北京时间）
   - 信源分层：RSS/OPML
-  - 雷达导读（上游提供）：Snowflake CEO Sridhar Ramaswamy 与产品执行副总裁 Christian Kleinerman 将通过跨职能现场演示和《财富》500强高管洞察，展示开放、受治理的数据基础如何助企业构建智能体企业。
-- **[The future of technology is powered by Python, Artificial Intelligence, Discover the skills that can help you stay ahead in the rapidly evolving digital world. https://t.co/OGVOoMYyIj #DevPythonCourses #PythonDevelopmen…](https://x.com/devpythoncourse/status/2124790565095219533)**
-  - 来源：@devpythoncourse · 来源时间：11-23 17:02（北京时间）
+  - 雷达导读（上游提供）：这篇分享介绍数据分析的下一站智能体分析，对比传统系统依赖人类提供上下文并逐个提问，而 AI Agent 能循环执行查询、调用工具并据结果行动，人类仍负责提问和判断，并探讨人机协作障碍及企业级应用所需的四项平台能力。
+- **[datasette-agent 0.7a1](https://simonwillison.net/2026/Nov/24/datasette-agent)**
+  - 来源：Simon Willison · 来源时间：11-24 11:45（北京时间）
+  - 信源分层：RSS/OPML
+  - 雷达导读（上游提供）：Simon Willison 为 Datasette 的 LLM agent 发布 datasette-agent 0.7a1，新增可导航的 iframe side panel，并改进 fragment hashes 导航，以便与其他会随用户交互更新哈希的 Datasette plugins 深度集成，同时修复 datasette-charts 0.2a0 
+- **[GLM-5.4：借助首个 Loop Transformer，迈向通用编程](https://simonwillison.net/2026/Nov/23/glm-54)**
+  - 来源：Simon Willison · 来源时间：11-24 07:40（北京时间）
+  - 信源分层：RSS/OPML
+  - 雷达导读（上游提供）：GLM 5.4是Z.ai首个looped transformer模型，共享权重层多次迭代，不增参数加深网络，未开放权重，需订阅Coding Plan试用。
+- **[企业 AI 发展新趋势：推动 AI Agent 迈向规模化应用的新阶段](https://www.infoq.cn/video/its3v5OfmRuikL5SeWUu)**
+  - 来源：InfoQ CN · 来源时间：11-23 19:52（北京时间）
+  - 信源分层：RSS/OPML
+  - 雷达导读（上游提供）：企业 AI 正从任务提效工具走向能自主执行复杂工作流、持续运行的 AI Agent，但业务上下文缺失、治理薄弱、成本攀升与生态碎片化仍阻碍规模化，分享将介绍 Snowflake 统一平台的应对思路。
+- **[当你的下一位客户是 AI Agent：企业营销与销售的 AI 发展前景](https://www.infoq.cn/video/cw3OFxCPlVBE625COukc)**
+  - 来源：InfoQ CN · 来源时间：11-23 19:16（北京时间）
+  - 信源分层：RSS/OPML
+  - 雷达导读（上游提供）：OpenAI 的 Colin Fleming 与 Snowflake 的 Denise Persson 炉边对谈：当 AI Agent 在消费者访问网站前已阅读品牌内容、汇总选项并缩小范围，企业营销与销售如何确保被 AI 发现并赢得信任。
+- **[$99.99 开了一年官方 Google AI Pro，也把 Antigravity 跑顺了。 把账号、2FA、订阅切换、扫码验证和反重力报错的实测过程整理成这篇长文，附实操截图和两段 PV。 卡在哪步就翻哪节，建议先收藏。优惠以自己结算页为准。 https://x.com/i/article/2125149024286396416](https://x.com/hope0719xyz/status/2125152781187326244)**
+  - 来源：@hope0719xyz · 来源时间：11-24 17:01（北京时间）
   - 信源分层：高级源
-- **[TermiX @termix\_ai 在 Kaito 的第三期昨天刚结束，今天第四期又接上了。 原本还以为差不多该等 TGE 了，没想到 @termix\_ai 又把奖励池从 0.3% 提高到了 0.4%，活动也延长至 TGE。 现在这个行情，兄弟们继续建设吧。 不过这次我想聊点不太一样的。 最近 Agent ID、Skills 接单这些话题已经有不少人讨论了，但在 TermiX 11 月版的 AACP v0.2 白皮书里，我发现一个容易…](https://x.com/Li888Real/status/2124775328073851290)**
-  - 来源：@Li888Real · 来源时间：11-23 16:01（北京时间）
+- **[Secure a new revenue source by building, orchestrating and customizing your own sovereign AI and AI-calling apps with Telecoms Low Code. ECT's cloud-native Telecoms Low Code (TLC) delivers key building blocks for rapid…](https://x.com/ECTTelecoms/status/2125145425971745089)**
+  - 来源：@ECTTelecoms · 来源时间：11-24 16:32（北京时间）
   - 信源分层：高级源
-- **[Update: GLM-5.4 is now live for Z.⁠ai Coding Plan users, and Zhipu's Chinese user-group notice reveals a big architecture detail missing from the English post: it's built on a Loop Transformer 👀 • Zhipu says it spent th…](https://x.com/aitrackerbot/status/2124723744044105768)**
-  - 来源：@aitrackerbot · 来源时间：11-23 12:36（北京时间）
+- **[A South African built an AI election tool that got 1.95 million clicks from Google. He's on this week's list. Round four 🇿🇦 Seven SA builders worth following 👇](https://x.com/henno_4e/status/2125139354364313635)**
+  - 来源：@henno\_4e · 来源时间：11-24 16:07（北京时间）
   - 信源分层：高级源
-- **[想做企业AI服务（FDE、AI 培训、智能体交付）赚钱的，关注一下这 12 位实战者： 1、唯庸 @weiyong\_wang ：前字节 Seed 项目组，2024 年离职 all in AI。2025 年下半年在郑州组团队，在闲鱼、淘宝、视频号批量接几千到一两万的小单，几个月做了 200 个智能体，营收过百万；目前专注做企业级交付：项目控制在 20 万以内、一个月内交付，陪跑客户逐期做升单。他的复盘贴有 44.4 万浏览、2877 收…](https://x.com/DDDDDDayu/status/2124709154699043041)**
-  - 来源：@DDDDDDayu · 来源时间：11-23 11:38（北京时间）
+- **[The AI trade had been deteriorating for months, and was even threatening to imperil the Anthropic IPO. And then they managed to pull it off and go public during a brief, 11-day window during which Dario Amodei's main do…](https://x.com/TheStalwart/status/2124969167027658890)**
+  - 来源：@TheStalwart · 来源时间：11-24 04:51（北京时间）
   - 信源分层：高级源
-- **[全球最值得关注的十大 AI： 10，Kimi→长文本和中文理解一把好手，啃长文档省心 09，豆包→国内国民级流量入口，日常高频问答随手用 08，Qwen（通义千问）→开源圈里的全能选手，本地部署党最爱折腾 07，Perplexity→直接把传统搜索引擎按在地上摩擦，找资料带出处 06，Midjourney→AI 绘画审美天花板，出图质感依旧能打 05，Grok→背靠 X 实时热搜数据，吃瓜和看实时情绪最直接 04-01↓↓ 真正决定…](https://x.com/Outsider77702/status/2124603333507952719)**
-  - 来源：@Outsider77702 · 来源时间：11-23 04:38（北京时间）
+  - 雷达导读（上游提供）：在 AI 交易连续数月恶化、甚至危及 Anthropic IPO 的背景下，文章还原他们如何抓住 Dario Amodei 主要国内意识形态对手出局的11天窗口完成上市。
+- **[1/7 AI agents don’t browse your product in a straight line. They teleport. Docs, CLI, API, MCP server, browser no shared ID, no session, no trail. Until now. To your product, it looks like a handful of unrelated visitor…](https://x.com/vivek96_/status/2124917006889869346)**
+  - 来源：@vivek96\_ · 来源时间：11-24 01:24（北京时间）
   - 信源分层：高级源
-  - 雷达导读（上游提供）：文章盘点十大AI，先列第10到第5：Kimi擅啃长文档、豆包是国民级流量入口、Qwen受本地部署党青睐、Perplexity找资料带出处、Midjourney出图质感能打、Grok靠X实时热搜，并预告04-01四大巨头决定牌桌上限。
-- **[this might be the easiest way to make money with bug bounties: https://t.co/crqkpzGwqi send the repo to your ai agent, give it a bug bounty target, and let it help you hunt for vulnerabilities. thank me later. https://t…](https://x.com/GMIDave/status/2124574251474887049)**
-  - 来源：@GMIDave · 来源时间：11-23 02:42（北京时间）
-  - 信源分层：高级源
-  - 雷达导读（上游提供）：作者分享了一个 repo，称只需把它交给你的 ai agent，再给它一个 bug bounty 目标，就能让 AI 协助你搜寻漏洞，并称这可能是靠漏洞赏金赚钱最轻松的方式。
-- **[At Visa Crypto Labs, we believe ordinary people should be able to earn income from the AI economy. Today we're launching a new version of Visa CLI, an agent wallet that lets people verify their agent with a Visa card, t…](https://x.com/cuysheffield/status/2124555774320062807)**
-  - 来源：@cuysheffield · 来源时间：11-23 01:29（北京时间）
-  - 信源分层：高级源
+  - 雷达导读（上游提供）：文章指出 AI agents 不按直线浏览，而会在 Docs、CLI、API、MCP server、browser 间“瞬移”，没有共享 ID、session 或 trail，产品端只看到几个互不相关的访客，并发布论文 Following the Agent 讨论如何重建这一过程。
 
 ## 国内动态
 
-- **[懂车帝回应“测试内容大调整”：信息多处失实，部分内容为 AI 撰写](https://www.ithome.com/1/031/091.htm)**
-  - 来源：IT之家 · AI · 来源时间：11-23 17:48（北京时间）
+- **[小米浏览器手机、Pad 官宣支持扩展程序：广告拦截、网页翻译、AI 助手、脚本管理](https://www.ithome.com/1/031/813.htm)**
+  - 来源：IT之家 · AI · 来源时间：11-24 19:22（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：IT之家 11 月 23 日消息，今日，有博主爆料称，懂车帝内部对公开测试发布了四项要求，包括不再开放对比类内容、想要发布公开测试类内容的账号必须有资质等。据界面新闻报道，懂车帝内容运营人员表示，此轮变化系平台严格按照《网络测评活动规范》要求，对汽车创作者在平台发布部分场景内容的规则更新。网传“内容大调整”“行业受影响”等信息多处失实，部分内容为 AI 撰写
-- **[动视新专利：AI 学习玩家聊天内容，生成个性化 NPC 台词](https://www.ithome.com/1/031/090.htm)**
-  - 来源：IT之家 · AI · 来源时间：11-23 17:40（北京时间）
+  - 来源摘要（截取）：IT之家 11 月 24 日消息，小米互联网官方微博今日宣布，小米浏览器手机、Pad 现已支持扩展程序：广告拦截、网页翻译、AI 助手、脚本管理菜单里一点即开。IT之家注意到，在今年 6 月，小米员工 @劣人潘 曾发文预告过该功能，当时曾表示会在未来合适的时机发布支持插件的浏览器版本。延伸阅读小米浏览器手机端需升级至 20.32 及以上版本、Pad 端需升级
+- **[消息称 OpenAI 与 Anthropic 员工警告：内部 AI 模型能力过于强大，无法安全发布](https://www.ithome.com/1/031/811.htm)**
+  - 来源：IT之家 · AI · 来源时间：11-24 19:18（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：IT之家 11 月 23 日消息，《使命召唤》（Call of Duty）发行商动视（Activision）申请了一项新专利，计划利用玩家在游戏中的真实语音聊天训练 NPC（非玩家角色）。这套由 AI 驱动的系统能够监听玩家在关键游戏事件前后的语音交流，学习他们对不同情况的反应，并在之后让游戏角色模仿这些反应。据 Patentlyze 发现，这项专利于今年 
-- **[Epic 旗下 AI 游戏开发竞赛现讽刺一幕：纯人工制作游戏《LSD: FIH》获玩家投票榜首](https://www.ithome.com/1/031/049.htm)**
-  - 来源：IT之家 · AI · 来源时间：11-23 17:17（北京时间）
+  - 来源摘要（截取）：IT之家 11 月 24 日消息，据 Axios 报道，二十多名熟悉内部讨论的消息人士透露，Anthropic 和 OpenAI 正面临一个愈发紧迫的难题：公司内部尚未对外发布的模型能力已经强到让不少员工认为，这些模型无法安全向公众开放。消息人士表示，这件事的影响不容小觑。顶尖人工智能系统的能力和人类的管控能力之间的差距持续拉大，很可能大幅放缓人工智能的发展
+- **[AI 热潮引爆封装基板需求，韩国 7 家中型厂商合计投资 2.8 万亿韩元扩产](https://www.ithome.com/1/031/715.htm)**
+  - 来源：IT之家 · AI · 来源时间：11-24 17:41（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：IT之家 11 月 23 日消息，据外媒 Tweaktown 报道，Epic Games 举办的 AI MegaJam 游戏开发竞赛近日出现一款颇具反差的作品。由开发者 PolyCube 制作的《LSD：FIH》明确表示开发过程中完全没有使用人工智能（AI），却在目前的玩家公开投票中位居榜首。公开信息显示，本届 AI MegaJam 竞赛奖金池总额为 5 万
-- **[XROGO郑随兵：机器人不能只在视频里，终究要进入工厂“真干活”](https://www.qbitai.com/2026/11/512179.html)**
-  - 来源：量子位 · 来源时间：11-23 17:10（北京时间）
+  - 来源摘要（截取）：IT之家 11 月 24 日消息，据韩媒 The Elec 报道，受人工智能（AI）产业快速发展带动，全球半导体需求持续增长，封装基板供应紧张问题日益突出。继三星电机、LG Innotek 等大型厂商之后，韩国中型封装基板供应商也开始大规模扩产。其中，韩国大德电子（Daeduck Electronics）、Isu Petasys、Simmtech、TLB、K
+- **[诺华 CEO 泼冷水：AI 十年内治不好癌症，仅能缩短新药研发周期](https://www.ithome.com/1/031/705.htm)**
+  - 来源：IT之家 · AI · 来源时间：11-24 17:19（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：企业核心需求不是交付设备，而是能持续上岗的劳动力
-- **[日本工业机器人制造商安川电机：AI 人形机器人将在 2030 年正式推出](https://www.ithome.com/1/030/954.htm)**
-  - 来源：IT之家 · AI · 来源时间：11-23 16:30（北京时间）
+  - 来源摘要（截取）：IT之家 11 月 24 日消息，诺华首席执行官、Anthropic 董事会成员瓦斯 · 纳拉辛汉（Vas Narasimhan）并不认同人工智能将在五到十年内治愈癌症的说法，他认为，就算再过十年，人工智能也只能把新药研发周期缩短四年。纳拉辛汉表示，科技行业看待这个问题带着一套“工程思维”，但临床医生和制药企业清楚，人类对人体的了解其实十分有限。“我们面临的
+- **[腾讯发布混元翻译模型 HyMT3：翻译结果更准确、更完整、更遵循用户指令](https://www.ithome.com/1/031/681.htm)**
+  - 来源：IT之家 · AI · 来源时间：11-24 17:12（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：IT之家 11 月 23 日消息，日本工业机器人制造商安川电机 (YASAKAWA) 人工智能机器人统括部长久保田由美惠当地时间本月 20 日接受日本共同社采访时表示，该企业计划在人形机器人领域追赶当前领先的美中企业。久保田由美惠称，安川电机正在开发中的 AI 人形机器人将在 2030 年正式推出，具体投放时间也可能根据客户实际需求提前。安川电机目标让人形机
-- **[荣耀 YOYO · 豆包手机助手曝光，支持语音唤醒、连续对话、全局记忆等能力](https://www.ithome.com/1/030/942.htm)**
-  - 来源：IT之家 · AI · 来源时间：11-23 16:14（北京时间）
+  - 来源摘要（截取）：IT之家 11 月 24 日消息，腾讯今天（24 日）下午宣布，第三代翻译模型 HyMT3 发布并开源。相比前代模型 HyMT2，能够带来更准确、更完整、更遵循用户指令的翻译结果。根据介绍，在真实场景数据上，误译样本比例降低 43%，漏译 / 增译比例降低 74%，指令遵循类错误降低 40%；支持语种从 38 种扩充到 102 种。HyMT3 包含 1.8B
+- **[IDC：2027 年中国智能眼镜出货将破 450.6 万台，AI 驱动生态跃迁](https://www.ithome.com/1/031/553.htm)**
+  - 来源：IT之家 · AI · 来源时间：11-24 16:14（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：IT之家 11 月 23 日消息，博主 @阿兴XZai 今日发布视频，分享了荣耀的 YOYO · 豆包手机助手的功能页面。画面显示，荣耀 YOYO · 豆包手机助手支持语音唤醒、连续对话、全局记忆等能力。据IT之家此前报道，今年 4 月，有消息称荣耀与字节跳动就“豆包手机”相关合作展开接洽。字节跳动在与中兴通讯合作推出第一代豆包手机之前，最先接触的手机厂商其
-- **[LG U+ 围绕 AI 调整企业业务架构，新设基础设施 / 平台部门](https://www.ithome.com/1/030/938.htm)**
-  - 来源：IT之家 · AI · 来源时间：11-23 16:06（北京时间）
+  - 来源摘要（截取）：IT之家 11 月 24 日消息，IDC 最新报告预计，2027 年中国智能眼镜行业将以生态落地和用户体验升级为核心驱动力，行业重心由单点创新演进为多模态感知、生态协同和多场景价值闭环。AI 大模型、端侧算力与多模态交互深度融合，推动智能眼镜在物理世界的感知、交互和服务能力实现质的飞跃。隐私合规、渠道变革和供应链优化成为焦点，市场结构加速分层。基于上述判断，
+- **[雷神 AI Master T4000 台式工作站上市，10,999~89,999 元](https://www.ithome.com/1/031/540.htm)**
+  - 来源：IT之家 · AI · 来源时间：11-24 16:07（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：IT之家 11 月 23 日消息，据韩媒 The Elec 报道，LG U+ 正围绕人工智能（AI）基础设施和平台业务调整企业业务架构，计划将相关业务划分为 AI 基础设施部门和 AI 平台部门，分别负责 AI 数据中心及有线、无线通信网络，以及 AI 客户联络中心和智能体服务。在企业事业部门下，公司将新设 AI 基础设施部门，整合 AI 数据中心运营业务与
-- **[AI 大模型周榜：谷歌 Gemini 4 Neon 新登综合第 3，阿里 Qwen4-Max 智能体首秀第 18](https://www.ithome.com/1/030/935.htm)**
-  - 来源：IT之家 · AI · 来源时间：11-23 16:00（北京时间）
+  - 来源摘要（截取）：IT之家 11 月 24 日消息，雷神 (THUNDEROBOT) 今日宣布，其 AI Master T4000 系列桌面 AI 工作站正式上市，6 款标准配置上市到手价 10,999~89,999 元。AI Master T4000 系列采用 30L 机箱，三维 400.2 × 408.69 × 205 (mm)，搭载 1200W 80 PLUS 铂金电源
+- **[联合国秘书长古特雷斯呼吁构建 AI 风险管理多边框架，避免技术加剧全球不平等](https://www.ithome.com/1/031/528.htm)**
+  - 来源：IT之家 · AI · 来源时间：11-24 15:39（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：IT之家 11 月 23 日消息，Arena（arena.ai）现已发布第 47 周（2026 年 11 月 16 日至 22 日）周榜。本周综合榜迎来三款重量级新模型首秀：谷歌 Gemini 4 Neon (High) 以 ELO 1513 分直接空降第 3 名，Anthropic Claude Fable 5.2 (Max) 以 1503 分入榜第 7 
-- **[3399 元起荣耀 700 / 700S / Pro 系列手机发布：AI 灵动背屏、支持长焦增距镜](https://www.ithome.com/1/030/931.htm)**
-  - 来源：IT之家 · AI · 来源时间：11-23 15:44（北京时间）
+  - 来源摘要（截取）：IT之家 11 月 24 日消息，据央视新闻报道，在巴巴多斯政府和联合国共同主办的“人工智能安全布里奇敦特别峰会”上，联合国秘书长古特雷斯表示，各国应对 AI 风险的能力存在巨大差距，不应允许 AI 加剧和加深全球不平等现象。古特雷斯呼吁建立一个由可信且独立的监督机制支持的 AI 风险管理多边框架。他表示，AI 系统正变得越来越强大，并被更广泛部署。然而，不
+- **[Genspark 推出 SecondBrain VoicePad AI 语音键盘：双麦克风、支持会议转录](https://www.ithome.com/1/031/525.htm)**
+  - 来源：IT之家 · AI · 来源时间：11-24 15:33（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：IT之家 11 月 23 日现场消息，在目前正在进行的荣耀 700 系列暨全场景新品发布会中，荣耀 700 / 700S / Pro 系列手机正式发布。京东荣耀 700 系列手机 3399 元起直达链接系列手机提供晴空、粉雾、冷白、蓝调四种配色可选，拥有 IP68/IP69/IP69K 认证，厚 7.96mm，重 211g，正面配备一块 6.57 英寸 1.
-- **[蚂蚁医疗健康AI五连发！开源、本地部署、望闻问切全安排上了](https://www.qbitai.com/2026/11/512017.html)**
-  - 来源：量子位 · 来源时间：11-23 15:42（北京时间）
+  - 来源摘要（截取）：IT之家 11 月 24 日消息，制造商 Genspark 现已推出 SecondBrain VoicePad AI 语音键盘。该产品采用铝合金机身，支持语音输入、会议转录、AI 应用访问功能集成等功能，众筹价 119 美元（IT之家注：现汇率约合 794.8 元人民币）起。据介绍，该键盘兼容 Windows 和 macOS 电脑，可通过蓝牙或 USB-C 
+- **[Google Cloud 出海峰会报名开启](https://www.qbitai.com/2026/11/512370.html)**
+  - 来源：量子位 · 来源时间：11-24 14:52（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：阿福大升级：让模型像医生一样思考
-- **[阿里云：AgentLoop 记忆库、经验库及优化任务功能 12 月 7 日起收费，按 AI Credits 实际消耗量计费](https://www.ithome.com/1/030/926.htm)**
-  - 来源：IT之家 · AI · 来源时间：11-23 15:36（北京时间）
+  - 来源摘要（截取）：2027 Google Cloud 出海峰会将于 1 月 14 日在北京中关村国际创新中心举行
+- **[业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型](https://www.qbitai.com/2026/11/512362.html)**
+  - 来源：量子位 · 来源时间：11-24 14:35（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：IT之家 11 月 23 日消息，阿里云今日发布公告，宣布 AgentLoop 将于北京时间 2026 年 12 月 7 日 00:00:00 起，对记忆库、经验库及优化任务三项功能正式收费。IT之家附上述三项功能的简介如下：记忆库：使用模型从对话等数据中提取可跨会话使用的长期记忆。经验库：使用模型分析 Agent 的执行轨迹，提炼可在后续任务中复用的经验。
-- **[美国加州总检察长起诉 OpenAI，指控其忽视安全风险](https://www.ithome.com/1/030/921.htm)**
-  - 来源：IT之家 · AI · 来源时间：11-23 15:25（北京时间）
+  - 来源摘要（截取）：端侧老炮辛米尔，打通物理AI规模化落地之路
+- **[文心 5.5 Flash Preview正式开源，采用 Apache 2.0 协议](https://www.qbitai.com/2026/11/512354.html)**
+  - 来源：量子位 · 来源时间：11-24 14:22（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：IT之家 11 月 23 日消息，据路透社报道，加利福尼亚州总检察长罗布 · 邦塔（Rob Bonta）当地时间上周日表示，他已于本周早些时候对 OpenAI 提起诉讼，指控该公司未能确保旗下 AI 模型的安全，将公众安全置于风险之中。IT之家注意到，邦塔在周日发布的每周通讯中写道：“OpenAI 将增长和速度置于安全之上，忽视了各种危险信号，也未能确保其模
-- **[荣耀 700 / Pro 手机配备 1.59 英寸 AI 灵动背屏：行业首发 AI 定制随心贴、背屏任意贴](https://www.ithome.com/1/030/918.htm)**
-  - 来源：IT之家 · AI · 来源时间：11-23 15:20（北京时间）
+- **[八年研发，首搭方程豹钛9，全球首个折叠方向盘量产上车](https://www.qbitai.com/2026/11/512348.html)**
+  - 来源：量子位 · 来源时间：11-24 14:15（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：IT之家 11 月 23 日消息，在目前正在进行的荣耀 700 系列暨全场景新品发布会中，荣耀介绍了旗下荣耀 700 / Pro 手机的背屏设计。据荣耀介绍，系列手机配备 1.59 英寸 AI 灵动背屏，行业首发 AI 定制随心贴，一句话就能自由定制背屏内容；行业首创背屏任意贴，支持图片、表情包等各类内容一拖上屏。星悠悠、蛋烘烘、暹罗厘普等萌宠主题同步上线。
-- **[黑客利用 AI 工具发现医疗软件零日漏洞，成功控制目标服务器](https://www.ithome.com/1/030/917.htm)**
-  - 来源：IT之家 · AI · 来源时间：11-23 15:20（北京时间）
+  - 来源摘要（截取）：11月19日，方程豹钛9上市，售价27.99万元起
+- **[巴新总理见证，仰望U8交付巴布亚新几内亚市场](https://www.qbitai.com/2026/11/512343.html)**
+  - 来源：量子位 · 来源时间：11-24 14:12（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：IT之家 11 月 23 日消息，网络犯罪分子近日利用一款名为 Cairn 的自主人工智能（AI）平台，在一款医学影像应用程序中发现零日漏洞，并利用该漏洞发起攻击，最终成功控制目标服务器。零日漏洞是指硬件、软件或固件中存在的安全缺陷，软件供应商尚未发现这一问题，因此也没有可用的修复程序或安全补丁。Cairn 则是一款合法的自动化渗透测试工具，不过如今也被黑客
-- **[新款深蓝 L07 车型将于 11 月 27 日广州车展亮相：采用 800V 高压平台、搭载豆包大模型](https://www.ithome.com/1/030/911.htm)**
-  - 来源：IT之家 · AI · 来源时间：11-23 15:04（北京时间）
+  - 来源摘要（截取）：2026年11月18日，中国深圳——APEC会议期间，比亚迪仰望U8正式交付巴布亚新几内亚市场
+- **[报名从速｜来MEET2027！听AI前沿实践者交出“判断”](https://www.qbitai.com/2026/11/512329.html)**
+  - 来源：量子位 · 来源时间：11-24 11:33（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：IT之家 11 月 23 日消息，深蓝汽车宣布旗下新款 L07 车型将于 11 月 27 日开幕的 2026 广州车展上亮相。据介绍，新款深蓝 L07 采用 800V 高压平台，全系标配激光雷达，其智能辅助驾驶能力可覆盖通勤、高速、泊车等高频出行场景；搭载端到端开放域豆包大模型，支持车内外语音交互。作为参考，去年上市的 2026 款深蓝 L07 车型尺寸为 
-- **[“Agent版arXiv”来了！936个智能体12个星期狂发近千篇论文，连同行评议都整上了](https://www.qbitai.com/2026/11/512004.html)**
-  - 来源：量子位 · 来源时间：11-23 14:59（北京时间）
+  - 来源摘要（截取）：12.9 北京，来MEET2027现场
+- **[蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，核心引擎向全球开源](https://www.qbitai.com/2026/11/512330.html)**
+  - 来源：量子位 · 来源时间：11-24 11:30（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：一个完全由AI组成的科学家社会，是什么样？
-- **[TML 发布循环 Transformer 模型 Inkling 2 Mini，多项表现在 100B 以内领先](https://www.ithome.com/1/030/907.htm)**
-  - 来源：IT之家 · AI · 来源时间：11-23 14:55（北京时间）
+  - 来源摘要（截取）：中国AI数据平台加速崛起
+- **[释放AI与出海强预期，近1500人参与亿邦产业互联网年会暨首届产业智能体大会](https://www.qbitai.com/2026/11/512305.html)**
+  - 来源：量子位 · 来源时间：11-24 11:21（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：IT之家 11 月 23 日消息，人工智能初创企业 Thinking Machines Lab (TML) 当地时间本月 20 日发布了 Inkling 2 Mini 模型。该模型采用循环 Transformer 架构，拥有 24 层，分为四个 6 层模块，中间两个模块运行 3 次、首尾模块则各运行一次。其对专家节点进行了大幅剪枝，在层初始的 384 个中仅
-- **[法国人工智能企业 Mistral AI 在新加坡设立亚太总部，为政府开发定制 AI 模型](https://www.ithome.com/1/030/904.htm)**
-  - 来源：IT之家 · AI · 来源时间：11-23 14:43（北京时间）
+  - 来源摘要（截取）：2026年11月20日，第八届亿邦产业互联网年会与首届产业智能体大会在北京国贸大酒店首次合体举行。
+- **[“得Agent开发者，得天下”，70+技术大咖共探AI技术演进与生态变革，2026奇点智能技术大会圆满收官！](https://www.qbitai.com/2026/11/512297.html)**
+  - 来源：量子位 · 来源时间：11-24 10:36（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：IT之家 11 月 23 日消息，法国人工智能企业 Mistral AI 上周（11 月 20 日）宣布在新加坡设立亚太地区总部，计划 2027 年将该区域员工数增加至 200 人以上。Mistral AI 表示，新加坡办公室将作为扩展科学中心运营，负责为政府机构、工业客户开发定制 AI 模型。该企业计划在新加坡招聘科研、工程、AI 和机器人领域的人才。在正
-- **[蚂蚁阿福同款大模型宣布开源，全球医生一台电脑就能解锁专业医疗 AI 能力](https://www.qbitai.com/2026/11/511998.html)**
-  - 来源：量子位 · 来源时间：11-23 11:56（北京时间）
+  - 来源摘要（截取）：「2026 奇点智能技术大会」与「2026 C++ 及系统软件技术大会」在北京万达文华酒店成功举办。
+- **[具身行业，终于等来了自己的通用智能时刻](https://www.qbitai.com/2026/11/512264.html)**
+  - 来源：量子位 · 来源时间：11-24 09:51（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：阿福App宣布新一轮升级，解锁越来越多健康服务新本领
-- **[算力周期更迭，数据复合增长：为何存储经济性对中国规模化 AI 至关重要](https://www.qbitai.com/2026/11/511989.html)**
-  - 来源：量子位 · 来源时间：11-23 11:47（北京时间）
+  - 来源摘要（截取）：行业苦等多年的预训练通用智能，终于有了答案
+- **[Agent 想用但不敢用？百度智能云企业级 Agent 安全落地实践](https://www.infoq.cn/article/dzgleaOZ3ILx5cztUtXw?utm_source=rss&utm_medium=article)**
+  - 来源：InfoQ 中文 · AI · 来源时间：11-23 23:55（北京时间）
   - 信源分层：媒体报道
-  - 来源摘要（截取）：AI 的未来将依赖能够在数据全生命周期中平衡性能、可靠性与经济性的存储架构。
-- **[当大模型接上真实机器人：RoboChallenge Zero首期评测发布](https://www.qbitai.com/2026/11/511978.html)**
-  - 来源：量子位 · 来源时间：11-23 11:13（北京时间）
-  - 信源分层：媒体报道
-  - 来源摘要（截取）：RoboChallenge正式发布全新评测基准RoboChallenge Zero
-- **[豆姐威武！豆包工作上新21个专业工作台，AI直接替你上班](https://www.qbitai.com/2026/11/511933.html)**
-  - 来源：量子位 · 来源时间：11-23 10:29（北京时间）
-  - 信源分层：媒体报道
-  - 来源摘要（截取）：豆包工作是目前字节优先级最高的产品
-- **[姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图](https://www.qbitai.com/2026/11/511921.html)**
-  - 来源：量子位 · 来源时间：11-23 10:09（北京时间）
-  - 信源分层：媒体报道
-  - 来源摘要（截取）：还透露了不少训练背后的秘诀
-- **[Nature：糖尿病大鼠成功恢复正常血糖！用电刺激迷走神经控糖](https://www.qbitai.com/2026/11/511904.html)**
-  - 来源：量子位 · 来源时间：11-22 14:21（北京时间）
-  - 信源分层：媒体报道
-  - 来源摘要（截取）：用葡萄糖发电控制血糖。
-- **[A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿](https://www.qbitai.com/2026/11/511870.html)**
-  - 来源：量子位 · 来源时间：11-22 14:03（北京时间）
-  - 信源分层：媒体报道
-- **[免费AI的好日子，到头了？-36氪 - www.36kr.com](https://news.google.com/rss/articles/CBMiT0FVX3lxTE8zRi1Qb1RuWENBSTFOeHFwU0FuR3pWU0l6ekZ1dmVjSnNsM1ZRM05YVGZHcW5fZ0JFT0VCazg2aG5QOUN5eThGc1pJaVg4bk0?oc=5)**
-  - 来源：www.36kr.com · 来源时间：11-23 17:47（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：免费AI的好日子，到头了？-36氪 www.36kr.com
-- **[荣耀700系列正式发布，首销国补价2899元起，引入手机助手YOYO豆包\_财经报道\_财经 - 证券之星](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBXT1NwT0NDYmh0MndPbmVkenZpRFFEQ1A3MTJkWDRsM3dncUM3SHdqU3Vnd0ZaUG8yd2IzTm91NlhSQ1ZJbXN0VzVIYm5GNHRPdk1LdUEwRmx2ZDFJNXZZWg?oc=5)**
-  - 来源：证券之星 · 来源时间：11-23 17:44（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：荣耀700系列正式发布，首销国补价2899元起，引入手机助手YOYO豆包\_财经报道\_财经 证券之星
-- **[MiniCPM5-15B-A2.5B 与 Qwen 3.8：可以比较哪些方面？ - OrcaRouter](https://news.google.com/rss/articles/CBMidkFVX3lxTE1TTE5QNVhPblc5cUZvVmE3YjVQdmUwQ0U3MWRUaURwX21YQzQ1aXlScmswdTdDbXN0RXhsMUdPVlhKOW1zbWV4b0ktXzBjekRveWJiVkRuSzcwOTdxY055LTIzZXkxREJfN1kyUE5QSFp2NnVJWXc?oc=5)**
-  - 来源：OrcaRouter · 来源时间：11-23 16:42（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：MiniCPM5-15B-A2.5B 与 Qwen 3.8：可以比较哪些方面？ OrcaRouter
-- **[四大AI分析圣路易斯城vs洛杉矶：三家看好主胜，Kimi建议平局 - 懂球帝](https://news.google.com/rss/articles/CBMiV0FVX3lxTE1RZ1pHcktteW1aWkRDSnpHbjFVMHlCVkVVbFg0cDZfYUx1UnBFT0dOaEt6VDMtbS1JN1dEU01IeXlic3c5VDExQXJvNmFhTHlXZkFLNXRrbw?oc=5)**
-  - 来源：懂球帝 · 来源时间：11-23 16:35（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：四大AI分析圣路易斯城vs洛杉矶：三家看好主胜，Kimi建议平局 懂球帝
-- **[智谱，上线新模型 - 电子工程专辑EE Times China](https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2UFk2TVQzTl9XU05hSTVCbVl2dmFoYXpnT0hqX3NfRkdNdENwVDhnWl9fQlpPMWFRME5WOWRyTmhOdVB2S0tRYm1ETmhBVld0N2Fj?oc=5)**
-  - 来源：电子工程专辑EE Times China · 来源时间：11-23 16:26（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱，上线新模型 电子工程专辑EE Times China
-- **[豆包的小嘴不停地总结总结 还和好朋友佳佳击掌了呢#微博视频号迎新计划##中国乒乓球队\[超话\]# ​ - 手机新浪网](https://news.google.com/rss/articles/CBMic0FVX3lxTFAxcGVnSjQ2cDh3VnI0WmxYVHczM0lmR3ZLbG43REtsUkhpd3ZIUTh4YzJlMUFlOTR4N3VTcEF4anZtVWc3UE95T25PQVA0SEtzUm1QeG56NkRHRjV4NFlPdFc3SGl5ZHNZRk5iTWNRUWtzbFk?oc=5)**
-  - 来源：手机新浪网 · 来源时间：11-23 16:19（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：豆包的小嘴不停地总结总结 还和好朋友佳佳击掌了呢#微博视频号迎新计划##中国乒乓球队\[超话\]# ​ 手机新浪网
-- **[荣耀YOYO·豆包手机助手曝光，支持语音唤醒、连续对话、全局记忆等能力 - Sohu](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNekpVTkFKT0VZMWp0aWRSMVZaN0otdUNDRXJoeTlLN3o0dG5YaFB3NThLeV9FcjFYQUthTG9WX2tETGx4bUE2akVZalQ4X0k0cWlDY05tNklLWWMxSDFDck95dzMyeGlfa0xXMGRrMXB5c1FDOTVpV284ZlRNb1M2MXZ4NnBxMzJ2?oc=5)**
-  - 来源：Sohu · 来源时间：11-23 16:14（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：荣耀YOYO·豆包手机助手曝光，支持语音唤醒、连续对话、全局记忆等能力 Sohu
-- **[豆包工作下调多款模型消耗倍率，超八成日常任务免费用 - 新浪游戏](https://news.google.com/rss/articles/CBMigAFBVV95cUxNZDdQRVBuVmVfTTBlakVDRzlPanlnMjBac0FUU1NhYUF0Z0pXUnJoOTJvODFjZlZvQngwcFljaXZGM21tTlh2NmxzMkpBQnhvLTB3ZmdLZm9XYVZpTFpqbEJuY1llUE1zYjhVSXVwanhKbjNNb25jMmZOOFF3RzBIQg?oc=5)**
-  - 来源：新浪游戏 · 来源时间：11-23 15:55（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：豆包工作下调多款模型消耗倍率，超八成日常任务免费用 新浪游戏
-- **[新款深蓝L07将亮相广州车展 搭载豆包大模型 - 汽车之家](https://news.google.com/rss/articles/CBMia0FVX3lxTE1wZm5IVkFGZG1xQjVSZEZ6d1VyeGdzQWZTRV83TkZOdFJsVXN0bUczX2oyS2ZYQkVheEJCa1l1S1gtZVlqdVozMzBuTm9leUx0anRST3VGU1ZxbXgyck9kQ2FzS21ZR3hyX0FF?oc=5)**
-  - 来源：汽车之家 · 来源时间：11-23 15:46（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：新款深蓝L07将亮相广州车展 搭载豆包大模型 汽车之家
-- **[四大AI分析蒙扎vs佛罗伦萨：三家看好客胜，Kimi倾向平局 - 懂球帝](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5vd3NYTGIzR1BlSGZ3TWY4M0taaDNDVFhoR3o1bGg0TWVEMkU5Q2NKRWY1cXBCWk1CMER1aVVBOGZNc2c5ZW5MUGY3eTdiQzVkZGlGRmFFZw?oc=5)**
-  - 来源：懂球帝 · 来源时间：11-23 15:45（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：四大AI分析蒙扎vs佛罗伦萨：三家看好客胜，Kimi倾向平局 懂球帝
-- **[从英伟达换帅到DeepSeek限额：AI行业不再“拼卡”、开始“算账” - 21财经](https://news.google.com/rss/articles/CBMijwFBVV95cUxPaThEdFBfQ3NablNza3V5V3FZdS1BTWJuQUlPZEduLUJDMWV2MzU1SF9LX3k5V0NxNHJ2ZWJYSVUyMHRldlZlSTFYaTRuZkVUN1ZvNWdVai13bXhHbkdydlV2WkQyZUlabFlFcEJhekhLeVlNUHVCZy1Pazl5SjRCME9uYUlCV19UVkFlU0pVcw?oc=5)**
-  - 来源：21财经 · 来源时间：11-23 15:45（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：从英伟达换帅到DeepSeek限额：AI行业不再“拼卡”、开始“算账” 21财经
-- **[智谱GLM-5.4官宣上线：新增视觉能力，编码周额度提升50% - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxQX3Rod21EaVJyT0duODhYZnFvMDhFMmM4NXJtS0xZeHRSeVhoLXRJbVFLTmFCcGlCWUNTd3QwSF85VmVQVFpBdXd2YUliSjhnd3JTM2plOWF5eW9oSnBXTUtfejYteVlheDlfaHBONF85RnpWRk5QeURfZEk1endZOGpZX1FuSFV1V3FYSg?oc=5)**
-  - 来源：Sohu · 来源时间：11-23 15:44（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱GLM-5.4官宣上线：新增视觉能力，编码周额度提升50% Sohu
-- **[智谱GLM-5.4上线：首款Loop架构国产旗舰模型，3万亿参数GLM-5.5预计12月发布 - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxPUEtaVm5yY0NrRW8wazlodnp1NW5VM3pkWTJpUEFvZDluVm5LaDZqQk5ZQlE3Q1RiRzRabU4yNjJtQk9yODBFZDVpQ0JUMjI2RFZxbnZzdUJWN0tibmZNaHRvWU9yeTh2UC0zMER4T2xVbi1zbnlXZFVIcmxNbmNXLUpfWEdhdlM2eXJTTw?oc=5)**
-  - 来源：Sohu · 来源时间：11-23 15:42（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱GLM-5.4上线：首款Loop架构国产旗舰模型，3万亿参数GLM-5.5预计12月发布 Sohu
-- **[智谱GLM-5.4大模型发布：仍是开源最强、比Opus 5.5差距5%内 - 驱动之家](https://news.google.com/rss/articles/CBMiWEFVX3lxTFBET1NDVWVpNlRoZTExT3FOdHQxR2Z4M0VMaGJGb240NmNVYWpNbmFfOS05OGZZUFNvZkpVVTlmbzBjWnRrWlBkNnJ4QkFEQjVTOTBjbzNQVW4?oc=5)**
-  - 来源：驱动之家 · 来源时间：11-23 15:31（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱GLM-5.4大模型发布：仍是开源最强、比Opus 5.5差距5%内 驱动之家
-- **[智谱GLM-5.4上线：首款Loop架构国产旗舰模型，3万亿参数GLM-5.5预计12月发布 - ThePaper.cn](https://news.google.com/rss/articles/CBMiYEFVX3lxTE91OWpEZXU1Um9vYVJKQlZCZlRIZFJoYmRkeElqX29TU0YxcnpaUnd5VnRzdXBuZi1NLTh1aTNLaElZMUFDd2szSndURjhzZHR6R1NxUUhjM1hieF9ycmdFZQ?oc=5)**
-  - 来源：ThePaper.cn · 来源时间：11-23 15:26（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱GLM-5.4上线：首款Loop架构国产旗舰模型，3万亿参数GLM-5.5预计12月发布 ThePaper.cn
-- **[2026年百度AI平台豆包GEO优化效果怎么样：机构实力与适配性测评 - 凤凰网科技](https://news.google.com/rss/articles/CBMiTEFVX3lxTE1CWExUWk9NUEZYNVpya2ZBNFVROV9VdXFYYTVFRnFYX0p3eWRnNFNjMUtGYTBDeFFMdVFFd2F6OHJnRGs3SW1MbTV0VkE?oc=5)**
-  - 来源：凤凰网科技 · 来源时间：11-23 15:18（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：2026年百度AI平台豆包GEO优化效果怎么样：机构实力与适配性测评 凤凰网科技
-- **[港股异动 \| 智谱(02513)盘中涨超4% GLM-5.4模型上线Coding Plan订阅体系 提供者 智通财经 - 英为财情 Investing.com](https://news.google.com/rss/articles/CBMicEFVX3lxTE50aDEydWhRSTFEamVxVEM0RVlCaUJEU2NNdHgzRXdOM1dIbWlBTElpYmpLQzhjWnJMTnhrWjBOUmFlcDNuZU1yTGp6ajlQQktLSjlDNVZqY1dpQnkzT3EwQUVVbGtkSVRHMFpQVl9sajA?oc=5)**
-  - 来源：英为财情 Investing.com · 来源时间：11-23 15:10（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：港股异动 \| 智谱(02513)盘中涨超4% GLM-5.4模型上线Coding Plan订阅体系 提供者 智通财经 英为财情 Investing.com
-- **[智谱GLM-5.4上线Coding Plan 用户模型额度提升至1.5倍 - 观点网](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5RVFdiTXp4cGRZTXBvZWN3Q09ROVBsSHdlUk51c0hQcjBsYktiSUpNaHZzNlhVb0tSeUt5VFNKZXVXaVlqVThlZWxHUXlWMFBSVkZDSkI1bVdEZlZZc1BjYkhR?oc=5)**
-  - 来源：观点网 · 来源时间：11-23 15:06（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱GLM-5.4上线Coding Plan 用户模型额度提升至1.5倍 观点网
-- **[GLM-5.4 对比 Kimi K3.1 Pro：开放权重 vs 付费席位 - OrcaRouter](https://news.google.com/rss/articles/CBMibkFVX3lxTE9GOWItYVJLTThoLVdUYTcxZU1uQ1UxWEZ6RUppTXNWNHZtRTQ1X21ITlRTU0dNWC02VW9IQmtsYUU0RmdSTUtMQy13YWFXZFdDZmFlN0IzLVpkYU9Oc09QQThTNThoVVJYYkVTb3J3?oc=5)**
-  - 来源：OrcaRouter · 来源时间：11-23 15:01（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：GLM-5.4 对比 Kimi K3.1 Pro：开放权重 vs 付费席位 OrcaRouter
-- **[GLM-5.4 对比 DeepSeek V4.1 Pro：两者都没有价格行 - OrcaRouter](https://news.google.com/rss/articles/CBMic0FVX3lxTFB4c0xYQjNDa2tIZUlqNFdzMnhCSklOcXUzdWxOMzlPX1ByNkVwNm1uMEw2VDhPSVNkYUxnLTdXblRsb0pxLTZ6Y0pFN2NnWjVBLTdYVnc0TkxINWZFRnpDRkNoUTgwamh5OWZUS0FoRlBtUFE?oc=5)**
-  - 来源：OrcaRouter · 来源时间：11-23 14:54（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：GLM-5.4 对比 DeepSeek V4.1 Pro：两者都没有价格行 OrcaRouter
-- **[MiniMax内部模型解出55道此前未解的密码学挑战题 - 动点科技](https://news.google.com/rss/articles/CBMifkFVX3lxTE5BeDA2Z1ZXTHkxb1daTWt0SlNDV0ZmM1FVTnFNZ2toZWthNk9xekN2b3FjYnBxdFRJQktjYjhHLXI5T0UtUlNicWpkakhlY3l2b0ZQQTJfUWQtbUExU2FEZTlQZVhkUGJtOGdZTjZhX2ExWlg1NURaUk9mdVQwQQ?oc=5)**
-  - 来源：动点科技 · 来源时间：11-23 14:49（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：MiniMax内部模型解出55道此前未解的密码学挑战题 动点科技
-- **[智谱GLM-5.4编程实测排第7：推理Token比谷歌Neon多近15倍，耗时近4倍 - BlockBeats](https://news.google.com/rss/articles/CBMiVkFVX3lxTE4tZXBpMG1xb3Y2OHVWNlFPaUkxSHBNWmhZa0dSQTd5eExsbm1NaHVTMFU4N0xJRzVnSVl2cHBEdFdmSUI5ZFFiTmVsX0kza2tMU1hXTjNn?oc=5)**
-  - 来源：BlockBeats · 来源时间：11-23 14:48（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱GLM-5.4编程实测排第7：推理Token比谷歌Neon多近15倍，耗时近4倍 BlockBeats
-- **[智谱GLM-5.4上线Coding Plan，新增视觉能力 - 动点科技](https://news.google.com/rss/articles/CBMidEFVX3lxTE9ObHpxM3kyM2dKVENoRG5zZnN0S2x6b3RENVB0Q2UxcndsOW8zN1JqUDh2emUySzdJQ2wyT1RDb3hQekFHMGRkYmF5UVRnc0xhemx4VFhQdzVDQjVJeVIzU0tybDB0Z2Fxb3RyZkN3UkZsNUxp?oc=5)**
-  - 来源：动点科技 · 来源时间：11-23 14:48（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱GLM-5.4上线Coding Plan，新增视觉能力 动点科技
-- **[智谱GLM-5.4模型上线CodingPlan 用户额度提升至1.5倍 - 观点网](https://news.google.com/rss/articles/CBMiYkFVX3lxTFBrRkhveEFmZEtvZzNrTXlDdkdvV2lQdXlDZEpRU1YtcXRaX0NKVEpvRV9VS2JyblJrSTlDQ2xZdFdxeGFWMUdhSUhLVmdkNXFZZTRXRllsUENtSW83R2hsTGtR?oc=5)**
-  - 来源：观点网 · 来源时间：11-23 14:41（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱GLM-5.4模型上线CodingPlan 用户额度提升至1.5倍 观点网
-- **[智谱GLM-5.4上线Coding Plan，新增视觉能力，每周使用额度较GLM-5.3增50% - 金融界](https://news.google.com/rss/articles/CBMidEFVX3lxTFByajBiTW1KWVhWOFpscG9VMzNMamxobEVwMTROZjNETFZGcWY1R2RaZFk5Ykhmckg4aW5ueEdiRWhfNFdBellZNVZjYXJtRHpMYlhRQnBFcWhpci1VUXRaaGV1dnYwdXlKWmtrSmlzSlZfZzRZ?oc=5)**
-  - 来源：金融界 · 来源时间：11-23 14:37（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱GLM-5.4上线Coding Plan，新增视觉能力，每周使用额度较GLM-5.3增50% 金融界
-- **[智谱GLM-5.4上线，3万亿参数新模型有望下月推出 - 第一财经](https://news.google.com/rss/articles/CBMiVEFVX3lxTE10eXY4ZEVFREd1RlpzYWE2REx5TEdxaDRFZ1NsMlRLYjdTN1I3YmVxTGhGMzNrN0xNaVo0LU0ycTBSRzBmaFN4ZERqcjFJTllQUFA3dw?oc=5)**
-  - 来源：第一财经 · 来源时间：11-23 14:31（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱GLM-5.4上线，3万亿参数新模型有望下月推出 第一财经
-- **[2026年豆包与DeepSeek平台豆包GEO优化效果怎么样：主流服务商能力横评 - CSDN](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JSjFEYmZkaFd1WWdDNldWMGQ0VHlNYXpCcEJsSlY3Z05NdE5LTmR0dXg3S2JMOTJIRER4MnlOQW51SWtrU1pHY3dfd1NHNGktUUtjTEY2M2FxSFJZRFE?oc=5)**
-  - 来源：CSDN · 来源时间：11-23 14:29（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：2026年豆包与DeepSeek平台豆包GEO优化效果怎么样：主流服务商能力横评 CSDN
-- **[中国大模型调用量连续30周第一 DeepSeek霸榜五周 - 华商网](https://news.google.com/rss/articles/CBMiX0FVX3lxTE5iZ0NuWkdQU01LX0RoaHE3c1lhOEZZclNoWl9JOFNWRVlRV2IwczAxMFJoejlYbGVfRjgxMmVXMzliY0loVl9pUFA0ZDZmXzZ5VGV6dS1IeDJwdUJZVThz?oc=5)**
-  - 来源：华商网 · 来源时间：11-23 14:25（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：中国大模型调用量连续30周第一 DeepSeek霸榜五周 华商网
-- **[MiniMax披露内部模型密码分析成果 攻破多个NIST竞赛候选算法 - 观点网](https://news.google.com/rss/articles/CBMiYkFVX3lxTE9NbGhRTUJXM1gza3psUVhuVkhuLVVZVWg4TU9lUXdSOElGNUs0QWIwZHFsU3o4ZkZIeEtBOFVwbmVWWmtKMXZKQkxNTUQ1ZFIwUDhuQ3JCOHVhNzhZOEdGQ0dB?oc=5)**
-  - 来源：观点网 · 来源时间：11-23 13:39（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：MiniMax披露内部模型密码分析成果 攻破多个NIST竞赛候选算法 观点网
-- **[智谱GLM-5.4正式上线Coding Plan - Sohu](https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYW5VU1BqQUNla3NfY2w0bV9BUWpzVmdRSFRJWXZROGQtam1ic01RYlk2d3BzSDdJa0hwdS1ndEdNa0ZsaC1HRHR4S3MyRTAtME1wSUE5b01WN3RLTEhFYWQxR0o3a2JUekoyTXRseDMwVWhMVmZNc1dsNWVrOFBLYWQ2LUdxVENwWXdz?oc=5)**
-  - 来源：Sohu · 来源时间：11-23 13:31（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱GLM-5.4正式上线Coding Plan Sohu
-- **[智谱coding plan 订阅价格引讨论\|智谱\|coding plan\|Pro 版本 - 手机新浪网](https://news.google.com/rss/articles/CBMiY0FVX3lxTE5LcklMWmtTbTdGUHFDdVUydGVocUhjYjJJXzRBMHVmN1R0U3U2WGZBZy1UcEgxd3NtZ1d5RjFfWEdKbUZEdWl0VTBTRW5wb0NoOXFtdHBfeDc5TjU1TUd1RkRjSQ?oc=5)**
-  - 来源：手机新浪网 · 来源时间：11-23 13:10（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱coding plan 订阅价格引讨论\|智谱\|coding plan\|Pro 版本 手机新浪网
-- **[DeepSeek连续五周霸榜全球第一 - 中华网](https://news.google.com/rss/articles/CBMicEFVX3lxTFBvdVh1REpmcXJyMHdmQ2VqU3lHNlFPNDBFQ19UaGtDOGRpWFFQZ2xZN3V3ek1SYkRWcWg2MDhmVzJrWThZSXhjUDk2WERtdmJkMVY5Tm5PYW14d0pUMzdMLWVpSG9fTl93Ti0xRTlMei0?oc=5)**
-  - 来源：中华网 · 来源时间：11-23 13:07（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：DeepSeek连续五周霸榜全球第一 中华网
-- **[03年小天才投身RSI创业：Qwen后训练实习生，刚刚本科毕业 - 智源社区](https://news.google.com/rss/articles/CBMiSEFVX3lxTE9BOVFXVzlEWDRqakcwdWVzOHc5YVJUY3FOeDl4a1M3YWZDVHp1ellIT2NTWHF5N2p0UXFXZXZWRnpTcm9kWDhyRQ?oc=5)**
-  - 来源：智源社区 · 来源时间：11-23 13:00（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：03年小天才投身RSI创业：Qwen后训练实习生，刚刚本科毕业 智源社区
-- **[中国大模型调用量连续30周第一！DeepSeek霸榜五周 - 腾讯新闻](https://news.google.com/rss/articles/CBMibkFVX3lxTE44MWRBcnpDZ21sd1RfRTNxa0hQaVRLOGhoYURpT0djdVExWE9qd0NhNVBYSm1YQ05zTHRsdGJVamNSRFpydU01RVNhcGNMNG1mV2JHTU9MSlhHcDN5TFlDSmgxYTNIOGlZaGVLUzZn?oc=5)**
-  - 来源：腾讯新闻 · 来源时间：11-23 12:53（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：中国大模型调用量连续30周第一！DeepSeek霸榜五周 腾讯新闻
-- **[智谱GLM-5.4模型上线Coding Plan，支持视觉与泛编程能力 - DoNews](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDVEFxaXV4anF5eEw3ZlNzbk5ZZXZnTkY3dm5Cc3IwVDFNb2d6RXJhd2hMY2lFNnVZNU16dEVBbVE4d2dMLTItalY1UHAzNDU4el9YaTdmV0duUzRKOHc?oc=5)**
-  - 来源：DoNews · 来源时间：11-23 12:53（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱GLM-5.4模型上线Coding Plan，支持视觉与泛编程能力 DoNews
-- **[智谱GLM-5.4模型发布，已上线Coding Plan - Sohu](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMXdGd29qUzhxT1kxU0wtcXhCMlc0dm5YT2Ntd3JZN0VBQm5VaHdwRHhxSHBzWWpLUTVWeG5UQUhSTDBONXFzZVlVNzRiWjEtdEROUlNWdkxMV0FleXFCUUVHREVSeTFBSjN3VG9nU2lUbjVqMHlmUkpSZ1NSMmU3eV94ekhxdXMx?oc=5)**
-  - 来源：Sohu · 来源时间：11-23 12:49（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱GLM-5.4模型发布，已上线Coding Plan Sohu
-- **[AI4S成全球新战场，MiniMax破解顶尖密码学难题 - 手机新浪网](https://news.google.com/rss/articles/CBMickFVX3lxTE9NakJ4bnU4OEUxQV83eGNDUFY3S1FUaGFHMVU0UlBiaWV3SXlPMkgyb0ZJa01CVnlkckJSNzV4dXhocG1HYUZLX1FfV1BZVW5pN2dOcDJOejhNXy1hZXo4WkdMdng5RVpuSkxrYmxPb3Zmdw?oc=5)**
-  - 来源：手机新浪网 · 来源时间：11-23 12:46（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：AI4S成全球新战场，MiniMax破解顶尖密码学难题 手机新浪网
-- **[智谱GLM-5.4已上线Coding Plan，额度提升至1.5倍 - www.itsdw.cn](https://news.google.com/rss/articles/CBMiTEFVX3lxTE41R1NXeDZ4ajB2bEhBNm9YcmZkV2V2bW10Z3Jwb21KU1VlQld3ZFNRX3o0RWxZRERQYW1PbHhvTjQyRnlBLWFpNmJEQmQ?oc=5)**
-  - 来源：www.itsdw.cn · 来源时间：11-23 12:45（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱GLM-5.4已上线Coding Plan，额度提升至1.5倍 www.itsdw.cn
-- **[智谱今日将发布GLM-5.4 preview，700B原生多模态先行 - www.itsdw.cn](https://news.google.com/rss/articles/CBMiTEFVX3lxTE4wcnRkajR6REVCM1p5a0FtVFJVUUp1UE12MzVITWZsSEZ4eXBqMmJTQU5lYmlXVEJUcmh3SVlURjNINllyZkNxUUo2WHc?oc=5)**
-  - 来源：www.itsdw.cn · 来源时间：11-23 12:10（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱今日将发布GLM-5.4 preview，700B原生多模态先行 www.itsdw.cn
-- **[Claude初探黎曼猜想、MiniMax实现密码学突破，AI开始挑战科学研究难题 - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxQY192aGFyRWVveVRMSnR0RWd1QmFtZ1JhMDR3a2NvMHQxazlMZE5wc2hMN3cwS3dsRW1LbVIydDdUZ1EwcDFoMEF4ajFsSUNrRnpJVjczQjRqM3Z0RV9pQVZrUWpmZnlTeWZVRl9KNks5VUp4RXdDZExUWTNQTmtoaE5CUVRYVlRYclc5MA?oc=5)**
-  - 来源：Sohu · 来源时间：11-23 12:01（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Claude初探黎曼猜想、MiniMax实现密码学突破，AI开始挑战科学研究难题 Sohu
-- **[DeepSeek连续五周霸榜：周调用量达65万亿Token 环比增长16% - 驱动之家](https://news.google.com/rss/articles/CBMiWEFVX3lxTE1hNVVNaVd1RjdUSk5PVVA2VmxkLVZESlA1UW90SVcxMUV1Q2daUXRWci1pS3VscUY0cUg1RE1CMkhHZ2JOUzhxVk9HT0Y4dGxZN19wZ2FyUzY?oc=5)**
-  - 来源：驱动之家 · 来源时间：11-23 11:55（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：DeepSeek连续五周霸榜：周调用量达65万亿Token 环比增长16% 驱动之家
-- **[DeepSeek开源了“全家桶”，我让6款模型直接把DeepSeek复刻了出来 - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxQNEJqM2N0dm04ZWpMcExsMkNWcEFTdUJRUkxiQ2hVOVByLWFhWDNhM3hzc3ZJNmU2d2J1TGg4dzliYU44RVAwRFNfcFh0Uy1Fb055Y0dTRmpCV0F0U3E0dnRHMF9FQTRHT2NlNS14OGlCRkUzVDdXZHY0N0YtYWJQWnhuYzJXczFfSXlnVg?oc=5)**
-  - 来源：Sohu · 来源时间：11-23 11:33（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：DeepSeek开源了“全家桶”，我让6款模型直接把DeepSeek复刻了出来 Sohu
-- **[免费男友太烧算力，DeepSeek梦女集体失恋了？ - 36氪](https://news.google.com/rss/articles/CBMiTkFVX3lxTE14SFI4V0JJdmtGQzlrcDBCUEhmZTZhZnhkLXpiVzZLYUR0eU1Td3BHTEh2a1gtN3FDaGVzdGJkc0NOUnltMXdmR3ZNdVhmUQ?oc=5)**
-  - 来源：36氪 · 来源时间：11-23 11:32（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：免费男友太烧算力，DeepSeek梦女集体失恋了？ 36氪
-- **[WePocketModel1.0-2B 与 Qwen 3.8：微调模型对决旗舰模型 - OrcaRouter](https://news.google.com/rss/articles/CBMid0FVX3lxTFBYYWlaM19icVM1TDY1Ujl0NVQwcHhlYW52UUVKV19EYzhKbDN0Ul8yeExXbGEzakQyeWFBc1R2YmV5YkdYSTBuWXYzQWlkbEEzMUFNR2d3eDdHeFpNUjVFQk9EaGdwQjRidUtZQ0t1TmhubklGT2VR?oc=5)**
-  - 来源：OrcaRouter · 来源时间：11-23 11:28（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：WePocketModel1.0-2B 与 Qwen 3.8：微调模型对决旗舰模型 OrcaRouter
-- **[智谱(02513)早盘跌超6% 软件服务板块走弱 - 东方财富网](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1xWkdxcC1oWXlmM3dqdU81WFBHQ2hSZ3kxQ3pta3ZLVW9MUlRJaE83NDQ1OE5BLVo3U0dQSTJ6YXU0WW8xWW9ENnU1X0t1cTVFZ1NhUkZKUUZ1QXFDNElWX244VG02QQ?oc=5)**
-  - 来源：东方财富网 · 来源时间：11-23 11:27（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱(02513)早盘跌超6% 软件服务板块走弱 东方财富网
-- **[实测六款大模型复刻DeepSeek网页端：GPT-6.2 Astra还原度最高，国产模型更懂产品改进 - 虎嗅](https://news.google.com/rss/articles/CBMiVEFVX3lxTE9FbUttUnBramVqaVFuaGlueGNOYXg2MkpRSkp3WFRsa1BnOFcyam1wWVhmMV90RVp2TzZpZ0ZyY2hNSkl6bTFyMHVtY0xQSGRsN0RVWQ?oc=5)**
-  - 来源：虎嗅 · 来源时间：11-23 11:26（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：实测六款大模型复刻DeepSeek网页端：GPT-6.2 Astra还原度最高，国产模型更懂产品改进 虎嗅
-- **[中信证券在DeepSeek身上布下连环棋 - 新浪财经](https://news.google.com/rss/articles/CBMib0FVX3lxTFB2T0hLY05kN0FNVXVKVTViLVNVcmw4bDJfZGFBOVh4SlU2czRIOVVpTUsydWlfdWRMNTBaRkYzSEJmZWNVLUtqQnRYbFBpdVlzLUYtbkw3bGdGNHhRaXllNHNLbWZxYmM4M0NzaVlLUQ?oc=5)**
-  - 来源：新浪财经 · 来源时间：11-23 11:17（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：中信证券在DeepSeek身上布下连环棋 新浪财经
-- **[被当成虫咬的红点，豆包一句话“认”了出来，妈妈多问这一句救了孩子 - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxOMkE1NWdfZVVOYy16Y3NJN1FPR1FEblNZTE1QU0FNSEYyM1dZSlJpNHlGOFlzdktCNExIRk9YY2Y0TXUyN1FxWjB4R1ZBNjNSaThCN1ZGZkhpcUk5MWtMSlNTYXN1WmxVZXRualktcl9FTklxSHlhNDl1cXUwOE45WjNUc2RFeWxrc3FUQw?oc=5)**
-  - 来源：Sohu · 来源时间：11-23 11:14（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：被当成虫咬的红点，豆包一句话“认”了出来，妈妈多问这一句救了孩子 Sohu
-- **[全球首次！DeepSeek与FlashAttention的多个生产级AI算子获得形式化验证 - Sohu](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS3pXd290Y0tTSjNZQXowd1R5MHNPTnpGZkN6NXU1SWNOOFFZdk9xck5UcDF0QmhGczdHWlpWOHZzZnBaY1FXSHRJdmM1OGtsWlVITzB2aTlIVFl2bTk0V25ZODQxRWhxd2tHNTZSdGptV3RGamJ5cWJxM3MwLWhqQlptUGZoY0dn?oc=5)**
-  - 来源：Sohu · 来源时间：11-23 10:35（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：全球首次！DeepSeek与FlashAttention的多个生产级AI算子获得形式化验证 Sohu
-- **[华为云发布DeepSeek-V4.1-Flash-1017降价通知 - Jiemian.com](https://news.google.com/rss/articles/CBMiWEFVX3lxTE5HX3VpbjhDMllrYmtISlBxRG5VZWttRVkxSE5zMHdCTlVxa1FBZXRnUl9XV3Q3TXNzaWJqZnRaUTNCSVVEcGI3d3JtQkltSHVWbVVNV2xVb0E?oc=5)**
-  - 来源：Jiemian.com · 来源时间：11-23 10:35（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：华为云发布DeepSeek-V4.1-Flash-1017降价通知 Jiemian.com
-- **[“Deepseek，慌啥子嘛”丨VC Weekly - 中华网财经](https://news.google.com/rss/articles/CBMibkFVX3lxTE1zd3J5dzBUaTFSNXBMSmVhQkdlcEpJUVhpM0NXa0ZkU1IwdkdSVHlzRkVnNHRnQ2t5Z1lkZWdONl9ueWRNVGhUZDNZX1hWaVZzR0NsU2hrb1VUX1dBRHRQYUUzcEFGeHVUM2lfZ0RR?oc=5)**
-  - 来源：中华网财经 · 来源时间：11-23 10:30（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：“Deepseek，慌啥子嘛”丨VC Weekly 中华网财经
-- **[华为云发布DeepSeek-V4.1-Flash-1017降价通知：“缓存命中输入”价格调整为原价的20% - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxOQVAxWklSbGtVMjRpU0pXSmVLWHItbHZKM1Q3YklMMlRDbktrZlBEYXBYVzVvS1NQUkZFc1hDdVNCNjBqMXRWSEE1MXFVa1RJay1MZGJqeDNFSzhMLWlKMHE1WWxlZUk0V193VEpiV3c2RkItZjJ1WFRvZ00yaE1BTzlJV1Y5WmhwS2l0Tw?oc=5)**
-  - 来源：Sohu · 来源时间：11-23 10:28（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：华为云发布DeepSeek-V4.1-Flash-1017降价通知：“缓存命中输入”价格调整为原价的20% Sohu
-- **[华为云：DeepSeek-V4.1-Flash-1017降价 - Sohu](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPd2pBTjQtQ2NjUm9lRk9JTW5MdDllczlQVW1Fd3NRcXJPRlZNOVA2NGxCek5PNVBURzBBX0JOU2NCRUhLTjBwaDJaVUhMdURmWDNUS3hiUVdTMGZlX3N0QUlYZFliSVlMbFdYdEhSdWMtUUFzdTE0aUYtTWVrZE45Tm5zS2RWb0ZG?oc=5)**
-  - 来源：Sohu · 来源时间：11-23 10:24（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：华为云：DeepSeek-V4.1-Flash-1017降价 Sohu
-- **[MiniMax大模型实现自动化密码分析突破 多项前沿算法验证提速数百至数万倍 - 品玩](https://news.google.com/rss/articles/CBMiSEFVX3lxTE8zRlRLQThRbTdBZUZpWDU1TkFBZVpNMEZDMTdLM0JKSzFiT0RRMmNBZFZmdkJOeE9Cc05TMEk3Q1BOcWNQWlRFbw?oc=5)**
-  - 来源：品玩 · 来源时间：11-23 10:15（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：MiniMax大模型实现自动化密码分析突破 多项前沿算法验证提速数百至数万倍 品玩
-- **[【视频】奶爸车真的需要5s破百吗？豆包汽车真有点太卷了！ - 汽车之家](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ISFVQT2Qxai1vRzh6ejF6RWxJakVwSko5bDNSSWp4T2E2VlU4SmFpSW5CaHJQNEpaSW9yYXJTZVN2M2ZJWDVZS0NoT05qMWw1Yzc0MmRJdFBMUEU?oc=5)**
-  - 来源：汽车之家 · 来源时间：11-23 10:11（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：【视频】奶爸车真的需要5s破百吗？豆包汽车真有点太卷了！ 汽车之家
-- **[华为云：DeepSeek-V4.1-Flash-1017降价 - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxNUWRSWjNsanZqUXNKTHdPNEhmZk95ZmQ5QmFtTHlFeG5QcHQ1dGRXeUpVNFVmS3FoNWRlSTBJcVJmZkYwa0xnWmpzYlV3VTFWdUJlYUVlbDF0MnplYzdPNzlZbXZBZU53NlFvQ2I5c0l6WjFCNW5NTEtWOXBZRmZMeHlGTFVPZXZ2S0cyYQ?oc=5)**
-  - 来源：Sohu · 来源时间：11-23 10:11（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：华为云：DeepSeek-V4.1-Flash-1017降价 Sohu
-- **[DeepSeek V4.1 Flash KV Cache压缩实测：显存占用直降3/4，长上下文推理不再OOM - CSDN](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHLWRnU0lsNWtKLUxxbDNBR2MzZ3VZOHVWZVl1bVlnX2c4SGJid1ZUS3RVWHVIcWN6UnhyVmlkTXBZTW11TEw1d1R6akpHS0tDNTVuZ1ZCcUpad3V5UWM4?oc=5)**
-  - 来源：CSDN · 来源时间：11-23 10:03（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：DeepSeek V4.1 Flash KV Cache压缩实测：显存占用直降3/4，长上下文推理不再OOM CSDN
-- **[Codex CLI Remote SSH 登录 403 排查与接入 DeepSeek 完整指南 - CSDN](https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ZeVFyN3F2bXdxQU1JQk5VdGtiMzYyczl4cGRjOEtpWmd1WHlYSjFYT1F0TERkM0tVRGV4Q2VQaHhGWkF1T1JLRmhXa0tjdGJBaUs3SHFBYmYtMVdCdzlV?oc=5)**
-  - 来源：CSDN · 来源时间：11-23 10:03（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Codex CLI Remote SSH 登录 403 排查与接入 DeepSeek 完整指南 CSDN
-- **[豆包被国产大车外观难倒 - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxNaVZDVW0zLV92Z0J0dkVtWmFMdVV5RXV4dnlVcnQ5Wk5Dd2NYS1JzQWpnd1JYRnZ1amQwZlpaUXNXSWdVWWlpT3ZvZFhJNDJwQTNUd1pfOXhWZ01KRW84Q0lKUzRCbndTakpjX1U5MWxxelBtTUxQaDZBS2FRVFZIZDI0THVhWDRic2NmdA?oc=5)**
-  - 来源：Sohu · 来源时间：11-23 10:01（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：豆包被国产大车外观难倒 Sohu
-- **[沉寂百日后先上前菜：智谱下周发 GLM-5.4，3 万亿旗舰 12 月见 - AIBase](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Ec29Hc3RVVlNwci1jTlVnbzVxaW9YbjFUcmVxSmZVam9JYWdHRi1DNHJ4akoxMkVCQTdONWRmRHljQjR4Y3pKcFZGTjFKZw?oc=5)**
-  - 来源：AIBase · 来源时间：11-23 09:56（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：沉寂百日后先上前菜：智谱下周发 GLM-5.4，3 万亿旗舰 12 月见 AIBase
-- **[超95亿，9家券商参投DeepSeek \| 另类投资气象第858期 - 手机新浪网](https://news.google.com/rss/articles/CBMickFVX3lxTE9hNTFQaFNybHRLWWYyaVE3OUxuZzVFQnRVRGNkS3dYYWxMLWZYWjFLZzAxckYtR3FsdngwWEh4SjhEbnRsMTI4dFdIX2QtLTdYcmttNzNyaWE2NHZaZ3N1S01kX1Z1Rzg3azVXWkFzRlFXUQ?oc=5)**
-  - 来源：手机新浪网 · 来源时间：11-23 09:48（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：超95亿，9家券商参投DeepSeek \| 另类投资气象第858期 手机新浪网
-- **[字节小荷健康未重新扩编，仍保持百余人规模，并开始为豆包等内部业务提供医疗支持 - 虎嗅](https://news.google.com/rss/articles/CBMiVEFVX3lxTE54ck9wSVk0X2p6bUJ0OEI4V1doSDN6bkZZMFdrYmNjMTZSZXJpOHVQQjBsdHludkFIbDBIZnlMRWE2REU5WVJIZ0w2a3A2VjllSlhxVg?oc=5)**
-  - 来源：虎嗅 · 来源时间：11-23 09:40（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：字节小荷健康未重新扩编，仍保持百余人规模，并开始为豆包等内部业务提供医疗支持 虎嗅
-- **[港股人工智能股多数走弱 MINIMAX跌超7% - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxNWW44NTVtMU9idlUyR250amliUUNBSE82TG52TmVMam5HdTlmS2hJS0pzNGR6Tzlxdm1JWXh4SmxjWUJTaDJEMjg4SUpDMlVrYVNzdHJnU3VIT3lWbG51WS1mazJVd3NIUDFWOFByT2I1b0FXVHk5TXBTRE9yZHQ3eFlPMTlDazF2M25wTw?oc=5)**
-  - 来源：Sohu · 来源时间：11-23 09:31（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：港股人工智能股多数走弱 MINIMAX跌超7% Sohu
-- **[【视频】短短两月豆包汽车又要上新了！家越07纯电版11月27日正式上市 - 汽车之家](https://news.google.com/rss/articles/CBMiW0FVX3lxTE40SnlJQVE4d2ZGb3dTYnQzUzEtN2xZd2JrWGVWRWdjNmQtM2JWU3JRMm9OV21tNkM4dXlxZ04tYWpUdTY4QllBTlNJaXM5VS1xeXJMVS1hTGFlbW8?oc=5)**
-  - 来源：汽车之家 · 来源时间：11-23 09:12（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：【视频】短短两月豆包汽车又要上新了！家越07纯电版11月27日正式上市 汽车之家
-- **[千亿融资落地，腾讯领衔入股DeepSeek - 新浪财经](https://news.google.com/rss/articles/CBMib0FVX3lxTE1jQVYtaFVZcGZ6T3BDMnJENW5oc29Qdmh4SFZabmVPbWExLXZDcUliRERDTURnNHlEalJfcVVDaXRHSFdodnBlNWZ1MDZ5eGlMcFJ1Qmpud3N3cUJKaXB6M0J4N3RuOHNBdXBpYVBFaw?oc=5)**
-  - 来源：新浪财经 · 来源时间：11-23 09:00（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：千亿融资落地，腾讯领衔入股DeepSeek 新浪财经
-- **[超95亿，9家券商参投DeepSeek \| 另类投资气象第858期 - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxQZ1dxY0t0YU5sUGpkSEN0ZzFLbFNod25MMmVtYnljZVVNVkF1WEpxb1gyLWluZTR0U3pUU2RhckFjalNkMmlLbllGVGNkNHhNRXNTWFNiRUZaSm0tWk1uMHRpUXl6THZ5YVJtdDlfbzdBbnozMDg4VUs1QnZ0QmVNMzZJb080ZDFuamxnYQ?oc=5)**
-  - 来源：Sohu · 来源时间：11-23 08:45（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：超95亿，9家券商参投DeepSeek \| 另类投资气象第858期 Sohu
-- **[MiniMax(00100)披露内部模型密码分析成果 刷新国际公开挑战赛求解纪录 提供者 智通财经 - 英为财情 Investing.com](https://news.google.com/rss/articles/CBMicEFVX3lxTFBFRTZBR2dXWDFrSDZKY1g4bmUxMlA4Zy03UmlDODZXNEwzY1hKQnAyQV8xVlpIak1uSXFVQXhTTnFfRkwzQjljSDF4bjBOSlJsanZLUW1yaXlDX3BjVEJMZU5qbVJmOXRiUFpRNDF4cFI?oc=5)**
-  - 来源：英为财情 Investing.com · 来源时间：11-23 07:41（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：MiniMax(00100)披露内部模型密码分析成果 刷新国际公开挑战赛求解纪录 提供者 智通财经 英为财情 Investing.com
-- **[MiniMax宣布大模型破解多项密码学前沿方案 - 东方财富](https://news.google.com/rss/articles/CBMiY0FVX3lxTE4ta1BRLVVIZ1A5WmJwbTZXa2RCa094eUtkeV9yZzItYTN6RzRESnlOVEEydjl1cXYyeGFLbk5HYmpuQTJxQlhOZ3pxdmxlTTRxVzRfVURXbzRtZVhfMmhfelJBYw?oc=5)**
-  - 来源：东方财富 · 来源时间：11-23 04:25（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：MiniMax宣布大模型破解多项密码学前沿方案 东方财富
-- **[DeepSeek新模型升级：API降价、本地部署与接入实战全解析 - CSDN](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIbldzZU9wVTllajJIWGw5b0REX3J6cU1KcWJZVWY4cG5YVWJERjJIZ0FBWVVNbnZYdVRyQ3NFYUFRQmxCV0t4dmFONVdJQ2VkV2g2OU9uWGdCem5DUHdV?oc=5)**
-  - 来源：CSDN · 来源时间：11-23 04:04（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：DeepSeek新模型升级：API降价、本地部署与接入实战全解析 CSDN
-- **[DeepSeek预测C罗2026年达生涯千球里程碑 - 手机新浪网](https://news.google.com/rss/articles/CBMic0FVX3lxTE1TRDV5OGFoUDBfQTgxdThKaGNnWTA4R0xOUmFQSm1rNW5OQjJ4ekZfdFl5WVZHYktOYldhOUdQWXcxcTRGVEN2SGIwMGowRXFNVElPTnZjQV9xcXhqV3VmOUZuR1Rkc05XT0x5ZzMzbHlDY0U?oc=5)**
-  - 来源：手机新浪网 · 来源时间：11-23 03:14（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：DeepSeek预测C罗2026年达生涯千球里程碑 手机新浪网
-- **[DeepSeek新模型降价实测：API成本对比ChatGPT Pro与长对话上限破解 - CSDN](https://news.google.com/rss/articles/CBMiX0FVX3lxTE5mUi02dmxWZTVKMmRXSEptQTIzY1Z6TmhKeDdHa3BSZVVqWGRHRmZaLTN4RUhKRWRUYzJqajUycENnc1NoRDZoaUctc1EycG4xbXpWalNGWFJVTmpkbHI4?oc=5)**
-  - 来源：CSDN · 来源时间：11-23 01:22（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：DeepSeek新模型降价实测：API成本对比ChatGPT Pro与长对话上限破解 CSDN
-- **[MiniMax公布内部模型密码分析进展 攻破多个NIST竞赛候选算法 - 凤凰网](https://news.google.com/rss/articles/CBMiTEFVX3lxTE0zcW5uZFZmWmpibHJDZHBfbUdFYTktYU52YkhoNXNRR1BobWtXdGdSX0N3OEJTVFdNaFJ6WnZfQS1NRHNNeFVxdnkyOGk?oc=5)**
-  - 来源：凤凰网 · 来源时间：11-22 23:36（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：MiniMax公布内部模型密码分析进展 攻破多个NIST竞赛候选算法 凤凰网
-- **[豆包的小嘴不停地总结总结 还和好朋友佳佳击掌了呢 - 手机新浪网](https://news.google.com/rss/articles/CBMic0FVX3lxTE1paGk1elRSZjJoSXhTUTFINl9vSDU4Q2NFSHVmQ2VvTUdpOFZ5cW1GbFpKdU42a3ozVE5BNnhLUmFBcVc4WVBwM05veUZfUnlZYVNlNGo4UFZSVFR1ZmZacEp5MHl0UmFWdXVuUkZiVTlfWG8?oc=5)**
-  - 来源：手机新浪网 · 来源时间：11-22 23:27（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：豆包的小嘴不停地总结总结 还和好朋友佳佳击掌了呢 手机新浪网
-- **[MiniMax披露内部模型密码分析成果 - 第一财经](https://news.google.com/rss/articles/CBMiVEFVX3lxTE4zdGlPT3NSM1RvQXF5a3dzenN6cnhYcjc1UTdRR1VIWUFNa2x1U2M2b1lSbXd3TE9sQ01pM0E5THZKNGZZN3cyME5MelctVUhwYVg5UQ?oc=5)**
-  - 来源：第一财经 · 来源时间：11-22 21:51（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：MiniMax披露内部模型密码分析成果 第一财经
-- **[MiniMax 进军AI4S 研究，公布密码分析研究成果 - 手机新浪网](https://news.google.com/rss/articles/CBMiS0FVX3lxTE9lQVNMSTBxX3lhM01ndW9aNGhBZFlueWlDb0kxZVFiN0FqVWJqRVluMVRZRmhzWDdTdkJ6MGJsdEl5N2FTdVpsQjBkdw?oc=5)**
-  - 来源：手机新浪网 · 来源时间：11-22 21:32（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：MiniMax 进军AI4S 研究，公布密码分析研究成果 手机新浪网
-- **[智谱GLM-5.4突然上线：旗舰补齐视觉能力，每周使用额度增加50% - BlockBeats](https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3Q1dHR1ZkNlJIVi1HVW16NVBaaUNDVUV2d29OdWxyc2M5b19XR04tZkV3azBfaGJZTkxRNDhrUkhZUzJKeDBMOXZyVjl2ODVqZnlMM25n?oc=5)**
-  - 来源：BlockBeats · 来源时间：11-22 21:25（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：智谱GLM-5.4突然上线：旗舰补齐视觉能力，每周使用额度增加50% BlockBeats
-- **[【视频】豆包汽车家越07真实长测体验，爱开车的一定要看完！ - 汽车之家](https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xRWlPMGdNendrTG4ycEVMVEoweTR6UEd3Yi1SdTR0S2EzaEhUSFpxVXZxbjVPcXJsUW5yNU9ySmV2dWdydlhwTm5pVU9idUJ2NmRWMHl2bTJiWUE?oc=5)**
-  - 来源：汽车之家 · 来源时间：11-22 19:03（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：【视频】豆包汽车家越07真实长测体验，爱开车的一定要看完！ 汽车之家
-- **[全球首次，DeepSeek与FlashAttention的多个生产级AI算子获得形式化验证 - 36氪](https://news.google.com/rss/articles/CBMiTkFVX3lxTE5tXy1wNzc4MjgzS1ZJRXNPR2plSFBQUDcySXlPOTVKZ2J5dFVMMC1hZWVNMUUtQTA3Y3NYVW1BcTh5QnZuZ3RZT2d5OXhFZw?oc=5)**
-  - 来源：36氪 · 来源时间：11-22 17:56（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：全球首次，DeepSeek与FlashAttention的多个生产级AI算子获得形式化验证 36氪
-- **[MiniMax公布最新内部模型的自动化密码分析研究进展 - 东方财富网](https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zUWtMTklrQUxIZmlHYzlUNE5halliMGVmNkxZRy0ydDVKU240Wng0VmNydjlhNE9wYXlKMk5kdWlLM3FwX0Q1Z191NVFpQjZERF9QS3VXV1Ntb3pjN2dzeElWVXFWUQ?oc=5)**
-  - 来源：东方财富网 · 来源时间：11-22 17:48（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：MiniMax公布最新内部模型的自动化密码分析研究进展 东方财富网
-- **[Codex接入DeepSeek等国产模型：config.toml配置与实操指南 - CSDN](https://news.google.com/rss/articles/CBMiX0FVX3lxTE5lVWQ5UEFQVlV2S2ZRWlNKSW9vYTRQUDY5QWFmQ3lxUW9qeU00OGJTV0NBVEdpQkFjN05sQ25ERko0WUlBNTJTX2lwN3Y4LTBjZTJEcXdjM0ZkVS1RZVF3?oc=5)**
-  - 来源：CSDN · 来源时间：11-22 16:36（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Codex接入DeepSeek等国产模型：config.toml配置与实操指南 CSDN
-- **[DeepSeek 4.1 Flash真相：避开信息噪音，高效上手AI模型 - CSDN](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pQi1obkM2VHdMTnljejFiUkxBNXJzMS10akNsSE1BbTdUQm9HR1FFcS1ZQ0xjSTVmd2ktWF9nR09GSDdoclozX1hKUGVNeUo2QW1rRGNoZk9UWDZDYkcw?oc=5)**
-  - 来源：CSDN · 来源时间：11-22 14:29（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：DeepSeek 4.1 Flash真相：避开信息噪音，高效上手AI模型 CSDN
-- **[豆包被国产大车外观难倒｜记者观察 - 东方财富网](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Ib1BvdUVOV1NUaFJBakF0b2FGZlp6REJUZmE2VDBEVV9oc0VxU0RyZkJtNWM3THU1ZzBBdF94WmZJcWpDd1BGZjdST29LMWdibGt0X2ZWSV8zdEdqaG1zSzdrLXFYZw?oc=5)**
-  - 来源：东方财富网 · 来源时间：11-22 14:27（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：豆包被国产大车外观难倒｜记者观察 东方财富网
-- **[Kimi也要往AI for Science方向发力了 - 新浪财经](https://news.google.com/rss/articles/CBMif0FVX3lxTFA0ZklONDN2LUN3NEhVMWN6V1FEOUlSakMyOUNYbFNQY1JWXzFVa1U0YmJ2TzhOUWd1R3JoaUZlU3dsbVpLYmFKQlNfT2loRUJjMFhTQ3dJQlR4dURMSTRQdXBQTVBOdWFaS1g2b0Nmby1sTjlsNEh4M3lzU2xsRms?oc=5)**
-  - 来源：新浪财经 · 来源时间：11-22 14:21（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Kimi也要往AI for Science方向发力了 新浪财经
-- **[MINIMAX-W(00100)\_MINIMAX-W怎么样 - 热门讨论 - 雪球](https://news.google.com/rss/articles/CBMiRkFVX3lxTE1GaWNPLWFzM3pBOUlRRVJZYUpaSzBuV21OR0NoTGtFUV9qYVdSVEVYdkcwOTZuMGxhNGs0TUN5ZlkzR3k5d3c?oc=5)**
-  - 来源：雪球 · 来源时间：11-22 12:31（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：MINIMAX-W(00100)\_MINIMAX-W怎么样 - 热门讨论 雪球
-- **[豆包工作、千问办公、WorkBuddy，怎么越长越像了？ - ThePaper.cn](https://news.google.com/rss/articles/CBMiYEFVX3lxTE43T19pQ0NWbVFYS2JMZUpfQ3FTLUIwNkN2d3poeFU1ektRc0s0UTljU1lxQV9XVHNyZk5XN0FVNkF6U0I0ekxRMG9fOG1jN3d2ckc4SUhFZ0xjbkNNY2RZOA?oc=5)**
-  - 来源：ThePaper.cn · 来源时间：11-22 09:42（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：豆包工作、千问办公、WorkBuddy，怎么越长越像了？ ThePaper.cn
-- **[豆包被国产大车外观难倒｜记者观察 - Sohu](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeDFlVDh6dFQtRm1mOV9FZmJEaGZBczctZTZqc3JVYl9qdEh0MGpYX1ZfU2R2Sm8zWVBaUEVBVjg2bDk0eGptR1BNVVVCb2k5UFRhUVJEcnRneUh4aFRWMU1sOEFldUtCZ2FhUXB4X3N2Nmg3b1JjNWMyRWxGTHJ3WG1nMU13QnI3bkRvVG5jRjlyM05rX1BjTlJ3UkJMcEtsSUlLUTlfMGRpc2c?oc=5)**
-  - 来源：Sohu · 来源时间：11-21 18:41（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：豆包被国产大车外观难倒｜记者观察 Sohu
-- **[豆包被国产大车外观难倒｜记者观察 - 第一财经](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aRnl2ajZ3aURVbVlsMjdldE8wQU9wQTI0S1ZOWlE5VktGSFNLSERncWF4a3dkSG5tZTg4YWZqRExYNU5WWGRocy1BYVRubXJET2lF?oc=5)**
-  - 来源：第一财经 · 来源时间：11-21 18:40（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：豆包被国产大车外观难倒｜记者观察 第一财经
+  - 来源摘要（截取）：点击查看原文\>
+- **[豆包重磅发布「小豆」！独立App开启公测，AI助理正式告别噱头 - 雷科技](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9GMUNiZUIyeUxjakhqclpMQ2dZTmtmejBRVjQtQWhaUVFUUEZiYnBpUkVabGw1TzZPYTJIblI1YkI2UllCTmVCc05tWlI1dw?oc=5)**
+  - 来源：雷科技 · 来源时间：11-24 19:34（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包重磅发布「小豆」！独立App开启公测，AI助理正式告别噱头 雷科技
+- **[陆游将卸任豆包C 端产品负责人，字节AI 应用告别互联网老将 - 虎嗅网](https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6ME1kSjBjWUdFZHlZN2poQ0RNaWhfMmxZRmxiNDYtVHhuRTZwQU1MV0FzVzlZLXJNeVRsOVl5cFNtSC13a2wxcS0wSlNER1RGWi1sUQ?oc=5)**
+  - 来源：虎嗅网 · 来源时间：11-24 19:33（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：陆游将卸任豆包C 端产品负责人，字节AI 应用告别互联网老将 虎嗅网
+- **[从GLM-5.2到GLM-5.4，智谱的模型进化论 - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxQQ2V0a1liUFkzQnVmclRvYkFOdGVtdHpJOUNRUmNiN3VyZUdtZTB1eS1BcmtyZjc1ZXE4TkdpbV95NlF5TGNWOFZxUUFsOFRIa2FjLURzUUpIMXdXZ3lIYkd4bXdQVGdRM2RmZ1VnWmFmTGVrSVNvOHR5LTZkQkxUMm8xUlRzYzJUQ2tmcg?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 19:31（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：从GLM-5.2到GLM-5.4，智谱的模型进化论 Sohu
+- **[仿冒DeepSeek官网投放“银狐”木马 中招电脑被远程操控、微信自动群发诈骗信 - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxQYWJhYmxIX00yVDNfeXhPd2RIdEJlWU1kbzc0TWpoOFpmTFZtYjBTTlVNT041U1BlYWF2dm9hWkQ4MVlBYzVNcHQyX1NLLV9STF9ybW02eGFjbm5iWkJseDZTMzBDV19qVWw3S3FSaUdPREw4TkoyendMcnhJU1RfbVJzU3FhUkNpcHVrRg?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 19:12（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：仿冒DeepSeek官网投放“银狐”木马 中招电脑被远程操控、微信自动群发诈骗信 Sohu
+- **[仿冒DeepSeek官网投放“银狐”木马 中招电脑被远程操控、微信自动群发诈骗信 - 紫牛新闻](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IZmxmTlVabHRDQWg0VlZDZ3h5RUdTVlhIcFowcFZmbDU4WU1Nd0J3ZTI2VnBSYWpMTEZvSGVFVzhCN25uVGxoN0UtNWdGRXJhc3RPTlltRmkzR3R6UW1tbVRlUWdHOXoy?oc=5)**
+  - 来源：紫牛新闻 · 来源时间：11-24 19:12（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：仿冒DeepSeek官网投放“银狐”木马 中招电脑被远程操控、微信自动群发诈骗信 紫牛新闻
+- **[DeepSeek限额，腾讯社交帝国松口气 - 富途牛牛](https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yMUxNRXJ5cTNGUDNKZXJhOHEybFBpTVlXV0VvekNvUHg5T0xhMGlkTUpwVEhDYzZBUXRyS2hkcXJlYmdzaEM5NW4xQlBIRlJj?oc=5)**
+  - 来源：富途牛牛 · 来源时间：11-24 19:11（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：DeepSeek限额，腾讯社交帝国松口气 富途牛牛
+- **[豆包灰测购物一级入口，抖音电商拓展AI获客渠道 - 华尔街见闻](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5SRmZGT24zMWRfTmYteTdrb0pXQ09vOUJ1eTd6b29wcU8zeWtKT3g5YnpCXzFzaHVRN2FmMXNVYUhXNm5lRE5BVEVtTFBlU05SVDBz?oc=5)**
+  - 来源：华尔街见闻 · 来源时间：11-24 18:47（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包灰测购物一级入口，抖音电商拓展AI获客渠道 华尔街见闻
+- **[豆包工作上线 GLM-5.4，可更低消耗完成任务 - 21财经](https://news.google.com/rss/articles/CBMijwFBVV95cUxQWXZpWUwwM19SUjNJTDZrOGRfWlkzMGhwN204NWpBQ285SzEyUFQ3MnY0eHdibU5KNEFOMlJsa3dyX2ZaVjZMOFFHNU5BNzVwNWlFVW5IZW1RdUtJUUQ0UGVfUjdaR1k5RWVoMThYemVOeE43NkZoOHBBQ0U5SkFQNGlhb0dtT09qZ3lPb3JEYw?oc=5)**
+  - 来源：21财经 · 来源时间：11-24 18:37（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包工作上线 GLM-5.4，可更低消耗完成任务 21财经
+- **[豆包工作上线 GLM-5.4，可更低消耗完成任务 - Sohu](https://news.google.com/rss/articles/CBMiUkFVX3lxTFBXMGZkclRORndXb1VCX1dzR2FJbHRwU09HVms4Yk5OeDZKZS1JU0lhLU4tVjRRdkZsV2NWR1dYUU5VLWgwRFdaMTZVc2tjMjF3a0E?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 18:13（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包工作上线 GLM-5.4，可更低消耗完成任务 Sohu
+- **[11月24日港股软件服务行业沽空数据盘点，腾讯控股、网易、智谱沽空金额位居行业前三-证券之星 - 证券之星](https://news.google.com/rss/articles/CBMiXkFVX3lxTE9mSkhFQlhoaVB3X2RlbElzdEI2SEVzVW11X3YwbE1pZlVGSjljSzJNS25PRHU0d1IwWXpTNGEyUUllcGNjZ2JqUm9VbG8tNVZ5QWdoTTdlN0pXX0R0aXc?oc=5)**
+  - 来源：证券之星 · 来源时间：11-24 18:08（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：11月24日港股软件服务行业沽空数据盘点，腾讯控股、网易、智谱沽空金额位居行业前三-证券之星 证券之星
+- **[豆包APP灰度测试“豆包购物”，当前部分用户可见 - ThePaper.cn](https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5Z0tpVDVQTXd6SGxQTHRnU1FRX1VtRFk0Y2hvNjc3VEp5TVM0U3hjU2JKcHhjT1R2U0ViTHcxRWZRTXA5NEdpZ1RraFU0OVZZMHZwYlY4ZVQyWkZDd2l2ZQ?oc=5)**
+  - 来源：ThePaper.cn · 来源时间：11-24 18:04（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包APP灰度测试“豆包购物”，当前部分用户可见 ThePaper.cn
+- **[DeepSeek Harness大升级！任务时间线、代码审阅、Git插件市场齐发，小版本更新堪比V2升V3 - 智源社区](https://news.google.com/rss/articles/CBMiSEFVX3lxTE15S0hRc0l1Z0s1Z0M1bTNhc1NpNkdTU1ZueW85LWQ2cThQVkxrVGE5cUl2T1NnTE5JSzNXLTRWLU81UUtMenp2Xw?oc=5)**
+  - 来源：智源社区 · 来源时间：11-24 18:00（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：DeepSeek Harness大升级！任务时间线、代码审阅、Git插件市场齐发，小版本更新堪比V2升V3 智源社区
+- **[【视频】豆包汽车成精了？嘴甜懂你还会办事儿，家越07到底是台什么样的车 - 汽车之家](https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wZ3c4ZDhGZHZRMUpQd3ZKeXUyYVlPVWRja2tGY0RiNm9ZMXlvX2dTZXpLbWM1NS05SkN4c2NCNmRvSlRqX3JLVi1xV01WWW1hVmtFM0pFZzRCYVU?oc=5)**
+  - 来源：汽车之家 · 来源时间：11-24 17:52（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：【视频】豆包汽车成精了？嘴甜懂你还会办事儿，家越07到底是台什么样的车 汽车之家
+- **[DeepSeek创始人梁文锋身家在完成融资后增至550亿美元 - 金融界](https://news.google.com/rss/articles/CBMickFVX3lxTE9SeExrRldFenREUUdXSS1qUXk2bEk3RHNIZmc2SXNJTXJKYjhTUkV1TkNpMjI1OS1HTUliU3d2RU5uRE1CNzZRUXRJaGN1Q29OdUZKME5SUFJZMzdYWmFqcng2Z2ZObGFtUzZIRm9yQU4xQQ?oc=5)**
+  - 来源：金融界 · 来源时间：11-24 17:46（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：DeepSeek创始人梁文锋身家在完成融资后增至550亿美元 金融界
+- **[豆包购物，要来了 - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxQMUJ6MXBmNm9TSUxNUjZTN05IUkN4eGhqdnRWVTdOWEJFcWg3VGRPekx5Z001azlWNV9hV29VRGNzaEpWOUFMaC15b1F4bURRbElxeW9Uc3lGYU1qblRrV0ZDSEtKLS1wQ0lOZjNrZ3hDaFVnM2lnd0dwY05JMlJLeTYtZl96VlUyVDFaWQ?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 17:45（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包购物，要来了 Sohu
+- **[豆包App灰测“豆包购物”，AI可帮用户比价找货下单 - 新湖南](https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tTUR6RkRqeG1oTmxhUXFVVFlScE1aaVMtMWczRnZFQ1VYSmxNNDFvYjhqMzAtdnB3LUg0XzBLQXFpemNMZGh2dk9yZE5QOWJSQUd1V0o2OUtCMV9yU3Nz?oc=5)**
+  - 来源：新湖南 · 来源时间：11-24 17:44（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包App灰测“豆包购物”，AI可帮用户比价找货下单 新湖南
+- **[豆包“小豆”月费500元 你愿意买单吗？ - Sohu](https://news.google.com/rss/articles/CBMiiAFBVV95cUxObnBNZmdHWkY3a3ZuLVptSnZWYy1LOXVkWFVhMlIzSG53bUV5T1RNWmE2TEFhWFVqTWhpOFNKNU5tRDY5V3VjcnNHcGpaQjlYZGJjSjI5WGxubEVDWkpzUTZ3eFZkU05vcFE3eW04TjJYUDI1YWxtMEVUeEVLOWxBVDhwYmNza1JT?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 17:40（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包“小豆”月费500元 你愿意买单吗？ Sohu
+- **[豆包Personal Agent“小豆”对外公测可购物可代打电话- 零售 - 亿邦动力](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9yUHY2VmdWS2ZON3ItX0pMMU5pUFZONWRNWWNoZWlaS1VvOHY2c1FTR0otLU9ZbU9YRmsyVy02SU5ILUlFdXJqQmJmY1RZdTY0b0dRQnR3?oc=5)**
+  - 来源：亿邦动力 · 来源时间：11-24 17:34（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包Personal Agent“小豆”对外公测可购物可代打电话- 零售 亿邦动力
+- **[TCL空调率先适配豆包旗下“小豆”AI助理，已深度布局三大主流AI平台 - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxQWFBONW5wVGN4Si1WQWQ5S3FRNEhMbldiWjllLUZ1YVhSRUdKUHF6SGp4NmpyRFpyZkx3bjZjOXRPVWZJa1J3YXlLYl9GLTlFY0ZzZlZhYmJ6b2Z4Ni03TUptQVREaUJjb19fYnJrQ3FCR1BPdmtxRTVNODhDTW92RFJNandjdllfSWlXUw?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 17:23（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：TCL空调率先适配豆包旗下“小豆”AI助理，已深度布局三大主流AI平台 Sohu
+- **[智谱刚刚发了GLM-5.4，全新架构的那种！网友直呼：超过预期 - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxOZ0NaYkQ1Zl8xT1dIYW5oYm1KZEVCb1c4cm1Hak1wa3hmM3hVcVNpbzdjRU9JQmFSMm4yVmNIVDlhQnN2MHhkUG1nNENQaWlubV9BYzk3MEhhTmpHMDlZWXp4NkFuQkVjNWtoZ1VEbkU3U1p0VGJnd0kwU2k5dmM0OXdpM0pjMUVjRV80SA?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 17:18（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：智谱刚刚发了GLM-5.4，全新架构的那种！网友直呼：超过预期 Sohu
+- **[豆包工作接入智谱GLM-5.4大模型 - 电商派](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9aSUpMODBYWUVJQ3hsN3dBaTBNOF9IY19vQy1fSGtaeU1LNk5vdmFzcGlYTWFLMjFaTHhXRHV1aUNxcktIVnl4NW9qSkRXcnplQmdVX0J0bzRCSGZ2YkFJdlNGT2k?oc=5)**
+  - 来源：电商派 · 来源时间：11-24 17:15（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包工作接入智谱GLM-5.4大模型 电商派
+- **[Kimi工程师cos鲸鱼娘出圈：她想聊技术，网友只想看裙子 - DoNews](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1WVTBnWnFZZ2w3QkpGUVhxaHBzajdrNWpqbjFUWjFCNENtN0Y0RlNHTUxkbFlvanFsWkM1ZzBwY1daSmFlNUo5WHRaRmptRzVjOTdnaU1QdGs2TEhNc1RkRWxvWjI?oc=5)**
+  - 来源：DoNews · 来源时间：11-24 17:12（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Kimi工程师cos鲸鱼娘出圈：她想聊技术，网友只想看裙子 DoNews
+- **[大消息，DeepSeek最新估值或达6078亿元 - 新浪财经](https://news.google.com/rss/articles/CBMieEFVX3lxTFBEN0dKaXFzSmpMeUotMlFCMlpzRGJzT1pUZFpQNGhWeWwzSVZMcUEyR1Zia0hSSmgtdnlXalhQbldMX0ItNWI4MElFS2R4dWhpNEl5QnNCbkEzbEtQVEVXSW9iQU1EZW56U1FsVEw0VVRPZXRfVWdsWQ?oc=5)**
+  - 来源：新浪财经 · 来源时间：11-24 17:12（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：大消息，DeepSeek最新估值或达6078亿元 新浪财经
+- **[知乎披露间接持股DeepSeek 知乎-W上涨超12%报6.11港元 - 观点网](https://news.google.com/rss/articles/CBMiYkFVX3lxTFBRQ2hHbk9fLXRSWDVNRTdPOVI3RnBHWjc0ZkFjb08wWDFIZEN5bk4tTXlkWG13MmprMFQ2S1V0ZUZmNkg4SHJpUnRvUGhVQlZySlc5c0ZOLTA1dV9lVkhEZDVR?oc=5)**
+  - 来源：观点网 · 来源时间：11-24 17:03（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：知乎披露间接持股DeepSeek 知乎-W上涨超12%报6.11港元 观点网
+- **[知乎收盘股价涨超12%，通过基金间接投资DeepSeek - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxNX1NwT0o1TXE4WkRLdEFlNmM3Q2hLeUt4cjlOUjZjWmVYSlpvYWxMVXBiNGtZODlqWXlOWXZGQkpGVXgyWEtMTVR1U2FkQV9XSnRhVXlwMWJmNVAxeGVQeTE5YkE1WWdoS1I5MkU0RnhsNXBMX1dlUEY3SGlvU2piM1FXWEdLMlo3OWhpeQ?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 17:03（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：知乎收盘股价涨超12%，通过基金间接投资DeepSeek Sohu
+- **[农行KIMI联名信用卡 新客礼遇 开卡有礼 - jingjiribao.cn](https://news.google.com/rss/articles/CBMiY0FVX3lxTE82cmk5OGN5bEU2NFRZUkFXQ2Y1bW5YSm5nMm4tajFScVBHQ0lKVS1UUlJ4SEFMaE9lQURMZkt6VGZ5OVV0QWNVd0luYjdwSVI1RlZlT1o2RENfR29KNFhkMGl3bw?oc=5)**
+  - 来源：jingjiribao.cn · 来源时间：11-24 16:51（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：农行KIMI联名信用卡 新客礼遇 开卡有礼 jingjiribao.cn
+- **[农行KIMI联名信用卡 新客礼遇 开卡有礼 - 新浪财经](https://news.google.com/rss/articles/CBMieEFVX3lxTE5wa0RjNUpYM3hORW1LdVZtOUZMa3pDaElpNkpJcVdJYS12cXlXbkNMOExNcDB0SFJwY2ctR0VVdTFQel9ac29FN2pDdnVyOTJYQkV1S2lpdmNXNmllOWNiYmdfTngwXzQ0Njg4QkI2aUV5ZWs0aTNKVQ?oc=5)**
+  - 来源：新浪财经 · 来源时间：11-24 16:51（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：农行KIMI联名信用卡 新客礼遇 开卡有礼 新浪财经
+- **[四大AI分析阿森纳vs多特：三家看好主胜，Kimi倾向平局 - 懂球帝](https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6V29XeVZ4R0hIMXduLVlUczQ3dXp4d2ZBOFNMRmhUSkViWllJOFJVX3BKRUdPcUxjT2dTNUEyVEt0QXowNnREeVlDbU8xcDN2TGhhX3FvVQ?oc=5)**
+  - 来源：懂球帝 · 来源时间：11-24 16:43（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：四大AI分析阿森纳vs多特：三家看好主胜，Kimi倾向平局 懂球帝
+- **[LiberAI 用 Kimi 加速机器人研究，单项仿真成功率一周 - 53AI](https://news.google.com/rss/articles/CBMicEFVX3lxTE1nSF9IVWp4eldzT3JKWWNXTmREQVhfNEsyOTNEUWdHeHhyQjNwQ1dqb0F5b2h1cGc5dVpDTlJIZHI5bTMxZzJnQnBSYTlLYTdBaFZIblN6cTR2cU5ncTM0OHRCb1R6b1lUTk9HWlhpZkU?oc=5)**
+  - 来源：53AI · 来源时间：11-24 16:32（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：LiberAI 用 Kimi 加速机器人研究，单项仿真成功率一周 53AI
+- **[豆包推出个人AI助理“小豆”，可代打电话、盯补货、追长期目标 - Sohu](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdUd6OXI3VlIxcG1FcklTc2E2YWg1b3l3dTVqTWRZZHZnU2ZYdVRSUWw1SDMydDRDOTN4MkxZNE82UF9uekl6T0J6eDNkMXlncUU3VzQ1M0phVjZYZGpMTVNCYnZMMTFNcWxjNE5DN3QtWng0Z3phWXpYWnljbmZRUkRnRlVCMTkx?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 16:28（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包推出个人AI助理“小豆”，可代打电话、盯补货、追长期目标 Sohu
+- **[抽佣10% 7折补贴券…豆包电商的第一笔账怎么算？ - 亿邦动力](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GUmpXdHhPS1NtLVN2N0VvX2t6dG1ZUUFPQklVMGlWUW1NdnoxOGxuc0xzVjE0c1pfcWFRNVFDRG0ydmt0WkEyM2VMTFVYeTlWaVZndV9n?oc=5)**
+  - 来源：亿邦动力 · 来源时间：11-24 16:27（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：抽佣10% 7折补贴券…豆包电商的第一笔账怎么算？ 亿邦动力
+- **[高盛：维持智谱(02513)“买入”评级 目标价1,560港元-证券之星 - 证券之星](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1sMlJyTmlUTVBmbVpHTnM1ZlRFVEcteERYVUNESFlnY0U5VHRUZDlaN0dITlVoZG5HRTgyR2h6RDBoMldFSV9XLUlZUGZaeXI2OUdrSmtoMl9aeVdveHc?oc=5)**
+  - 来源：证券之星 · 来源时间：11-24 16:18（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：高盛：维持智谱(02513)“买入”评级 目标价1,560港元-证券之星 证券之星
+- **[智谱发布新一代大模型GLM-5.4 - Sohu](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOckFyY010N3FEeG9rcXU1UU56aFFuMzhrLWRZS3ExZjc1MFU3Vkt4RkczZGVoN3dLcFRDTEkwaGRtU3hFOVpLbUUxekhNc3dKd1BrS2hfRXJwdHQ3Y1JLQXlyOWVqVWprMlRMTjVsem54YVRkUHIybHo0VG9KNGdiV05ybF9tTl95?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 16:14（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：智谱发布新一代大模型GLM-5.4 Sohu
+- **[【视频】座舱开始认人，豆包汽车随车主性格进化 - 汽车之家](https://news.google.com/rss/articles/CBMia0FVX3lxTE9ZOTgtWDRKYjd2blFVWmJqU0FaRDhpaFJWLXpySGZKd1IxbXlLZDlHUEJNQ3k3dm0zOHAxek5PeHhPOG5pSzBqN19nMmZwRXhQRUxiT3J4MWlPLVVrR0tvLTVKUzkwcU94cjVr?oc=5)**
+  - 来源：汽车之家 · 来源时间：11-24 16:03（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：【视频】座舱开始认人，豆包汽车随车主性格进化 汽车之家
+- **[DeepSeek最新估值或达6078亿元 - 21财经](https://news.google.com/rss/articles/CBMijgFBVV95cUxQSkVxM1hjXzhMMmdsRENiZjlBSFgzWXhYT01NNThGM0JGQzFabjJpVThPOXFhZDJnT1M1YWtaVEZuRDJVN3B4SVRSNGNLa2tOSDB1a2JCc0pSNWFyQUtkYjBNRUNXNDFsU1pHRTF0NEtISUdJTE5MSW1jQ05vLUxhMloxSzk0UzE4M0dCeDNB?oc=5)**
+  - 来源：21财经 · 来源时间：11-24 15:56（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：DeepSeek最新估值或达6078亿元 21财经
+- **[中国大模型调用量连续30周第一，DeepSeek霸榜五周！后来者如何居上？ - 新蓝网](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5zX2NfMm1BRmZEeGJ4WkYyRm10TjBJaWFoTVpwalU2WmYzaVRPcVhRQ1JCbXRjQ082a3ZJbWtEdFdRVlRTbTBYcDJzUmJ3SlE?oc=5)**
+  - 来源：新蓝网 · 来源时间：11-24 15:53（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：中国大模型调用量连续30周第一，DeepSeek霸榜五周！后来者如何居上？ 新蓝网
+- **[知乎大涨超12%，间接持股DeepSeek，AI资产价值迎重新定价 - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxNR3ZJMkEwZDExTDBuSVFOWkg2U2E1QUJFZE9sVjRWOHpfWXdoTlN6X3RnWmdKVmh1TlkxQlVUZUUzSm1nR0F5M045X3FlMkdjcTV6QWFQeGFldHhFTG16NktnbFg2V3Q2S0V2UVYwN0hoSTJoUnFzMVFrcXVlXzRzWVIweDFlTFVfWnhEWg?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 15:51（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：知乎大涨超12%，间接持股DeepSeek，AI资产价值迎重新定价 Sohu
+- **[MiniMax发布H3 Family系列 开源百日衍生模型达1472个 - www.itsdw.cn](https://news.google.com/rss/articles/CBMiTEFVX3lxTE8zTGhvZ09kRDlPV2MwQU1BT0g4RGZuZ0JnVmxCcVN3Q3prejU3RnVnWXNwRlE3X2NhMDdGc1oycGdQZUFCeW5rRU81TlM?oc=5)**
+  - 来源：www.itsdw.cn · 来源时间：11-24 15:48（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：MiniMax发布H3 Family系列 开源百日衍生模型达1472个 www.itsdw.cn
+- **[豆包APP正灰测豆包购物 - Sohu](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWjBpd0FXaE1GeWxPajc3cmgyalZMc3RVX3NpSl9EeEZKcmx0OHg1WmNoYW1sLUlCVE5QZmg0WEFTNHdoQ0oxNjNKcFdFeExiQ0VseERxMnFEcnk4enFEUWlfUDQ2a1VwekYzV0ZFcnZEMzBvamdmc2gzQmkzZm04TTM5ellVbzdC?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 15:32（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包APP正灰测豆包购物 Sohu
+- **[AI知识库 - 53AI](https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZRWRyek11Wlp2U3dWM0xmaXppdUo2YW5qZjVldWNIeDJIaVN0SllwUGdnejFIS0pkUGRsUEI4ZVNSVWhTQkFxTWE3bWJiSGVqY3FPdXpDakxlTFFOQUFzQm91ZGt2VmNkdDRHZlFNRzQ?oc=5)**
+  - 来源：53AI · 来源时间：11-24 15:31（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：AI知识库 53AI
+- **[中国蓝观察丨谁在为“赛博恋爱”买单？DeepSeek限额与AI陪伴的算力困局 - 新蓝网](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9FZ203VWdZaHphRjI4QlAwOUZpM3dJWFdOZ19JWmZzS3pfR3BwZDkyOGVPbGVnQWhheUZuUWluS2JnR2F5c0xnNGctcXU1WHM?oc=5)**
+  - 来源：新蓝网 · 来源时间：11-24 15:25（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：中国蓝观察丨谁在为“赛博恋爱”买单？DeepSeek限额与AI陪伴的算力困局 新蓝网
+- **[【视频】首批豆包汽车车主集体喊“香”，这车到底给他们下了什么药？ - 汽车之家](https://news.google.com/rss/articles/CBMiW0FVX3lxTE52R2JDNUxIeTU0RzRCcWJtNFFTYTNVUnhfTXQtSXpEdklOTVI4UXBZYzBJVzdXeGF3U0xaWFQ5NHNxWEZva2V0WWNnX21VWi01S3VUOEhjclRwOEE?oc=5)**
+  - 来源：汽车之家 · 来源时间：11-24 15:21（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：【视频】首批豆包汽车车主集体喊“香”，这车到底给他们下了什么药？ 汽车之家
+- **[2026年元宝平台关注的豆包平台优化GEO服务商对比测评：多维能力与实际表现 - CSDN](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uRXRINzBvQkRfQlNtSDZpTHFtdGpCdloyOTFsZmhHLVJkYk52Y0dQZFZHMEYwcnZHQmZHWHpTaUR3aWlCanhWNnl4Z01xdlE1TzI2cm1DUkdqWW03dmc?oc=5)**
+  - 来源：CSDN · 来源时间：11-24 15:07（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：2026年元宝平台关注的豆包平台优化GEO服务商对比测评：多维能力与实际表现 CSDN
+- **[DeepSeek注册资本增至1991.87万元 市场消息称募资1055亿元 - 观点网](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5hT0FhYVFqSkwtaW1Eb3UxU29kRGRCOHFSQmNHMFNUcERJV25UWldBNE9CM0Vib0JMaFBMdGlkMUVhV0FMc0xubTY5Z0V6MUV2X0xnNjhXOFRnMVZEajQwMGVB?oc=5)**
+  - 来源：观点网 · 来源时间：11-24 15:06（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：DeepSeek注册资本增至1991.87万元 市场消息称募资1055亿元 观点网
+- **[《通用大模型人气周榜TOP20》NO.10：智谱清言登顶 通义千问跃居第三 海外模型集体回落 - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxNSHk3aHpwemxMVHpCN0otLWxkVllZWDVYWDAzcWtWU1d3NldZRFF4ZWhfcG9hdEswclk1S216c29RWk02OGFSTjAwRGFFM0huTjVnTEh4RjFDT0RUODFzNnZGRVNzODIzVWhUbjI2OTE4ZzBKQ21vLVVQNG1QM0dwcGctc0o0WFBMVEFmUw?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 14:48（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：《通用大模型人气周榜TOP20》NO.10：智谱清言登顶 通义千问跃居第三 海外模型集体回落 Sohu
+- **[我用GLM‑5.4“帮黄仁勋夺回英伟达”！智谱打响泛Coding第一枪，将Loop Transformer焊进模型 - Sohu](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRk9ISWJ2V2NMUHh5ZHVlcmNPcXBNcXkyX2xiNE4xanRaVElOZ21aUzhMdUMwVXBpVTY4OWtPWG4wUXlzZV9oSEp1aHE1NUR0TVNEOV9SM2lJeU9nS0t6WTFZRjQzRVlGRmVsLU9BbjRaNnhibmhvQTFULTZ1bFAwOWRKcnc5VnNi?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 14:17（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：我用GLM‑5.4“帮黄仁勋夺回英伟达”！智谱打响泛Coding第一枪，将Loop Transformer焊进模型 Sohu
+- **[知乎通过基金间接投资DeepSeek - 动点科技](https://news.google.com/rss/articles/CBMie0FVX3lxTE0yVjlFVHQ2NklNek54LWNzX0M3VlRKMjFxRnd0M0hxNVQta1ZjWUxONllaOXQwWnp2UE55MldUUEhpVVJLeTJMOTQ0SVF0ZWwyWVc0LXF0Y21UNlc2QlVmLURYaDZSVnBaeVltWVNRZjlhTmxDVWNSX0RKYw?oc=5)**
+  - 来源：动点科技 · 来源时间：11-24 14:02（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：知乎通过基金间接投资DeepSeek 动点科技
+- **[豆包“小豆”开启公测，能记事、提醒，也能代打电话 - 动点科技](https://news.google.com/rss/articles/CBMigwFBVV95cUxOMG5uLTVZNW44cnZVTS1xZXVCdHdqV3BKZVV5clZ4Y0hXU0dwTHoxQnQ1ajk5cVFFVmpmenR3MVhMTndOdmh4VVZUTU55dUNqaVpzbzhfZVl0RlFJM3lWWGJwWUxaOG5WOVlLWHV4ZmRCdFZaUlI3cXlzNWdRWU5Hc3ZwRQ?oc=5)**
+  - 来源：动点科技 · 来源时间：11-24 14:02（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包“小豆”开启公测，能记事、提醒，也能代打电话 动点科技
+- **[港股异动 \| 知乎-W(02390)涨超12% 参投基金投资DeepSeek 拓宽参与优质AI及科技企业投资渠道-证券之星 - 证券之星](https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zRkxYdXUzaTJyQ0FVbGN1bmtEV1JWNDFzZXlTT203eVN3cC1zUzZkRFdwTlNNT2NLOXEwVnJKUE90MzhvdkZmbTBfOGxGcEtFclhJQmc1S0J5eTViYXc?oc=5)**
+  - 来源：证券之星 · 来源时间：11-24 13:54（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：港股异动 \| 知乎-W(02390)涨超12% 参投基金投资DeepSeek 拓宽参与优质AI及科技企业投资渠道-证券之星 证券之星
+- **[豆包官宣！ - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxPT0ZydnNjbFpRX1dxdnVVWTRPZ3pxd3FURHdLdVp1Nm5GNjU3dHMzYzdmOXNoT3lEVy12YlpzNkJUQW10Um5IX1hYU2tNbTVIX2ItQ3IwVXFHOGdMWlc0emZjRloxMXdEUk9VelFzZjVzWU9VaUFrQmZBWnNkT2F4a1Jtek84QTBxbjdmYg?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 13:53（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包官宣！ Sohu
+- **[DeepSeek融资落地：9家券商出资95亿 - 手机新浪网](https://news.google.com/rss/articles/CBMiggFBVV95cUxNT0g5ZUE4TGVnMF9rNkdCZms0NzdVREFhTkFqdFJnZXdmU1JBNXhmNVZRajVVcXZvYmRpVzNqYlBQdkNhWndYSzlvS19qWnRKNG1MbjY5dldQU050akZ5enkyTjFVYThxSGZuWmdWT3ZpZzQ5QTczWGtLY3pnWnRrSFBB?oc=5)**
+  - 来源：手机新浪网 · 来源时间：11-24 13:23（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：DeepSeek融资落地：9家券商出资95亿 手机新浪网
+- **[【视频】满血豆包首搭，15万级纯电SUV要卖爆？ - 汽车之家](https://news.google.com/rss/articles/CBMiW0FVX3lxTE11d3A3Y290aGZ6YmEza2s4SzJPV1puZ2tTTEp3LVNuaVVGWmdmZFBpY1I4RlllMXJ4WVU1S0FnemZ3Nm5RN25palZpY1p2OTJNdWtPOENIdk0ybHc?oc=5)**
+  - 来源：汽车之家 · 来源时间：11-24 13:05（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：【视频】满血豆包首搭，15万级纯电SUV要卖爆？ 汽车之家
+- **[【视频】行业首发！家越07豆包座舱，方言外语秒懂 - 汽车之家](https://news.google.com/rss/articles/CBMiW0FVX3lxTE84XzJyalNkNnJ4V2pmVTIxTTlaT3E4aDJCM0NIejRZbFZGNTNfYUV0dTVUcjMxa0ZzUVkwS0pEcjdWZlVaYkRTN3JGcG1WUGloaTZldlVfVWxHeFU?oc=5)**
+  - 来源：汽车之家 · 来源时间：11-24 13:05（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：【视频】行业首发！家越07豆包座舱，方言外语秒懂 汽车之家
+- **[豆包个人AI助理产品“小豆”开启邀请制公测 - 紫牛新闻](https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxM2tZX1ZhQ25xTjEzWTlrNGtpU0FsUXhfR19FLUpMQzJkYkg2WGc1VGVMbGdWRFVWbG9SZFBsN1J5WER1YktSUjNkMUZSdzBuX3Z2MGZiOWtWSE5PTW03X0VRX1UwWVBF?oc=5)**
+  - 来源：紫牛新闻 · 来源时间：11-24 12:48（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包个人AI助理产品“小豆”开启邀请制公测 紫牛新闻
+- **[豆包App灰测“豆包购物”：配有一级入口，与抖音商城直连 - Jiemian.com](https://news.google.com/rss/articles/CBMiWEFVX3lxTE56Um5IOWhSMWJSQkJTUVc2dlhFalZnVWpTSHNIWGhubndMdEtZdnRJR0NNeFZWTnBEVWg1TjlpdWVPa2MybW9lZnVzWXU3OUU4N2gta0tsdno?oc=5)**
+  - 来源：Jiemian.com · 来源时间：11-24 12:31（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包App灰测“豆包购物”：配有一级入口，与抖音商城直连 Jiemian.com
+- **[DeepSeek调用量连续五周登顶OpenRouter，代码实现任务支出份额仅5.2% - Forbes China](https://news.google.com/rss/articles/CBMiVEFVX3lxTE1CN3lyMzBuSmdXNE1KQXJfWHplaUNwMGZVLUpwQURlVC1MWlEtRTNBZlpyemFMU2dkdW92TENFNklQSmZHYWwySDNpX2J6anpMNWc5WA?oc=5)**
+  - 来源：Forbes China · 来源时间：11-24 12:21（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：DeepSeek调用量连续五周登顶OpenRouter，代码实现任务支出份额仅5.2% Forbes China
+- **[【视频】首批豆包汽车车主集体“真香”，这车到底给他们下了什么药？ - 汽车之家](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoWnlFZVA1eTRVRXhELVFBa1A3RUU4WExoTnh4YTNaN3BaVHQ0ei1mcmN6Y2Nnd3h6TGo0WE1VQUlaTmo1UTRjdUMyZURIY3BISV91MmxUWk5hR00?oc=5)**
+  - 来源：汽车之家 · 来源时间：11-24 12:14（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：【视频】首批豆包汽车车主集体“真香”，这车到底给他们下了什么药？ 汽车之家
+- **[豆包“上新”，个人AI助力“小豆”开启公测 - Sohu](https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ETjN3N2E1VFpleldwQThLaks1QmZ0aTNzSDhNUDQ0cTZuYXZEbDFEZjZSTHc4dXdDR2d0UHVGOG9UdE5qeEJDa1NfT1lGVGw2WUE?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 12:07（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包“上新”，个人AI助力“小豆”开启公测 Sohu
+- **[成为 DeepSeek 的股东有什么好处 - 手机新浪网](https://news.google.com/rss/articles/CBMicEFVX3lxTFBtVjd3TXo4bEtFSWpJQlQwZWdNNkRkaFdkVmJGcFpRT09vYXJ1dlROMlRWZVRYbjR6ZTluS0s4eG1veENZRlloZEI2bUpKX3k1bTRjVld6T0FkUEN3NENfS29PQUV2VTRvRGliTEU1eE0?oc=5)**
+  - 来源：手机新浪网 · 来源时间：11-24 12:06（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：成为 DeepSeek 的股东有什么好处 手机新浪网
+- **[豆包推出“小豆”，大厂争夺个人AI入口 - 华尔街见闻](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Bdi1odjcyamJRLVA0eFpoZ3NZTE9XNmppWHhqT2F1SE5tNkkzSjhqemxGWlZUZk1yQjhpM0xvNWI3UzhCOHJnTlpjbEEtMmtMTkdN?oc=5)**
+  - 来源：华尔街见闻 · 来源时间：11-24 12:03（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包推出“小豆”，大厂争夺个人AI入口 华尔街见闻
+- **[豆包推出独立AI个人助理“小豆”：开启邀请制公测，最高月费500元 - 凤凰网](https://news.google.com/rss/articles/CBMiUkFVX3lxTE5uYktlVnBVZWN2c1VPUmRKMFJKS2h2OGFQa2F5LUkydXFiOG5jZ0xRdXFfVTF0ZjJoTnVDVEpsWjZWazVvRWZmSmdxSTRhQlZQamc?oc=5)**
+  - 来源：凤凰网 · 来源时间：11-24 11:57（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包推出独立AI个人助理“小豆”：开启邀请制公测，最高月费500元 凤凰网
+- **[实测智谱GLM-5.4：以Loop Transformer实现泛Coding，代码可驱动3D、视频创作 - 财联社](https://news.google.com/rss/articles/CBMiSEFVX3lxTE0yVWd4TFA5NllZQXhRMk13czRJYmVTXzZva2YxT0JPSmY5aHdncDhDS0NtdVpmY3VabjJyb0pac2F6OV80VVEyRw?oc=5)**
+  - 来源：财联社 · 来源时间：11-24 11:56（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：实测智谱GLM-5.4：以Loop Transformer实现泛Coding，代码可驱动3D、视频创作 财联社
+- **[豆包个人AI助理产品“小豆”开启邀请制公测 - Sohu](https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSEQxNVVkVXdtYmowQ09RSlJDNWdxRi1SYndOdjkyOFZSMFE3eDBITWtuOEExOEt2RjZqcUltYW5iajlmdjlnQjRRVGhNbjNYdVN1R1FPNG5CSEdaSjNVbkttRUdMMU9CLURndDd4LXV3RTM4X2kzOFJiTHI4ZkZiYjRJZ2FmY3c1UkRn?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 11:50（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包个人AI助理产品“小豆”开启邀请制公测 Sohu
+- **[知乎宣布间接投资DeepSeek，股价应声大涨10% - 产业链 - 光通信Pro](https://news.google.com/rss/articles/CBMiV0FVX3lxTE9yT2hDWk4za1l4MUxmdkdzRDJhdmxFemtTeHlMLWlRYVdmZTZveXlEWkloMDlqWTI4aVNOQmE2MUFpV1ZGUnlRODJ3dmNJYWh4dldXd0taOA?oc=5)**
+  - 来源：光通信Pro · 来源时间：11-24 11:49（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：知乎宣布间接投资DeepSeek，股价应声大涨10% - 产业链 光通信Pro
+- **[从黎曼猜想到密码学：MiniMax内部模型刷新国际挑战赛纪录 - Sohu](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZWZFd2RWXzBXTmVhUHVMZlNZdXFac1VUTEMxelFMNG4tVlFhYkRERk5CMUpPZ0tmdll6c1VlSG5WMmJSVkdpb2ozYzRNN0V0bWVqejB5Q0pCbzNHdWQwN0NUNDV6UjE1Z1FHRGNfMkoxTi1Cbjhyc2I3Y1ZnblNXR3E4V1JweXVu?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 11:47（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：从黎曼猜想到密码学：MiniMax内部模型刷新国际挑战赛纪录 Sohu
+- **[港股大模型股高开低走 智谱震幅近20% - 东方财富网](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zcUZTZDFvQWhjMk5GTE15MnFTM1JLdHNYeVpCdnhOS2xPVXJDancwMG1TdG8xX2VwaUJkc0lMeUR4T1R2ZmlGUmJoZFFpa0tSX1dUczZKdDdfbXZUZUwzeA?oc=5)**
+  - 来源：东方财富网 · 来源时间：11-24 11:27（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：港股大模型股高开低走 智谱震幅近20% 东方财富网
+- **[知乎宣布间接投资DeepSeek，股价应声大涨10% - Sohu](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY3VSUjI0aF9ydVptQ3VCTk0zVlZrREM0RHJTZkpDalZGZHRFX0FYLThleWtmRTNQZ0ZlQ2hhODh1bkluR3dDcGxYOVRJWjBSMUUySm9UZ3BYX1gtdHoyeG5qb1hvT3ZZYjFjQjIwUWwxRm9fYmxtRFU5UDlfcXRSdGtUZklxWklu?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 11:26（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：知乎宣布间接投资DeepSeek，股价应声大涨10% Sohu
+- **[MiniMax发布H3 Family模型 H3视频0.5元/秒起 - 观点网](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yU3FsVXZCOUY3NVltSlhNaktUWmtnRHJibmNnZHltM09EdzJOX3ZYVXZRX2JvQ3ZqeEE1UmRVQkFKWlhTWUNYS3NJUHpZWDNIN0dOandmbVVPcmlqVG1mWFRn?oc=5)**
+  - 来源：观点网 · 来源时间：11-24 11:22（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：MiniMax发布H3 Family模型 H3视频0.5元/秒起 观点网
+- **[港股大模型股高开低走 智谱震幅近20% - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxPUjB1S1k4bkNoOXlhNHdpcU1KTXBNTlNmMVNaaXpZUTJtbkhmM1lSbkZzaXRBNVFRNVA4VFI3aEZvNG1QUEJKNzRMQjljS2E4cHdFeEVKaTRhc19hY3JIVlFnOVJLQ0c5QnBPTy1RU3BwMU9yNUstUndBaW12Wkthc2JzTkxMRDc3dFJ1Zw?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 11:21（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：港股大模型股高开低走 智谱震幅近20% Sohu
+- **[智谱跌超3% - Sohu](https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTTdvb3FkYzFBQXczQ1ZILTlEbjNlc2VaSGFmclplUTd4VldxWmhOV0NYT3VJV2t6T01feENrVEdaZWhEQmlxTzEyLUJxeDZyVFN1dXBkS1ZJYmx2NUc0Y05qYUROQTJvNTF6VXpwOUp5cjJCdjdJXzQ3VGpURE1wZ1pOQThmSnBtdVhv?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 11:19（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：智谱跌超3% Sohu
+- **[11:16:40【港股大模型股高开低走 智谱震幅近20%】 - 财联社](https://news.google.com/rss/articles/CBMiSEFVX3lxTE5IM3ZHQkhOQzJsLW1WbnBPZWtzUjJaMllhT1AyZkx5cGlEZVloQkticlI1TkdHM3JJMVdoMDB1TWo4OFZKZDBYZQ?oc=5)**
+  - 来源：财联社 · 来源时间：11-24 11:16（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：11:16:40【港股大模型股高开低走 智谱震幅近20%】 财联社
+- **[豆包旗下AI个人助理“小豆”开启公测，能够帮你处理日常事务 - Sohu](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdnVyVkxwMjlxc2YxbDZVSVZVX3Fwa18xVG9BWDFtVGlfeXNxSy1sNGN5Sk1pQWN6M1FEc2VkcmRXTG9mRV9BX1NPTnlySlBncjhzNi1INFF5NHJKVWZkMDNiZzRURzVwc1MwcTE0eGlKb2dmdGJqRGpOcDZKampoQ0NOaWF4ckpP?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 11:06（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包旗下AI个人助理“小豆”开启公测，能够帮你处理日常事务 Sohu
+- **[豆包旗下AI个人助理“小豆”今日公测，采用邀请制开放，未来将逐步在豆包App上线 - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxOZ0pTWWF5Q1ZEN1M4cFc0RTFtUU9YbkFnT2lWa2RnT2FESUVFbDY4WmJrb1gyQmtvbGNGd0V5bEh1NlFpb1Z4YVlGa2pWelRkUW5ERGhDdjFNWDAxQ2o1dkp2ZjNVclp4dlV2Y0Q0WFRpNDJ4S0ZtUGV0NFdfQWgzd09hN0FmMW95MmVPSw?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 11:06（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包旗下AI个人助理“小豆”今日公测，采用邀请制开放，未来将逐步在豆包App上线 Sohu
+- **[【视频】首批车主集体上头！豆包座舱助手都会“看人下菜碟” 了？ - 汽车之家](https://news.google.com/rss/articles/CBMiW0FVX3lxTE02Um9iWmJYd1VyaENQeDRMN1dZUmdiYzgyZkZJYTQ2TEFwX2pMQlpuU3J4NHZMZFJjelVXeEw2N2UtV2RwWmdPMV9yMHNIWWppOEtORzFOU2FfUlE?oc=5)**
+  - 来源：汽车之家 · 来源时间：11-24 11:04（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：【视频】首批车主集体上头！豆包座舱助手都会“看人下菜碟” 了？ 汽车之家
+- **[从「你说豆包干」到「我们用豆包工作」，AI办公的生意变了 - Sohu](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT0ZyZ0Vmc2dSSFQtZEpacFc1WURTdDBTT2t0VkE2dnVBM3Z4NURuMm9HaUd0aGtZaE9VSVktRWZaSzc3bk5ac3lUbnQtY3d4MjEtM0hBT3BTOFpPN2ZUWmZqam9XSjRyWHNhUUJJSnJuZlZXcUxZQkJVbUE0NmpZdUQ3TXlrZHlu?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 11:03（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：从「你说豆包干」到「我们用豆包工作」，AI办公的生意变了 Sohu
+- **[豆包AI个人助理“小豆”开启公测：采用邀请制开放 - Sohu](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaG83V1YtMVYwc3ZheE9Za0JPemd5S2NUSEpMWlM4aGsxeGN5dlA0U0N4UVFieVlDSHdJcUluWUZacDRLUDhITWE5VkpqU3dpV1JVbExIcVY1Sy1XNEJRVVlGN0Z6d05pdkhUbzJxSEs3RWhYNkVVekNHbHpXRk9Oc3NIdVJSaU9O?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 11:00（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包AI个人助理“小豆”开启公测：采用邀请制开放 Sohu
+- **[豆包AI个人助理“小豆”开启公测：采用邀请制开放\_CNMO - CNMO](https://news.google.com/rss/articles/CBMiSkFVX3lxTE1oZFNfUXhhSlpHUjVPLTBJSlBtbkxwUGxGc1NrLVV6Q3dCWWxQS2M3NGRHcHRyTnowTmU3eHg1ZmxoeUdlYWd5RzdR?oc=5)**
+  - 来源：CNMO · 来源时间：11-24 11:00（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包AI个人助理“小豆”开启公测：采用邀请制开放\_CNMO CNMO
+- **[豆包发布AI个人助理小豆：正式开启公测 - 驱动之家](https://news.google.com/rss/articles/CBMiWEFVX3lxTE9NYmJvQWdPSHhJU1dWNkpadDVFXzhGVThmam5XTGtDdHFOZ1FGS0hpdDctYVF3NVBxZmlOZ1FNc3VqeVhjNjZobUlNd08xamFJVVd6S0dkejA?oc=5)**
+  - 来源：驱动之家 · 来源时间：11-24 10:59（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包发布AI个人助理小豆：正式开启公测 驱动之家
+- **[智谱发布GLM-5.4 首用Loop Transformer架构拓展泛Coding场景 - 品玩](https://news.google.com/rss/articles/CBMiSEFVX3lxTFBtNXh5Y01UMTRWaG14MDlITkZuMkIwbG5GXzFLVTZwTWlqXzBtY1RBenVuUHR6Y1U0MlYzV1o1ZUJhczJXWHZYaQ?oc=5)**
+  - 来源：品玩 · 来源时间：11-24 10:48（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：智谱发布GLM-5.4 首用Loop Transformer架构拓展泛Coding场景 品玩
+- **[拆解Qwen千问AI耳夹耳机：一个耳夹塞12颗磁铁？ - 我爱音频网](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1kdEUtb3lqbkFrQnlsak94Tk85Y3h3UE9IVnd1VHh2cGZxV09wbVB3OUNseV9jSGFhWFpYcjJmbUV5VDVCay01eDdJNDFucXRmR2NsdlZBbDNrejFPU0w4RA?oc=5)**
+  - 来源：我爱音频网 · 来源时间：11-24 10:39（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：拆解Qwen千问AI耳夹耳机：一个耳夹塞12颗磁铁？ 我爱音频网
+- **[豆包旗下AI个人助理“小豆”开启公测-证券之星 - 证券之星](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EWUN3VUJKNS13NmZxekdwU3d0WHJrS0F4NnhVVm1faWJwS3gtYmdVbHlKaG9Xd2VEZnk3NmhJN0VVWHN3cE1ldXYwVmxzV2dsSVVEcVVBUXBZeENyUlE?oc=5)**
+  - 来源：证券之星 · 来源时间：11-24 10:39（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包旗下AI个人助理“小豆”开启公测-证券之星 证券之星
+- **[智谱发布7500亿参数循环Transformer旗舰模型GLM-5.4 - 亿邦动力](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5neUNGaEhXdXMzZ2xuOEhMbVAxVkVtZ3d6WDJwa1lJVTlURGdrN1RhSHhMQmZrVGUzbFhkVHVQOVFLYXZsUDJQQnRxOWtEYW5RVTlGSEJ3?oc=5)**
+  - 来源：亿邦动力 · 来源时间：11-24 10:32（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：智谱发布7500亿参数循环Transformer旗舰模型GLM-5.4 亿邦动力
+- **[豆姐威武！豆包工作上新21个专业工作台，AI直接替你上班 - 智源社区](https://news.google.com/rss/articles/CBMiSEFVX3lxTE5rVnFKV2dJMkhISG05QVltNUVxb0t3M3ZEakxERDQ0TmE0a2xFMktkQ3VpcWREY1htcFQ4Ym1KZ1BCcDduUGRwRQ?oc=5)**
+  - 来源：智源社区 · 来源时间：11-24 10:00（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆姐威武！豆包工作上新21个专业工作台，AI直接替你上班 智源社区
+- **[DeepSeek组局 十万亿中国AI生态天团 - 中华网财经](https://news.google.com/rss/articles/CBMibkFVX3lxTE96SmVBN0dFbEZNNy11WVA2NzhFNzc4TFhxaXcwQjhnem9EeFFLQlNLNmlVdGxuc0tmQnU4eE5NcXpYWnJZNjJ2TmdKSzhmVU5iZGxkTC1ncE9WanpyOHpXdGlnTWcyTXZmVGN0Q19R?oc=5)**
+  - 来源：中华网财经 · 来源时间：11-24 09:59（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：DeepSeek组局 十万亿中国AI生态天团 中华网财经
+- **[港股中际旭创、剑桥科技、兆易创新、智谱、MINIMAX，集体大涨 - 21财经](https://news.google.com/rss/articles/CBMijwFBVV95cUxNYTE0YUJNa3d3NTVIS2xkbC1pRDZqQjVqaTItTWVGdk94VlBwTGtsckpwYlN4dWZidFE4R0RPaVhKZXRFd1NnVmM1eGhWeXdmT1FUUjJ3NHJYVjRyQmVXSjJ3QzBRSkhQcUZveDhkWFRhMHltTWFLalFfa3VWcjlSZ0piVFNTZ3RkbzByVFB0OA?oc=5)**
+  - 来源：21财经 · 来源时间：11-24 09:58（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：港股中际旭创、剑桥科技、兆易创新、智谱、MINIMAX，集体大涨 21财经
+- **[豆包工作下调多款模型消耗倍率，超八成日常任务免费用 - 雷峰网](https://news.google.com/rss/articles/CBMid0FVX3lxTE5NckMwS21pX1Zmd2VFeWRXc0tlRWgwSnk5d3BvbWI4d0JzQUZIb3M4b0plOExVcnY1cWE3SEJtS2hsZHRreElYaVlCcV9jZE4tM3I2OGRuNjNOT3otNjZGWVI2czdmT1hsWE5JT29udjJTcVpXS08w?oc=5)**
+  - 来源：雷峰网 · 来源时间：11-24 09:47（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：豆包工作下调多款模型消耗倍率，超八成日常任务免费用 雷峰网
+- **[恒生科技指数高开2.05% 智谱、MINIMAX-W涨近15% - Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxOc3Q2YnBFY1Z1NmMyZG9vQldvU0lIdl9VTEV5TWhycTRneTRZazMyOENkc1Z6RGFQbHZES1liNDhYUDF1Um85anpsdk15OVAwQl9CajF4Nm5EUVVZV2d1YUp1dWgwMGVQaGFwSWttaE9CdHJIV0tRU2ZfNVdRZEduWU04aVNGNDJJbDBleA?oc=5)**
+  - 来源：Sohu · 来源时间：11-24 09:33（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：恒生科技指数高开2.05% 智谱、MINIMAX-W涨近15% Sohu
+- **[黄仁勋复职英伟达；智谱上线GLM-5.4丨港股早报 - 21财经](https://news.google.com/rss/articles/CBMijwFBVV95cUxPU1BuN2o0WXh5V2VuX05fWXRtNmpMYkhERmNxVjZKVWY3SDgwRHhWbm42ZE93QUthdFd4N3lhRWd6ME56bVp0Q0RZeGJZRVRTX19KQXRWM3RvZS04WEpVeWc3N1pYRk55bGxJXzB5X1dHU2UzUWdRY1k4aE9POUpMZ0ZHZS1PMlBxZ3RSRUNVTQ?oc=5)**
+  - 来源：21财经 · 来源时间：11-24 09:19（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：黄仁勋复职英伟达；智谱上线GLM-5.4丨港股早报 21财经
+- **[智谱新旗舰上线！Agent商业化按下快进键 机构本月聚焦这些股(名单) - 东方财富网](https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zNExpOWQ3QWczUmNPZmpWWVh0MHRVejVKTGJkMHdRQWVJcXF2am1YNFJTa3NyYWVjV2dsZ0E4NUVFMHpNbW9wRTUxckVhT3k2UzFaMTB2STJBM3RkaHY2VA?oc=5)**
+  - 来源：东方财富网 · 来源时间：11-24 07:48（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：智谱新旗舰上线！Agent商业化按下快进键 机构本月聚焦这些股(名单) 东方财富网
+- **[智谱发布新一代大模型 - 东方财富](https://news.google.com/rss/articles/CBMiY0FVX3lxTE92MEFZaV9KZnNuOUNuMDdUUHRRTTNkMUpwSDRIdUM3dHJtWlQteS1DM2hjdUNPV3RLNUxTMkNsZXBfbnV0WWdYQkY0cVdYOHZUZ0JhejRMQkwxSVE1MnNrcUFvVQ?oc=5)**
+  - 来源：东方财富 · 来源时间：11-24 07:29（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：智谱发布新一代大模型 东方财富
+- **[中国大模型调用量连续30周第一！DeepSeek霸榜五周 - 第一财经](https://news.google.com/rss/articles/CBMiU0FVX3lxTE55X09xYzhocHlFM3E2NUVYcWU3UnpwT2RfNHEtbXNFSG1WZExWaUdwNmVobUFoTFFLSHRPUVpEbWREZmpoTkMySGZGcmN6YmtTbXdR?oc=5)**
+  - 来源：第一财经 · 来源时间：11-24 05:32（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：中国大模型调用量连续30周第一！DeepSeek霸榜五周 第一财经
+- **[知乎：基金间接投资DeepSeek获低个位数股权 - 东方财富](https://news.google.com/rss/articles/CBMiY0FVX3lxTFBFdEctS1ZnWnZmb2RjR3ZROERGWjh1aUZ4WkpVRFBRSnZYY29oTmUwT0M1TXJ0aXV1MHpxWWI3VkRhN09QY2NFcDdCM3dydkNveUQ2LU12Q0JzQVYxZ0VReWpFYw?oc=5)**
+  - 来源：东方财富 · 来源时间：11-24 04:10（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：知乎：基金间接投资DeepSeek获低个位数股权 东方财富
+- **[黄仁勋复职英伟达大涨超30%；智谱上线GLM-5.4丨盘前情报 - 东方财富网](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBsTWhFUGtxSmtXalJQR042R3FFX1NscWFJNFhib09Kcm80YU9vdXNRb1JzbDFHU29yVEszSWZpT0RLNjFuZWYxQ19KakR4TWE1WGdOeVVEWHN0QkpwRmJuOVlnVVN3Zw?oc=5)**
+  - 来源：东方财富网 · 来源时间：11-24 03:37（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：黄仁勋复职英伟达大涨超30%；智谱上线GLM-5.4丨盘前情报 东方财富网
+- **[智谱：GLM-5.4向GLM Coding Plan全量用户开放，引入Loop Transformer架构 - 东方财富网](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RalN5YklUTjhhWFd5eXlxQ19xMmVyQ1daQk5XLWtXUWtFNlJWc1QwWUpMakRkRmxTX0JXVHZzZC0yR05qZ0R4d29TdkQ5TkJ5STlsS1ZhZEVEcEQyalp3d2JhTUYyQQ?oc=5)**
+  - 来源：东方财富网 · 来源时间：11-24 03:10（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：智谱：GLM-5.4向GLM Coding Plan全量用户开放，引入Loop Transformer架构 东方财富网
+- **[智谱官宣GLM-5.4：采用 Loop Transformer 架构、开启“泛 Coding”能力 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA](https://news.google.com/rss/articles/CBMiS0FVX3lxTE1JZGtZVmlJdGJmSmNpd0JBLTYyLWp5MW8xeWJ4Q2tfS2VxYm1JNzZ4SlowODlDLXJqejdfaFBHNzM5enMyNnRINGpZOA?oc=5)**
+  - 来源：OSCHINA · 来源时间：11-24 02:30（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：智谱官宣GLM-5.4：采用 Loop Transformer 架构、开启“泛 Coding”能力 - OSCHINA - 开源 × AI · 开发者生态社区 OSCHINA
+- **[金山云星流模型服务平台上线智谱GLM-5.4 - 同花顺](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QdmpXVVdfZWtVWmZEdUNzbW1JU1c0RlE3NXZIX2xUTS1DX2p5cmpxZ0ZpNFd6N2Z1UlFqQWdiSDQwc296OC11Rk9Pb2xWN0NuUFJIZkhrWHJoMkFBT3c?oc=5)**
+  - 来源：同花顺 · 来源时间：11-23 23:51（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：金山云星流模型服务平台上线智谱GLM-5.4 同花顺
+- **[港股公告精选｜知乎参投基金获DeepSeek部分股权 国银金租拟采购35亿元计算设备 - 财联社](https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ZYjhDUTFEQUFDWU5ZeFU0ZEN2SGhEYkpPUzFsNG1pbmxPTjBJcWtOdWxaV1lfS0k5V2loY3lLSnBKMjExSmNIeg?oc=5)**
+  - 来源：财联社 · 来源时间：11-23 21:16（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：港股公告精选｜知乎参投基金获DeepSeek部分股权 国银金租拟采购35亿元计算设备 财联社
 
 ## 行业与综合
 
-- **[宣传先行、功能迟到：苹果 2.5 亿美元和解 Siri 诉讼](https://www.aibase.com/news/32453)**
-  - 来源：AIbase · 来源时间：11-23 11:43（北京时间）
+- **[探索“原创IP+AI漫剧”新业态：书旗中文网2027年再投3亿元强化生态协同](https://www.aibase.com/news/32499)**
+  - 来源：AIbase · 来源时间：11-24 14:57（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：Apple因Siri个性化功能宣传后延迟至2025年3月而遭集体诉讼，现以2.5亿美元和解：符合条件的美国iPhone用户每台至少61美元、最高95美元，基础仅25美元且申领者越多分得越少。
-- **[为 OpenAI 的巨额订单备好钱：甲骨文称融资已就位](https://www.aibase.com/news/32457)**
-  - 来源：AIbase · 来源时间：11-23 11:43（北京时间）
+  - 雷达导读（上游提供）：Shuqi Chinese Network在2026年度创作者大会宣布2027年再投3亿元，并已开放超10万个小说IP供改编，探索AI漫剧新业态。
+- **[一句提示词造一个“灾情”：公安部网安局公布 10 起 AI 造谣典型案](https://www.aibase.com/news/32484)**
+  - 来源：AIbase · 来源时间：11-24 11:20（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：Oracle称11月20日已筹齐履行OpenAI合同所需资金，德州Abilene正训练GPT-6 Astra，Shackelford获全部许可，目标FY2029自由现金流超300亿美元。
-- **[沉寂百日后先上前菜：智谱下周发 GLM-5.4，3 万亿旗舰 12 月见](https://www.aibase.com/news/32458)**
-  - 来源：AIbase · 来源时间：11-23 11:43（北京时间）
+  - 雷达导读（上游提供）：11月24日公安部网安局公布10起AI造谣典型案，3起被采取刑事强制措施、7起受行政处罚，含马某用AI生成张家界大峡谷玻璃桥突然坍塌视频、吴某编造广州花都夜市暴雨被淹等。
+- **[骗子从邮件打到电话：微软给 Teams 配了位 AI 反诈员](https://www.aibase.com/news/32488)**
+  - 来源：AIbase · 来源时间：11-24 11:20（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：中国大模型沉寂超三个月后，据11月21日快科技消息，Zhipu下周将先发布GLM-5.4，而3万亿参数的旗舰模型要等到12月，文章梳理了这轮“前菜”与真正大招的时间表。
-- **[AI 账号互相捧场刷屏评论区：B 站发问卷，给“大肥鱼”们立规矩](https://www.aibase.com/news/32462)**
-  - 来源：AIbase · 来源时间：11-23 11:43（北京时间）
+  - 雷达导读（上游提供）：据Neowin报道，Microsoft为Teams开发AI反诈功能，可分析一对一外部通话，识别冒充IT管理员以账户异常等借口索要登录凭证的语音钓鱼并弹窗警告，计划2027年1月上线。
+- **[黄仁勋官复原职：英伟达董事会一周内戏剧性逆转，股价应声大涨 31%](https://www.aibase.com/news/32490)**
+  - 来源：AIbase · 来源时间：11-24 11:20（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：Bilibili 官方11月20日发问卷，就 AI 账号刷屏评论区征集治理建议，文中提到有用户开发 Big Fat Fish Removal Plan 插件专门屏蔽。
-- **[和 AI 视频通话问诊：蚂蚁阿福用户破 1.5 亿，还要往手上戴](https://www.aibase.com/news/32464)**
-  - 来源：AIbase · 来源时间：11-23 11:43（北京时间）
+  - 雷达导读（上游提供）：NVIDIA董事会一致投票让Jensen Huang复任总裁兼CEO，股价大涨31%；不到一周前主席还称无意请他回归，逆转源于董事会满意其坦诚。
+- **[一台被黑客“晒”上网的攻击工具，暴露了 AI 作案的全过程](https://www.aibase.com/news/32477)**
+  - 来源：AIbase · 来源时间：11-23 23:58（北京时间）
   - 信源分层：AI垂直源
-  - 雷达导读（上游提供）：Ant Afu 上线一年多用户破1.5亿，新版基于 Bailing 大模型提供实时音视频“Health Check”，小问题可视频问诊，还推出手环和戒指。
-- **[@grok 列出最推荐的所有推荐，并每个写 1 句话为什么](https://x.com/petergyang/status/2124695613971603850)**
-  - 来源：Follow Builders · X · Peter Yang · 来源时间：11-23 10:44（北京时间）
+  - 雷达导读（上游提供）：Amazon披露黑客用自主AI平台Cairn，仅凭一句obtain Shell access指令自动找公网漏洞，借零日漏洞控制医疗影像服务器，9月8日至10日攻击东亚教育机构。
+- **[如何避免设计中出现 AI 垃圾内容（即使你不是设计师）：https://t.co/xKfBQTQXns https://t.co/49RO5JiyR1](https://x.com/zarazhangrui/status/2125074988210463019)**
+  - 来源：Follow Builders · X · Zara Zhang · 来源时间：11-24 11:52（北京时间）
   - 信源分层：Builders/X源
-  - 雷达导读（上游提供）：值得一看的是这条内容只反复复制同一句对@grok的指令——按推荐次数排序、每条写一句理由，正文并未真正列出任何推荐，可当作提示词与回答落空的样本。
-- **[Notable Capital、GIC 和 Baillie Gifford 如何在 Anthropic IPO 前大举押注](https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo)**
-  - 来源：TechCrunch AI · 来源时间：11-23 09:25（北京时间）
-  - 信源分层：精选AI媒体
-  - 雷达导读（上游提供）：在 Anthropic IPO 前，Notable Capital、GIC 和 Baillie Gifford 各自押下数十亿美元，三家投资方亲述是什么让它们敢于下如此重注。
-- **[Breaking: AI fails to solve the most intractable math problem, how VCs are going to return those huge funds when the entry valuation of their deals is \> $1B pre-product](https://x.com/mattturck/status/2124671699245257037)**
-  - 来源：Follow Builders · X · Matt Turck · 来源时间：11-23 09:09（北京时间）
-  - 信源分层：Builders/X源
-  - 雷达导读（上游提供）：文章以AI fails to solve the most intractable math problem为切入点，追问VCs在pre-product阶段入场估值已超$1B时，如何为巨额基金实现回报。
-- **[Ashwa — 你的 AI 伙伴，永远记得你说过的话](https://www.producthunt.com/products/ashwa)**
-  - 来源：Product Hunt · 来源时间：11-23 04:25（北京时间）
+  - 雷达导读（上游提供）：面向没有设计背景的人：这篇内容讲如何防止设计中出现 AI slop，让非设计师在借助 AI 产出视觉方案时也能把好质量关。
+- **[Juncts — 你的私信版 Superhuman，AI 帮你分拣并起草回复](https://www.producthunt.com/products/juncts)**
+  - 来源：Product Hunt · 来源时间：11-24 11:08（北京时间）
   - 信源分层：新产品
-  - 雷达导读（上游提供）：页面实际只显示CAPTCHA安全验证提示，除产品名Ashwa与“永不忘记你说过的话”这一标题外，没有任何功能、数据或上线信息，读前需先通过人机验证。
-- **[I found a secret prompt that makes all your vibecoded projects scale and perform better, with higher reliability. “Use Postgres”](https://x.com/thenanyu/status/2124592238974156861)**
-  - 来源：Follow Builders · X · Nan Yu · 来源时间：11-23 03:53（北京时间）
+  - 雷达导读（上游提供）：Juncts 号称是私信版 Superhuman，用 AI 对 DM 分级筛选并起草回复，但正文实际只显示 CAPTCHA 安全验证页，未给出任何产品细节或数据。
+- **[Great meeting with VP @JDVance on Friday to discuss American AI leadership, cybersecurity, and modernizing our nation’s software infrastructure. We also discussed an issue close to my heart: American leadership in ope...](https://x.com/amasad/status/2125008810041610359)**
+  - 来源：Follow Builders · X · Amjad Masad · 来源时间：11-24 07:29（北京时间）
   - 信源分层：Builders/X源
-  - 雷达导读（上游提供）：作者分享了一个所谓的秘密提示词——只需让 vibecoded 项目“Use Postgres”，就能获得更好的扩展性、性能和可靠性；全文只有这一句核心主张，值得判断它是否成立。
-- **[by this metric we have seen more ai progress this year than in 2022-2025. is that true? doesn’t suuuper feel like it but who knows we could be cooked by algorithm and/or metric only translates at frontier math level](https://x.com/swyx/status/2124590240539259381)**
-  - 来源：Follow Builders · X · Swyx · 来源时间：11-23 03:46（北京时间）
-  - 信源分层：Builders/X源
-  - 雷达导读（上游提供）：针对「今年AI进展超过2022-2025年」的说法，作者直言主观感受并不强烈，并提醒该指标或许只在前沿数学层面成立，需警惕被算法和度量方式本身带偏。
-- **[i am usually not alarmist but assuming this is caused by an AI-assisted cyber attack it's very bad if you want to make all of the security measures we have in place from 9/11 onward to prevent human hijackers irreleva...](https://x.com/danshipper/status/2124567533449613819)**
-  - 来源：Follow Builders · X · Dan Shipper · 来源时间：11-23 02:15（北京时间）
-  - 信源分层：Builders/X源
-- **[为什么数据中心成了Big Tech反弹风暴的中心](https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash)**
-  - 来源：TechCrunch AI · 来源时间：11-23 02:08（北京时间）
+  - 雷达导读（上游提供）：这条动态记录与VP @JDVance周五会面，讨论美国AI领导力、cybersecurity和软件基础设施现代化，并强调open-weight AI的领导力及盟友寻求主权AI、日益转向中国。
+- **[Jensen Huang 身陷丑闻仍在 Nvidia 复职，Elon Musk 等人欢呼](https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal)**
+  - 来源：TechCrunch AI · 来源时间：11-24 05:47（北京时间）
   - 信源分层：精选AI媒体
-  - 雷达导读（上游提供）：记者Paris Marx在新书《Hyperscale》中剖析数据中心为何成为针对Big Tech反弹风暴的中心，拆解超大规模基础设施扩张背后的争议与代价。
-- **[METR 警告：AI 进步太快，专家已难以可靠测试新系统是否安全](https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns)**
-  - 来源：The Decoder AI News · 来源时间：11-22 21:00（北京时间）
+  - 雷达导读（上游提供）：围绕Jensen Huang因丑闻在Nvidia被恢复职位，Elon Musk以“The mistake has been corrected”回应，文章呈现这一人事反转及外界欢呼。
+- **[Megaspeed，这家处于Jensen Huang丑闻中心的公司，似乎将被列入美国黑名单](https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist)**
+  - 来源：TechCrunch AI · 来源时间：11-24 05:25（北京时间）
   - 信源分层：精选AI媒体
-  - 雷达导读（上游提供）：METR指出Opus 5.5、GPT-6 Astra等模型可处理任务时长每3.6个月翻倍，按此推算2027年7月能在200小时任务上达50%成功率，但公开数据仍无法排除AI研发的危险加速。
-- **[Lean 与 Mathlib 社区正式确认 Levent Alpöge 的黎曼猜想证明无误](https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct)**
-  - 来源：The Decoder AI News · 来源时间：11-22 19:08（北京时间）
+  - 雷达导读（上游提供）：曾由 Alice Huang 领导的 Megaspeed 因卷入 Jensen Huang 丑闻，或将被列入美国黑名单，届时美国公司需获联邦政府特别许可才能与其做生意。
+- **[AI 数据中心让本就混乱的联合国气候谈判再添变数](https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit)**
+  - 来源：The Verge · 来源时间：11-24 05:09（北京时间）
   - 信源分层：精选AI媒体
-  - 雷达导读（上游提供）：Lean与Mathlib社区确认Levent Alpöge的黎曼猜想证明正确，数十人独立验证了1700万行Lean代码，远早于Terence Tao预测的2050年。
-- **[oovi — 你专属的桌面 AI 团队](https://www.producthunt.com/products/oovi)**
-  - 来源：Product Hunt · 来源时间：11-22 04:02（北京时间）
+  - 雷达导读（上游提供）：COP31谈判破裂：原拟2035年把电力占全球能源消费提至35%（现约20%），但AI数据中心推高用电，会议超时两天，pact因EU、UK等嫌太弱未通过，US缺席。
+- **[Nvidia 员工在黄仁勋回到公司总部时像迎接英雄一样迎接他](https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq)**
+  - 来源：TechCrunch AI · 来源时间：11-24 04:38（北京时间）
+  - 信源分层：精选AI媒体
+  - 雷达导读（上游提供）：Nvidia员工在Jensen Huang回总部时像迎接英雄般欢迎他，他则对员工说第二次会做个更好的CEO，报道呈现了现场氛围和他的表态。
+- **[Nothing即将推出的Ear Note是一对支持AI转录的耳机](https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording)**
+  - 来源：The Verge · 来源时间：11-24 03:04（北京时间）
+  - 信源分层：精选AI媒体
+  - 雷达导读（上游提供）：Nothing将于12月8日发布Ear Note，耳机和带麦克风的充电盒可录制并AI转写通话或面谈，配套App可管理录音、转写和摘要，但售价尚未确定。
+- **[Almma 的 PII Guard——在个人数据进入你的 AI 对话之前就拦住它](https://www.producthunt.com/products/almma-s-pii-guard)**
+  - 来源：Product Hunt · 来源时间：11-24 03:01（北京时间）
   - 信源分层：新产品
-  - 雷达导读（上游提供）：标题称 oovi 是「桌面上的自有 AI 团队」，但正文实际仅显示要求通过 CAPTCHA 的安全验证页面、提示确认非机器人后方可访问，读者读不到任何产品细节与功能说明。
-- **[Othor AI — 你的情报主管。看清数字背后隐藏的东西](https://www.producthunt.com/products/othor-ai)**
-  - 来源：Product Hunt · 来源时间：11-21 19:57（北京时间）
+  - 雷达导读（上游提供）：标题称 Almma's PII Guard 可在个人数据进入 AI 对话前拦截，但正文实际只显示 CAPTCHA 安全验证页面、要求确认访问者非机器人，读不到任何产品细节或数据说明。
+- **[Jensen Huang下周将在重返Nvidia CEO职位后出席参议院听证会](https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo)**
+  - 来源：TechCrunch AI · 来源时间：11-24 02:12（北京时间）
+  - 信源分层：精选AI媒体
+  - 雷达导读（上游提供）：Jensen Huang重新出任Nvidia CEO后，将于下周出席Senate公开听证会，就与疑似中国间谍相关事件作证，听证源于两党要求。
+- **[如果你既爱看新闻又爱看戏，那对 AI 来说，没有哪个月比得上 11 月。https://t.co/yMFFGz3Qg6](https://x.com/nikunj/status/2124915267864301581)**
+  - 来源：Follow Builders · X · Nikunj Kothari · 来源时间：11-24 01:17（北京时间）
+  - 信源分层：Builders/X源
+  - 雷达导读（上游提供）：原文开门见山地说：如果你喜欢新闻和戏剧性，对AI而言没有哪个月比November更热闹，内容由此邀请读者查看最新动态并加入对话，聚焦这个AI新闻与戏剧性事件高度集中的月份。
+- **[Jensen Huang 还没走出困境](https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet)**
+  - 来源：TechCrunch AI · 来源时间：11-24 00:57（北京时间）
+  - 信源分层：精选AI媒体
+  - 雷达导读（上游提供）：文章指出 Jensen Huang 尚未走出困境：其复职虽已发生，但随之而来的一系列问题值得科技领袖清醒看待，不能把回归当作风波结束。
+- **[Finseo — 企业大脑 + 外联推广，让你的品牌被 AI 提及](https://www.producthunt.com/products/finseo-ai)**
+  - 来源：Product Hunt · 来源时间：11-24 00:47（北京时间）
   - 信源分层：新产品
-  - 雷达导读（上游提供）：这篇文章正文被 CAPTCHA 安全验证页拦截，提示需确认访问者不是机器人，实质内容并未加载，仅能看到 Othor AI 的标题和一句宣传语。
-- **[谷歌给 Gemini 补上 GIF 生成功能，Omni 1.2 Flash 掌勺、八国免费用户先用上](https://www.aibase.com/news/32465)**
-  - 来源：AIbase · 来源时间：11-23 17:10（北京时间）
+  - 雷达导读（上游提供）：点开 Finseo 这篇文章只能看到「Just a moment...」提示和 CAPTCHA 人机验证页面，正文被安全防护拦截，除标题外没有任何可读内容。
+- **[One trick a startup can use to self-prompt in a loop: ask yourself “are we dying?” If you ask you might spot the thing killing you and avert it https://t.co/oJuZIg115y](https://x.com/garrytan/status/2124905972296560973)**
+  - 来源：Follow Builders · X · Garry Tan · 来源时间：11-24 00:40（北京时间）
+  - 信源分层：Builders/X源
+  - 雷达导读（上游提供）：这条内容给 startup 一个自省技巧：在循环中反复问自己“are we dying?”，通过这种追问提前发现正在杀死公司的问题并及时避开
+- **[据报道，Trump 电话接入 Nvidia 董事会会议，力推 Huang 回归](https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return)**
+  - 来源：TechCrunch AI · 来源时间：11-24 00:39（北京时间）
+  - 信源分层：精选AI媒体
+  - 雷达导读（上游提供）：文章报道 Trump 据称致电 Nvidia 董事会会议，力挺 Huang 回归，并引述他对 CNBC 称“我和他们谈了……我说服了他们”，交代了这场高层人事干预的关键说法。
+- **[特朗普力挺 Jensen Huang 重返 Nvidia，称美国未发现任何不当行为的证据](https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing)**
+  - 来源：TechCrunch AI · 来源时间：11-23 23:04（北京时间）
+  - 信源分层：精选AI媒体
+  - 雷达导读（上游提供）：文章报道 Trump 支持 Jensen Huang 重返 Nvidia，称美国没有发现不当行为证据，并援引 U.S. Attorney General 为 Huang 辩护，同时敦促 Nvidia 继续推进出口管制调查。
+- **[中国军方担心AI可能让美国找到并摧毁其核导弹](https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles)**
+  - 来源：The Decoder AI News · 来源时间：11-23 22:43（北京时间）
+  - 信源分层：精选AI媒体
+  - 雷达导读（上游提供）：中国军事研究人员担心，AI可能把美军决策时间从15至30分钟压到90秒，更易发现并摧毁中国约620枚作战弹头；今年美军曾依据AI生成的假情报险些登检中国船只。
+- **[随着AI在客户体验领域的需求起飞，Sierra估值六个月内翻倍至300亿美元](https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off)**
+  - 来源：TechCrunch AI · 来源时间：11-23 22:43（北京时间）
+  - 信源分层：精选AI媒体
+  - 雷达导读（上游提供）：Sierra由前Salesforce co-CEO Bret Taylor联合创办，周一宣布完成17.5亿美元Series F融资，六个月估值翻倍至300亿美元，文章聚焦AI在CX需求起飞下的扩张。
+- **[Nvidia试了试没有Jensen Huang的日子，结果只撑了大约两周](https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks)**
+  - 来源：The Decoder AI News · 来源时间：11-23 22:24（北京时间）
+  - 信源分层：精选AI媒体
+  - 雷达导读（上游提供）：Nvidia董事会一致恢复Jensen Huang总裁兼CEO职务，此前CFO Colette Kress临时接管两周间股价大跌，消息公布后股价涨超30%。
+- **[Nvidia 改变主意，重新请回 Jensen Huang 担任 CEO](https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo)**
+  - 来源：TechCrunch AI · 来源时间：11-23 22:21（北京时间）
+  - 信源分层：精选AI媒体
+  - 雷达导读（上游提供）：文章报道Nvidia逆转此前决定、重新请回Jensen Huang出任CEO，并提到这一出人意料的转向得到了美国政府高级官员的支持。
+- **[快讯：AI Jesus 复活了](https://x.com/mattturck/status/2124867013684367396)**
+  - 来源：Follow Builders · X · Matt Turck · 来源时间：11-23 22:05（北京时间）
+  - 信源分层：Builders/X源
+  - 雷达导读（上游提供）：这则快讯连续三次重复 BREAKING: AI JESUS IS RISEN 标题，并附「查看最新动态并加入对话」入口，全文未给出更多具体信息，适合想第一时间追踪该 AI 话题动态的读者点开跟进。
+- **[Meta的Alexandr Wang警告：Riemann突破之后，AI行业还没准备好迎接接下来的局面](https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough)**
+  - 来源：The Decoder AI News · 来源时间：11-23 21:59（北京时间）
+  - 信源分层：精选AI媒体
+  - 雷达导读（上游提供）：Meta 的 Alexandr Wang 以 AI 辅助的 Riemann Hypothesis 证明草图为例——这道数学难题已悬置150年——警告行业对超级智能后的局面准备不足，认为模型只差领域知识与基础设施，或很快能自动化自身研发。
+- **[美国间谍机构追踪Nvidia丑闻人物与中国情报联系已超一年](https://the-decoder.com/us-spies-tracked-nvidia-scandal-figures-ties-to-chinese-intelligence-for-over-a-year)**
+  - 来源：The Decoder AI News · 来源时间：11-23 21:45（北京时间）
+  - 信源分层：精选AI媒体
+  - 雷达导读（上游提供）：纽约时报称美情报机构追踪Alice Huang与中国国安部接触逾一年，她同期与时任Nvidia CEO Jensen Huang有秘密恋情；联邦调查人员正查东南亚公司网络是否违反出口管制向中国走私AI芯片，Jensen Huang 12月1日将赴众议院作证。
+- **[frwrd.to — 你的个人主页链接，由AI整理，一条消息搞定](https://www.producthunt.com/products/frwrd-to)**
+  - 来源：Product Hunt · 来源时间：11-23 20:34（北京时间）
+  - 信源分层：新产品
+  - 雷达导读（上游提供）：本文实际打开后只显示“Just a moment...”安全验证页，需通过CAPTCHA验证才能访问，标题提到的frwrd.to的AI链接聚合功能并无实质内容。
+- **[mindyOne — 你的 Instagram 私信，现在有了 AI 接待员。](https://www.producthunt.com/products/mindyone)**
+  - 来源：Product Hunt · 来源时间：11-23 05:42（北京时间）
+  - 信源分层：新产品
+  - 雷达导读（上游提供）：mindyOne 为 Instagram DMs 加装 AI 接待员，但页面返回 403 Forbidden，正文实际内容未能加载读取。
+- **[AI 画错了自己改：商汤开源 U1.6，多模态模型学会“回头看”](https://www.aibase.com/news/32500)**
+  - 来源：AIbase · 来源时间：11-24 19:01（北京时间）
   - 信源分层：聚合资讯（未提供细分层级）
-  - 雷达导读（上游提供）：11月21日Google为Gemini上线GIF生成，由Gemini Omni1.2Flash驱动，聊天框输入描述生成循环动图，美日韩澳加英德法八国免费用户先用。
-  - 雷达点评（上游提供）：面向 C 端的贴图功能，接口没开放给开发者；等 API 支持再考虑集成。
-- **[一个 Slack 线程里的数学震动：OpenAI 想给 AI 开发装上限速器](https://www.aibase.com/news/32466)**
-  - 来源：AIbase · 来源时间：11-23 17:10（北京时间）
+  - 雷达导读（上游提供）：11月24日SenseTime开源SenseNova U1.6，在8B开源模型首次实现原生图像自我纠错：先出草稿，再对照原prompt查文字错并重绘，直击AI图中拼写与布局返工痛点。
+  - 雷达点评（上游提供）：开源能直接 clone，做多模态自纠错的可以拉下来跑分对比；别急着换主力模型。
+- **[百度开源文心 5.5 Flash Preview正式开源，用 MoE 架构重塑“大参数、小激活”的性价比标杆](https://www.aibase.com/news/32502)**
+  - 来源：AIbase · 来源时间：11-24 19:01（北京时间）
   - 信源分层：聚合资讯（未提供细分层级）
-  - 雷达导读（上游提供）：Jakub Pachocki 称 log perplexity 约0.76 时 Slack 线程中未解数学题答案接连出现，提议用该指标为前沿模型开发设可验证限速，值得读。
-  - 雷达点评（上游提供）：讨论要不要给 AI 开发限速，是政策口水，不产出任何能上手的东西。
-- **[调用量霸榜三十周，赚钱还差一关：国产模型的两张榜单](https://www.aibase.com/news/32467)**
-  - 来源：AIbase · 来源时间：11-23 17:10（北京时间）
+  - 雷达导读（上游提供）：百度开源ERNIE 5.5 Flash Preview，2800亿总参数仅激活140亿，支持100万tokens上下文，Apache 2.0许可下值得看其MoE性价比。
+  - 雷达点评（上游提供）：开源权重可直接下载试用，MoE 小激活省推理成本，先拿来压测对比再决定换不换。
+- **[腾讯混元发布并开源Hy MT3](https://www.aibase.com/news/32503)**
+  - 来源：AIbase · 来源时间：11-24 19:01（北京时间）
   - 信源分层：聚合资讯（未提供细分层级）
-  - 雷达导读（上游提供）：OpenRouter周榜显示，11月16—22日全球调用量210万亿tokens、周增8.25%，国产模型连续30周居首，但支出榜仍由Claude主导，代码任务中Claude Opus 5.5占22%、DeepSeek仅5.2%。
-  - 雷达点评（上游提供）：调用量榜单是别人的热闹，缺少可抄的方案或价格变动，看完不用动手。
-- **[把主权 AI 做成生意：Mistral AI 把亚太总部落在新加坡](https://www.aibase.com/news/32468)**
-  - 来源：AIbase · 来源时间：11-23 17:10（北京时间）
-  - 信源分层：聚合资讯（未提供细分层级）
-  - 雷达导读（上游提供）：Mistral AI 11月20日宣布在新加坡设亚太总部，计划到2027年扩至200多人，并借与HTX合作的Phoenix模型和8B Robostral Navigate，展示开放权重加定制的主权AI生意。
-  - 雷达点评（上游提供）：开个区域办公室而已，产品价格和接口没变，跟你代码无关。
-- **[蚂蚁百灵医疗健康大模型家族全面开源：四款模型各守一关，从看懂体检报告到拦住医疗风险](https://www.aibase.com/news/32469)**
-  - 来源：AIbase · 来源时间：11-23 17:10（北京时间）
-  - 信源分层：聚合资讯（未提供细分层级）
-  - 雷达导读（上游提供）：Ant Bailing Healthcare Large Model Family宣布全面开源四款模型，LingSante-3.1-air-VL以124B总参数、5.5B激活参数支持文本图像视频并可在笔记本本地运行，LingSante-3.1-flash以560B参数和1M token上下文处理海量医疗文档。
-  - 雷达点评（上游提供）：医疗垂类模型直接开源可下载，做体检报告解析、风控类应用能省一轮微调成本，先看许可证和实测。
-- **[万亿市值换不来投资级：Anthropic 发债大概率是垃圾级](https://www.aibase.com/news/32470)**
-  - 来源：AIbase · 来源时间：11-23 17:10（北京时间）
-  - 信源分层：聚合资讯（未提供细分层级）
-  - 雷达导读（上游提供）：Anthropic估值约1.18万亿美元，却承诺约9000亿美元买算力，债市预计其发债仅获BB级垃圾评级；文章还拆解960亿美元现金与三年窗口。
-  - 雷达点评（上游提供）：发债评级是财务圈的事，模型和 API 该咋用还咋用，不用管。
-- **[“欧洲版 OpenAI”落子新加坡：Mistral AI 设亚太总部，替亚洲政府造“主权 AI”](https://www.aibase.com/news/32471)**
-  - 来源：AIbase · 来源时间：11-23 17:10（北京时间）
-  - 信源分层：聚合资讯（未提供细分层级）
-  - 雷达导读（上游提供）：Mistral AI于11月20日宣布在新加坡设亚太总部，计划2027年团队超200人，为政府和工业客户定制模型，推进与HTX的Phoenix主权AI项目。
-  - 雷达点评（上游提供）：开分部、签政府单，跟你今天写代码没关系；除非你接政企项目，才值得留意。
-- **[GLM-5.4 悄然上线 Coding Plan：补齐视觉能力，额度还涨了 1.5 倍](https://www.aibase.com/news/32472)**
-  - 来源：AIbase · 来源时间：11-23 17:10（北京时间）
-  - 信源分层：聚合资讯（未提供细分层级）
-  - 雷达导读（上游提供）：Zhipu 的 GLM-5.4 未开发布会便上线 Coding Plan，设 glm-5.4 即可调用，V2、V3 和 Team Edition 额度升至 1.5 倍，模型列表中的 1M 与 Vision 标签暗示百万 token 上下文和视觉能力。
-  - 雷达点评（上游提供）：额度涨1.5倍还能传图，前端截图调试、视觉任务的今天就换它试。
-- **[说不清的症状，拍给 AI 看：蚂蚁阿福升级实时视频问诊](https://www.aibase.com/news/32473)**
-  - 来源：AIbase · 来源时间：11-23 17:10（北京时间）
-  - 信源分层：聚合资讯（未提供细分层级）
-  - 雷达导读（上游提供）：11月23日，A Fu App基于Bailing医疗健康模型升级实时视频问诊，可对镜头展示皮肤、药盒和体检报告，识别咳嗽、鼾声并主动追问，接入血糖和心率数据，还能一键转真人医生。
-  - 雷达点评（上游提供）：患者端问诊产品，没开放接口抄不了；只有做医疗多模态的能借鉴下实时视频链路。
-- **[把“增长优先”告上法庭：加州总检察长起诉 OpenAI](https://www.aibase.com/news/32474)**
-  - 来源：AIbase · 来源时间：11-23 17:10（北京时间）
-  - 信源分层：聚合资讯（未提供细分层级）
-  - 雷达导读（上游提供）：加州总检察长 Rob Bonta 确认 OpenAI 于11月16日被正式起诉，指控其把增长和速度置于安全之上、忽视危险信号且未确保模型安全，此前还有模型自主发动网络攻击的报道。
-  - 雷达点评（上游提供）：监管官司打几年，对你的代码和选型没影响，扫一眼即可。
-- **[Mira Murati 团队把模型“想三遍再说话”开源了：26.4B 循环 Transformer 登顶 Hugging Face，笔记本就能跑](https://www.aibase.com/news/32475)**
-  - 来源：AIbase · 来源时间：11-23 17:10（北京时间）
-  - 信源分层：聚合资讯（未提供细分层级）
-  - 雷达导读（上游提供）：Mira Murati 的 Thinking Machines Lab 开源模型仅 26.4B 的 Inkling2Mini，循环 Transformer 让中间 12 层对每个 token 跑三次，做到想三遍再说话，笔记本可跑，ARC-AGI-2 上以每任务 0.14 美元拿到 49.3%。
-  - 雷达点评（上游提供）：权重已在 HF 开源能直接下载；26B 想塞进笔记本，先备好量化再说。
-- **[38 万参数的 Transformer 塞进一张软盘：三十年前的 486 老电脑，如今也能“跑 AI”](https://www.aibase.com/news/32459)**
-  - 来源：AIbase · 来源时间：11-23 11:43（北京时间）
-  - 信源分层：聚合资讯（未提供细分层级）
-  - 雷达导读（上游提供）：开发者 WollyMonjac 用 Turbo C2.0 写出 38 万参数的小型问答 Transformer Tiny2.1，把它塞进一张软盘，让跑 DOS 的 486DX 和 Pentium 老电脑也能运行 AI，展示了一个架构与今天大模型同源、却把模型压到极致的复古项目。
-  - 雷达点评（上游提供）：极客玩具，380K 参数跑不出可用效果；除非你做极端嵌入式演示，否则看过就忘。
-- **[「AI 圈有局」第 01 期｜5 场活动、12 个社区找到你的同路人](https://www.infoq.cn/article/uEfN9kdGsIMGkOgidVG7)**
-  - 来源：InfoQ CN · 来源时间：11-23 11:42（北京时间）
+  - 雷达导读（上游提供）：Tencent Hunyuan 发布并开源第三代翻译模型 Hy MT3，含 1.8B、7B、30B-A3B（MoE）三种规格，覆盖 PC、手机等端侧场景。
+  - 雷达点评（上游提供）：开源模型可clone试跑，先看中文任务表现再决定是否替换。
+- **[Presentation: Inferencing for Enterprises](https://www.infoq.com/presentations/enterprise-ai-inference-architecture-costs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering)**
+  - 来源：InfoQ AI · 来源时间：11-24 19:00（北京时间）
+  - 信源分层：媒体报道
+  - 来源摘要（截取）：Dio Rettori discusses the operational realities of enterprise AI inference. Moving beyond fast token generation, he explores why inference requires dedicated systems engineering, t
+- **[想好好过感恩节，就别聊 AI](https://www.wired.com/story/dont-bring-up-ai-if-you-want-to-enjoy-your-thanksgiving)**
+  - 来源：Wired AI · 来源时间：11-24 18:45（北京时间）
   - 信源分层：RSS/OPML
-  - 雷达导读（上游提供）：模力工场「AI 圈有局」第01期汇总杭州、苏州5场AI活动，涵盖KCD杭州2026的Agent工程化论坛、总奖金5万元的科沃斯「八界杯」机器人挑战赛等。
-- **[人工智能正成为气候的一场灾难](https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the)**
-  - 来源：www.bloodinthemachine.com · 来源时间：11-23 09:16（北京时间）
-  - 信源分层：聚合资讯（未提供细分层级）
-  - 雷达导读（上游提供）：文章值得读：研究称美国400多个大型数据中心54%电力靠化石燃料、年排放2570万吨CO2；Anthropic新建数据中心每年或排放近2000万吨CO2-e。
-  - 雷达点评（上游提供）：评论文章，讲数据中心耗电和排放，没数据没方案，看完也改不了你什么时候调 API。
-- **[亚历山德罗·马苏洛（Alessandro Masullo）手稿的“精益”形式化进展图](https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3)**
-  - 来源：claude.ai · 来源时间：11-23 08:43（北京时间）
-  - 信源分层：聚合资讯（未提供细分层级）
-  - 雷达点评（上游提供）：手稿形式化进度图，除非你搞 Lean 数学证明，否则看完也用不上。
-- **[0rwx – 受 Unix 权限启发的一个简单 AI 使用模型](https://0rwx.com)**
-  - 来源：Hacker News (黑客新闻) · 来源时间：11-23 07:53（北京时间）
-  - 信源分层：聚合资讯（未提供细分层级）
-  - 雷达点评（上游提供）：纯概念类比，没有代码或工具可落地，扫一眼标题就够。
-- **[We haven’t seen the last of the major tech outages](https://www.theverge.com/tech/1039851/major-tech-outages)**
-  - 来源：The Verge AI · 来源时间：11-23 06:48（北京时间）
-  - 信源分层：媒体报道
-  - 来源摘要（截取）：Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chas
-- **[QCon San Francisco 2026: The Harness Is the New Operating System](https://www.infoq.com/news/2026/11/harness-new-operating-system/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering)**
-  - 来源：InfoQ AI · 来源时间：11-23 06:44（北京时间）
-  - 信源分层：媒体报道
-  - 来源摘要（截取）：At QCon San Francisco 2026, Mad Labs founder and CEO Manju Rajashekhar opened the conference arguing that the harness around an AI model, rather than the model itself, decides what
-- **[OpenAI：perplexity可衡量AI进展并共享评估方法](https://openai.com/index/perplexity-and-intelligence)**
-  - 来源：openai.com · 来源时间：11-23 02:20（北京时间）
-  - 信源分层：聚合资讯（未提供细分层级）
-  - 雷达导读（上游提供）：OpenAI 的 Jakub Pachocki 主张以 perplexity 衡量 AI 进展并建立共享安全标准，文中公开 GPT-3.5 约0.99、GPT-4 约0.91 的 log-perplexity，解释该指标与能力跃迁的关系。
-  - 雷达点评（上游提供）：评估方法论的讨论，没代码没基准集，做评测时可参考，今天不用动。
-- **[哈佛 CS 2881R：AI 安全](https://boazbk.github.io/mltheoryseminar)**
-  - 来源：Hacker News (黑客新闻) · 来源时间：11-23 02:01（北京时间）
-  - 信源分层：聚合资讯（未提供细分层级）
-  - 雷达导读（上游提供）：这篇课程介绍值得读：Harvard CS 2881R 由 Boaz Barak 讲授，Fall 2026 设13次强制到场的线下讲座，HW0 截止 August 5, 2026，并披露其在 OpenAI 任职的利益冲突。
-  - 雷达点评（上游提供）：课程大纲页，没有可跑的代码或工具，动手的人先跳过。
-- **[The vibe-coding revolution is coming to all the gadgets](https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera)**
-  - 来源：The Verge AI · 来源时间：11-22 21:00（北京时间）
-  - 信源分层：媒体报道
-  - 来源摘要（截取）：This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arriv
-- **[PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls](https://www.infoq.com/news/2026/11/postgresql-19-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering)**
-  - 来源：InfoQ AI · 来源时间：11-22 20:54（北京时间）
-  - 信源分层：媒体报道
-  - 来源摘要（截取）：The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release f
-- **[Claude Code Has Been Leaking Secrets through its "Don't Ask Again" Feature](https://www.infoq.com/news/2026/11/claude-code-leaking-secrets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering)**
-  - 来源：InfoQ AI · 来源时间：11-22 19:00（北京时间）
-  - 信源分层：媒体报道
-  - 来源摘要（截取）：Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement "D
-- **[财务团队的 AI 蓝图](https://www.infoq.cn/video/UUqekkOQ8haEXZ792UjU)**
-  - 来源：InfoQ CN · 来源时间：11-22 17:54（北京时间）
+  - 雷达导读（上游提供）：27岁Sophie拒用ChatGPT，搜索加“minus AI”，亲戚却用ChatGPT排双胞胎作息、未经同意喂她简历，她怕Thanksgiving餐桌吵AI。
+- **[AI解决了数学界最著名的问题，如今人类却难以理解它](https://www.wired.com/story/ai-solved-maths-most-famous-problem)**
+  - 来源：Wired AI · 来源时间：11-24 18:15（北京时间）
   - 信源分层：RSS/OPML
-  - 雷达导读（上游提供）：Snowflake 首席财务官 Brian Robins 将分享财务团队如何证明 AI 投资回报、治理 AI 成本，并演示 Snowflake 自身财务团队如何用可信数据与 AI 走完从加快结账、分析差异到重新预测和准备业绩发布的持续结账全周期。
-- **[打造 AI 优先的销售与营销运营体系](https://www.infoq.cn/video/mihBFvImttvJlSFUqC49)**
-  - 来源：InfoQ CN · 来源时间：11-22 17:41（北京时间）
+  - 雷达导读（上游提供）：Anthropic研究员Levent Alpöge用Claude生成1700万行Lean证明，宣称解决167年Riemann hypothesis；200多人协作验证代码可靠，但数学家仍需数月理解这套反直觉的外星式论证。
+- **[AI 中的杰文斯悖论：Token 更便宜了，也撑不起资本开支](https://philippdubach.com/posts/cheaper-ai-tokens-wont-pay-for-capex)**
+  - 来源：Hacker News (黑客新闻) · 来源时间：11-24 17:39（北京时间）
+  - 信源分层：聚合资讯（未提供细分层级）
+  - 雷达点评（上游提供）：一篇资本开支算术推演，没有可抄的方案，看完也不影响你明天写代码。
+- **[Article: Engineering Around Non-Determinism: Evals, Grounding, and Release Gates for AI-Drafted Suspicious Reports](https://www.infoq.com/articles/llm-agent-architecture-evals-grounding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering)**
+  - 来源：InfoQ AI · 来源时间：11-24 17:30（北京时间）
+  - 信源分层：媒体报道
+  - 来源摘要（截取）：Moving GenAI into high-stakes production requires treating non-determinism as an engineering problem. This architectural blueprint shows engineering leaders and architects how to b
+- **[Demo 刚公开就被抄上小程序：一款用AI开发独游靠中国玩家扳回两局](https://www.aibase.com/news/32491)**
+  - 来源：AIbase · 来源时间：11-24 14:57（北京时间）
+  - 信源分层：聚合资讯（未提供细分层级）
+  - 雷达导读（上游提供）：Optima Arch用AI做出独游Slotbound，11月13日42元上线，六天卖出20万份、收入近千万，Demo被抄上小程序后靠中国玩家扳回两局。
+  - 雷达点评（上游提供）：看个热闹，没有可复用的东西；做独游的倒是能想想demo发布节奏和防抄。
+- **[MiniMax H3 开源百日交卷：一个模型裂变成 1472 个，下载量突破 1.48 亿次](https://www.aibase.com/news/32493)**
+  - 来源：AIbase · 来源时间：11-24 14:57（北京时间）
+  - 信源分层：聚合资讯（未提供细分层级）
+  - 雷达导读（上游提供）：MiniMax H3 开源100天，1个模型衍生出1472个衍生模型，总下载量超1.48亿次、平均每秒超17次，NVIDIA、Tencent、Alibaba等团队参与重训。
+  - 雷达点评（上游提供）：模型确实能下载，但这条只是成绩单，既没新版本也没降价，看看就好。
+- **[从“问答”到“办事”：豆包推出AI个人助理“小豆”，用对话式交互终结日常琐事焦虑](https://www.aibase.com/news/32494)**
+  - 来源：AIbase · 来源时间：11-24 14:57（北京时间）
+  - 信源分层：聚合资讯（未提供细分层级）
+  - 雷达导读（上游提供）：Doubao的AI个人助理Xiaodou进入邀请制公测，用户凭邀请码可获免费额度，覆盖六大高频场景，支持文字或语音一键添加待办、写文案、追包裹和查订单，把对话式交互从问答延伸到办事。
+  - 雷达点评（上游提供）：消费级助理，没有提 API 和开放能力，开发者暂时用不上，先记着。
+- **[告别“抽卡式”AI绘图！商汤开源SenseNova U1.6，首次赋予8B模型“原生图像自修正”能力](https://www.aibase.com/news/32496)**
+  - 来源：AIbase · 来源时间：11-24 14:57（北京时间）
+  - 信源分层：聚合资讯（未提供细分层级）
+  - 雷达导读（上游提供）：SenseTime开源SenseNova U1.6，首次在8B级开源模型上引入原生图像自修正，针对AI绘图中的乱码文字、布局断裂和光影不合逻辑，让生成从单向输出走向闭环质检。
+  - 雷达点评（上游提供）：开源可直接拉权重，8B 本地能跑，出图少抽几次卡，今天就值得试。
+- **[修补提速也是一种风险：微软总裁警告“完美风暴”还会再来](https://www.aibase.com/news/32497)**
+  - 来源：AIbase · 来源时间：11-24 14:57（北京时间）
+  - 信源分层：聚合资讯（未提供细分层级）
+  - 雷达导读（上游提供）：Microsoft总裁Brad Smith警告未来数月全球技术故障风险仍高，AI让补丁以“前所未有的速度”部署、压缩测试验证，近期Microsoft全球宕机即由四个月前软件更新、较新更新与网络流量变化叠加成“perfect storm”。
+  - 雷达点评（上游提供）：高管喊话无实操，安全补丁该打还得打，等有具体策略或工具再看。
+- **[“25 万页”是玩笑：Claude 黎曼猜想证明争议，被数学家自己拆了台](https://www.aibase.com/news/32498)**
+  - 来源：AIbase · 来源时间：11-24 14:57（北京时间）
+  - 信源分层：聚合资讯（未提供细分层级）
+  - 雷达导读（上游提供）：Levent Alpöge 承认与 Claude 的 Riemann Hypothesis 证明中“25 万页”是玩笑，公开代码约 1700 万行能编译但低质，批评“完全公平”。
+  - 雷达点评（上游提供）：又是AI吹牛被拆台，只提醒你别轻信“AI证明数学难题”的营销，无实际可用之处。
+- **[QCon San Francisco 2026: Lessons from Building a $100M Product in Six Weeks at OpenAI](https://www.infoq.com/news/2026/11/qcon-sf-openai-lessons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering)**
+  - 来源：InfoQ AI · 来源时间：11-24 14:32（北京时间）
+  - 信源分层：媒体报道
+  - 来源摘要（截取）：At QCon San Francisco 2026, OpenAI's Brian Yang described building the ChatGPT ads product with Codex agents and no human-written code. He outlined layered testing, sandboxes, and 
+- **[当 AI 改变一切，下一步如何构建？](https://www.infoq.cn/article/iRm9lBSQj0OCvDdgLQrO)**
+  - 来源：InfoQ CN · 来源时间：11-24 14:12（北京时间）
   - 信源分层：RSS/OPML
-  - 雷达导读（上游提供）：Snowflake的DenisePersson与Jon Beaulier探讨团队协同、数据整合与职责分工，演示Snowflake CoWork解答业务问题。
-- **[Day 22: just completed module 1 of introduction to artificial intelligence: I learnt what AI is. AI is the ability of machines to perform tasks that usually require human intelligence.I also learnt the two ways AI can s…](https://x.com/heyciipher/status/2124778812315422972)**
-  - 来源：@heyciipher · 来源时间：11-23 16:15（北京时间）
+  - 雷达导读（上游提供）：借Darko Mesaroš的AI身份危机，文章串联Lambda、SageMaker、Graviton等re:Invent发布，并预告第十五届大会五场Keynote与Security Day 70余场议程如何讨论Agent进入企业生产环境。
+- **[超越试点：销售管理者的 AI 转型行动指南](https://www.infoq.cn/video/UU3P37LW5IE6Xg4O0cSN)**
+  - 来源：InfoQ CN · 来源时间：11-24 12:36（北京时间）
+  - 信源分层：RSS/OPML
+  - 雷达导读（上游提供）：许多企业困在AI试点：数据分散、工具繁多、职责不清与部门壁垒拖慢落地；这份销售管理者指南给出识别优先业务问题、夯实数据基础、建立治理机制并重设流程的行动路径。
+- **[从批量生成到业务可用：电商 AI 剪辑的工程取舍与实践复盘｜AICon北京](https://www.infoq.cn/article/YMYl4DVNr1pRKD8ITfaW)**
+  - 来源：InfoQ CN · 来源时间：11-24 10:00（北京时间）
+  - 信源分层：RSS/OPML
+  - 雷达导读（上游提供）：遥望科技王朝在AICon北京站复盘电商AI剪辑，详解首切片从标签软优先、提示约束到执行校验重选，以及多信号去重如何组合语音语义、画面描述与抽帧哈希减少误删。
+- **[Trump engineered a risky comeback for Jensen Huang](https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated)**
+  - 来源：The Verge AI · 来源时间：11-24 06:25（北京时间）
+  - 信源分层：媒体报道
+  - 来源摘要（截取）：After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to su
+- **[Welcome to elite impunity, Jensen Huang](https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang)**
+  - 来源：The Verge AI · 来源时间：11-24 06:09（北京时间）
+  - 信源分层：媒体报道
+  - 来源摘要（截取）：I suppose I must issue a hearty congratulations to Jensen Huang. Huang is CEO of Nvidia again, to the surprise of basically everyone except President Donald Trump and Vice Presiden
+- **[Anthropic推出Claude Ship，让AI Agent审查、修复并批准代码变更](https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes)**
+  - 来源：TechCrunch AI · 来源时间：11-24 06:05（北京时间）
+  - 信源分层：聚合资讯（未提供细分层级）
+  - 雷达导读（上游提供）：Anthropic 推出 Claude Ship，让 AI agents 对代码变更进行审核、修复和批准，接手例行审批，以缓解 AI 生成代码不断堆积带来的瓶颈。
+  - 雷达点评（上游提供）：能直接接进 PR 流程试用，但别一上来就放开自动批准，先在非核心仓库看它改得对不对。
+- **[QCon San Francisco 2026: Securing AI Agents in Production](https://www.infoq.com/news/2026/11/qcon-ai-agent-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering)**
+  - 来源：InfoQ AI · 来源时间：11-24 04:00（北京时间）
+  - 信源分层：媒体报道
+  - 来源摘要（截取）：At QCon San Francisco, Google's Amanda Walker framed AI agents as an insider-risk problem operating at machine speed, and described identity, credential and containment patterns fo
+- **[How Jensen Huang ended up as Nvidia CEO again](https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return)**
+  - 来源：The Verge AI · 来源时间：11-24 03:57（北京时间）
+  - 信源分层：媒体报道
+  - 来源摘要（截取）：The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago cofounded what's come to be considered one of the most important companies in AI, resi
+- **[Oregon and Virginia sue SpaceX over Grok’s porn deepfakes](https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit)**
+  - 来源：The Verge AI · 来源时间：11-24 02:26（北京时间）
+  - 信源分层：媒体报道
+  - 来源摘要（截取）：In separate but similar lawsuits filed on Monday, Oregon Attorney General Dan Rayfield and Virginia Attorney General Jay Jones accused SpaceX of violating state consumer protection
+- **[黄仁勋回归，Nvidia股价也随之回升](https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure)**
+  - 来源：Wired AI · 来源时间：11-24 01:52（北京时间）
+  - 信源分层：RSS/OPML
+  - 雷达导读（上游提供）：Jensen Huang复职后Nvidia股价涨超30%、市值增逾1万亿美元，有望刷新Microsoft单日市值增幅纪录；文章还披露Trump曾致电董事会推动其回归，而此前一个月公司市值蒸发近2.2万亿美元。
+- **[White House brags that Trump was ‘totally involved’ in getting Jensen reinstated](https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated)**
+  - 来源：The Verge AI · 来源时间：11-24 00:30（北京时间）
+  - 信源分层：媒体报道
+  - 来源摘要（截取）：It sure looked like President Donald Trump played a role in Jensen Huang's reinstatement as Nvidia CEO - and now the White House is making sure everyone knows he was. "President Tr
+- **[Tech leaders are celebrating Jensen Huang’s return](https://www.theverge.com/tech/1040069/jensen-huang-return-elon-musk-sam-altman-yay)**
+  - 来源：The Verge AI · 来源时间：11-24 00:14（北京时间）
+  - 信源分层：媒体报道
+  - 来源摘要（截取）：Let's say you're Jensen Huang. You (allegedly) cheated on your wife with an alleged Chinese spy, allegedly had an affair with not one, but two subordinates, and (allegedly!) "terro
+- **[Netflix at QConSF 2026: Retrofitting the SDLC for AI Coding Agents](https://www.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering)**
+  - 来源：InfoQ AI · 来源时间：11-23 22:58（北京时间）
+  - 信源分层：媒体报道
+  - 来源摘要（截取）：At QCon San Francisco 2026, Mark Khuzam of Netflix explained how the Commerce team retrofitted its SDLC so AI coding agents and engineers could ship together. The team wrote 45 arc
+- **[Agoda Reduces API Code Review Time by 64% with Modular Architecture](https://www.infoq.com/news/2026/11/agoda-modular-monolith-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering)**
+  - 来源：InfoQ AI · 来源时间：11-23 22:33（北京时间）
+  - 信源分层：媒体报道
+  - 来源摘要（截取）：Agoda introduced a modular monolith framework in its post-booking API to reduce coupling without a full rewrite. The platform uses domain components, Data Mapper patterns, typed bu
+- **[Jensen Huang 回归，再度出任 Nvidia CEO](https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo)**
+  - 来源：Wired AI · 来源时间：11-23 22:27（北京时间）
+  - 信源分层：RSS/OPML
+  - 雷达导读（上游提供）：因多起婚外情指控辞职仅11天后，Jensen Huang被Nvidia董事会重新任命为CEO；此前内部建议箱有逾1600条员工留言，公开请愿获超20万签名，多数自称Nvidia股东。
+- **[Nvidia 如今正为脑机接口提供算力](https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now)**
+  - 来源：Wired AI · 来源时间：11-23 21:11（北京时间）
+  - 信源分层：RSS/OPML
+  - 雷达导读（上游提供）：Paradromics 用 Nvidia 的 Jetson 和 Holoscan 解码 Mary 植入芯片中逾400个电极的语音信号，目标是把需要插电的一推车设备缩成可放轮椅的小盒子。
+- **[Claude Code Adds Experimental Code Mode to Orchestrate Tool Calls with JavaScript](https://www.infoq.com/news/2026/11/claude-code-mode/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering)**
+  - 来源：InfoQ AI · 来源时间：11-23 20:17（北京时间）
+  - 信源分层：媒体报道
+  - 来源摘要（截取）：Anthropic's experimental Code Mode lets Claude Code write JavaScript that chains, parallelizes, and filters Bash, Read, and Edit calls, with changes to how auto mode and hooks revi
+- **[提交你的问题：有人能保护你免受 AI 伤害吗？](https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai)**
+  - 来源：Wired AI · 来源时间：11-23 20:00（北京时间）
+  - 信源分层：RSS/OPML
+  - 雷达导读（上游提供）：WIRED将于12月2日办订阅者直播，由Backchannel团队解答Lauren Goode所称AI安全讨论失焦、专家一致认为AI有真实危险而行业应对未让人安心。
+- **[AI 时代的数据工程：如何打造 AI 原生团队](https://www.infoq.cn/video/qWRo8T0IdKoI7RBuQwNd)**
+  - 来源：InfoQ CN · 来源时间：11-23 19:40（北京时间）
+  - 信源分层：RSS/OPML
+  - 雷达导读（上游提供）：Snowflake数据工程副总裁Chris Child回顾数据工程五十年，指出AI Agent以机器级速度处理数据却不问某列含义，仅靠AI编程助手不足以打造AI原生团队。
+- **[重塑财务职能：引领 AI 时代的转型](https://www.infoq.cn/video/zDX7VX1ZLsWM2BNMJLc1)**
+  - 来源：InfoQ CN · 来源时间：11-23 19:33（北京时间）
+  - 信源分层：RSS/OPML
+  - 雷达导读（上游提供）：这篇对谈由 Snowflake 首席财务官 Brian Robins 与 Stripe 首席财务官 Steffan Tomlinson 展开，聚焦 AI 从试点到生产后的资本配置与真实 ROI、自动化下人类独有技能，以及财务数据可信度。
+- **[States Sue SpaceX Over Grok Deepfakes](https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/)**
+  - 来源：WIRED AI · 来源时间：11-23 19:00（北京时间）
+  - 信源分层：媒体报道
+  - 来源摘要（截取）：The attorneys general of Oregon and Virginia are suing several of Elon Musk’s companies, alleging they implemented weak safeguards against sexualized imagery of real people, includ
+- **[Goodbye, World: The End of Programmers](https://www.wired.com/story/goodbye-world-the-end-of-programmers/)**
+  - 来源：WIRED AI · 来源时间：11-23 18:00（北京时间）
+  - 信源分层：媒体报道
+  - 来源摘要（截取）：The last thing you should ever read—and the last thing I may ever write—about the craft of coding.
+- **[THE POWER OF ARTIFICIAL INTELLIGENCE (AI) 🚀 Artificial Intelligence is changing the world in amazing ways. From graphic design to photography, video editing, education and business, AI is making creativity easier and fa…](https://x.com/vicoedet/status/2125158449596047395)**
+  - 来源：@vicoedet · 来源时间：11-24 17:23（北京时间）
   - 信源分层：高级源
-- **[平时刷推看到好内容总容易划过去，干脆把常看的 10 个X账号，整理了一份目录，涵盖 AI、独立开发、商业和深度阅读几个方向，每个账号的侧重点和适合看什么都简单标好了，照着建个 List 分类刷会省心很多，有需要的朋友可以先顺手马住，慢慢看， https://t.co/vL5c9N9o0u](https://x.com/JamesBondgs101/status/2124744942123876458)**
-  - 来源：@JamesBondgs101 · 来源时间：11-23 14:00（北京时间）
+  - 雷达导读（上游提供）：文章称Artificial Intelligence (AI)正从graphic design、photography到video editing、education和business改变世界，让创意更快更容易，反复强调“With AI, imagination becomes reality”，但全文未给出具体案例或数据，内容多为重复表述。
+- **[63 million registrations at @Gate. So many stories to be thankful for. 💙 This Thanksgiving, what Gate merch would YOU create? Use AI to design your dream Gate merch and show me below 👀✨ 🎁 3 winners × 20 USDT To enter: 1…](https://x.com/Gate_Delta/status/2125143324050755749)**
+  - 来源：@Gate\_Delta · 来源时间：11-24 16:23（北京时间）
   - 信源分层：高级源
-- **[Epic宣布虚幻引擎6连早期预览版也不再内置蓝图，称AI可协助把UE5项目迁过去，并介绍已用两周将《堡垒之夜》逾两万份蓝图转成约三百万行Verse。我认为真正改写的不是门槛，而是创作合同；自动搬家不能代替验收。 https://t.co/1ZQGehy98k](https://x.com/mfk0096/status/2124688673497342181)**
-  - 来源：@mfk0096 · 来源时间：11-23 10:17（北京时间）
+- **[结课考核刚忙完，正式启动明年的国自然青基末班车。 分享这周亲测好用的两个野路子：怎么用Grok Bot在云端批量下载国自然结题报告，以及怎么查询过去3年最新国自然立项课题。 https://x.com/i/article/2125099627254816768](https://x.com/DrRabbitAI/status/2125113926304280885)**
+  - 来源：@DrRabbitAI · 来源时间：11-24 14:26（北京时间）
   - 信源分层：高级源
-- **[🌙 NIGHT SHIFT – REMOTE JOB ! 💻 🏡 WORK FROM HOME 💼 Position: Hey Gen post ⏰ Shift: 9:00 PM – 2:00 AM 💰 Example Pay: $12–$18 Per Hour 🌍 Location: Remote – Worldwide 📅 5 Days a Week ✅ Beginners Welcome! 💌 Interested? Let u…](https://x.com/tec_Leo_Ai/status/2124526371326300516)**
-  - 来源：@tec\_Leo\_Ai · 来源时间：11-22 23:32（北京时间）
+- **[🎬 The http://Funs.AI Video Creation Contest is LIVE! Win a share of $1,400 in cash prizes. 1️⃣ Register: https://forms.gle/hT77Hk5PRJjM5n5bA 2️⃣ Post your 45–90 sec video on X by Dec 6 and tag @funsai\_knowp. 3️⃣ We’ll r…](https://x.com/funsai_knowp/status/2125084775342051367)**
+  - 来源：@funsai\_knowp · 来源时间：11-24 12:31（北京时间）
   - 信源分层：高级源
-  - 雷达导读（上游提供）：这则招聘招Hey Gen帖子岗位，夜班9:00 PM至2:00 AM，全球远程、每周5天，示例时薪$12–$18且欢迎新手，想在家做夜间兼职的人可先核对条件再联系。
-- **[字节有一个赚外快的数据标注兼职平台，叫 Xpert 社区，具体工作就是给 AI 出题，给 AI 批改作业打分等。项目涵盖财务、建筑、电商、金融、医疗、供应链、英语、媒体等各大领域。门槛必须是本科学历，需要提交简历做学历认证通过。单价每小时 60~600 元不等，收入因人而异。 https://t.co/3nNoDS2l2S](https://x.com/siantgirl/status/2124509161639788720)**
-  - 来源：@siantgirl · 来源时间：11-22 22:23（北京时间）
+- **[南非考虑设立 AI 算力基金，支持本地初创企业并推动创新](https://x.com/rsapoliticsnews/status/2124976772546498756)**
+  - 来源：@rsapoliticsnews · 来源时间：11-24 05:21（北京时间）
   - 信源分层：高级源
-  - 雷达导读（上游提供）：字节的Xpert社区招兼职给AI出题、批改作业打分，覆盖财务、医疗、供应链等八大领域，需本科学历认证，时薪60~600元不等。
+  - 雷达导读（上游提供）：南非正考虑设立AI Compute Fund，为本地初创企业提供可负担的算力基础设施与AI资源，以降低其开发和商业化AI产品的成本。
+- **[If you’re looking to earn $8/hour working remotely on paid AI tasks, this opportunity is worth checking out. i’llTip has partnered with Claru, an AI company, to make paid project opportunities available to everyone. 💃 H…](https://x.com/Halosznn_/status/2124963658774024202)**
+  - 来源：@Halosznn\_ · 来源时间：11-24 04:29（北京时间）
+  - 信源分层：高级源
+  - 雷达导读（上游提供）：i’llTip 与 AI 公司 Claru 合作向所有人开放付费 AI 任务项目，时薪 $8，文章具体介绍了远程完成指派任务获得报酬的方式和参与途径。
+- **[Artificial Intelligence (AI) is changing the world in amazing ways! From creating beautiful pictures and designing graphics to making videos and generating creative ideas, AI is making life easier and more exciting. htt…](https://x.com/vicoedet/status/2124955390718980323)**
+  - 来源：@vicoedet · 来源时间：11-24 03:56（北京时间）
+  - 信源分层：高级源
+  - 雷达导读（上游提供）：正文仅有一段话，称 Artificial Intelligence (AI) 能生成图片、设计图形、制作视频和产出创意点子，且这段内容在文中被反复原样重复，可快速看清其主张与信息量。
+- **[The Vault has never been this sloppy 🦊🤝🐷 @vaultlingsnft x AI Slop, officially 50% of royalties go to BankFi 🏦 Apply for WL (Link in bio) Drop your EVM below 👇 https://t.co/E9X4iuX93A](https://x.com/AI_SlopRH/status/2124949335985328546)**
+  - 来源：@AI\_SlopRH · 来源时间：11-24 03:32（北京时间）
+  - 信源分层：高级源
+  - 雷达导读（上游提供）：这条推文宣布 @vaultlingsnft 与 AI Slop 合作，明确 50% 版税将归 BankFi，同时开放白名单申请并号召参与者在评论区留下 EVM 地址。
+- **[这才叫AI该有的样子！](https://x.com/thevivafrei/status/2124927117494284779)**
+  - 来源：@thevivafrei · 来源时间：11-24 02:04（北京时间）
+  - 信源分层：高级源
+  - 雷达导读（上游提供）：正文仅重复同一句 Now this is what AI was meant for!，没有给出任何具体事实、数字或案例，末尾只提示查看最新动态并加入对话，内容实际尚未展开。
+- **[Check out this remote job paying N38,000 ($28)/hr. Your work will be to review Ai response You need to have excellent communication skills. No previous Ai experience needed. Open to students and graduates](https://x.com/ChuksEmma947401/status/2124921907015213227)**
+  - 来源：@ChuksEmma947401 · 来源时间：11-24 01:43（北京时间）
+  - 信源分层：高级源
+  - 雷达导读（上游提供）：这份远程岗位时薪N38,000（约$28），工作内容是审阅Ai回复，要求出色的沟通能力，无需任何Ai经验，学生和应届毕业生均可申请。
+- **[1/7 This Thanksgiving, I'm thankful for all the work Demi did before I asked. tl;dr: http://demi.ai is the first AI assistant that lives on your Mac, learns how you work, and does the work before you ask. Our invite-onl…](https://x.com/snmishra311/status/2124910855095779592)**
+  - 来源：@snmishra311 · 来源时间：11-24 01:00（北京时间）
+  - 信源分层：高级源
+- **[皮衣又回到了舞台中央。👑](https://x.com/SUOHA_AI/status/2124873219333144643)**
+  - 来源：@SUOHA\_AI · 来源时间：11-23 22:30（北京时间）
+  - 信源分层：高级源
+- **[💙Challenge: Describe Sible Network in THREE Words! Three words. Endless possibilities. How would you describe Sible Network in your own way? Whether it's about AI, innovation, community, or what excites you most about t…](https://x.com/SibleNetworkAI/status/2124865321685401644)**
+  - 来源：@SibleNetworkAI · 来源时间：11-23 21:59（北京时间）
+  - 信源分层：高级源
+- **[人类的12年，AI时代的一个瞬间](https://www.xiaohongshu.com/explore/6b04218d00000000250116d7?xsec_token=YB7QHlfa0q1ijjnmhp51IlcUzQj0FH5HfXUvhC_CwJLRc%3D)**
+  - 来源：朵拉AI梦 · 来源时间：11-23 19:20（北京时间）
+  - 信源分层：自媒体源
 
 ## 政策与安全
 
-- **[AUB Mediterraneo to host Cyprus Chief Scientist Demetris Skourides for talk on AI policy - Cyprus Mail](https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNW8tenRvQVlZTzJQLWc5b3pqSjQ3R2QyMzctS1NrSjF1a0dCSEFRMm1wRmhlS1JETGJxaVdYTWNMX3NhSDk0MVY1emhVX05jWG1jcm1GeUxEZVotVUhoMFVUTUpoVC1RVk1Ma0V3ZWRLS1h3eVljbVdKOHpCdGxOaVY4aS1KUVI1bmdfYnhsTFJISmpFUUtMNlBuUnVueVNGc0FmVGdDOHphSTVTM05VaXBZLV9saFZabmx3akpfNDI?oc=5)**
-  - 来源：Cyprus Mail · 来源时间：11-23 17:50（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：AUB Mediterraneo to host Cyprus Chief Scientist Demetris Skourides for talk on AI policy Cyprus Mail
-- **[Australian AI Safety Standard: Enterprise LLM Playbook - JournalArta](https://news.google.com/rss/articles/CBMiogFBVV95cUxNam5QODk4SzNQaGJHYUZ1QnBoMnVGbjA2d2lZcjhSYWRXRlI0emxGN2htYzItTXI1ZTktWFZFWmhDbndTbURocURrbDRUZV9SZVFTUVlkUlVheTdxOFNLSTRJTDNwRkZiMWdDQm1fM09DdEFVZ3hhSjB3alZ1Y1dMaWRleXdYSGx3cTVEVmRLUW1rVjBJZzhQd1lCSU0tM3VoaEE?oc=5)**
-  - 来源：JournalArta · 来源时间：11-23 17:38（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Australian AI Safety Standard: Enterprise LLM Playbook JournalArta
-- **[Eminem’s Publisher Expands Suno Copyright Lawsuit With 108 More AI-Generated Songs - RouteNote](https://news.google.com/rss/articles/CBMirwFBVV95cUxQWnltY1Vhb0VVUmpfWFh6bHVEWGpNX1lyVTFZcE5xbjd6NjZFWE1ZZlBoVXBIOWs1OUNuQk50SEZCZmtBMXMzTWRscTluNXBxLXRua2tIdFVLeTNuaEVEakpTdFozcnhaS1A4M24xc3B5ZW5VYV9lZ2FBSWlTRi02RlY0UmxuWnlqTktTd0pMVEcxUHJ2RFE0Skt1eE04THRfallSNUZ2NkxJQ3k1UGt3?oc=5)**
-  - 来源：RouteNote · 来源时间：11-23 17:32（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Eminem’s Publisher Expands Suno Copyright Lawsuit With 108 More AI-Generated Songs RouteNote
-- **[AI superintelligence ‘arriving’ warns top Meta executive - Al Jazeera](https://news.google.com/rss/articles/CBMioAFBVV95cUxOZnRiM0ZpVzFaTkZaZ2lUc2dtYjY2U2tqZnFGQlNCb2JRWjlCdkxNQWU2WENIYnVsb0hXVjNtNS1XQ1JzdmtBaU1qRDE2aDd5T2c1Z1lTY2VsaXE4NHJUNjhwdGl6Tm1DRlNVa01DOFlPa294amRMSl9uQlFTczN1dVlhSmRBVWJETV84VkxFcG5EUDVxSC14bUpoREdBZGM50gGmAUFVX3lxTFBESHNmbkFBdXN2ZGc2b3FMT3JiVlNQWHNjRnZYUV83dV9NRVJaWXd0ZWVjbU82Qy1yYVNoXzVtT2VzbzQtQ05WTHI5X1MtZTEyRjdKN0M1UUtJdk5UNTYtdHhQbHlBdE9fZ29ZMnV4VzZhNnF1QTd2QnViYlhyOVNBQVM4V2FFV0otaGN5WkhqSTZMNWtvUUxBZG9ZUmEzQUYxWkpwbkE?oc=5)**
-  - 来源：Al Jazeera · 来源时间：11-23 17:13（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：AI superintelligence ‘arriving’ warns top Meta executive Al Jazeera
-- **[Connecticut police use AI with few statewide rules. Here’s what’s known - CT Insider](https://news.google.com/rss/articles/CBMijwFBVV95cUxPV3hacTdJb0tGSUNGVWg0SzRDdnVEQTZlcW5MbmFxZTdRVDFjY1NqeXBER25tYmxwcTN0OEJINHNZTWpQRF96MXUtLWJsMXpzV1oxSVZxb21aeWJkSGFHdUc5M29JUWRmdDhvMTJscU13UmxOTEJTZGdrbVBEM1Jzek1jV3hzNXNxaDI2dzFtdw?oc=5)**
-  - 来源：CT Insider · 来源时间：11-23 17:03（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Connecticut police use AI with few statewide rules. Here’s what’s known CT Insider
-- **[Britain’s £400bn AI prize is dependent on getting safety right - Civil Service World](https://news.google.com/rss/articles/CBMipAFBVV95cUxOcjlyYm1veldMSUFacUUzdGdwYUZwY0FoYTluMEM4cVlsUUZVTkpYSVdZQWpMQl9WUHhrdFZFckhnd0NXNVowYzZRSGNCMTR5QnYtbE1fRmZ2ME1IUG9WMGlucjctLWpiTGJUaXlfVUhZb2FHTkxOU0JuZVFiMkN6b2RPYXNXRFRjZDZxTHl0d2thaWM1SFVQUWlCWC0tSFJEVTZHMA?oc=5)**
-  - 来源：Civil Service World · 来源时间：11-23 17:02（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Britain’s £400bn AI prize is dependent on getting safety right Civil Service World
-- **[Preparing the U.S. economy for the age of AI - Stanford Institute for Economic Policy Research (SIEPR)](https://news.google.com/rss/articles/CBMidEFVX3lxTE5taUVDNC1TaGpzRVQwbGxZX1hqVVk5VDFxVDBuNjBmUHBZZXJ2Q2dZZFQwNF9mTkItTDdjWVdDRS1CR25seUw4VG5VbjVqRk9PZFhVMXl2d3duYXM5cklmLVJCMno1dnFoT1RoX252TnpOSFh5?oc=5)**
-  - 来源：Stanford Institute for Economic Policy Research (SIEPR) · 来源时间：11-23 16:59（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Preparing the U.S. economy for the age of AI Stanford Institute for Economic Policy Research (SIEPR)
-- **[Etsy pledges to revise AI policy after artists close shops in protest - FlipItMoney](https://news.google.com/rss/articles/CBMinAFBVV95cUxQSEZUX3pHX3l0SWNncjMyTXJMNmVpY3pVQmkzZDl4ekNJWW85bUR2dmxZcXIyOWE3dVlZMUhZYWV4OFRyY3dDQkNwU2ZFZF8xNEp1Vm1SZkJMUmgxN1ZkWjdrS2FmMUEyVHlwOFd6UC1RU09zb3VsR2Y4eFpKYlNRZEVmdGU2blpwMk82eVhJUWhuMldnZEdoVmJDNXk?oc=5)**
-  - 来源：FlipItMoney · 来源时间：11-23 16:56（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Etsy pledges to revise AI policy after artists close shops in protest FlipItMoney
-- **[Training AI on Copyrighted Content in Ireland: 2026 Guide for Startups - Global Advisory Experts](https://news.google.com/rss/articles/CBMimAFBVV95cUxNMkc1bkcwd2xRQjI1d3Jpb1hJalh1WkJTUzNyMHFYS0sxc3h1cmFuaUpZVzZBWG5EWXpmZVdxa0FVQnpSSVlycXNVSnlrN1Npc3Fmd3puWnNPaTBVLUhQZzQ2bDZERnJkMDgzOXktV3BuMnRoV3hPNlU3M3RyNzd1S1E1UV9nNXgyNGpfSDloQVlNQnVkVmk3VQ?oc=5)**
-  - 来源：Global Advisory Experts · 来源时间：11-23 16:37（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Training AI on Copyrighted Content in Ireland: 2026 Guide for Startups Global Advisory Experts
-- **[Tencent Discloses Independent Safety Tests For Hy4 AI Model - Dataconomy](https://news.google.com/rss/articles/CBMimgFBVV95cUxQcVlSRG9VZVRwbzFZckVyb1RDMnNfa01majRCMk1BUmNFLUJDTjNEdFlhOU9aMjZ4SDdHNThVTFVUWGRhaVhqNjNVSm8wREZhRFMzUTZaNHRVRWhyajctUDduUTVPWTE1ZjlCdTA5czJQU1ZFSXdfbW5QYmtQbUZEZ1hTVVpDbWZnWjE5RFlZRUNldzlzdUNLQ1Zn?oc=5)**
-  - 来源：Dataconomy · 来源时间：11-23 15:47（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Tencent Discloses Independent Safety Tests For Hy4 AI Model Dataconomy
-- **[Why Meta AI chief Alexandr Wang’s superintelligence warning has caused a furore online - The Economic Times](https://news.google.com/rss/articles/CBMi_AFBVV95cUxObUdPYW1IMjNtU3V3WmNwME9HQ0Zma3gwTFRSUkRjSjlQbXByU1EzcHBvMVJPQTl3Y2VyeTRzWUZBSF9fZnBaZFJlN1A5WU9EVGhNRXBya1pMSnBONXpqVXZudVhZbl9jMjlKUWI1bHQzc0Fsd3c2QVFQRU9tUlY3OXQ4X0o2WGExMmQ1bXZ0NjVqVEhkM3pzUElacTNxY0wydlJ0eEM4NUZxWHRmNWN2TVJPNVJnNFlMQmNfR0Yzd2xfc0dUT3FLVXFmM2ZNdXRoODh4OXlPb1NtQ0ZadllxZ0Z4eGVZN3VHeEFaQ2VhU0NDYlZPWUxLRDZpTUHSAYICQVVfeXFMTWtRMFdjZVZpZDh1ekROSFNXRmlycS1JNDRaUmJhTm1LV3pfV2pWekJhb2JhZE1rdzBTaGp0QjBaOUdBTWZxZHAyYmN1aEFpaGdDcmFDRmt3QlZNRVZNeFlmTEtpeTRWZlpWMEFvT2lWY2wwTng1djNTbWkweVVoQ2Rza3lHaTJCVXNSYjZrRlR0eF9WNFRKMmtxRmZKSXFSSDFpbVhMaXp3NVU4azBqMFlQMVQ4VTFrekJ4cGVRb2FjcElaaVNrU2dlUm4tVDVnYWZrRUhvMzRZSkw3SVB6bVpIZnVXQXVCTlN3bHVNdU44TDdmWF9tcUNfRmljb1IweTlR?oc=5)**
-  - 来源：The Economic Times · 来源时间：11-23 15:46（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Why Meta AI chief Alexandr Wang’s superintelligence warning has caused a furore online The Economic Times
-- **[OpenAI proposes shared AI safety standards and perplexity metric to measure AI progress - The Tech Outlook](https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbG9rbE9HN0dySlMwbEJjOG1KbF9kMEZuR1owazFHSEFjakNTa1BDRzl1RW4zVWx4T0dya01QMWZ1X3l5aFdVd1hlSnhCTGhhbWpoaHdUQXBDUVRNQkcwb1UtMkpxY2NOMmE3M3lYMXhkRGd5NTBhU1NUdlNsN3BieU84S3dISmRRRlNiTFVDZTZKdm5hVEo0djd0X2F3NFJRT0M1bGxpX0xhMkozMnoxWjYtNE1TQUp0NGt2YlRhdXRxd3IxWEVKTnRtOTZsU1plYlFCSlNuRnU1c05BOWc?oc=5)**
-  - 来源：The Tech Outlook · 来源时间：11-23 15:44（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：OpenAI proposes shared AI safety standards and perplexity metric to measure AI progress The Tech Outlook
-- **[Using AI to strengthen safety and risk management in mining - African Mining Online](https://news.google.com/rss/articles/CBMipgFBVV95cUxQWUpxLXVjVGhyWGwzeHB6SnlFSmp1dG9mZ09EWHd6R25mWll0Z1RnaWRrUWJoSkoxYzNqQ2ZkS0dWdDFzbkRPaS1aZ1JwS01yV0dWMWNPdldhSDJjWURoTG1WWjN4WkVWMnl0a1JVM1JRYWphR1g1VFVCak50RkJ4ajZUNFBzb2RCTTJNUjh2Vkt3M1hhLUh1OTFGWi1pYTNoMkRrNTB3?oc=5)**
-  - 来源：African Mining Online · 来源时间：11-23 15:05（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Using AI to strengthen safety and risk management in mining African Mining Online
-- **[California Attorney General Takes OpenAI to Court Over Alleged AI Safety Failures - Arise News](https://news.google.com/rss/articles/CBMipgFBVV95cUxNYUtZOWhReXlkYkZRUmo1TVJpSk5jWUFJUWhnT2RxWkN4Z2oxRmJFY0lDNml2ZDRBalBYNTFoZ1dMSlBsRlByd3JIMlphNUtxRnlvS25keVhqQ21IcmJtT1pjN2FkZk4wdlAxYmpJOU9iSTNtLXhiZjEtanN3cXhzNFA5TjhLSzFFOWJNSzBVNThZQzltWXB3bXhNcS1kT0ljbk54bWdB?oc=5)**
-  - 来源：Arise News · 来源时间：11-23 14:43（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：California Attorney General Takes OpenAI to Court Over Alleged AI Safety Failures Arise News
-- **[AI scraping a total stitch-up: Zimmermann - The Australian](https://news.google.com/rss/articles/CBMikwJBVV95cUxQalNwLXBhU21GRUN3Y3dfVHJfYk5rMmxTYzlBRk5zTWNsYUFXY1BuM1dXLXJEempRbjFBcWdGeUg5alp0cjBIY3QzcEdtYWxkS2tsVXFaMzM2LThwM2Q0NWk0T0piMFZ1d1A4Z2dIaWFPVEZBMkNfTzN1X3RfaUFmVDhDTEFaNXMtRURQWVJzd3BpNzJORXphWFhyZ3AxZXY2SHRJNTE5X2VIUmJEcXpvTDhxdUExdmFkY3I1ZC0yV0tBRElySHVSTDR3cnpUYndUTWUzTm4wcHVnTGpxSDBMdS1ia2ViVk10LTNJZ1F0MDVGRFR2X0JFbVRpbmhuTldoa002QWVoY240VTVFbWFKdFoxRQ?oc=5)**
-  - 来源：The Australian · 来源时间：11-23 14:36（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：AI scraping a total stitch-up: Zimmermann The Australian
-- **[Bridgetown AI summit to tackle safety as risks outpace capacity to respond - Guyana Chronicle](https://news.google.com/rss/articles/CBMitAFBVV95cUxPNTNDSHFZcjFkOVRlT0ZwcmEyZGJrVTRuOWxfVTBHR2pZNHBKZk1wTG9kUU96VFVPbHlRYVRGWFBnOGkxU2dyQUJGeVF5Ym5IR1BvczdfVTdLLVFUWGhocHVuMi1SeS1IR3hDbmJWcVR1RVVLbzNqdEhNNWpDZVBZcy1JelU4Qkx3X3lzVkFyeEZlaVRJWmxEcTluXzBSSmUtcHNMd3hLSldORjhpVXAwb3NTNVY?oc=5)**
-  - 来源：Guyana Chronicle · 来源时间：11-23 14:30（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Bridgetown AI summit to tackle safety as risks outpace capacity to respond Guyana Chronicle
-- **[AI Safety Summit Monday: Only Six Low-Income Countries Have Cyber Incident Teams in Global Network - Tech Times](https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcmFoSUxMcUpwYmNjYlJMS2ZBSW5wSXoxWnJzSnhmX3JEc1lHZTg5OWJTZExoRDFhWXVvcTMzMHVRQ0pfeGFUUTd0dDcwdThVM0hzOVlHWGF0aXJJZUhkWWNzWDRlN05fM29pOUhaNnJRMTBwd2xiZDNUa3ZFRTRJMEkwV051eHFLcVI4d0xKZEpTQWZvbUUwVDdlVW0zVlVmTmRWVUZvR1VNZTBtM09TaXNldGhQTEkxQm9tLU1fYjNybVBYTlRLUlZTYldTRzQxZFktMWJSa1JkOFZ6UWU4RmVSdw?oc=5)**
-  - 来源：Tech Times · 来源时间：11-23 14:15（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：AI Safety Summit Monday: Only Six Low-Income Countries Have Cyber Incident Teams in Global Network Tech Times
-- **[OpenAI proposes perplexity metric to measure AI progress and set safety standards - FoneArena.com](https://news.google.com/rss/articles/CBMikAFBVV95cUxQcEhjMFBsVlJSLWNuVFZaVVJOUHlwMVBEeldURzhrV01waGZtZUNmUXhHUXNTNWtzb1I3dDNfSm0xbzNyZWZYelVKZ1lZVTV0Xzl0cmVMX3ZBM0cxU053SlZrTG9Qc1hTemJUQUlwUFZsSTVmQ1U1UTkxNVU0WkQwWFg1X3lUTnhZTTZOZXkyMlHSAZYBQVVfeXFMTjQzLTV1dVZhdlYyTm4tWkRjOF9JcmhZektWbW9wNWc3MXpCSlpIWkZLclhSRGM1Nkd6NzdUNm9vQUlmTHgzRWE2WGNuY2stdXlOTzc1UTZfNmhDX0FuZ2dCcUhEYkVJWTZJa2VDTi1JeW1RLVVUZ0pIMVJTR1Z2MHF3bzJySDQ3Sk5OM0MzRTJPbS1LbFRR?oc=5)**
-  - 来源：FoneArena.com · 来源时间：11-23 13:17（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：OpenAI proposes perplexity metric to measure AI progress and set safety standards FoneArena.com
-- **[A New Framework for AI Governance by Organizations - The Regulatory Review](https://news.google.com/rss/articles/CBMiogFBVV95cUxOR1NFV0Ntczk5N2t4LTB6SXFGb1BrWEZURTh2MDN2QWM5SlRxZGplVU84eHBZdFRMdWJCb183Tkd2WVZSSk0tUFlycjNPR2tiZEFNaWQ5MHlRLTh1bjBBNW54TVZVOF95dHRzZmlVbDJIZVhBaHJuaFRaY3daeWdkQXptT1NZN2xyclZMalJHQldJd2FpdmFNZmZBYkZic3FVRGc?oc=5)**
-  - 来源：The Regulatory Review · 来源时间：11-23 13:16（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：A New Framework for AI Governance by Organizations The Regulatory Review
-- **['What does good look like when it comes to AI adoption?' - Human Resources Director](https://news.google.com/rss/articles/CBMitgFBVV95cUxQU0Q1My1tTHVYZVdwb05KRnhBSXNtUTEzaWdhNVFIMDNYTkZPMGJ6ckt5MjI4VlBLc3RBRGdUbjhCd0MwSVBYNzhUNkE4eGMyVk81X2RNTkRFMXFpb18yblAxbzBaTVZ4ODR1MU1VTDRmS1JGbG1XWnlZdHVQVFhhRE82RG50NVFnNExVNjBXRjFKTGRKenNEY1FNellKdThvWkJnZE5jUXNTbGZpZDdyWjFQVWxfdw?oc=5)**
-  - 来源：Human Resources Director · 来源时间：11-23 13:06（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：'What does good look like when it comes to AI adoption?' Human Resources Director
-- **[The Democratic Party’s Three Conflicting Camps on AI - Foreign Policy](https://news.google.com/rss/articles/CBMioAFBVV95cUxPeDRIVjdFcTRiZURWN1pxdmZTQUtWWVEtZkVlSUVWNGQ5NWdzVWdfUV9tVUhnS0xLMkIwckx6V3NuUGt4N0NKcVFXNThPZEVWQ1FCcE9Ic3dkM3J6d0t6VUY2UjN6cWotZWNXallvUGo3U1l4dkFXakttcDhlaGttMGN2blBjdjJmQ0pmQ19QUHBpVWFNOHRaNGh3YWpjSmJq?oc=5)**
-  - 来源：Foreign Policy · 来源时间：11-23 13:03（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：The Democratic Party’s Three Conflicting Camps on AI Foreign Policy
-- **[AI Reconstructing NH’s Building Industry - Business NH Magazine](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWk0tRE1HdXdiOE9BS0VLQlRBTlg0ZGtPRmJYakNGd2Z2SnZjaElNb0QxQ29Sa2J6RXFxNkdRcGJEMExSYmwtaUx4S0lpcTFOSjZkS0V1WnVqRTNJZFRnYVpreUI1eXpLMk9JdTQ5ZlZrY3g5SmhTZWtqY0hzbUVIc3Yxdk40SkRM?oc=5)**
-  - 来源：Business NH Magazine · 来源时间：11-23 13:00（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：AI Reconstructing NH’s Building Industry Business NH Magazine
-- **[Why Human Creativity Still Matters To Copyright In The Age Of AI - SMBtech](https://news.google.com/rss/articles/CBMikwFBVV95cUxOSEpEYUsxMnVWNDk1anVOWFVUcUJuWjFmMnVUX21SVGpTTFZvOUx1YkxMZUpZQlh5dmpjcWVwR2F5dkV0ZVNkRUU2N1JHYlRvUm9jcGRvakxZanBGQW5VcGhWXzJqeWczUHRXcEZTSzNXaW9hMFIyT0t4RTFrVXNTQWFXSWZsbWp3TkMyV25RVVNucXc?oc=5)**
-  - 来源：SMBtech · 来源时间：11-23 12:25（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Why Human Creativity Still Matters To Copyright In The Age Of AI SMBtech
-- **[OpenAI Calls For Common AI Safety Limits, Warns Of Major Breakthroughs By 2027 - Free Press Journal](https://news.google.com/rss/articles/CBMitAFBVV95cUxQeUh3Z3VsOTM2dmlXaVZEN3R5UUpXN3gwTi1oRXpBcEhOOWsydGdkLVQtWmxXR3BZaW0waFh3ZUFnQXNHbHhjRmJ3emtYUnRLRGFOWVR1djVrcThTOFpxZC1rdkFqdi11ZktJYWM2VVQzMzFjTDFXZ0oyV2JIQ0Vvd1JfT0djRVBBcEUwN2Z1NmNwbDhiazFjVGllakVNLXEyU1dXdm1NMnBXWXVJaWp2RFJmcDjSAboBQVVfeXFMTXJCdGh2SjFpb2UwT3M5Ny1fZDh4S0hBS2FrRVF5UnZvT0N1TjRFVnpUMlp1RmVBZVJzYUhBdDBtQmt4UzJ6ZjBnV1ZJUHBDbGV1TFg0ZFRNVElvTUJXNkJpeVk3Wm5PaVB0OE9UbUE5YVRqbzl2Y1ZOdFYxTl8tcjdacVEtVzZLWl9fYU15cjFOdzBoLVV1cmwtbGZJSkthakoyLWxGYW55RG5KeVZxQXJldTl6SWF5OFBR?oc=5)**
-  - 来源：Free Press Journal · 来源时间：11-23 11:49（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：OpenAI Calls For Common AI Safety Limits, Warns Of Major Breakthroughs By 2027 Free Press Journal
-- **[OpenAI wants AI companies to agree on common limits, Chief Scientist shares plan to keep AI safe - India Today](https://news.google.com/rss/articles/CBMixwFBVV95cUxOeGtnYk43eGF1MzEwdDVDSGYtV3B6OURnSk5OQ0pld3l1Tmw3Snp0RkVZenVNcXV5VEx4NUxnOVU2UzBMZ3JwMFhMRUdZYXc1UEJZWG54d0tjTkM3MHUtOEc4VEwwa0IwbHVZZXFtY2pjalhlVDhZa0Z1Si1pN0RiSG11YW5nRk1MTWZ5bnhrekVYbkRqN2hfNzA4dDNRNDZnMWN0ZUhYT0kxOEF3UzdUTTJKcHVOVy03OVFGeC1WS1Vzb0M1YkNv0gHHAUFVX3lxTE54a2diTjd4YXUzMTB0NUNIZi1XcHo5RGdKTk5DSmV3eXVObDdKenRGRVl6dU1xdXlUTHg1TGc5VTZTMExncnAwWExFR1lhdzVQQllYbnh3S2NOQzcwdS04RzhUTDBrQjBsdVllcW1jamNqWGVUOFlrRnVKLWk3RGJIbXVhbmdGTUxNZnlueGt6RVhuRGo3aF83MDh0M1E0NmcxY3RlSFhPSTE4QXdTN1RNMkpwdU5XLTc5UUZ4LVZLVXNvQzViQ28?oc=5)**
-  - 来源：India Today · 来源时间：11-23 11:43（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：OpenAI wants AI companies to agree on common limits, Chief Scientist shares plan to keep AI safe India Today
-- **[After Blockbuster Anthropic IPO, OpenAI Wants AI Rivals To Agree On Development ‘Limits’, While Meta Calls For Controlled Approach - Yahoo Finance](https://news.google.com/rss/articles/CBMipAFBVV95cUxQaXZRS2dTVkZ5UVNWRGZtOHBqU25Qc3Fqb2lTbjRSMDFWTVVFM2NNZVVPNll3TlUzdzNZeFJfRXFRWFVzTkQtektkdENjUWtqZkUyblhuLVJpRkhJOEc4V3pUZEdlcjN0alRMMGlWUFF4NDNwTTJnSjJXbE9lWXE2YkhVaWc0Mk05dUxyVXVSMUZZTllMZW5BaFB1RkFzNDhpNjBudw?oc=5)**
-  - 来源：Yahoo Finance · 来源时间：11-23 11:15（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：After Blockbuster Anthropic IPO, OpenAI Wants AI Rivals To Agree On Development ‘Limits’, While Meta Calls For Controlled Approach Yahoo Finance
-- **[California sues OpenAI over alleged AI safety failures - The Jerusalem Post](https://news.google.com/rss/articles/CBMiX0FVX3lxTE04ektIa2p2TzdwcHZqdGZIeF9IY2ctOFhueHZIbk9KSHNXSWZuYm50YmFuZ1NNdmFzSy00aGZHR2xfdS1rcUlOZ2pkN2gzLXR2QUZBXy05STA5ZExSZC1B?oc=5)**
-  - 来源：The Jerusalem Post · 来源时间：11-23 10:08（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：California sues OpenAI over alleged AI safety failures The Jerusalem Post
-- **[Governors Want States to Have a Voice in Regulating AI - PYMNTS.com](https://news.google.com/rss/articles/CBMisgFBVV95cUxQelJDNXNhNldVMzJfMnJYUWZFZ0RFSmNxVEpNZlRiSVZPN0ttZHZ3aGRtUVRVUlE0TTBGTFJrMEdmTi1wdG1DZldyZV92U0NKRDZuZmpFY3dhRzJJMGhScTVEVEk3alFTSU1WeWhRSzNhOHFLVDI3WkctMFNNa0E3WnFtWVJLdlh6X1dIU0paT3NVLVJGcGFVQnFFTFNmVG1sXzBBY19BOHY2UjFOQU5OUVpR?oc=5)**
-  - 来源：PYMNTS.com · 来源时间：11-23 09:16（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Governors Want States to Have a Voice in Regulating AI PYMNTS.com
-- **[AI Copyright Changes Could Cost MPs Votes in 21 Key Electorates, New Poll Finds - The Music Network](https://news.google.com/rss/articles/CBMif0FVX3lxTE82TW9mU00xSUhuWGhWY3FTanlQS0VUdnJSaGVVeFFhZlowcENEM2w0LXhLcVd1UTZmdUtsY2FXUFd3OVMwaDRMTHJKbWlPWEtkaVIxRVJGay1kUUY1WGR5ZnNBZ052TDBOd1RYRC1sMVU2SVBDQklVdDVpdU5ycnc?oc=5)**
-  - 来源：The Music Network · 来源时间：11-23 09:07（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：AI Copyright Changes Could Cost MPs Votes in 21 Key Electorates, New Poll Finds The Music Network
-- **[Gavin Newsom backs emergency AI shutdown powers in California - EdTech Innovation Hub](https://news.google.com/rss/articles/CBMipAFBVV95cUxQYTBKWDNlbzN2bDF4X01fbVZ2WXZTbnRQY3hNdktPNDk3ekdZektCdlZKT0Y1dmprWGhscks2QUlfUTBmSGFLblRibVN5dE9hYmp6ZEdib1FVYWJiSEdvbjB2eXllc2lnS21UbEVUd1BBODZEVWdBdWQ3SUF6cUwyNmZtRWdyZkVLbFBUOEhkM3Y3Ylo4TmZRRjNhZzNoVXRLVFZ0VA?oc=5)**
-  - 来源：EdTech Innovation Hub · 来源时间：11-23 08:32（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Gavin Newsom backs emergency AI shutdown powers in California EdTech Innovation Hub
-- **[OpenAI's Jakub Pachocki announces perplexity proposal to ensure AI safety - NewsBytes](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeWNHVThQdVJjbk5rWmJNbDNFWVJEWlBMV2VBVWItM0FlMkY3UUNHVnlDUlZzdE8yU1p4OUl2VFhFcDJWY3ZCUmt4OE9ydmp6dnM0SDdRTkd4ckQ4XzJhbE1XX3k5WmVUT1JJVjdjcXpzanU3Qkh2cnlzOHN5NzhFREh5aFhvQ3ZOOEdHMldfVnNhdnA1U1k0TFAwYllwNmd4N0g4d0h3Vk42YVYzXzdmVFVwblRZbUtsN01Z?oc=5)**
-  - 来源：NewsBytes · 来源时间：11-23 08:09（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：OpenAI's Jakub Pachocki announces perplexity proposal to ensure AI safety NewsBytes
-- **[Does new Etsy policy allow AI training on artists' work? - Snopes](https://news.google.com/rss/articles/CBMib0FVX3lxTFA5ZWhIZE1heEE5eEFibzY5S0ZJTmdJWEZYT2FZUGhtYndScnhETk96MUgwMDhIeURqb0xseTdfNXBoNDJpNnNjbjU2TUt0d0ZsM2s3Nkdxa3gwMld5UnNiTXhacWNlVE9OQ2MxclRzRQ?oc=5)**
-  - 来源：Snopes · 来源时间：11-23 08:04（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Does new Etsy policy allow AI training on artists' work? Snopes
-- **[OpenAI top scientist sounds alarm over AI, calls for global limits on powerful models - TRT World](https://news.google.com/rss/articles/CBMiWEFVX3lxTE84WDlhTWNFMVV4QVRoRWV1Y0FPSno1QjBsbUdJTGRENmJ3UktDZm1HMTJxMmlyRHNqRDFySDN0Vl9CZTBlTUQyUnpDb1VETU05WFNFMUU5X3o?oc=5)**
-  - 来源：TRT World · 来源时间：11-23 07:56（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：OpenAI top scientist sounds alarm over AI, calls for global limits on powerful models TRT World
-- **[OpenAI backs common AI development limits with ‘perplexity’ as key safety metric \| Hindustan Times - Hindustan Times](https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNkNrMmV1VWpJLWZNMmFHWElPOEF1TTZvOUlfeVROajh5M2dLdGY0bnhZM21UZGRYMl9LTm9JR3N1ekRRcDVKRkRlNDNEZ3JNZ05LM0NZTXNVZUR6aUxfbTZvNHBUTVVGdzJuQVdUREZZeWc3MzhtaUZ0cDkyTmM2ZXotelphRmdVT0g0YnZ6MEk4dXp0b3YwTk5WdE5paUtiSFV5UC1YUWJ3MTdOUm9TdGQ4UUF1MlBkMFQwM2dJZkkzaW1BTUJla2I3cUluYU1pWGR1TzkxT00yX0FxYnNtQS1IMNIB6AFBVV95cUxPWm9CV1RLSDZiLVIya0RHdXdBSmdxaF8yUVZQMl9QUXBkVnpYc0NvbnZiandsbEc5b1EtQlBoRHVwcmdrSjdPbHJ0bDZGTHlZMUZRdlBSNGdudHhvcEJvQUx1VFhMd2tjdHotT3hZUnFFY3N6SnB0MUZGekdLUUhMQl9jR2tsM244QXdlQVZHOUNSY0lJOUpaOFkxYVJIZVlIUzRkSkpnel9jVW9qVzZWNENDTE5LMHA3U3ZmVVd0RUxkVC1aTXRhaHM1ZWlxbEpaUGY0Sl9JVWhvS25rZEUteWdrSkdkbXl2?oc=5)**
-  - 来源：Hindustan Times · 来源时间：11-23 07:53（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：OpenAI backs common AI development limits with ‘perplexity’ as key safety metric \| Hindustan Times Hindustan Times
-- **[Will fragile bipartisanship on AI survive the silly season, or is parliament heading for a holiday meltdown? \| Josh Butler - The Guardian](https://news.google.com/rss/articles/CBMi_AFBVV95cUxPMHdnamVoWjY5THA3dUhNZDZ4YnJiSGxOQWZ2UDNpcW9aUWJhOURmaURDN2lwcDQ1QzBBLThZZHBEZzNMZXViNUtiTHFvUG1HQllTNWNtZDJrSW03SDFjM0FZaE1ubHJVNHlHbUtHUHF4Nm5ZeENndUdESEhHaG9Id1pZZUtGQmcwWGJRSl9UbF9FUUJKSjVjWGxHUkpEaUR6N0NhOGp2VU1iU0FLQVRFQWQyLVA1bHFsalpKWWJFY0NyZ2hpSXVIellmTkRTRU4zRXZPeFJ6OVR3VWNBWVdVS1lyWWtEdTdVbDNpOVdSOFhreDZmRGdYZVJ2UGs?oc=5)**
-  - 来源：The Guardian · 来源时间：11-23 07:06（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Will fragile bipartisanship on AI survive the silly season, or is parliament heading for a holiday meltdown? \| Josh Butler The Guardian
-- **[OpenAI chief scientist urges industry limits on AI development - The Business Times](https://news.google.com/rss/articles/CBMixwFBVV95cUxOLVMtaVdzRWJKUldQbUhaUW5kMzVWV3gzNDI2cVRBb2NBQVVRa2lXdGpuZ1BHRjRwU3ZsbU9kcW9QbU1QMkZVU0xaOFVhX3V4YlRHaEhYVnU4YkhnbzE0N2RpaXVKOWJhVVVwQnZpY0J1cVVYX2UzbWZqVGlWMUJmNVVoN3p1X3pfNC12cWFvb205ZzFBb044WXpfd1JLcnpSNTdhWW9EeTloVGNOY0MxMEJqUDdGWTV2RjdjZmRkMEpGTXZvblpJ?oc=5)**
-  - 来源：The Business Times · 来源时间：11-23 06:50（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：OpenAI chief scientist urges industry limits on AI development The Business Times
-- **[Bessent warns on Fed hike as AI bubble fears mount - Yahoo Finance](https://news.google.com/rss/articles/CBMilAFBVV95cUxQRW9ENVZRTFluQ1ZEbkFDYkV5eTF3MWV0cDg3NkVPN0Z0LWhpb0pGNVFGY0Qzc2I0SzU1XzZKamJ0LTU5ZklkU3Q5LUtILVI0YWoxMGdmQXZ1LVJwb0QxaDh0c2hCOVRyVVhZWmZyb2pyNlhKMTZsYm5UdVR4TTdkRklreUFtb2hTTFJ3TWVaTmQ0ZGVu?oc=5)**
-  - 来源：Yahoo Finance · 来源时间：11-23 06:26（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Bessent warns on Fed hike as AI bubble fears mount Yahoo Finance
-- **[Government faces narrow path on landing AI copyright laws - Capital Brief](https://news.google.com/rss/articles/CBMizAFBVV95cUxOV1NPVFV3aUc1elprOUhfSjNHYXVkMF9SbDI0UC1zcDhCYWlWTkZSaGQyOV9WaS15NUdFcXV3MF9nSUMybklNSC1CeEFzMGFUamNHSHlOWXVoREtDMU1lamZLcThZS0o5NFBGY2ZtakpSMTZJQjYzYV9FMEtFWnQ2ZnBKblc1ajNoaFROUFRpLW5TMV92TWg0dUtPMVVFNEJIVmNkSFZEdlAtRDFrTnM0OFFUajF6MVE4WFhHS1ZDNzlRR1pTSzVwTzZjX3k?oc=5)**
-  - 来源：Capital Brief · 来源时间：11-23 05:43（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Government faces narrow path on landing AI copyright laws Capital Brief
-- **[AI copyright in NZ: who owns AI-assisted work by 2027 - B2B News](https://news.google.com/rss/articles/CBMihwFBVV95cUxORlJwaXBya21QNUdXai02Tm90ZU1VekJMR2dQajl6UWJ2OWw4MVdCcEdPaTBFRnpiOEEyQ2QxbUFxVW9Sa1ZKalNuUDhXX1o3ZjdaSWZ4ZEFZZUhpT01GeUxIQVB0OE85eEs0a2xyMnB0bTRsb2x2V3dicW1YUEp2aG9pYlRDMk0?oc=5)**
-  - 来源：B2B News · 来源时间：11-23 04:54（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：AI copyright in NZ: who owns AI-assisted work by 2027 B2B News
-- **[Libreboot gives up: its anti-AI policy lasts only a month - Observatorio Blockchain](https://news.google.com/rss/articles/CBMijgFBVV95cUxQOHlXbF9lVDVaRjEyU2NNUFV6WURYSlhNM2F6SDdNUjduMlRST1BzbUI3SnR4blc5ejI4a1FFR0lEazVtSk1SMkc2cE54U2FCa1ZnejJZX1ZKUXJLeHBZaTJ3anV2UnRJRllLeHRNcTRZYVEyT1lyMnRqdF9nNldSVzlYeGJQa1RNbnlJQjVn?oc=5)**
-  - 来源：Observatorio Blockchain · 来源时间：11-23 04:00（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Libreboot gives up: its anti-AI policy lasts only a month Observatorio Blockchain
-- **[Opinion \| America’s AI policy has a chip-size hole in it - The Washington Post](https://news.google.com/rss/articles/CBMipwFBVV95cUxNSjZLandHNDJKcTM5WWhtaGlHQ1lwUGJqVTIwN0JEMlhqcXgybnk0UU1laXJLcURHU0cyTEQ3MGFBMThyM3Qwc202UzVfRkEwRTRNRFpmWnl1cm1VTHJiMndzbEdGR0FRRzQzNmE5WGhRczVpQXg4TXBTRFZqZDQ3LVoyV0toeDd0NVJjWTdKY05UYTZWOGRXM1E3eDNTMDBDUjJRdG9QWQ?oc=5)**
-  - 来源：The Washington Post · 来源时间：11-23 04:00（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Opinion \| America’s AI policy has a chip-size hole in it The Washington Post
-- **[OpenAI Chief Scientist Urges Industry Limits on AI Development - Bloomberg.com](https://news.google.com/rss/articles/CBMizAFBVV95cUxOeERaRXlhX3BGMWo5SXh3YXdoT1lpcm9lSVNraExZczBGd3Y5SFhLMDk5QnEzWkNOUmpzWnlKRm9iRnF2b1BfMFNmajBITzRjZGVPMjBGZVJFNmNLRXY5eW0zUFBLYzlxaldLUFd4NkZhR3BsVG1KQkZOcTJuaUFDQno2WDk3LUhCSGVOZUlpZ21xcjRJVHVPSHpTMGhaUW9hNXNsQXVCQ1U4Sjd3YUJtbUtBUDZBRF8wcXpTcjhFd1pUNktvSWxyYTNWbTA?oc=5)**
-  - 来源：Bloomberg.com · 来源时间：11-23 03:40（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：OpenAI Chief Scientist Urges Industry Limits on AI Development Bloomberg.com
-- **[GOP lawmaker ‘optimistic’ about passing AI bill before next Congress - The Hill](https://news.google.com/rss/articles/CBMigAFBVV95cUxPTjlVM0tEZk1yM2FwVW5nYnNMYkdTYWlTellHSmRqVWFfb2FnUWFxTWlYelRBbXJyWTRSeUdYZEhiZDR6NTd6MFhsbDZLdlkxbGlyel84MkhaVlI5VjZSTE1ZeDhpNzV0RVNsMmtWVWVzbGpLLXhLNDVVOU54ZDBBNNIBhgFBVV95cUxOWUFXdjROMk5pX0lrZVBsM2h1LVZ1bWRrNnkyNExSclktb2pQaU42TlU1aFFqbFNtcXE4QnFLSWZjMHB3YU9jQ0FyVVc1M0RsUWN6M2lxS21Qekl4elppNktoSGlleVk2a2liXzRIM211RG5fc19DMmRnQ3g4c1JvMVpTU1I4QQ?oc=5)**
-  - 来源：The Hill · 来源时间：11-23 03:28（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：GOP lawmaker ‘optimistic’ about passing AI bill before next Congress The Hill
-- **[Perplexity and Intelligence - OpenAI](https://news.google.com/rss/articles/CBMiY0FVX3lxTE96Sm1EaVlsMHctNGtBMDBYdVRreWpySVdVS1RhSVZCUzk3enZHQmlIS3lWY2Rmajh2Q3RNZWU2RDEwc3ZEX2tONEpsbEN6RXowZk1ySVdaWXVVR09jX21aelV6UQ?oc=5)**
-  - 来源：OpenAI · 来源时间：11-23 03:12（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Perplexity and Intelligence OpenAI
-- **[American bishops plan for ‘groundswell’ of political action for AI regulation - Politico](https://news.google.com/rss/articles/CBMikgFBVV95cUxPM0daNjJ4MTZuYzRVRVdvbjBCeThWSkJ5VlotenFObGMxU0RzUlZFeDMzNHVRWGRRVUw1YW1JZW1FcUlkVFhERHNKSWtTcUQxZk1lbkllMjJzSFJzeWVFamlSQWc5MG9nMjhsVnQySDB0WE1jOHhfZDZYVndkYjk0cmR5dGctVjJZdVN6aUxzcTJZQQ?oc=5)**
-  - 来源：Politico · 来源时间：11-23 03:00（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：American bishops plan for ‘groundswell’ of political action for AI regulation Politico
-- **[Should AI-assisted creative works be eligible for copyright protection? - RNZ](https://news.google.com/rss/articles/CBMitAFBVV95cUxORzFfVzU2bS1TaHJOS0tKZnVZb0gybzFBUGFJeHlYYXQ3MnZUZ3E5YVBPaGlLcU1UWE1sMEgta0dMVG5CeWJ6UkdZTjloaGJfbWdVQzlEZTJDWURneTRCMHlja3NDdUVJcmpFY1NaMi1NSFlKelpVd0JBbGU0TXJmTWxibWxKWU1idEZvV1ZnYzdrZDJVMTY1Q2dhN0Rhb19Td3VGbFdhMjdoS09oM2pVRUttUU8?oc=5)**
-  - 来源：RNZ · 来源时间：11-23 02:56（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Should AI-assisted creative works be eligible for copyright protection? RNZ
-- **[OpenAI chief scientist proposes perplexity as shared AI safety metric - news.lavx.hu](https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ1pjM01wdy1haU4zaC1pdkdUc3JwTG9reHg4MEg4Z2c5cTU2Ni1Relk2Y01ZMTJETlViZ3EtS2Z1U2VoTzhseWZ3cTlBUUJWMzhMeU1QTUszOFBKeWpwaHZiVkRJd2FtR0gzTHpTUjl2azUzal92RmpUMG1Vd3RGc19mdUE0TklNQXVDaEk1V0l6dXhBRl8zOWdKc3JFRFU?oc=5)**
-  - 来源：news.lavx.hu · 来源时间：11-23 02:55（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：OpenAI chief scientist proposes perplexity as shared AI safety metric news.lavx.hu
-- **[OpenAI Proposes Shared AI Development Limits Tied to Safety Milestones - Unite.AI](https://news.google.com/rss/articles/CBMilwFBVV95cUxOWmFEa1lETEQtWml3ZWZYWmpIc29DaUJNZ2h2Vmp5Nkdzazlod244cy0zRWl0ck82NXRQdi1qbzF0TWVudEkzZUJVbDE2MEw1RGxCR1o2cEpMYTFBb2c1WTNuTklwR0VBcHlSdUdXWHVoclQ5UWRoQWxXUUJYdzJiOUVuNmU4NDdJaVFETHFmZnMtOHhwa1Br?oc=5)**
-  - 来源：Unite.AI · 来源时间：11-23 02:43（北京时间）
-  - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：OpenAI Proposes Shared AI Development Limits Tied to Safety Milestones Unite.AI
-- **[AG Letitia James announces a unit to police AI companies before New York’s AI safety law kicks in January 1 - Bushwick Daily](https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdnpLR1ZfWi1INWFGZGFucjd3OTV1dUhCSlZubkhpLWZldFUtSWMyMUMyaExNYTBOU3BReHh4ak1SYUlyQk15U2JPczZ5a3FTTHVONTRkSlR4akgyZ3plSlR3c0JuaUhyeXpEVE4zd0V4bFJSZzhDcHFnNWhmMVFobmt4XzRGMGhGUmJ6YUN3VElZWUFzUVloeXJubXllcmV1eWFuS3Q3MHBWeWJ4Zld2Y1lhWkZoU0RfN2gtSU50MWJZTGh3Y0huWXNLTGlYZVd2SGVrVQ?oc=5)**
-  - 来源：Bushwick Daily · 来源时间：11-23 02:33（北京时间）
+- **[Google.org backs AI road-safety project in rural Illinois with $1.5M - Dealroom](https://news.google.com/rss/articles/CBMiowFBVV95cUxPY1J2WEsyZmRET1Nua1NYVDNaSTNfeWQ0eXkzLUM3OXptaTNXM1BfTjM5YWp2Tk5zUU9xRnFkRDdUUThnN3BqNjVfa25EdzB3OTY2MjJyLUhiMFdJVXVhVmh0ZkNfaXNkYnVYR3dsZHRxMnRWUjZmVVpYd2lzM3VjMDVPU2J3SlBMc3VoZHQxUjkwSDB3ampoWE9YMVNCblB1TEZB?oc=5)**
+  - 来源：Dealroom · 来源时间：11-24 19:10（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Google.org backs AI road-safety project in rural Illinois with $1.5M Dealroom
+- **[AI agents could trigger financial regulation for tech firms, UK watchdog says - StreetInsider](https://news.google.com/rss/articles/CBMiywFBVV95cUxQYko5TVlXNVdTLTlOZ3NHdzRtYmlUS243ZVRnTXlEVnkzal9CLVVpYnB2VjBnTG1Da2dvaC1tVmZhMTlXc1VKVy1fdlBab0k5TTdWWnllVjAzd0J6ckVYbUJ4a182eUJ4dG96RWlFcWc0UEtqbnR3N2xYbUN4ZjVIeDBHSm5OemlvaTZMWF9xQ21TcjhCb3JraUliSG9hX3N5Uk83OXk3aEpmMXlZRm0yanZWbU95N0R2eGhqMG9hY2thb1Y0WXhuVHRRZw?oc=5)**
+  - 来源：StreetInsider · 来源时间：11-24 19:04（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：AI agents could trigger financial regulation for tech firms, UK watchdog says StreetInsider
+- **[What happens if AI becomes its own successor? - Marketplace.org](https://news.google.com/rss/articles/CBMilgFBVV95cUxNUjF2a0QwV2hDTnZiMThOQzlwUDREMXpvS0FSb041TUctSnYtajY5TlE4MmxISXJjTWNHZVB6bHZZVnRXYmNvNHFZdFE0a0laWVJkaGhRNG81N1pBRzgxa1gxRHBqZ1Y4dlRCUTFMQkpfYzVkZDNBSHlvS1Y4QXIxclJXT24zTXY5MWdvREN2bll3Q3FuUVE?oc=5)**
+  - 来源：Marketplace.org · 来源时间：11-24 19:01（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：What happens if AI becomes its own successor? Marketplace.org
+- **[AISI: AI monitor evaluations can give false confidence - Resultsense](https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcHAzM3hmUGRmMl9sTm1xM0tyalJ5cFFTenRTcDlOd0ZjVi1JbUJjTDVfVlRhcWRoSmpORzFFdmY2dzRqeV9fQ0J2RE8wSEV2RkFLVVdTM2pQUFR6amc2bW15Z2RVSUJBSTQ3NW1VMWQ4dnNvaG1sb0s3N1J2VXJoTFMtaFhlVDJKTTVV?oc=5)**
+  - 来源：Resultsense · 来源时间：11-24 18:58（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：AISI: AI monitor evaluations can give false confidence Resultsense
+- **[U.S. AI sector faces rising calls for urgent safety oversight - Traders Union](https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWFhhUWpyMzcwRE1hT2FjOHhXdllIWWIySFJJNkIzckpxdWRXUUlfRUZ6WnFJLWo1Tk5QWlF2M0V4dmdhT2RVRFZBY3JiSnFlQm5rQTZJVzhTemN4YWJLSEh1QlBOUlc3YmFNbkNNenl1MnlLaGdfdGtGM3JWWXo0bTlfSjJLUDZ4VE9V?oc=5)**
+  - 来源：Traders Union · 来源时间：11-24 18:57（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：U.S. AI sector faces rising calls for urgent safety oversight Traders Union
+- **[AWS’s Matt Garman: AI Safety Needs Engineering Over Policy - AI Magazine](https://news.google.com/rss/articles/CBMijAFBVV95cUxNTzhlZEhpRXlid04xVU85MVJHQm5GZ3RkQ1l4M19yM2VNLXQ3ZmwteWFJX1Fhc0RMQ3Mza3pfWExYdUJJZHRGSGJrbVB0VVYwQ0xLeUJKbHh5cHl5c0V2Tmd2ZzZ3MzV1bXJ1dHF4THcwdmMybGZmZ1ZBUmwxVXRGbVktUVItTzdKX3BhUA?oc=5)**
+  - 来源：AI Magazine · 来源时间：11-24 18:57（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：AWS’s Matt Garman: AI Safety Needs Engineering Over Policy AI Magazine
+- **[Scoop: Anthropic and OpenAI employees fear unreleased AI models are too unsafe to release - Axios](https://news.google.com/rss/articles/CBMiggFBVV95cUxNWnJmY2hLTWlhTHcwN3pVSEhYOXlYUThYQXJ3RWxobVlPR2lweWpSQUY1NklSLVNVUHI4c0wwdnN3azBiV05wTVV6ZmRMTllRR1dvcmNYdjRheHZDOUNVaTBxUFpuS3BZUVBvZ2tpMlpTSS1oYWZ3SC16RVZEME51a0FB?oc=5)**
+  - 来源：Axios · 来源时间：11-24 18:49（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Scoop: Anthropic and OpenAI employees fear unreleased AI models are too unsafe to release Axios
+- **['Maintain control': UN chief calls for creation of global AI safety framework within a year - Modern Ghana](https://news.google.com/rss/articles/CBMilAFBVV95cUxPbnVVMTFlUlUyQnFvT0lFTThVLVh5YUdLNWlfOXk3dk5zbTB3a3F6akd2Z3N2QVVKaEIyaUtUWmdISmRydkl4am5iWVVTWEFYZHlrU0FfbDI5RHYyWlNOTkVqVkIyc25rOGowUnp4TWxrQkFOeGZjNjZkT0s5OWxfYlpfWXdCSVpIQzdQNjdRU3BjRmRN0gGTAUFVX3lxTFBHa3VhM0xaZ3VDTFpVcW5ZTXNQYk91d3M2X2N6aFowYUFIcEZVUVZRWUV2LU5CSnZrQXgwQlVBcjRrNTRhNVZ6d2Z3N0NvME8tV1dPcUtwSWdDc3lQNk51UUt4dnY4dlJsZ1phdTE2UWdGLUczWFo1VGhwY1JVMzZRWVFUejhybmZ0OTFaanZTekwzSQ?oc=5)**
+  - 来源：Modern Ghana · 来源时间：11-24 18:14（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：'Maintain control': UN chief calls for creation of global AI safety framework within a year Modern Ghana
+- **[AWS CEO calls for AI safety through system design, not ‘kill switches’ - Communications Today](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbGg1eFVfaHpKd2hCS1lmand6OWYwX3FuTGZkTGdsbENZVU0xaHN1NWgyVWZIdTduY3M5ZDVaQlFBMWJfbVlwSEt1VENjT0Q1aWIydmNCeVJfOHpRbGlLQmdDQ1ZVR3RwMDJKODlVaUtDd0g2N3BlYmFVcGwyWWRVNlZoakpLVG5VaWoyZ0E3cjlQV3Ztc0JmUDhCSERuZ2lBd0w5LXYzRVpwdw?oc=5)**
+  - 来源：Communications Today · 来源时间：11-24 18:13（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：AWS CEO calls for AI safety through system design, not ‘kill switches’ Communications Today
+- **[Bipartisan report backs copyright pay scheme for local AI training - The Australian](https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMi1wRkh6MlNhREE1b3djQS11c2l5eWJYRFQ2WjM3U3ZLVEdncXhrVE9uX1hhX2pEcmNCYVFleTJ0eGFnNjVDa0MyYjlQWndjYUVQUXFMNVdwLV9OeGVGTGxWbUVJanNCVDFtVm1kMktNM1R2SlNMVzVrUEpOS01XZ1BOVUJaM3NTYkw4WFE5a1ZudTYyNjRJZ0k2blQ4SlltZk1ZbDdQU0dXWTQyclFsMUw3Q3daTW1kdm1Bcy04YnJYRTBXb2RkYmhJOXhHSFZOalZjbDFGaXhBX1ZyOHFTWXJvZDZseGxu?oc=5)**
+  - 来源：The Australian · 来源时间：11-24 17:36（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Bipartisan report backs copyright pay scheme for local AI training The Australian
+- **[Kate Bush and Grace Jones urge Australian government not to legalise AI ‘theft’ - The Guardian](https://news.google.com/rss/articles/CBMirAFBVV95cUxNbW5LR1FKWHNxR05oVVVxRFVYM1R1VU55S1YtR3BRdUQxOGFWcnUxcms0U3dQOXRFcHdGSEJiUVVzZTUyWmRGTTVnLU1aSGh0SHB4UEw2QlFyZFh2bnZqTnIxTVpERDdjYmZsdER4LXI5TzhIcUxQMW96cEhXZkYxMGE1cThEUjJOX0dZV1ZBbnd1dkZGQmhvb2VOZW1HV2Voa2U1Y2d5TzJLWjcx?oc=5)**
+  - 来源：The Guardian · 来源时间：11-24 17:26（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Kate Bush and Grace Jones urge Australian government not to legalise AI ‘theft’ The Guardian
+- **[AI Innovation vs EU Regulation, Comment and Analysis - - Insurance Edge](https://news.google.com/rss/articles/CBMilAFBVV95cUxQX3RUOThYTWZ4SkhHZWt2RWVYRXJkWGtUM1pKVG95SWxEWFlvcUttU01rTWM2VXJJdDJvVkRMbUYxUWlzb1pTY1R4UlJVcHU0RTJLTW5MZ25ITW5GUGg5Vm1WM1FMVS1rYlRjWE4yenh4NFUtODBBSkN2MXV1MDNTazZieUZXQ1pFM2VXV045MTRLb3Fr?oc=5)**
+  - 来源：Insurance Edge · 来源时间：11-24 17:17（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：AI Innovation vs EU Regulation, Comment and Analysis - Insurance Edge
+- **[UN chief urges talks on global AI safety framework, warns of historic shift in power - The European Sting](https://news.google.com/rss/articles/CBMivgFBVV95cUxOU0tJNTdVcGJyNHlsNUpaVmJtUTktRG1hdUJNWVJEQkZvR1JqZ0ppQlViOGN3ZE1RQXhuRF8xRjZ0VjZ5amo0QmZkUks0UmZCem8zTEJGLVg2bDBxX0lFU3pYdW1xRVgtVGVZMDdYaThSMjBhSXJjRkVKc1RpOHNXa2NycEE5b2U4SnlnN1lYcVlzU1N4bzBWcWY5YTJ4TjVpZXpMOTN4d19XZWtJSzViM0JLRjFYVGNycU1UbEln?oc=5)**
+  - 来源：The European Sting · 来源时间：11-24 17:13（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：UN chief urges talks on global AI safety framework, warns of historic shift in power The European Sting
+- **[AI Liability Framework, Safety Institute: India's Plan To Plug Regulatory Gaps - NDTV](https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUzMyS2Vxc2MxbHBiWkdQcFUzbUN3S0U2SmpyYU9KbXFXc1lsYUczUHY4enBHdzFKS0RuTlp3bmJRdWlpTjBtaC1EeDI2c0lzcEcwd2loR2Q0bnZzRzJsUnlabG1ySU1UaGQwMmVZSUQ5V2lOUXRZREhSNjJ2WGtmQ294OWU0M0sxd2ZVRGtwRW1RcFpVMWFDanBBbzVIS1llZG5NNnNYTHBMN2Y5c0p2blFGaWlzQk1XVTA5d2pLUFJPeklyb3FHU9IB0AFBVV95cUxQZlhJT0ZZZ3h6ZWtXM1UyS0dud3Y4cFpMUEVwcFRUNXc2ajl4RHRBbzlkOC14alhGbHBYQTZfRDJoM19vT2FDd3FDb1hBVjlocmZYa0xWNGcxRl9BS3lsR1FHRHVLUnlWM0ptSEFCS08tQ3VPYmF3bXJlZkIxdUNtcjdoWXJEVGc2dVZGVUxjT0dwdXR6NUFMVGxocWNBR2Q4VEQ3VDR2ZU1YSFV4bXlGMHRTZ1JHVTVPV3RzbDE5YVBhLWZrUE85RUJ0TjJqeVRu?oc=5)**
+  - 来源：NDTV · 来源时间：11-24 16:44（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：AI Liability Framework, Safety Institute: India's Plan To Plug Regulatory Gaps NDTV
+- **[AI Copyright Uganda: Ownership and Protection Guide - Global Advisory Experts](https://news.google.com/rss/articles/CBMimwFBVV95cUxQenZOdnlzVXk1UmQ3c2hWT3VjeU55bjdFenA1VFhiZTVyU0JmX3BtdjlGSjlPaEhibE9ZZWM2Ty1aT3F3cFJTTkdYOHBIYWh2bllmenBfSnJTSnJpeC1JXzdDVHN6ZHhmVWt1YThsYUJ3anVGbmtKWnVGMUNncEJhemN6OE9fTGNCb2VadE00RXFJSGJUQk9sR2VYVQ?oc=5)**
+  - 来源：Global Advisory Experts · 来源时间：11-24 16:43（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：AI Copyright Uganda: Ownership and Protection Guide Global Advisory Experts
+- **[UN chief urges nations to establish AI safety safeguards within a year - Euronews.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWENEdFU1dTFrRFB3WHQ3Wi01RV9jSGY3cWlQcGk4emtIYWZYR2puaGZMY2lSaGtQNjFBeW90MkdwY1JDVTZvVGxmaFE0bEN2SWM5a2VLcnFTaV9BQ3VNekFhdlRjMXJQNllNVzhHaHFpTFZxbVRXOVU2Uk1QbWhEaF9YTldwZzg2cWZvdmh2aGh1d1BmemgyMTNaakxtaHNfS1RRa2VQSmJudw?oc=5)**
+  - 来源：Euronews.com · 来源时间：11-24 16:42（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：UN chief urges nations to establish AI safety safeguards within a year Euronews.com
+- **[Innovo expands Quantavist AI safety monitoring across UAE projects - Construction Week Online](https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS2Z4eW9GeFRxZ1ZzdnBXTktjWmY0WjJMcmNzUkRsa0NDUm1CZHJHOWhJVjdOR2lfbUx1SnlGTXBVVkN0cGFZYUd6eHlwS3I1SWpGaGxLckNuNTcza3N3cV93eS10aUJJaXVtZkpsQzJOMUxUQjMyQUR6V0dUNHE4aTJ3R2RhN0RMalNqdjM2NFFkZGtBY1FMeEpEcFVhVDA1OTBlNUZZemt0ejlvNTdmTnE2NXRFR1BleFhnX3BxcGo?oc=5)**
+  - 来源：Construction Week Online · 来源时间：11-24 16:36（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Innovo expands Quantavist AI safety monitoring across UAE projects Construction Week Online
+- **[Officials leave MPs in the dark on South Africa’s AI policy - TechCentral](https://news.google.com/rss/articles/CBMigAFBVV95cUxNWTZESDJWa1FhQXpKdkdpQmsyS0QtaXdPSERGZkIzdThWWDl5aEJuTG5VSjhYa0VZS0d0RUJVMGxyMEtNS21xN1ZEVkdwVDdXeHlxSks3WkVDZnRDSElMMWYwRXhuZ3RBSVg3aE95VkVEOEZKTktNZGRjeEJJOVJYQw?oc=5)**
+  - 来源：TechCentral · 来源时间：11-24 16:08（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Officials leave MPs in the dark on South Africa’s AI policy TechCentral
+- **[Labor wins Coalition support for AI copyright change despite backlash - ABC News & Headlines – Australian Broadcasting Corporation](https://news.google.com/rss/articles/CBMimAFBVV95cUxOc2ZncVBOVXBmOXVvMHNYWFpidDZ0S0k4Y1dTSVlEZDU3c3pVQUxUdnpfNm4xeS1XT0xpUENiVjRNUk1GbWROY0V6OXpjeFk3VDRWVkdSSE9jMVhhZ0VtLUxTTmlqNnNDNDNkd0lGVkVtR1IyTkZpcnZ1YlE0Si1reWZXaGYySENJa25TdVV4NllFUWgzLXpVQg?oc=5)**
+  - 来源：ABC News & Headlines – Australian Broadcasting Corporation · 来源时间：11-24 15:35（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Labor wins Coalition support for AI copyright change despite backlash ABC News & Headlines – Australian Broadcasting Corporation
+- **[UN chief urges talks on global AI safety framework, warns of historic shift in power - Welcome to the United Nations](https://news.google.com/rss/articles/CBMirgFBVV95cUxPRk9RUFpJVjE0Z3QtZ29MVllxLTlHQlVrSWFBVHZQUU5LbGZsWkhkWnJLQXhrVm95YjF5RFdzSUJ6NDB6V015aDNmU3JXUlQydUZUN0FKX3Rsc3ZtTEpuTTlOUDVDbmZiSXNnR3VSNDlrMFpqRTRnbm4zeXdSMzgxdnFOSDV5UGloWmx3Mng0X3JscGs2ZkxmVXd0bXl4X2hHeTY5ZnN3al95RGJwdXc?oc=5)**
+  - 来源：Welcome to the United Nations · 来源时间：11-24 15:20（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：UN chief urges talks on global AI safety framework, warns of historic shift in power Welcome to the United Nations
+- **[Don't Put All Your Faith in the AI Model - The AI Economy \| Ken Yeung](https://news.google.com/rss/articles/CBMifkFVX3lxTE9GWGtLM2xtUnEwNUhRSDNXdFJGenVTMEkwZ0xlT2ZybUxaNjFzcVJna0dVWnY5WldOdDI5anRVUDRaTXNJTzNfWGttbFdyb3pqamNMXzc3TGx0UzhINGVvZVMtWmlCYjlHV3pYbmFOT3pYZjFiOG4tLVdRQ2puZw?oc=5)**
+  - 来源：The AI Economy \| Ken Yeung · 来源时间：11-24 15:06（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Don't Put All Your Faith in the AI Model The AI Economy \| Ken Yeung
+- **[Vietnam bans AI-driven information manipulation that threatens public safety - Báo VietNamNet](https://news.google.com/rss/articles/CBMitAFBVV95cUxNRzktbjRpQklHVGdzOGpveUl1bnd0NHBIQnR5YVZyNWNEcGpOY1l0YjlDSEdOaTNoUWRLV0luZDZWVEVONG1QN0taWDdrandiSGlYUndxeFpxeXl0S2NFbW1Pb3lkbnpJaDFpdkFZTTFkd3ZmVUZwWnB1RDc4SUNLT1NPSTFnVEtGOWpERHZ0SVlMNG91d3prQlc0dVZ0MGNhZ2x6VmpkZUgtR3pac29OVW9pSkM?oc=5)**
+  - 来源：Báo VietNamNet · 来源时间：11-24 15:01（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Vietnam bans AI-driven information manipulation that threatens public safety Báo VietNamNet
+- **[Anthropic rolls out zero data retention policy for advanced AI - The Star](https://news.google.com/rss/articles/CBMitgFBVV95cUxQMlN1R0VXY29CbTMtWllvLU1BVEdNWl9IMlByT2djSEJ2bUdmUE5DUkVTNkhxTXZuR3R1b2gtMjNGNHp2eUlZNWZYbWNOd0FkRmRhTEVLQ3N6OTBMUmJ1TEZsN01tZWRBLUNkZ2ZicW93Zm9NTkhoeDJoa1Y1T19KMDlfWlFqOThMa0xpNFI4N0otYU82eHdoakhNWERZVVNGU256Nm4xalFuYUVzS1B1cWU2ejVZZw?oc=5)**
+  - 来源：The Star · 来源时间：11-24 15:00（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Anthropic rolls out zero data retention policy for advanced AI The Star
+- **[AI proposal slammed as ‘gaslighting’ - News.com.au](https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUW04aTN6bENVRm9IandST3NVLUZoMnE3UGJxSllMSFJWdnk3RVNlOVU2UWVLYlk4VnhkSXhFemhHN0k5Q1pPQmtZeTZ3Q1dwT2dtWTRWSkFDSnl4ZDBtQXhlYlAtRFdVUzgxSjZjMHFpa1VmUTBoS1ZhSHJiNm1rSXpRcWgxTE1TcThqYWw3TUMxNmhmcU1yellHVzU2TkxIM05zT2FkUWZ6cTBaSnhpYjZ1Z0RydE8tNHF1eVJEM1U3U3c1Vnl5UFlqbXFMRzVTYUFjb1dBVkRuajZRSzF1ODN1dVJOSTI2UDI4NDFn0gHzAUFVX3lxTE5HME5pQTFEZkcwYkx4aElJbHhLNlVkQjZqSmN5cWRoZ0d3OFppelJ3dm9rclNtRnVtWTZnTHBqZ1JGSjFyb0QwTjNWdUp3ZDZRM0RTMElxUmZON3JRdXQ4VktEbGRVWjlfNFRIMDNHMXpZMl91MW81SE92ajdBeE1FTFVMM0dUZzN6M0lsYldRV3hKSzA0bHVRa0FDcVYtWDdER2lOcVAtc3lLV0toVjZ1ckQ0YlUxbnNZbnUwb2tRSnBrc1hWZURFZmE2UE85THB1aW9tbUFVYVZwMWdzN2c0Um1PRE9tdEJLajZ5ZkhHUHIxNA?oc=5)**
+  - 来源：News.com.au · 来源时间：11-24 14:47（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：AI proposal slammed as ‘gaslighting’ News.com.au
+- **[Parliamentary inquiry push to hold companies legally liable for their AI agents - AFR](https://news.google.com/rss/articles/CBMirwFBVV95cUxQNGp4Uk9yNVFpNEk1Y1JPa19tSVRnckVZR1VLUVNwS1FndVlCYmVVSlJfeVQwbEdiaTE2eEFnWU5TZC14NkhRdmt3bkN2VW1IanJwTE1xV1FFUmdzYndjd1ZfT241M3B4cmtuOUFVaXpJMTZmanJXOFNFRHE1SFlJcXhUR3h4YnJfZ05IWDBfbkhfQWVVNWdtb3M5OFhQNHJTRk1GZTBZeUhuNWlicVMw?oc=5)**
+  - 来源：AFR · 来源时间：11-24 14:47（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Parliamentary inquiry push to hold companies legally liable for their AI agents AFR
+- **[Cold comfort on copyright for Australian creatives in new AI committee report - The Conversation](https://news.google.com/rss/articles/CBMisgFBVV95cUxNYk9XWnRlYldnN2lZeWdlZHRqelpMSXdMLWZiUlYxOGVHNXNLaklFT2dGLTh5M1QyTW1JMFVXYXlqbEhhS2xyd0NvQ1lSUjhnVlBiTHM3a3pxT24xMlBISzVOMHR5RUxKejU1M3NGREJmRGhOb3RJVEd4MWpYbXJnX21RNnU2ZDgxYzFJT3lWTW5xQUd3RWRNeWEtakdsa3JOaGRsQzlWWXVEakJOb2VVWHln?oc=5)**
+  - 来源：The Conversation · 来源时间：11-24 14:11（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Cold comfort on copyright for Australian creatives in new AI committee report The Conversation
+- **[Barbados and United Nations to co-host Special Summit on AI Safety on 23 November - Welcome to the United Nations](https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSXUtRjM5RTA0NG1KNkttd0FBMEhrcWdTb3piSEdMaWpSQ3R2czB1c2RiazVfX3hsVkJhSVM0cjJHQmVZMnVqMlB4cU9NY3EwQ3drRVE2V05DWEsyLTBtQi1PVGt1aGlPYWprX2tJalktMnlQWnA1RjRKcjdQSUlSLVZMd3h6QWpCRlFlclV6aWhwN1ROSDdTOGp2S2JwRW1uZXlNTks3NXFnNTJBYUlyWU92WGFXRzFHVjZodXdLd1JKQW1pa2NQNA?oc=5)**
+  - 来源：Welcome to the United Nations · 来源时间：11-24 13:37（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Barbados and United Nations to co-host Special Summit on AI Safety on 23 November Welcome to the United Nations
+- **[AI inquiry backs right to control your face and voice, but leaves copyright to government - ScreenHub Australia](https://news.google.com/rss/articles/CBMi3gFBVV95cUxOREZISkd1ZDBOTDZ6ZVJveEdkd0hfRHJuenpveExtazNwVVNQV0pJSjlSVmtfOTJScGZZLUQyQ1M1RVQxeTFDbUp5Z1RRT3NRTi1WMmFqZlRTZkpNVXFVSUhKTDNNNkp5NkxxYWxCZlRnMGVILTdjZi1RN19Ub1JhY2xQUEUyYW5JN3RVUm00X25fZEpwRHlQUzZYUVVBakJfc3hCVU9xRGJDZi1GV01ramN1OS0tVlBCRWhOM1U4REtxbVZyeEdrSWZ5NDhTa01oQWxJV29hUXRkVmlEblE?oc=5)**
+  - 来源：ScreenHub Australia · 来源时间：11-24 13:31（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：AI inquiry backs right to control your face and voice, but leaves copyright to government ScreenHub Australia
+- **[Making Copyright Work for Europe’s AI Future: Certainty and Balance - CCIA](https://news.google.com/rss/articles/CBMimwFBVV95cUxQdU5oSVVlcm1QUVVTVldtcldtdk9YZVJiRkpXenpPRVJlUUlOYWt2VDMwNEh0NmljVmN5SDA3V1EyWkVSUjRqT0l1ei1OdlBkc0kwQV9ETlc5WTBldlkzOXpaTVFhbWh0SmkxTjRoem9jbUFRTWhSa045OEhRNnN1UFV2ZlNMQWJudHU4bDVZaU9kQnE3dVNvWG0xQQ?oc=5)**
+  - 来源：CCIA · 来源时间：11-24 13:30（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Making Copyright Work for Europe’s AI Future: Certainty and Balance CCIA
+- **[AI safety needs rules and power, and Australia should be securing both - Capital Brief](https://news.google.com/rss/articles/CBMi3AFBVV95cUxNX241UDBJRUdNUHJ4Yk1ZYzVfSHlpd25aMENNOVROcjVITEJCM3FEWmpDRUpwNzh0VU1qZWhTS3NTbVliQXJtZjRWMW9ybnZBOEtMd0UxVFdweVF5MEJZdm55eGQtQUZPUDdZTGd0TTRvaGYxYU53c3hsUnV3QUFXN194YXVURkJ3cno1eTAwaGN1U0lxZ1E3Z0duUmRXaXhqUXh4V3hOenZVMDhENEstanZoRFM0R3NMMTBZbjZ1cERfSDJsMjFEOGNrTkE1MjB4djQwS3VJUWk2ZFRZ?oc=5)**
+  - 来源：Capital Brief · 来源时间：11-24 13:23（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：AI safety needs rules and power, and Australia should be securing both Capital Brief
+- **[Tufts Democrats, students across Massachusetts lobby for AI regulation - The Tufts Daily](https://news.google.com/rss/articles/CBMisgFBVV95cUxQNzJWVWl2N04zQ0czU0lScWlTNWpSZFFlWC02cXVOdlEweFZlcjRSSGFuY0RGWHpGTFRSby1vWlRmckdiWDg1NHZhQzNmeW9ZeUE3OGVPeURvZXl6enZpSUxWT3NYeGFEZzNxS1RINUNNNUxVZGRNNnM3cERvb01fRjZsNmlpSVVaOGdpNnFNZmF1QWxxeGFCanMwODE3RU9BNXpad0tpVVNIenVjbGhQTGV3?oc=5)**
+  - 来源：The Tufts Daily · 来源时间：11-24 13:05（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Tufts Democrats, students across Massachusetts lobby for AI regulation The Tufts Daily
+- **[We Can Keep AI Companions From Harming Kids. Here’s How. - Governing](https://news.google.com/rss/articles/CBMijwFBVV95cUxPbDJrb2pWWmk1SjV5N0ZRZ3BGVXpZOVQxeW85OUFSU0g2OE5VcDlNdUVvRjl0YXR2VVVhc3RNcnJXNm1Id0luejEyVmZfWWhUY0MwaEJIWWJIZy1mQnJRdVZIVmJfVFU4RHhxYnFLTVVnczcwOVZPdk9IVkxIb09TWmw2cW5uOGx5dUtjdmNEUQ?oc=5)**
+  - 来源：Governing · 来源时间：11-24 13:03（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：We Can Keep AI Companions From Harming Kids. Here’s How. Governing
+- **[CrowdStrike will spend $44b to solidify AI defenses - Morning Brew](https://news.google.com/rss/articles/CBMikwFBVV95cUxOeFZZaHo3d2dFMno3Nzh0S09wRlhhNHZ0V2U1RUdtUVFJR1R0VC1FQmFESV9UWC1VNHA0QmwzTk1vRWpfTzhhbm5hRkRDN1JwbE9ZcmdLakNBUjkydjRMajNWMlIwT0IzUnNMS1dYWGtDb01IRC0wbXRqNzZqcTJia3VSYVpkWUZuNzBnV1VxNXFCVjQ?oc=5)**
+  - 来源：Morning Brew · 来源时间：11-24 13:03（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：CrowdStrike will spend $44b to solidify AI defenses Morning Brew
+- **[Jeannette Wing, executive vice president for research, named co-director of AI safety research center - Columbia Daily Spectator](https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNjEtNjNMM0ZVQ1Y4UnE3TUNvUjhpZWhXLXUwTGE5M0U1aHZNV2ZZYjhmQzY1ZXYtb21jVHRPbk5lVTVGc1o2WGdheTRMUk9mVF9pT1BXZk5lQVRNNmtRU3lCXzNZRHI0bENwUUJYdDVxSjR5YUlfRHhJQVlWNklxOUdJaVRlY2NIOTFsanZOZm9HM1RDSWpsQm5FbFd4aXg2bUJzSS1KQzBGVkNxTzl0R2xlSHFEUFFJUVVCZ1FtYW83aVJwY2tyUURYUGtJZTFmLUhJSllpaFBZMGpJbGJnZ0ZZQ0Q?oc=5)**
+  - 来源：Columbia Daily Spectator · 来源时间：11-24 12:44（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Jeannette Wing, executive vice president for research, named co-director of AI safety research center Columbia Daily Spectator
+- **[Amazon’s AWS CEO says engineering, not kill switches, is path to AI safety - The Indian Express](https://news.google.com/rss/articles/CBMi4AFBVV95cUxQY1hlYzRjbG1QUEl6UDUzS1BPVVpaWS1oOGpLRExPWEJHYVc1dHN1T3FNc3ZlNTZCX2gyRTBCSFczcXczaDhCSzJvYWpqOHFMZ2dBeTRRY05GMzF3ZlY1UlI3enNaeDlWa29SOFpGbmVfOFA3cUJrcXh6MnVwdmtzdDBpZFJjZ1k2WWJBc1hZVnc0NHU0UzhDdDBzR0RjOTV3ZXhBM2NRV2pYUGtQTjF2Z2xkTWZWTnhxd3M1cmJfMC1LZU5jQWE1bE9qdVRJWVN4Wk9fME1VYXhQVFZxeTN3adIB5wFBVV95cUxQTG1sQjZpNW82Mm1KSm9ELWkxd2hlZjdzeVlXYkVGTG0zelNENlNuMW5kUkhjWnlMS3pybnRuZDVyVXA1UnpSQXd1X1lmeThBYk9tbkZoNjd3ZVk3cWQ3bVZxdzBVSmhWUFkwZGVXWVlQT2lRTXdwYV9aYnpSWFhPOVdsRDc4NGhsbTRsaW9yUmIyRnFjWkUyZ1o2Qm9odFlIdExSMXQ2VHJPS3dsRk1xdTBoeFA3cDh0Tk5TY2l4S0l2eHpxdE5YWmE2N1hHYWd1T1V1cTgxa3JTTjhDa2cwVERJazI5aHM?oc=5)**
+  - 来源：The Indian Express · 来源时间：11-24 12:15（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Amazon’s AWS CEO says engineering, not kill switches, is path to AI safety The Indian Express
+- **[Parliamentary committee suggests tougher copyright, labelled AI content - Capital Brief](https://news.google.com/rss/articles/CBMizAFBVV95cUxOTE5ZZnV3T25vdGtDT2dXWjRvb3IzRDllU1NiTXdkWEgxZ0otVXpRUl9KaFRzSHJvR1NkbE9FOHdGNEpxYTFvZnIyb08zZVA3NU5ydm95eHplUS1iUHJsV0JuMFFQQ3JHc3NJcjBNX05fRzF2VjV2bUd6QXdsYkJDSmxYakp5Rm9iSDJmbkJqNWxxR3czNDh6RXlNU3U5Vjg5NGd1LWpzblBSX2NxeW15X3M0WW1QcDRLblhQc0hudFZFOWF1QWdBYkEzbVc?oc=5)**
+  - 来源：Capital Brief · 来源时间：11-24 11:38（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Parliamentary committee suggests tougher copyright, labelled AI content Capital Brief
+- **[Big call on AI oversight, copyright - News24](https://news.google.com/rss/articles/CBMi6wFBVV95cUxOc1kwcDdINk5zUm5Td3ExSXFRZUliTUR2S1Q4SXJuQjRGT2RYNEJ6MkVkd3VBV2V3cHJkdU1XMkp5ZVRQT0QybUl4UjZSekpTOV8tQ01GWnozd2x3VVZKQkd1SUVsa0pEYTF4UWJScy1mcXRBTXl3X0xfeHRMV3RpNVdxZG1MbGJONm96R3hxSGZwcFN2UXJCRjZxUXZydml0dnRDRVVjbTVqVVhNbm5QVGgwd0JvRmU4ZW0tNlduaWdDVTVqUFEwa3VQaWVyUHJVY0tzYTl5X29QcEpvOV85UHBBVnNTWlV0OFkw0gHwAUFVX3lxTE1FVlFBcXcyWEdoSmlrQ2pjNjlCRXV2bk9sRmQ5NGR0cFFqU1lhYU9EQXlweW92QjhXVW1SM3dmLThCTTVJRndtRnJ2T2U1RUNGZ1UyOWszMVlTMFR6ajZEX1pYbmw2OWE2OXNmNHZuQ0pVN24yUHQ3OUtwbmlSTUs4a1hWME91SzFMZjBZNDBRMkRSbHROMFNZZTdVaEM2UUNmNEJuaFAxQXE5RmNEcGRPaXVCNkhScE54SUxDT2NNMFF0dlUwMkh2V3RtcVdYZFp1OUVqNmZvcmxJLVZXNmhCS3NkZlRmbUpCRlpZOHA4SQ?oc=5)**
+  - 来源：News24 · 来源时间：11-24 11:31（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Big call on AI oversight, copyright News24
+- **[AI making foreign interference 'faster, cheaper', Wong warns - Information Age \| ACS](https://news.google.com/rss/articles/CBMinAFBVV95cUxQYmc2amx3bXV6UXhnU25TR3BhenlseVZ5aDh5RDRiMkdQSkhndmdFNTBLa0t1TWRObl9RSGQ1aGQtcUFsemVPZ3NrdlpEZVZJUnBEQ0xCWmJJXzdweUNXTkxKSmtJNkEtU0Ntb1FuenhGWVR5RzIweEJSaDFpbXlmSlVlV01GMmV6NndFa0d6aVBVbjg5UjhFOHRoUE8?oc=5)**
+  - 来源：Information Age \| ACS · 来源时间：11-24 10:52（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：AI making foreign interference 'faster, cheaper', Wong warns Information Age \| ACS
+- **[China’s Z.ai ‘aggressively’ using looped transformer method to improve AI models - South China Morning Post](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOFlFaHViZWdWS1dSa0xNLTNJTTJNNVM5a2xTb25wNTE1Y1hBZVdhZm4tdjhwS3RwMG51RHhSdkFYMGk4VzZmbEI1ZkxmT0JiOHZuV3lZei1wZU5ySUg4dHVucDN6bFBmbHFhbzVKYmp1ako5Uk1ocVlvLXl2WG9wU2RnbFkzWFJ1OGdfMjQ0dDFDaDlrbmRfckN5Wi1nTzBUbWxVdGJ4MmZEcnptTFNZcEZybTBKR3NwZmoyRV82SF9TZ9IBwgFBVV95cUxOVXFGR2lwa2dBaVdUZzRwbkNfX1VZc0FCRk0xRC05eG1IZnR5VGY3V21xVVdYbXBudEJnUkZqRVV0eWNMVXI5SGtjMjJsQnpmS1VaaEYxREtEWEVYczhRUUotajFET2YzajNYT0VYeU9naDFuVWt0VS1DN0JlYTA2eHN3WEtfaXltd3ljRFQ5RWRacGxRMGZxaWpwWjZJRlF0NzRlUjhGMS15MmFaRzZnLXNzX0R4Y295YVVXNFdMOU5Sdw?oc=5)**
+  - 来源：South China Morning Post · 来源时间：11-24 10:30（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：China’s Z.ai ‘aggressively’ using looped transformer method to improve AI models South China Morning Post
+- **[UN chief calls for world to agree on AI oversight within a year - Al Jazeera](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbVNBQl9aRURGZHBIc0xiTVRvOW9pWE0yaWdNVkZrNzJVZUtGb2luUUx2SzhCN1BQUXZzdFJLRDA4Q3FBVTg1WXZ0TkQ0S0EyOENRNi05NW50Y19RNkI5czBYMkQxX0NULW1nZUw1bENaYmk3ZVlGaFNJUUJxMUVjM0VERl90SzVDMm9qRHpzcjR1Q0lVVHZEWDh6c3RoRWs4NkI2eVBkZUXSAa4BQVVfeXFMUFFyTWlPTHRZcnY1QWNBZF85elMyeTRnQTFObnAwYUdDVnFYUDVGSEQyYm9CblpHcUpJMEJ1UmVBOHVqQ201VVFKOVVRNjBXakVValFUWi1DSTUxU294RjlHZ2toQTQ0Wm04Tm1YbFU4WTRlN25LLUQteE5MeFlhbG5PdzB2UWlsSmttRXNpY0hrdmJZaGZ1enNLczQ5d2JkaTFnYzNRV1c3UEgwemVB?oc=5)**
+  - 来源：Al Jazeera · 来源时间：11-24 10:29（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：UN chief calls for world to agree on AI oversight within a year Al Jazeera
+- **[UN chief urges global AI safety framework as risks outpace safeguards - Emirates 24\|7](https://news.google.com/rss/articles/CBMirAFBVV95cUxNLWVXQnlvWXRBWTNYWHRNU0ZZbVFGUnlrM0ZSeUEtTUdWZVhBSlBobmdLSUhCbklfRmhmV3ZTTXNOR1Q3Tk9HOW9sY1JyWTFZSURzZWkwOFVaX0hTeE1lMTBINkUyOUtWTXcteUhJdlU1LWdtYmFFRnFxSnhocngxWUR2ODJBZGRDVV83bktVamJobm5jTVZrZldaUFZuMW10ejh1Q1haZWhnNGw40gHHAUFVX3lxTE5CS3pGMWtfVU9yZDdIMThiRzVNWnBQaEhVd2NqNXUyYTBkb2d1QVd6WGpyQ3lwVk9GOEMtaVNZbG9iTXBBQk42WGdxTWNhX3V0QkRadlNhaWdkUWMtaUFQOFNBbW5VQXliTUNwWTNjUWZKRS1SZzFrSXlmUTVrWkpCYjBmRldsc2FWQzI0X3N3LUhOX0xqWHN3UUtNdE81OS12amNJVV9KSEhyMVVFVlE5MmM2TG9mWi1GSmtQNmllMUp0VXlmcDg?oc=5)**
+  - 来源：Emirates 24\|7 · 来源时间：11-24 10:17（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：UN chief urges global AI safety framework as risks outpace safeguards Emirates 24\|7
+- **[Anthropic Expands Availability of AI Safety Monitoring With Zero Data Retention - PYMNTS.com](https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTERNQjY5bDlaWWF2Z3QxLTJPMzkzX1V3aXFxQW9MVTdmLUsyT2Y5bW9OcXhNU1BHeTlBQlFUenpVQkZrYVVJZHJyNDhrcVFVa0tpQ1pKYzBsX0FEaXphdEhwR2tGY1pkdjd2OWNPWXF2TlZRMG5Wa2hXdHhyTFl5bVFiQUJkSFRBVWNsWHU2bUZxQjljdUtudDVhNllXRFZEQUtjTU1RcGN5aGFhM3IxajVhVnI5anREZm1MMFJRRmk3SXh4QmthM1p5SHhpQk10UExZ?oc=5)**
+  - 来源：PYMNTS.com · 来源时间：11-24 08:52（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Anthropic Expands Availability of AI Safety Monitoring With Zero Data Retention PYMNTS.com
+- **[The Gruffalo Goes To Court: How Might UK Courts Approach The Emerging AI Copyright Dispute? - Legal 500](https://news.google.com/rss/articles/CBMi7gFBVV95cUxORjNTYUV0aThlcEg1Mk0yQ3hnLWMxb3J2eUMxN0hfVEJVQkg5RzF2QzEwUkF4aEZhYzRneTVENHd1aDZuZTZJWXIwM2VReDJIYkduQXNjdFQwTkwzbUkxbktwV3RkU1lzWE50bGtHVG1aN21SazRWSkY0cjhCdk5oN2phU2NWcjhNVzlqYTNkUjFiUFBHOHBhdjhla2JHN0FnbUFWd0gwRXNxMEU1aUhyMUwwZERCZ0xuOGEzUXVlWXBlWV9HdGpBcXlEaGIxeUtQZWwwN09pUUd5NHBJTHZvaTZYaDdycWxBbFAzblh3?oc=5)**
+  - 来源：Legal 500 · 来源时间：11-24 08:36（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：The Gruffalo Goes To Court: How Might UK Courts Approach The Emerging AI Copyright Dispute? Legal 500
+- **[Governors Call for Increased, Aligned AI Policy Regulation - GovTech](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdmNSZUs4RVBfajI0RWIzSXJyUFZiSUF2N0RnbGNmcE1rU2hEMGs5eWNtazB2VDhJcHc5YXlfa3pJZkxBNlpwNXZMQ3hXRDNaeXc3cTdzX1dBZ0tEX3lXRFhoQmZONkZVVFRNUWlvU05qZWNXWXR2STNLZm5oSzB0blJrZmFjYjY1bWwwekFuSUZTZ3M4dDRneFB0Z3laYWdfNFU1eTQ2blM?oc=5)**
+  - 来源：GovTech · 来源时间：11-24 08:13（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Governors Call for Increased, Aligned AI Policy Regulation GovTech
+- **[Chris Van Hollen Unveils AI Plan in Chuck Schumer Senate Majority Leader Battle - Newsweek](https://news.google.com/rss/articles/CBMiqwFBVV95cUxORmhWSTFyRGM4UEVsclFFRmY1TWRZaDF4SUdFRzJSLXEwWlU5MWlqaW5Tc2RXTTJ5bEVNcml3UThGQURTOVpMUEMyZHhVdmItelNCZTFVRmdJTjhkMEl4VVI3QTBsLTVlNlFTMk1sMnRyNjlfdzY5VGRlRmk1a293cGEyLVVQeHVtNjJiT3MyQlFDYVBUUWk1ZGF4cXFBQmhHaW1xNk1ncW41ZGc?oc=5)**
+  - 来源：Newsweek · 来源时间：11-24 07:59（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Chris Van Hollen Unveils AI Plan in Chuck Schumer Senate Majority Leader Battle Newsweek
+- **[Mercedes Talks Safety, AI and US Design - Design News](https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWVJQMjEzMkFRbHYzUFExQ29QQldEOWEtU2stdGc0eGFqR3J2c0w1Y0c4NXpEdWZVM2N3MzAxeVBoMjZYMVZQOG9nZjVFeFpNM2NsTGM5SFprcTRNVjdBRllYcWZiVWdxQ1UtdEt4clhQZ1cyem00anlUR2NiT044MXhqRkc1ODhwNDU1OTNiYTg3R2tENW4wb25CbjhGVTZkbnFhM0hDUUJqN2xRc1Z4WWVFVFBSLVAyVjZ6TUhJUFYzNVRvM3M2MllrelVlUDYtS3JJeXdR?oc=5)**
+  - 来源：Design News · 来源时间：11-24 07:18（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Mercedes Talks Safety, AI and US Design Design News
+- **[Etsy revises AI policy in response to seller concerns - WRAL](https://news.google.com/rss/articles/CBMidEFVX3lxTFA3UHpzRkxYMlhvSmRJc1ZOSFB3b2Q4SFZHNjhQeWRIX2ZtaFZRdWc5bG1OSDBwMEV1YnVrcUlJUlhzY1R0b2ZFR0FSUVltbFpwRVh4OEpvRHcxNmlabXZEdWhSUDRuYkJWRlpid0dtQldITnNV?oc=5)**
+  - 来源：WRAL · 来源时间：11-24 07:06（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Etsy revises AI policy in response to seller concerns WRAL
+- **[Investors weigh Anthropic IPO risks and AI safety concerns - Ticker News](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc3BTTXBPbGNiZ1BSUW9XQUtxaHZSd05yNDdaNGlYQ2tfWkc2Qk5jWVkwQXZFMGxjaVhDSkp2QlVXaGVoSzF2QkkzcXBSYkZvMGpZQUtGckloR3k0Q0Y3b2FURGxlQkIyRGMzTjcwQ0JTODk2bnJvM3pEeDJSbklOaHIxZkp2R1Ux?oc=5)**
+  - 来源：Ticker News · 来源时间：11-24 06:40（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Investors weigh Anthropic IPO risks and AI safety concerns Ticker News
+- **[New bill aims to hold NY judges accountable for AI-generated court errors - Queens Daily Eagle](https://news.google.com/rss/articles/CBMisgFBVV95cUxON0xjbzRjMHUxZ0g2SlNSREJjTE91bXJ5T1g3SkQzSFhSRFUwM3NZZ1otNm5mcXppMDdRSFlZamlGUDlSZlozeVowTFlDVW1zSEtDaU9zd1ZSM1k5S0ZqTm5jY3VPckpwSnFJQW9LcVdoSG5JVlVHbEJUc3dBX05ick1rRHZqR04tY3hWbXZaR0tJY2pmOGhkZWc5WUtkVW9HbFNiVXo1aVh2bnliOHB4X3JR?oc=5)**
+  - 来源：Queens Daily Eagle · 来源时间：11-24 06:03（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：New bill aims to hold NY judges accountable for AI-generated court errors Queens Daily Eagle
+- **[OpenAI Pitches Perplexity Score to Set AI Safety Limits - PYMNTS.com](https://news.google.com/rss/articles/CBMiswFBVV95cUxQdHlMalVqVFZXTWVIMmdLZDVFLUYtZUk3aW5uTEJQUEhRdFdUUlVreGJ2SmlQM2FVOWtORkNDakc4bU8xUHVkUUR0dnZYcDJ5MldYWXNRNk1zSGxpUXZJTmszUnQ1RWdub3RRRkNCOUMtRTJzTm5OUHBfazlYS2RlbTQwWGVnVDVuVnp0Um5UaTE2MmxGLURvU1dtNGNsWU1IOWY1OC1fZDhfVFp4WHhKSkFjdw?oc=5)**
+  - 来源：PYMNTS.com · 来源时间：11-24 05:56（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：OpenAI Pitches Perplexity Score to Set AI Safety Limits PYMNTS.com
+- **[AI executives celebrate Huang’s return, safety experts worry - USA Today](https://news.google.com/rss/articles/CBMitgFBVV95cUxPdjhreV9vUnUzdDZvckxTX25xcFVxX1VmVm56T2NyRHVzZnBVNElCOTJjY3Y2V3RvNVBwNWt5ekctTE5xR1F0MGVldmZBU0RyRDJybzZfMlNtV0pGN3VEenpyS2wtdzNFWkJ5RDJPMFpzQVhDeUhCczhaSDVQWjZ1ZFNxaXRKeE5qblo4NkJkcDRqUXp0eGIxUExSY0ZOcnZfeF96SWdIZjRwMUpIb0Y0ZzVxV3l5Zw?oc=5)**
+  - 来源：USA Today · 来源时间：11-24 05:56（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：AI executives celebrate Huang’s return, safety experts worry USA Today
+- **[AWS CEO Matt Garman says AI safety depends on engineering, not an emergency brake - MLQ.ai](https://news.google.com/rss/articles/CBMiowFBVV95cUxQVk03TFRkOTl1Y2d0bjhHclVWb2RMWncxTW1XcEtxdGdUTXNwTHljRFJLZzI1Q2lKSnduTEk0aVVkRjV5VERTQ1NiZGpSMC0zc1ZOa3hsdzNnd1VLcmNVTExjVDhUQUE5UlptSXk4YngzLWQ2TkdjUkVVSXFzLUZOM1ZxQ3gySTdCSnZrZVBvbEd5OE5Qbko4T216LWlabElLQklB?oc=5)**
+  - 来源：MLQ.ai · 来源时间：11-24 05:38（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：AWS CEO Matt Garman says AI safety depends on engineering, not an emergency brake MLQ.ai
+- **[The Data Chronicles \| After the ballot: How the Midterms could reset U.S. AI policy - Hogan Lovells Cadwalader](https://news.google.com/rss/articles/CBMitAFBVV95cUxQUnQwVkgxQURiWnVUZ0dsVC1wWlRaNGhQQ21nVGNETzhHWDNNYjR2Q0VKMzNMU0gyRHNjS2IzeExTakg2eWxqVzMxQWRTZEdLaTktRklOeTl6NEJKZTNpRVFRekl3VmRRSTZUQWZSV0ZVdjBzZEtNUUsxZ1ZYbG9zMjVhVmNYenBrYmh6VTNhZVBoY3p3a2hCWlFnNmxKVGd1dFc4V29sOV91NFBrU2g5ZGJ4ODk?oc=5)**
+  - 来源：Hogan Lovells Cadwalader · 来源时间：11-24 05:36（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：The Data Chronicles \| After the ballot: How the Midterms could reset U.S. AI policy Hogan Lovells Cadwalader
+- **[AWS Chief Preaches AI Safety by Design, Warns Against Overreliance on 'Kill Switches' - BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTE5ESTZSVXN3UzZDbDBINUF0aUZkaXVwMmU3R2JFMDJaR0ZsYWVMeU42VVA5WkhmRVpIZ25UVGg1dHZhdGdYVmlmU191RktNbE9xV3p5dXpMVDNDX3JDa1F5ZkxOdThXb3F4VjRRU1l1OFhsakZCY0E?oc=5)**
+  - 来源：BigGo Finance · 来源时间：11-24 05:25（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：AWS Chief Preaches AI Safety by Design, Warns Against Overreliance on 'Kill Switches' BigGo Finance
+- **[Van Hollen: Congress must address AI risks to national security, public safety - Baltimore Fishbowl](https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRmlKMHhGeEZjMTVwUV9lTTdjMzNkOHdmNmlNUjAtQ3dsWXVxYklXams4Z05KWFJnN29kbV9qdmIxMlViRnJlLWxTT2dDaEhMOWVhVktTUENZNzFXazJfUW5xMW9DWXp3cHBpUmlmUFZpbUFHWEdIVEVpWTNUVzg3ZGRFSE9SNkJYT2Y3MkJYaEs0aVFqZ3hjMnpmX3VBb3hTVmZPWklRcnpZTk5mWVhVZTBMaWZOZHk5Z1puSEl2MjNubFRxUW9Rd1BaYjZiTUoyUmh5OUxsWGw?oc=5)**
+  - 来源：Baltimore Fishbowl · 来源时间：11-24 05:19（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Van Hollen: Congress must address AI risks to national security, public safety Baltimore Fishbowl
+- **[Canada’s AI Playbook: How a Middle Power Can Rely Less on U.S. Tech Giants - Council on Foreign Relations](https://news.google.com/rss/articles/CBMiogFBVV95cUxOOFQzWk95NlREMnRXWENaRDh3Zi04R0NzekhhNGxLaVFxamNqTEd2cVdQdjJUUElkaTE5UzlFSFJDczFZWFJTYVp1Z2J6QXJjTWFkSlZFWU1WcmRJOUoxaFdkOEZRSVdYMDk5XzdkQ3UwZlFXQ2dmWGZyVmdXVklDSWotS0d3NjZQOHQyM1IxXy1EaDU2QkZWZG5ZMDRSb3NYdnc?oc=5)**
+  - 来源：Council on Foreign Relations · 来源时间：11-24 05:07（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Canada’s AI Playbook: How a Middle Power Can Rely Less on U.S. Tech Giants Council on Foreign Relations
+- **[NJBIA Report Makes Policy Recommendations for NJ AI Data Centers - New Jersey Business & Industry Association](https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZ2JTNDF0TUdSRHBWZkJEbFhMQ293VXlZdTVMLWFBWUlVZkhlVGFCZ25kekhPb2NiLXNwYnc4eEZtaGtBT1VHY0FLWTBLVzY2ckh5X0RHMzRmNE5QTks2eW9YRmZWZWN1cV9ldWJiOWp3c3FvcWRzeF9LZjNVU3R2ZWZ5eTEzcnpiTEIw?oc=5)**
+  - 来源：New Jersey Business & Industry Association · 来源时间：11-24 05:06（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：NJBIA Report Makes Policy Recommendations for NJ AI Data Centers New Jersey Business & Industry Association
+- **[New York attorney general launches AI safety unit to enforce RAISE Act - JD Supra](https://news.google.com/rss/articles/CBMihwFBVV95cUxNTjBmR0ExX05zQXp5dVROODNlMWRGS1ZTd1kyZGstYkhjUGJ0VkYxLXNSTTdxR0xCWm9zZjNveFhCUmFUbGVFX081RXpYM080SGdwTldrYmptbGlCQzdMYWpPbDEwYno2SUg4WW9JZ0hXTWpzM1EwcnN3VEFQRnNzTXBCWVpaQ3c?oc=5)**
+  - 来源：JD Supra · 来源时间：11-24 04:50（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：New York attorney general launches AI safety unit to enforce RAISE Act JD Supra
+- **[A human being wrote this. Abridged by PBS KVIE shares its AI policy - Abridged – PBS KVIE](https://news.google.com/rss/articles/CBMingFBVV95cUxNbDV1SEVPX1BldmR6bllrR3V0dzVBODZIbDd2aTNtVk9rUnZ1Z1EtLWtoaVBKa042RUJCQnFoYTQ0VGtYRTBCSkxzYVdoT1hCMFAyZlhEbmpUNWp4eGs1aWphWlFHNkJOd1lHbzA1a1plUk9DQk42cHZ3UEdoSl9WS2JxSnB0V2JfODhxT1pBYXhtQ25SOHpmeFFubWRFZw?oc=5)**
+  - 来源：Abridged – PBS KVIE · 来源时间：11-24 04:11（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：AG Letitia James announces a unit to police AI companies before New York’s AI safety law kicks in January 1 Bushwick Daily
-- **[Why I Switched to AI Music for My YouTube Videos - Fstoppers](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbndyMVFBMng5TFl0U0liNDcwaE1qaUdMa0hPUVg5Z2VWOHFueGMyRUhzWEZSSVIzWmktbnY1NmRpdktjeURCUkUwSDZranJ3X1cwS29BX1NFRzNjM0dXZG92aVlFZGRja3JmYXJZcFpKY1Zvbm1ha2hna0JZQUJweG5UNUtzNkhZVmJsNEZnQ3ZialdJcnBWN2xvdW1SNGlQVjZQYUxXV0hHVkU?oc=5)**
-  - 来源：Fstoppers · 来源时间：11-23 01:15（北京时间）
+  - 来源摘要（截取）：A human being wrote this. Abridged by PBS KVIE shares its AI policy Abridged – PBS KVIE
+- **[AWS's Garman says AI safety can't hang on an emergency brake - PPC Land](https://news.google.com/rss/articles/CBMiggFBVV95cUxNdFF1SVo3cGRyY1V3UkFMRWlfTUFHTVk2bFVpTzR3MHVVYU5fT25fY0hjQklYYTRMLVo1OENwT2I1bDY1cnREUFhzekpnLVZOWVRuS3lyanh3TGVWWEJXc21qWEpZTC1SblpBa3JnTGduRHpYVjJLcFBldkJMOTFEQ0pR?oc=5)**
+  - 来源：PPC Land · 来源时间：11-24 03:45（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Why I Switched to AI Music for My YouTube Videos Fstoppers
-- **[Australian AI committee is expected to publish report Monday as copyright tensions grow - Superpower Daily](https://news.google.com/rss/articles/CBMivgFBVV95cUxNcVNCNlpQT0RVQnJObTE0a2t5TndJa0tWN1NsbS1YR0xGcnVNNFJQYXBKUjBMWXVSWHRYVkZzWm5GdXhNcndrWkFjUWFKU2tsd3pOTmJQRlJGdFJGb1AtY3ptVFVNS3Z4SDI3WnB0T1lJZDk3cmFCYmhJdExSdnpyWW9keXJrUEQ1bENoRHNhU003VWlKVThudjAzSDVLb0hmSmszTmREcDVoMHBlcWNvUXN2SGdWZHFJWnFzNS1n?oc=5)**
-  - 来源：Superpower Daily · 来源时间：11-23 00:37（北京时间）
+  - 来源摘要（截取）：AWS's Garman says AI safety can't hang on an emergency brake PPC Land
+- **[GAO Finds AI Chatbots Can Generate Plans for Violent Attacks - Legis1](https://news.google.com/rss/articles/CBMiekFVX3lxTE5YOUtnNVRNa3k5WlEwbl9NamNwUXdtQ2RmVklRUVN5ZzFIZ3NqVUxHdElva19WdHhlamxxT05YZHFNTllxaGlzSGdvbTdKTktqTlJwdk1vSXdlT1JCU21yeTlDMUpSWEVTSWhESFdKNG02c1pHbUFSNXpn?oc=5)**
+  - 来源：Legis1 · 来源时间：11-24 03:31（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Australian AI committee is expected to publish report Monday as copyright tensions grow Superpower Daily
-- **[Newsom’s AI Populism Is a Bid to Stay Relevant - Bloomberg.com](https://news.google.com/rss/articles/CBMiogFBVV95cUxNZ1hhR0UwR1FDRmhtdGxSd0hLRGJJVlVXMTNTbFRLU1VZMHZmM0NXb290akxzS2ZKOUM0YkJvS3pOSTk4eXgxZ2RDaHdCcnVVTkhwMzZiSl9mVnBrbHkzTzVTZjRaWWFyTHpQUVVGcG1KelM4TUZXVmVLSGg1RlhsSEZZVEVYZXlzS3Brcjl5b0xOS2duUTFtMDFEX09kX2Jra2c?oc=5)**
-  - 来源：Bloomberg.com · 来源时间：11-22 22:38（北京时间）
+  - 来源摘要（截取）：GAO Finds AI Chatbots Can Generate Plans for Violent Attacks Legis1
+- **['Maintain control': UN chief calls for creation of global AI safety framework within a year - France 24](https://news.google.com/rss/articles/CBMivwFBVV95cUxNOTRCUmI5ODFrVUFodUViUDJ4QTh6MDJ2YmFhaHp1bFgtb3BNQl9oN2FfR0dVOFZjYUJ2Q01TQkZabGxwV3I0TGtXdlVKYkd2Szl1U2xJUUdoeGVhdmZRZTgwc0Z2UF80cHdkZXRseTlkOWFmM1VWYjctVXpxV1lmeFdLWUR3QnhLNDZCNkc1TERfQzVrMElFMzc0TGZZUjhOTXVUREk2NGpsUUVlb3J4ZjZ2b2JjVGJralFDVXhDVQ?oc=5)**
+  - 来源：France 24 · 来源时间：11-24 03:06（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Newsom’s AI Populism Is a Bid to Stay Relevant Bloomberg.com
-- **[Barbados and UN to convene special summit on AI safety - Tech Review Africa](https://news.google.com/rss/articles/CBMimAFBVV95cUxQRVpGWnlpa0QzSTNTN1lRUkhDN1VkVldWelVtSGdseGZra084N0N5MXYtaVV2bk5qUGFVYkFxRXJ5UUxfeUk1VUlCbk5ERGdlN0FJYlExOXV5SjNvMTd6TjA2bmVMbl9tWmR1dEtsTUR6Yi1KeVE5Z3czaFlWRkdwX2hsYXhoa2Fuc0JPN2phelpfbElUVXB5ag?oc=5)**
-  - 来源：Tech Review Africa · 来源时间：11-22 22:18（北京时间）
+  - 来源摘要（截取）：'Maintain control': UN chief calls for creation of global AI safety framework within a year France 24
+- **[TikTok Updates Teen Safety, AI Detection Tools - Yahoo Tech](https://news.google.com/rss/articles/CBMikwFBVV95cUxOVVg5T2ZITnJycXA0MUxSczdkb25Ed2FtOUdNZXptQl9ROUJ6RDg5WUR2Wm5xLXJvZ19MVzNXaGhHUXZWZzZBOTZCMjFmaDZHS2hRb08zX3BmQzFaTHVpMmx0ZVNfc3YtbHN4OUFQVVBNVWVKU2p3aEhaTnI5SFBNQVhXX1pCZGlwV21uNlZoSnpCQ2s?oc=5)**
+  - 来源：Yahoo Tech · 来源时间：11-24 03:04（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Barbados and UN to convene special summit on AI safety Tech Review Africa
-- **[Philippines pushes to shape AI policy as Marcos backs investment drive - Traders Union](https://news.google.com/rss/articles/CBMingFBVV95cUxPSk9tT1EtaUJjczZJVjI0YlBEbWNIU1FKTUx1N2prSUViUkUtX3MxWE52NVBIVXFlRlZLNkZhV2JyejAwX2x5eWNDdTR1RXNYMW5FbEZBQWJVc0d5NER4WWlPd1J1NEU4Vk9aLVdWV3V6MTVVdzhBaGRrOUJkaFo5VUIxQ1pSdlpjMjU3OHNNSlhyMnJDQjVRZ1N4cUE5QQ?oc=5)**
-  - 来源：Traders Union · 来源时间：11-22 21:57（北京时间）
+  - 来源摘要（截取）：TikTok Updates Teen Safety, AI Detection Tools Yahoo Tech
+- **[Guterres calls for global AI safety talks on testing, transparency and oversight - Superpower Daily](https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ0ZMcTAzcGFkdHJ3SXNxTGhiQndTNnJJY1NpamtZYmVnUk02NlRsSUtsMkxleTVVa1h6VTZocVM5bXpvSE5tMTFBWUhOZFdGMFY3U2ZkdnV5cVZKbmI3WTZLZG0zNmJDYUsxWTBTcHFmTlV1MENkRFZFdVl4OGFLZkdKaER0Rm10Y1U4OGNRUk14YzZab25aX2ZYbEVPNjJLSlFEVHI0dHpiRWNMWnlTWnF2OA?oc=5)**
+  - 来源：Superpower Daily · 来源时间：11-24 03:01（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Philippines pushes to shape AI policy as Marcos backs investment drive Traders Union
-- **[Tencent touts independent safety assessments of latest AI model Hy4 - South China Morning Post](https://news.google.com/rss/articles/CBMiygFBVV95cUxNeXdvN0dZMy1GRUhSR19yaDJRRTZxOFNjRHR0WnJsUU1VUHpvdmRfMzRMVEpBTnFDZ2JhUnFtR0pJMWthbGNyNE8xaUNTYVpUYmNyYzVyWlc4bjE0TGw5bmF0anFKNVVjTUVsdWpLakRvTmNwMkFJNG4yWTlTTWo2MGxySDZucVM0dGxrTF82enR5UzljNzExaGFNVE5Fc0wzeFdRRFdwekFDSjlJUW1PUFp3VUFrNFEwSFV0Ri1PcjJHZ0JSRGxJV0ZR0gHKAUFVX3lxTFBwZ2VCdlY2RllyQllhWGJuZUgtRWIxazhDM1o4bF9Lc21qOEtpLVRCTk9EVDVHdm13YmRUOExkZmNHbURySTJEckZweUVoNEZFckNEMDBPaDN5UGZwRGZEV3V2eHJIUlZfNnlkd2wxQXBzalFaVDFHWTBCbURud001TmxocXZCc25KQ19vRDNPTlNEUEtTalI3eTRLOVp2bEYtZjIyVy1ORmNaN0ZKd0E5ZnR2QmxXWXMzM3E4YzV4RGEySHRwOFRRZWc?oc=5)**
-  - 来源：South China Morning Post · 来源时间：11-22 21:30（北京时间）
+  - 来源摘要（截取）：Guterres calls for global AI safety talks on testing, transparency and oversight Superpower Daily
+- **[AI and Tax Policy: A framework for what’s coming - PwC](https://news.google.com/rss/articles/CBMiogFBVV95cUxPNC1rRmVvOFZNcEloSWtWaGpISDJGWnctZURKVzJmUFlRcVpsa1dwRnVXcnFic1ZSMzk1UGRJZmFDbjVOMm0xbkYwTURVNTBBVFJqNVhVMUVRZEpFNGtJZTZ4aUE4Mm04VEtZZ0hRN2M4M1BFVjRSTHdyeXdYeVJSSjkzM0hiVmtzOHJjVkM5RExhUnk1VFBOaFBFaW5tc2w2N3c?oc=5)**
+  - 来源：PwC · 来源时间：11-24 03:00（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Tencent touts independent safety assessments of latest AI model Hy4 South China Morning Post
-- **[Anthropic had the largest IPO ever. What does that mean for their future — and ours? - NPR](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSXBXdzVRdkJMZW1ESjJiZkdrVHAxWGlSc2FUUEs3bW1WRUFpajZRS1EzT1VENUxaeUdtdWY0LTRCOE1UQzU2YnVGMUZRaTVta1d0dzVWSk1PSThMZU9RQmVfTGxCSDYxN05UbGJsN0xJTlg4SDNNUGwzQXU1VnluRUtKVldPcWFVX2FxWVFoWHcxa1RCaVlLVjE3SlVyZFJwd3RsLXVHeG9sUE9uRFNYUUtwQ1FWQkc4OHRRSEJ1c2JFR00?oc=5)**
-  - 来源：NPR · 来源时间：11-22 21:12（北京时间）
+  - 来源摘要（截取）：AI and Tax Policy: A framework for what’s coming PwC
+- **[U.S. Catholic Church Launches Nationwide Push for AI Regulation - La Voce di New York](https://news.google.com/rss/articles/CBMirwFBVV95cUxQWVg1enJIbHhpTGRjTHI1ZlhiR09RMm93LVRaU3BrU0dqaEVZYUltQ01ZdzY1czUwM2ZhZ1NRNnE4TjlIam5lX0ZuVGpRNXpqQmJ6X0lTNXRERzdraS1lQmZZRnJwQlAzcVNJZVUxV0Z1b0l1elFiYTc0cFlLSVVKc3BSZXFtdFZHMEFzc3diUmc1VHA1ZGNwcjVIcE5JQkpndlZPMFJEWHFvWGhlVURZ?oc=5)**
+  - 来源：La Voce di New York · 来源时间：11-24 02:28（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Anthropic had the largest IPO ever. What does that mean for their future — and ours? NPR
-- **[Governors Call for AI Action - National Governors Association](https://news.google.com/rss/articles/CBMieEFVX3lxTE1yZXg5WDY4SmNtYnJudFV2dm9TWlExRUhZc3ZxVlo2RE0wZlVpY201d2E1SmRCZmJ0MTAweDRYVW5BXzNGc1FhaTlDY3hDOG5sN04tN245NHhOYkRKbkVFbnVxQ3Z0R3oxSkdabXdIZFpjQ3lhR21ERA?oc=5)**
-  - 来源：National Governors Association · 来源时间：11-22 21:11（北京时间）
+  - 来源摘要（截取）：U.S. Catholic Church Launches Nationwide Push for AI Regulation La Voce di New York
+- **[Child safety groups urge Amazon and eBay to stop selling AI toys until proved safe - The Guardian](https://news.google.com/rss/articles/CBMixAFBVV95cUxQUUVjMFl6NEZwcFFyUDNCWEVEbWNVLUNkLXh3d01KV1h0MDZvTzgxcEpTVkYzUktlNmZ4bnF1VjY5SU1zVktsbm1OOUYzTkVIa00yamJLWm53RlBQSnFNTlBLUktjYS1RUDJ4dWV5MkpSS3FQbndlOTBEb0ZQU2E2Ulh6b0JXVEhmN1E3TElGM0xZSW1VcTVLN2NXNmhBTUZQWnRGZjMybFh3YmJwTGhlZ0JSem81Mlo4aXViaFptWXJBNmtw?oc=5)**
+  - 来源：The Guardian · 来源时间：11-24 01:41（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Governors Call for AI Action National Governors Association
-- **[We need international AI safety cooperation to drive national action - Bulletin of the Atomic Scientists](https://news.google.com/rss/articles/CBMiowFBVV95cUxPUl9VbWNaNHQtNTVjaDdyRThHVURmeFFiVG9CNWhrNGRieERxUms0Z3U4R0RiQk0tNU1jQ0NPbWJwVGFibW5vMkc0NG9GMkxpYU9zVzlIQlVHa21talJ4NFZXdFljNXQyUEY5ZlRHRjFRRUZ2dDdtMnQzRkNrckpMeG85WWd1Sk9RUWc0NVJjUlVMTkQ0RFNrRDJtVjBaRklGckZR?oc=5)**
-  - 来源：Bulletin of the Atomic Scientists · 来源时间：11-22 19:02（北京时间）
+  - 来源摘要（截取）：Child safety groups urge Amazon and eBay to stop selling AI toys until proved safe The Guardian
+- **[Amazon AWS outlines engineering-led AI safety approach - Traders Union](https://news.google.com/rss/articles/CBMikgFBVV95cUxNcW9HeWJGUjdFcHpzalRsUW9mQTkxR1ppcWxlR2x3dld1V1VGSnNQc2FBb2lCbmY2QmZJblh5blBNUl9IaFoxOEZqdThlV2dkM3pBOUZHTG9xNklieHJsVDJLYkJqNzExTjNXYm51ZDM4YUVUWGlDSzdaUXowb29BNFk4M2xMMFJoenVDRW8zOXRSdw?oc=5)**
+  - 来源：Traders Union · 来源时间：11-24 01:10（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：We need international AI safety cooperation to drive national action Bulletin of the Atomic Scientists
-- **[Wizards of the Coast will pass its Anthropic settlement money to D&D writers - MLQ.ai](https://news.google.com/rss/articles/CBMinAFBVV95cUxOX1BBQlNiWjEwaTFDV3Z2MU5kOEtYVHVpUTNVdjNuNzNYQi1xbEJ0cVo4Y0RUc2dlcTI5NU9Ka2QtLVBUQ2ljRllLU01PN0d5S2dDakVqOTJScFBSd0lrbndSdG4xNVQxbE43Qk5pVXpRODk2ZWtnSUlwcVRGSWNaRGhYb1JIcTNzbVBTVlAyRk94SU5kQ2ZzUU92OVc?oc=5)**
-  - 来源：MLQ.ai · 来源时间：11-22 18:39（北京时间）
+  - 来源摘要（截取）：Amazon AWS outlines engineering-led AI safety approach Traders Union
+- **[AWS CEO Says AI Safety Needs Better Systems, Not A Kill Switch - Finimize](https://news.google.com/rss/articles/CBMilAFBVV95cUxQZDFSSVdCU2NGbEl1bDdKYzgtOEdLdHJ0NW1fQi1BZm0zYk9OQVhiLVQycE1TQjNaQXRDWWtGV3Rfam02N2hmNWVRTzNPVVZ4VjBkNmpoRXVkZlgzdGNOVTN5M3RnT2hSVU94cTdrS1k2U1V4QTE4SzVtRmo5V2RVb3NnY0FjdTVSNVMxQ20tb213ZW84?oc=5)**
+  - 来源：Finimize · 来源时间：11-24 01:07（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Wizards of the Coast will pass its Anthropic settlement money to D&D writers MLQ.ai
-- **[Foreign minister to elevate AI as national security challenge - ABC News & Headlines – Australian Broadcasting Corporation](https://news.google.com/rss/articles/CBMiowFBVV95cUxQRXh4MFR5MGo5RVhDZVpFOEJnVi14bTJmSTR0MlJHSVNrVHFlaU1FelBPMGJZNGY1XzBYRlBobVJvMXVrWlBzclh6aVFORkNGUmNaRDRmVWtrSnVqWGZhWnU5Y3F0NXJDcldhSVRpM19tbk1IT05jb2U3Y2pSV1hLNmRLVHJWTy1JeVlYOGY1TzZXV193S3JTVjVkYmRDX3RyTFBj?oc=5)**
-  - 来源：ABC News & Headlines – Australian Broadcasting Corporation · 来源时间：11-22 17:36（北京时间）
+  - 来源摘要（截取）：AWS CEO Says AI Safety Needs Better Systems, Not A Kill Switch Finimize
+- **[Amazon’s AWS CEO says engineering, not kill switches, is path to AI safety - Reuters](https://news.google.com/rss/articles/CBMivgFBVV95cUxNd1h2Mk12TldYZnlQcHE2RU5JcnBHYWExZUx1dFdXMFRfQS15Sk1aOGpUS3k1Y0JTOWNrdWxWTWE2QnU5TU15MGJyakZYQXFJTkNIdVcxbC14aHktNlNsWFA3aW9EVEE3TGFzUTJFZlExTHVmbTBYQnlKLVdLTlNieG41Unc0OEo4UDY4dFVWMERCZVVNLW9aOFk0bG9yZU9IdFZaanZDZ0JwX2I5SEtETDJ5YnltM2podWFHeEZn?oc=5)**
+  - 来源：Reuters · 来源时间：11-24 01:03（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Foreign minister to elevate AI as national security challenge ABC News & Headlines – Australian Broadcasting Corporation
-- **[In China’s tech mecca, Trump and Xi touted AI cooperation. Now comes the harsh reality - CNN](https://news.google.com/rss/articles/CBMigAFBVV95cUxOWXQ2YmRXMWcxSG5FQ0s4LXBFNnZwb3A2ZVVXQkFsLUFKcXI3RjJDSnRsakI5V3JzcXNFMFhac2x0d1M4S1BfOUxhT2hHN293aXlNd3RHSTUyYTZCVzRPV0V0eUdtS05TaUhVUV9VSTlhN0lXTkd4ZEYxNGI3d2llTg?oc=5)**
-  - 来源：CNN · 来源时间：11-22 13:01（北京时间）
+  - 来源摘要（截取）：Amazon’s AWS CEO says engineering, not kill switches, is path to AI safety Reuters
+- **[Amazon’s AWS CEO says engineering, not kill switches, is path to AI safety - CNA](https://news.google.com/rss/articles/CBMitAFBVV95cUxNS1RHQ1hfeGdIc0lxMWM4NlVmOWZ4OHU0VHZ2cnRWQjRkYTJHcVUtMC1wRC1WNExPZ25iWDJhTktOTjU2ODVYWVpNMTFYT2d2cGZKTXY5cVpzbUM2UVhGRTJBTUd6WHg1RXp5bVFseGNGdXAyaWc2WFpoZzZjNHRkaEZCMzZuQmR5bGsyYl9FbzVUQWxZSzRwM0FOdzBKcFQxNnFDYXdGT1NrR0hTY3FEQ2o0cmE?oc=5)**
+  - 来源：CNA · 来源时间：11-24 01:02（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：In China’s tech mecca, Trump and Xi touted AI cooperation. Now comes the harsh reality CNN
-- **[AI’s blue state reckoning is growing - Politico](https://news.google.com/rss/articles/CBMilgFBVV95cUxNNkF5Sm1fcWpuOXBHUDVjUDFkV2owWS16RFRZUXQ5MTE1Rnp1MmItbndURWxVX3drcW1WcDFJNDhVaW9aamE4a1E1OWdLQmo5OGNBcmhBRHVPbk9MdmFjZkIzY0RITER2bHB4SFRIT280cm9aeEZ1ejJHdXFlSjB0Qk5pVGpqWThaSnFFSmZFazFCcTVGNVE?oc=5)**
-  - 来源：Politico · 来源时间：11-22 05:00（北京时间）
+  - 来源摘要（截取）：Amazon’s AWS CEO says engineering, not kill switches, is path to AI safety CNA
+- **[Amazon’s AWS CEO says engineering, not kill switches, is path to AI safety - TradingView](https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRUxUZzlzZEp0TTJiZF92YXdLQXJRMlZTNkRWeUMyNEgxckx3Tzg2QV9BZlJqNXFOY3NfbTR4a2FhcXhJVzFXTUZ5TlI3U2Z1c3FDYWRMTXRwSEZIa0xyNXFjZG9hc2hpRzVxTWNNcE5maGhzbV90ZWlhSHhNMmN2TWFhVDJkdndVYzVXZzNUMzRMVFYyXzM1QUtiMTB3ZVRBY2Nnb3JSUENoandpd2p2YkhWMVk4bXFqdHNOME9YcTd3Sk9xSk85TnJBdnVwS0hmTTRobkU1cE5UQQ?oc=5)**
+  - 来源：TradingView · 来源时间：11-24 01:00（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：AI’s blue state reckoning is growing Politico
-- **[London protest calls for stricter AI regulation amid growing safety concerns - A News](https://news.google.com/rss/articles/CBMivwFBVV95cUxONkZyNFhpWWtBQWw3LTlPR1dvSTZyOXc1Q0ZTTnhLWkwzdjZvLTFZMlZWLXFKQmcyX1otTWp5aFVIa2RfanlRYmJhaDhnTERSOVdKTllNWGp4VmlRaTBKNGE5X0pPbkZ5MV93aXRBS2VFdWtkVkpROEhsV1ZLZnhwb21RZ2otQmZYbklWcl9RYXBPenZnM1BvUGV2bGJxX3hBYmlMUXB0cE41RlVBbng2WUxabGw2RjZGOHdJd094NNIBvwFBVV95cUxONkZyNFhpWWtBQWw3LTlPR1dvSTZyOXc1Q0ZTTnhLWkwzdjZvLTFZMlZWLXFKQmcyX1otTWp5aFVIa2RfanlRYmJhaDhnTERSOVdKTllNWGp4VmlRaTBKNGE5X0pPbkZ5MV93aXRBS2VFdWtkVkpROEhsV1ZLZnhwb21RZ2otQmZYbklWcl9RYXBPenZnM1BvUGV2bGJxX3hBYmlMUXB0cE41RlVBbng2WUxabGw2RjZGOHdJd094NA?oc=5)**
-  - 来源：A News · 来源时间：11-22 04:23（北京时间）
+  - 来源摘要（截取）：Amazon’s AWS CEO says engineering, not kill switches, is path to AI safety TradingView
+- **[AI safety test sparks controversy after agents swarm external org - TechTarget](https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSmhWYVRzOFpjdVVkNG9fcFQySURXcE03Z21jTENvZFdLTE9TaG1rN2g2T2hIUVlaYjRSUkVJSGdQdFlkdlN0Y21BbEtvdllXZmItUm5qdDAxUTdhVlhXVWJraUh1RUU5S1ZqbjlKQVRlZllGVlFjRjFuS3B0YlFKUUU0TlJyR0hBc0lUVkFrNklrM2VsbEQ0VTBzQm9ETzAtSkstSGl4N0Y?oc=5)**
+  - 来源：TechTarget · 来源时间：11-24 00:58（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：London protest calls for stricter AI regulation amid growing safety concerns A News
-- **[London protest calls for stricter AI regulation amid growing safety concerns - Anadolu Ajansı](https://news.google.com/rss/articles/CBMitwFBVV95cUxQeEZaS1l1aU9DcGZYNzFvRi1yQVNHMUZuUmdIemxsRERJblhrSmZrUkM3bU8zVFhkZ0JwVnRPSG14cUV4MXNrMER4bm5PYlpaQ29wRENlVFhHUmZNVENDNmg1S1llbE8zS2hmVjVzTFkzVDFPNGlBUy1LM2ZGLVRNc0p3V0lvRVc0bUxRdzhFdWdOMDFuUzZDbU1TWkVQdFh3VzNnN0xJdzFwMmd5c1lmNlVxd3l0VlE?oc=5)**
-  - 来源：Anadolu Ajansı · 来源时间：11-22 03:58（北京时间）
+  - 来源摘要（截取）：AI safety test sparks controversy after agents swarm external org TechTarget
+- **[Governors Urge Congress to Preserve State Authority in National AI Framework - PYMNTS.com](https://news.google.com/rss/articles/CBMizwFBVV95cUxPRi1OTWFPYl81Z2hIUkRWdkdPVS1WTmFQNndHd0JTbmh6NnN4NnlyamNYUUk3dGV4WmtIcDhYbC1PV0t5cHFHZThaMmd0cVNfZnNxd3VUYkh1VDBzQXlyRF80cVEtdmFQdWNEdmpPQndXTlQ1aHRzckRCd3RYWXQ1NEZEclU4OGVCMTlNQ0pOV2FxeEJONllseENLRTM5dDdwYm1mQkxMS0NGYkZFanY3Q3FGb2U0UUJoLXptbjFxc3I0Y05jdFZWQlNCeHYzU1U?oc=5)**
+  - 来源：PYMNTS.com · 来源时间：11-24 00:31（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：London protest calls for stricter AI regulation amid growing safety concerns Anadolu Ajansı
-- **[Spend the Lead on Safety: Biden AI Advisors Ben Buchanan & Tantum Collins on the Fate of the World - finance.biggo.com](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzZUhWdm9ycHJyMlFMLW14bWd0d3Y2d0Z3NTA5ZzlmSXFBSk1PMG4zVDdBZEhVYkZURGg3V2liNDFKZkxMTXJHQW91UWJUT090dkk2QU9CZ0Y5U3RTNDZV?oc=5)**
-  - 来源：finance.biggo.com · 来源时间：11-22 03:43（北京时间）
+  - 来源摘要（截取）：Governors Urge Congress to Preserve State Authority in National AI Framework PYMNTS.com
+- **[Inside AI risk management: early insights from the HAIP 2.0 reporting framework - OECD AI Policy Observatory](https://news.google.com/rss/articles/CBMipAFBVV95cUxPT3hid3pnemk2bHNTNGdWUnlkc2ptbTQyeG1PWE5nV1ZjQVphX3RReUIzN0tNTWdtY3VaSklHNUx0T0txZ0phdmtSUURHZ3lZc3F0U2RKNjZTNVItQmNDVGhDZnVJU1l0M2c5T0prOHgxZXhKOWJCdDhGZi16OGZWWG1LT2RZUUx4ZmFxdHRhd1ZaRW9CRVIzYnBLZFQtbHgxMGpkYg?oc=5)**
+  - 来源：OECD AI Policy Observatory · 来源时间：11-23 22:16（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Spend the Lead on Safety: Biden AI Advisors Ben Buchanan & Tantum Collins on the Fate of the World finance.biggo.com
-- **[London Protest Calls for Stricter AI Regulation Amid Growing Safety Concerns - US Muslims](https://news.google.com/rss/articles/CBMixAFBVV95cUxQMFVWNGFxbWNUbEZpUmdrSlVTR2x1RUlQcjVMVlkzYXZFZ21IQ0VGaXNzSS13OXpLVDBNamRWUHRGRXJjVGl2N1h2RW0wT0FuUWxrSkttZFZpcXRmcnVFTzFZX0phZV9sd2Q5WE1FemxfVDNBTnZadFRobHJqY195RF85OGdyZURjUWVLZFJLSTRVa01FQVNGakwxWlJQWVk2WHh5NFhfZENWalh3ZEc3NXpjTXRHd0thMjg5YldyNTBHdU010gHEAUFVX3lxTFAwVVY0YXFtY1RsRmlSZ2tKVVNHbHVFSVByNUxWWTNhdkVnbUhDRUZpc3NJLXc5ektUME1qZFZQdEZFcmNUaXY3WHZFbTBPQW5RbGtKS21kVmlxdGZydUVPMVlfSmFlX2x3ZDlYTUV6bF9UM0FOdlp0VGhscmpjX3lEXzk4Z3JlRGNRZUtkUktJNFVrTUVBU0ZqTDFaUlBZWTZYeHk0WF9kQ1ZqWHdkRzc1emNNdEd3S2EyODliV3I1MEd1TTU?oc=5)**
-  - 来源：US Muslims · 来源时间：11-22 03:42（北京时间）
+  - 来源摘要（截取）：Inside AI risk management: early insights from the HAIP 2.0 reporting framework OECD AI Policy Observatory
+- **[The Myth of Inevitability: AI Safety, Industry Incentives, and the Role of Law - Just Security](https://news.google.com/rss/articles/CBMieEFVX3lxTFBYN0t2VVRDQXRQdTJISmdOSlg0clRwTXFCbFZvTjhGT0FoYy1kLTZWMkZ4MEtqcG12UmNiOUhQWnNBVDJSUkpudFViTmZHLVNsckdUVE9TdU1HX2s0NWllaW9IYkdONjcweEgycFZKSjBCeHNvWHFKMQ?oc=5)**
+  - 来源：Just Security · 来源时间：11-23 22:15（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：London Protest Calls for Stricter AI Regulation Amid Growing Safety Concerns US Muslims
-- **[Opinion \| The real cyberthreat is rogue humans, not rogue AI - The Washington Post](https://news.google.com/rss/articles/CBMilgFBVV95cUxOek1PQTVKZlRkUkF6RGpCc0I3d3dTR0gwRndVdmRtSUh4RUF5SDVnd3NsOXRBMUpyUkhsclp5LUJ2R3JHLVFHUXM3MmwtVjlMRHgyQWpfakVsN0MyRjF2MEpUWGk4TF9Qd2FmMnRvaUpoOW1yUG9qdGY1NXI4SDc4TWFoTF9INFJxMHAxeG5sM1BJVEozaVE?oc=5)**
-  - 来源：The Washington Post · 来源时间：11-22 02:45（北京时间）
+  - 来源摘要（截取）：The Myth of Inevitability: AI Safety, Industry Incentives, and the Role of Law Just Security
+- **[AI Education Policy: 3 Lessons frsniom Japan on Inclusion - World Economic Forum](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUDN2NXhwZXRYZTRyNEdUd1B6a01PUnd6QnJJWThORTViZHQ5dmExZ0t1WVlUbDh3cS1Eb0NLVTN2UGRFbnBJRnB2UTJtbUMzOUhTRU1xWFU5ZjR5X1ZRS3ozcllEeUlCLXpnYUx0Y2NfbV9RUFUzcURLRi1OSzhmVXk2UFFJcWloTF9RQ1pEbnhNX0Q3d0xZSTRneDBRVTd0MFdKWVl2UUxSdw?oc=5)**
+  - 来源：World Economic Forum · 来源时间：11-23 21:30（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Opinion \| The real cyberthreat is rogue humans, not rogue AI The Washington Post
-- **[Trump’s AI safety pact with tech giants relies on self-policing, includes typo - WXLV](https://news.google.com/rss/articles/CBMixwFBVV95cUxNd2xXMEh6WnlYdXpTLV95MlhjV1JORmhaY3Z3RGNIRUNmSEZ4WE80cjFGbHhNdzVuVUdfa09HUXo1UEFyYTBGOEtLbndIWm43TDhHUDd6ZXQ4MGdUdFUyVHQwcUx3UEhvTkJGYkp5R1h0RTJtRG5pNUQyTURFOE8xZ3hyeEFfYXA5VWJxN0dYUmlLckhvemNodnRZQXVNSGhOQ1FKUTU1RzZ2MnptOFJfQURLalJOOEVteEpGM080azV3Ym4wYWVN?oc=5)**
-  - 来源：WXLV · 来源时间：11-22 00:47（北京时间）
+  - 来源摘要（截取）：AI Education Policy: 3 Lessons frsniom Japan on Inclusion World Economic Forum
+- **[SpaceX sued by Oregon and Virginia over AI deepfake porn, Grok safety claims - CNBC](https://news.google.com/rss/articles/CBMiigFBVV95cUxQbHNWNVZoWUNJLXJxQl9wTkZnTFdZNkVTZXllR2pxSlFMeWxnS0xENDRnUXZBSENCV3lybG1tSXFfWF9xdWJiMHVxYlhWSXVkMU9lTFlFR200Qkg2eVpOR2NzRE55RXhudHRnb1QzTEZIdXFQUWl2bDRVMDVxT2FqbkNnTXJVS1J5bGfSAY8BQVVfeXFMTzdXQVNETlE0OGxPY0FSejh4THJESzBWQ0ZnV1NXRWtwUEE5T0hpbGs2SmpYMXVTdThMa1BqR2xQTTN2ZWZQb1JkZ0RfOC1KZm0yRldLX19pWWZpZUpBVGxpTXRyWF9KTW1hSUdHcENaVDlQN0QtcFdnSTJyMEl3ejNGNHRYc093blFaakhHS0k?oc=5)**
+  - 来源：CNBC · 来源时间：11-23 20:40（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Trump’s AI safety pact with tech giants relies on self-policing, includes typo WXLV
-- **[Anthropic says it will put humanity first. Will its IPO change that? - capradio.org](https://news.google.com/rss/articles/CBMibkFVX3lxTE81cDR4a1FkSmg2LV9tSWFiMGx3aVZkWUtkVTlXbkpqQTRjd1BQMTB2dEhxX1VCU2p6UV9uQkFlMlBvVTgwUTRiaHdmUm5DWFd0N0k4NEk0RmtYRzQxZUN5cW1PbjIzY28zcFRGYWdn?oc=5)**
-  - 来源：capradio.org · 来源时间：11-21 20:41（北京时间）
+  - 来源摘要（截取）：SpaceX sued by Oregon and Virginia over AI deepfake porn, Grok safety claims CNBC
+- **[Superintelligence arriving soon, Meta AI chief Alexandr Wang warns amid AI safety debate - Seeking Alpha](https://news.google.com/rss/articles/CBMiwwFBVV95cUxNd05YWFRZcXBndWFCTkRjVENucXJaU2pURkNlY0ZLM0hBS25OaG83VmR2TENWVWRwMzIxUG1vSDRDdjNselhiQjZBcl83WUV0UHBlRjJuWUlCNEVoWDF2QXdLcW4tc242WTFDZVVScE5oenI1M2RUZl9sLXBsc1Qxd0VPby1TVVp5V0dvSENpd2dGNFRHb2dTT2xodWNDU0xNd2lpNUhrWXVRNElVbUZPTUdXclJkbXlITzA3b0hlWkp0c3M?oc=5)**
+  - 来源：Seeking Alpha · 来源时间：11-23 19:47（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Anthropic says it will put humanity first. Will its IPO change that? capradio.org
-- **[Bridgetown AI summit to tackle safety as risks outpace capacity to respond - The Manila Times](https://news.google.com/rss/articles/CBMi0AFBVV95cUxPc0t6LVQtc2F3QWJWemVfeXlsb0pQRlZsNy02VGE3RFRyZGVKNTRybk9jWE1CNjl6Y1BEb050YjJINUlReWV4TjhuSVFIZjhuaUdWaEJnV3RDMVVIcWNRanhvZEZna3ZXck1qV25pYzdhRmJzUHB0aEJHRDJ3ZHdleUFxU0VURVpKd2tUQ3pLa3RhLVRwamVGcTZvZGMzbTFwQjNiRHF2aWx0Q2RiT2lYdG9IS3ZfNl9iV2FrVXpLMGcwdkZTMmxsc0c0YVhMX3JQ0gHWAUFVX3lxTE1GLU1OX0piRk5rWk45UXJKNG9OMV8xaE16cHlETkFTRXZwVDlHTVZHZzd5dTVzbXNreFhORFh2c0lEV3E1cEdWY200M3M3c3ltcHh4Qmw2VEJzRFlnWndBeGlHYWY2bjVOUVVmY3B5MlV5YW12UFdlMWtZei1xZWM0RzNnekoxcGFyZWpqMWVHTm1aZGlLMzlkRHNWQ1lIa3dRS3hmVTJSdWkyYnYyUTFPbVB5VmI1d3BjOGhmd2RhcnBaLXNrai1IcG9MOWFZYm54ZEI3cXc?oc=5)**
-  - 来源：The Manila Times · 来源时间：11-21 19:10（北京时间）
+  - 来源摘要（截取）：Superintelligence arriving soon, Meta AI chief Alexandr Wang warns amid AI safety debate Seeking Alpha
+- **[OpenAI Chief Scientist Proposes Perplexity Thresholds for Shared AI Safety Limits - CASRAI](https://news.google.com/rss/articles/CBMimgFBVV95cUxPZmdLeThyY3NkTThyOE9SLWk4b251cmVHTXN6eW1RN2NJTTJGWGg5aVdwdjBlakVVb0FybHN2ZG9OSEVRRk5mMWRNTktfazJWUzFBR3BULUFOdG1EZW5KTWVrd0ZpMFNOYkRNbHFqTWlkSVVMenBDdTR5dlFZNVVyZWhFRmFmeVlJWWtrbmRMMmhkbTN1TGFrWlF3?oc=5)**
+  - 来源：CASRAI · 来源时间：11-23 19:17（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Bridgetown AI summit to tackle safety as risks outpace capacity to respond The Manila Times
-- **[AI industry braces for tougher oversight under incoming Democratic Congress - WCYB](https://news.google.com/rss/articles/CBMihAJBVV95cUxQNjhsSDlscW8wbm1rLWFUT04zRVVvcmJ1UnJXYlh3akhNbk1MU3dfMUl5V3dveXlxUVA0M3JFRkt0dWE2MS1BT3JsOGJTU1g0clJmdVFrUXJSM0dpOWlTVFcyMlc4MW5GUEJnSEI0V25xZ2p2LXNYWlRnWHN0dk1Bb1E3YjRudjcwTXZUTjBvQVBDcGhScFNYZHJpd3Z6bE80MW1jb21SYms2OG9aS1kzZGRtN21vSkVzeVdNaWpGSVlhNEppdDJwV3NYODVGMi1UM3lnMDlCUU9zQ241R1NDOUJsUTZ6c0xvYlJhVjJaZW9LYW4xRTZpQXhZZlU3RklHSDN1Wg?oc=5)**
-  - 来源：WCYB · 来源时间：11-21 18:20（北京时间）
+  - 来源摘要（截取）：OpenAI Chief Scientist Proposes Perplexity Thresholds for Shared AI Safety Limits CASRAI
+- **[NY AG announces creation of AI safety unit - The Post Star](https://news.google.com/rss/articles/CBMiowFBVV95cUxQNGVSNXkxY3VVYXVsOTUtX0YtSHZicHZxVnBXU2RZX2FUUEd6Qmo2d0dsME5sRVh0ak5yOGttYUZvZF9zOFNVaWUtM2w3Rnl1NFVSY0R4MjVpZEpfbzVabEt6SzRzREtZeHBpSXJhN2NVNTR3Sy1vSmRHYkxuLVgyeVJiaExoRFlXcGNoU3lVb2dNV21OQjRnMlJfdmdQdTluSS13?oc=5)**
+  - 来源：The Post Star · 来源时间：11-23 18:45（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：AI industry braces for tougher oversight under incoming Democratic Congress WCYB
-- **[Goa approves AI Policy 2026, targets 50,000 skilled graduates \| Tap to know more \| Inshorts - Inshorts](https://news.google.com/rss/articles/CBMirAFBVV95cUxPLTVLYy1MZFBmeDhkSjk1cXAyTTZiR0RQZE56SUhpRGtCSFJUU3JZeWZxQ1J3MkdnQTFjbWJlSkFRT1luX3ZUM3hRdzJ6SThJYU0tZC16TUhSVG1GcWdvTkRNOGZlcXNWTHVrbzNwZWZxejFlRURXa2Vxdk10bUdkN2huSWVpVFVkWlJzT1JGUGJWTVNMajV4V0t0MWVxZ2hpZktVcXIxa0pMZWNO0gGsAUFVX3lxTE8tNUtjLUxkUGZ4OGRKOTVxcDJNNmJHRFBkTnpJSGlEa0JIUlRTcll5ZnFDUncyR2dBMWNtYmVKQVFPWW5fdlQzeFF3MnpJOElhTS1kLXpNSFJUbUZxZ29ORE04ZmVxc1ZMdWtvM3BlZnF6MWVFRFdrZXF2TXRtR2Q3aG5JZWlUVWRaUnNPUkZQYlZNU0xqNXhXS3QxZXFnaGlmS1VxcjFrSkxlY04?oc=5)**
-  - 来源：Inshorts · 来源时间：11-21 18:18（北京时间）
+  - 来源摘要（截取）：NY AG announces creation of AI safety unit The Post Star
+- **[Australia to treat AI as key foreign policy challenge - Reuters](https://news.google.com/rss/articles/CBMipAFBVV95cUxPSmdWRGZRVWl0NVIxT2w5WmpBdjJWM1kyanhqd3hNdGRuME9SWTgwQU5ZTHVVaVdOdm5LTGdtanlicWpzREgyTjRmYzUtOEcyNl9CTWpGNTdiUHJIYjRmT1F0RUEtZ1RoNHRHeVAxZVpadGpOYjBmOHctMUhQWDZWT0ZWWHZLeHFfblhYZHVIdkczZjZpYmNCeFlGS3dtbnpVQVpjRg?oc=5)**
+  - 来源：Reuters · 来源时间：11-23 18:33（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Goa approves AI Policy 2026, targets 50,000 skilled graduates \| Tap to know more \| Inshorts Inshorts
-- **[Many Etsy sellers close up shop over site’s new AI policy - Inquirer.com](https://news.google.com/rss/articles/CBMiogFBVV95cUxNSFBKOFo3QlZySGZLOXJQT1N4Z1dsaHdMTHZaQlJmMFhTU0tOZ3RsZVItc2N3NnZRUkM5VEpzRU45MS1vNkstZ1E1MTA1bVF0NWxRR0EtcVdMd0JxSTJHay00d3pVS0ZxOGI3VTQ0NHhPLWlZdmgyNUtVMjJyWi1wZDQ1WEtGSThJZE1teXFtdW5MdGtFdXl3b3BVTEdIeFk2WFE?oc=5)**
-  - 来源：Inquirer.com · 来源时间：11-21 18:01（北京时间）
+  - 来源摘要（截取）：Australia to treat AI as key foreign policy challenge Reuters
+- **[Barbados Prime Minister & U.N. Secretary-General Address AI Safety - C-SPAN](https://news.google.com/rss/articles/CBMiswFBVV95cUxPTmRySk5CSTBtcWFPeXd0YWFxTnZfZElXajVQOUI2NnRrZjF4dWQxam9HSjNXTUNiVjRlUnBDNDVUNGRIVXVyV2RzZTdEOF9zNmRPaV8wMGQ2XzdsX0cteG9QUkZydFdMMTN2LVhPTjJNUlVnRm5KZU1JSnU0R1lvRDQyUlQ2Z0o2YTV4SEg4c0hzY0pBbjVRU2VjejY2bXNnc2FzNldsSFRZRnFlRGI4bVdxVQ?oc=5)**
+  - 来源：C-SPAN · 来源时间：11-23 13:00（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Many Etsy sellers close up shop over site’s new AI policy Inquirer.com
+  - 来源摘要（截取）：Barbados Prime Minister & U.N. Secretary-General Address AI Safety C-SPAN
 
 ## 融资与算力
 
-- **[Cognition AI reportedly seeks $2bn funding at $75bn valuation - Verdict](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5RWGtNSDdkdXdJNkJTWTZURzdPSEh1aHFDSkZXNnJuVHA1OVRjbk1ZZUFwWGtzWklKTk4yQWF0MzNzSkFFYnA1bnVLejdDYTVXelA5cVVUa2RKQ1JnTWJrQU1OZE9vYVRL?oc=5)**
-  - 来源：Verdict · 来源时间：11-23 17:12（北京时间）
+- **[Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0](https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/)**
+  - 来源：NVIDIA Developer · 来源时间：11-24 03:59（北京时间）
+  - 信源分层：官方一手源
+  - 来源摘要（截取）：Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and computational fluid dynamics to...
+- **[India AI funding nearly doubles to $1.6 billion in nine months of 2026: Tracxn report - The Hindu](https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRVV6U3NIQnhBTWEza0diX1lXTEJaZnNCRWk2RkU1VnNTUy1DX1pqYjRHQ2Y0azhmZ1ZXdEl4ZmdEbXhSMnNQellhZV9mUi1oa0I2VFJOZ3QxMWQzemo2Ulc5LXZRems2enFIMHlNMUVOX2poXzM4YmUxckllenhZM1MxZU1UdWh5UHNvRjdwSS1ydWpMSWlid1JWWnFhY3dsZm1pdV9xZF9xUGNXRkUyY21QanlxZDdHWTFhbF9iU0Ewb3l5Q25TM0F6LVlCSFN0RGZtTmt4ME1MSmF1SlE5NHVpM3k1QQ?oc=5)**
+  - 来源：The Hindu · 来源时间：11-24 19:33（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Cognition AI reportedly seeks $2bn funding at $75bn valuation Verdict
-- **[AI chip boom lifts Samsung Electro-Mechanics ahead of LG Innotek in substrate profits - The Korea Herald](https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ET2JpNGdDaExWUHlyWkZFZ3BZTUlzME1FbEFieW1nRzctSHJXWEpIeGUzaUVDR3RzX2JENVozNTJCd1Y1S2dlWTVuVUtsc0JjaFdjRDh3aw?oc=5)**
-  - 来源：The Korea Herald · 来源时间：11-23 16:51（北京时间）
+  - 来源摘要（截取）：India AI funding nearly doubles to $1.6 billion in nine months of 2026: Tracxn report The Hindu
+- **[Analysis: Rockwell's Agilox acquisition brings AI-powered robots — and a Wi-Fi wager - Fierce Network](https://news.google.com/rss/articles/CBMiugFBVV95cUxPTHlMbm9CTThsT1cyUGVSMWVRZlFnSU9nLWRyQmphVGZJVEFiT1BJNG5OUjZQdDF0bEp4MnN5b0dkelljbVR3MkNCVmtLQTRhM0VyZWZLc3JnZE82OXdERGwxQlBxZ2s4YzF4LUdLbzBPYmc5TFVsamtUNWwwWTQ2dm0zRTluNzhMNUFkUGI3dDlQbHctTTRQLU5LTjdkVGwydjNWZmxBYzB2bjhPY2w0NndTdXFNRUZQS0E?oc=5)**
+  - 来源：Fierce Network · 来源时间：11-24 19:09（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：AI chip boom lifts Samsung Electro-Mechanics ahead of LG Innotek in substrate profits The Korea Herald
-- **[AI Changes What Chip Engineers Need To Learn - Semiconductor Engineering](https://news.google.com/rss/articles/CBMifkFVX3lxTFB4ekp1czV0UV9sU1N5dnVlV0hra0FpQnphSGQ0VTdEanZ1NGtUbUhpQVZwdkhaTzVkQVQwejFnMjNRanNZeWZOczhkSzRoN2ZxdnhEQ2s0ZnRyRFF6ekpXa2E5WFZtVjlyQkxuZ1h5SDNSbWwxeEJscUZwQkFzQQ?oc=5)**
-  - 来源：Semiconductor Engineering · 来源时间：11-23 16:31（北京时间）
+  - 来源摘要（截取）：Analysis: Rockwell's Agilox acquisition brings AI-powered robots — and a Wi-Fi wager Fierce Network
+- **[The British chip champions challenging Nvidia’s AI stranglehold - The Telegraph](https://news.google.com/rss/articles/CBMirAFBVV95cUxQN003dXphaUhhUU93cV9yYU1HUlFqaFl3MjhnY1V0RUFxUl9VdzI2Z2dxS3M2Q2hXTW1LbV9qbkR5a0ZwUzlCQVBqemxoanE0VjBtZzVQV1B0VlVHeE5EenpWQ2NsWTRpNWNzUGVvLVVmTUViZzN1dVJaNDFkYTZ4SUkxYURGXy11bG5tYVp0U1dIV0tPWEZraXZPanRpRGI1aEc2YWV5endpU2lR?oc=5)**
+  - 来源：The Telegraph · 来源时间：11-24 19:00（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：AI Changes What Chip Engineers Need To Learn Semiconductor Engineering
-- **[India’s AI funding nearly doubles to $1.6 billion, but a handful of deals drive the surge: Report - Fortune India](https://news.google.com/rss/articles/CBMi2gFBVV95cUxPN0JpR3J1X21Tc3haYy1YWXJpVVpFSnRTQ0lCQU4xTGViRjFVOWJBVl9uYVlGenpBQmRfNFdTVkZsYkxEbV80bVNxQUJIQjJhbExqWUMyLTdZZlc5WTJJUV9FNG5Mc0dHWXViU3d2UnpKUFNuS0twd0NfRVdRTHJ0a1NwYThVSV9BWHhsaE9PMnpMaDIwcjRIRk5pQmVnTEs4NExpbDdDeUxGYk05M09JLVRod3VuMVA1YkkzMWRkdzgwdGpGWWlWZnJxRGRMTm1LcHFCanVYVV9FQdIB5wFBVV95cUxObS1IRFlpMW12dUI2VlpKQjY2c0M4VWtiUHZ5azF5emkyWTRTbi10dm1YUGoxdUJTSW1ZOENxMEZsM201MzFBU0RsRkNGV2FIUnJTc0o3M1REY0hfaHlfM3AzbTQzZ2FXQTVmNlZZRl9XbVRwRTNQRVZ3c3MtX3BDNWVXVXZZVTg1T2pCLVg0MnVKYkNMZ25qRXhsa0FpWS1DeGh5Y29OS1lSem55WVlxOVVJT0JrbGxVUEFOXzlmRTN2VDZyWnVSWC1uLThNbEo1STIzN3Jfclh6QnVUd2lEclBJaXZlRjg?oc=5)**
-  - 来源：Fortune India · 来源时间：11-23 16:19（北京时间）
+  - 来源摘要（截取）：The British chip champions challenging Nvidia’s AI stranglehold The Telegraph
+- **[Tokyo Stock Market Surges On Heavy AI Chip Shares Buying - BusinessToday Malaysia](https://news.google.com/rss/articles/CBMiowFBVV95cUxQU0h4aDdhMzBJOURWd19DVmZzRlNnbmFtTkF6dXVKVjNXY3QyNTk5aDdWVGdUWkJ4Y0hGX0ZhdTlsTmpEZFhhVnp4c01MWWxMaUpsWkx2R0Z0RFBEeElNSnFTdlQ0cEhLYWhWS2VIUnlxRmk4VUtxSWdkNFRvZGcyb0dVc3dEZGhZLV9jTW5zQUtjM3lTcHRZQWJOOEM1MzI1VHBJ?oc=5)**
+  - 来源：BusinessToday Malaysia · 来源时间：11-24 18:17（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：India’s AI funding nearly doubles to $1.6 billion, but a handful of deals drive the surge: Report Fortune India
-- **[Seoul eyes third-country AI, chip projects through Pax Silica - Korea JoongAng Daily](https://news.google.com/rss/articles/CBMirgFBVV95cUxPN0dKRl80OURUdjhzNTN2aFlwR21Oc0h5Ykw3V3lIMUlISzNnc0ZzR1dNblhsc29aeGxyXzNiOXlwd0RDZS01cmtXZk5kQlFYaEt4cEFDZUhNVlJEOFlPb2ROT1hIUUQtVG5PeG1oREhWTjBkZWxGbHl4UEx5ZkVBbTV5eS13d2UwZnhuUF92QW1CbnZFbUNlUHBBTko3YmN6VmVoZnpFVlRiYjJRWWc?oc=5)**
-  - 来源：Korea JoongAng Daily · 来源时间：11-23 16:15（北京时间）
+  - 来源摘要（截取）：Tokyo Stock Market Surges On Heavy AI Chip Shares Buying BusinessToday Malaysia
+- **[Nvidia CEO Jensen Huang Is Back, and Stock Investors Just Got More Great News About the AI Chip Giant - Yahoo Finance](https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTN5ZkJwUVhHZjRoQVZHN3dSa1Y5T09zdzNqYXZlNUpEa05iN1p6WThXS3hGX09McUFLb3l0Sy1POVZuYzRBTERwblZnNDVSNkVOUVZNQi1GenRJbzBrWGVXNzBmaVVVVHJ5b2UxVjg0Qmw2ZWRabUJPb2lVWGhPSldzVjBVM2pzREJZR0ZGel9kMU4zWkExaA?oc=5)**
+  - 来源：Yahoo Finance · 来源时间：11-24 18:17（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Seoul eyes third-country AI, chip projects through Pax Silica Korea JoongAng Daily
-- **[Alibaba Says Proprietary AI Chips Offset US Restrictions - Silicon UK](https://news.google.com/rss/articles/CBMidEFVX3lxTE9jcG5ZaERaUkJHMUZkMFM4bVNKakd3R2JoS1Z6ZGU4QV9aS05XY0Mwd0JPbVlNX0RTWDJoVzh4YzdMaHhoWnZoRjRTU1k3TmhhdXhUcXJWTi1kb2w3bE5FVzZkbUFmSDdnbGN6cVFTZW14T2tk?oc=5)**
-  - 来源：Silicon UK · 来源时间：11-23 16:02（北京时间）
+  - 来源摘要（截取）：Nvidia CEO Jensen Huang Is Back, and Stock Investors Just Got More Great News About the AI Chip Giant Yahoo Finance
+- **[3 Chip Stocks Riding Nvidia AI Supply Chain Demand - Yahoo Finance](https://news.google.com/rss/articles/CBMikgFBVV95cUxOLTVnWlNLVlYwX3l1dUFDUWFremxlbmdUY3ZBWExia3JWTS00cVNuNTZaTzJQU0RwTmpxVGRXR3pSWDRvdGRGXzZPa1FlS25OYk5VWVdEc3F2aDR6aUZnSjdvQS1aR0EwNmNvOTdmczBFcmJOdEt5R2ZsdF9kNjFJeGljeEpadHc4TFEteGJDaVZLZw?oc=5)**
+  - 来源：Yahoo Finance · 来源时间：11-24 18:10（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Alibaba Says Proprietary AI Chips Offset US Restrictions Silicon UK
-- **[US Approved Nearly 900,000 AI Chip Sales To China - Dataconomy](https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTlpkWi1uaHFYZC1Od25KZTJlZ05GWUt0aVVXVDd1TDZHUjBOSVVnS2Q3RXJsN2EwVlVETGo0UjQ3alZ6UjNQUTNoX0ZGM2hUMEhLLWFpTGtHY1BJVzc4a3JhN3ZBUzVuWTNOdzIzdzZXUmxWNngtMzZ1aDN6WGxmTE1TYTlXQUlabkcw?oc=5)**
-  - 来源：Dataconomy · 来源时间：11-23 15:42（北京时间）
+  - 来源摘要（截取）：3 Chip Stocks Riding Nvidia AI Supply Chain Demand Yahoo Finance
+- **[The AI hardware loop that threatens Nvidia's future, even with Jensen Huang back - Business Insider](https://news.google.com/rss/articles/CBMipAFBVV95cUxQRFl5SmFsSF9vTHJRTHRObUprWG5EUHpzTTBNQkpmMHNKYndvRTdDZjNXcjZqdkh6VElwZ3U0b3NBVzFSQ0Q2MUtuay0zaXN1Y0FsVVluWVZDX0djb19QTUhPbWptYnZ3dDZuTkN1bmxIemh5Tkw1VW9LMktCZEtmVGVGNjExUVlYSlNRd21rNktaVG5UZDZMXzZWdVNicGo5Y0I4OA?oc=5)**
+  - 来源：Business Insider · 来源时间：11-24 18:00（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：US Approved Nearly 900,000 AI Chip Sales To China Dataconomy
-- **[USD/MYR climbs above 4.11 as US AI chip export curbs pressure ringgit despite GDP strength - VT Markets](https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTG9IUnBxNDN1WmVtZS1xVnJuZU1BMkhUMEcyenBZVDFJdFpwZWRoNVB4V3VnOFhXNk5GWjRqZk53b1FvMUtiaVJOZ0VWYnNBNHZxZFFpYUs5YnlKYTBwRDlPcmc2VFcyWnAzMFVxdXY1ODduMzdqaHVzejdpOTh1ZWtzbDhVV011c2UzZUpiZjlVbWV4QnlOeUhXc1FxWjJCbDdDb3JSX01iUkpzVm10NTVwLUh6MjBzbkFsc25uMm5zQTZLaEFJeFZEbmNfbW12ZXc?oc=5)**
-  - 来源：VT Markets · 来源时间：11-23 15:41（北京时间）
+  - 来源摘要（截取）：The AI hardware loop that threatens Nvidia's future, even with Jensen Huang back Business Insider
+- **[Nvidia CEO Jensen Huang Is Back, and Stock Investors Just Got More Great News About the AI Chip Giant - The Motley Fool](https://news.google.com/rss/articles/CBMingFBVV95cUxQS01WZUtnM25rYlFRMS04d0ZwVl9DT2JFOGEwTFdUc0ZwZ3ZMajNBQkxjbHZLYm1LZ0JES2dOOFIwajgtSGU0d1hhSUlXREg5SnVNS193djZzQlBpZGVZS1Y1bXJrYlh6Z0NOTGFGZnB5dkFkcXVtOHE4Q3M0Qm9vV3Npb29ZR0dHU3VIYmJpb3NCRzZpQ25GcGFuMGh0UQ?oc=5)**
+  - 来源：The Motley Fool · 来源时间：11-24 17:57（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：USD/MYR climbs above 4.11 as US AI chip export curbs pressure ringgit despite GDP strength VT Markets
-- **[Amazon Nears $7.5 Billion Acquisition of AI Startup Decart in Push to Challenge Nvidia - citybiz](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd2NoUk1DQTF6NXdBbW5fVDgyYXVZUEwxS2pwNWlCVEtpVTlHb3g5TXdBWkJyLU5TblpRbnd5R0tQVEVNR25DMjF2cEc0OWduRXFhT0RGQjlpanR1WGJMWklBbERlc3FKUENVc0tmMVU4LVVhcnpUeTczak96OVRXeThtb24wRzZIMmtub0RsUFo0N0xvN1lEUTA3Zk9GUkpmYjJWa2JzUHg0S240ZGNadzNFX001REE0dXl2cHNybU5sQQ?oc=5)**
-  - 来源：citybiz · 来源时间：11-23 15:41（北京时间）
+  - 来源摘要（截取）：Nvidia CEO Jensen Huang Is Back, and Stock Investors Just Got More Great News About the AI Chip Giant The Motley Fool
+- **[SpaceX Secures $44 Billion Financing for Nvidia AI Chips: What's Next? - eWeek](https://news.google.com/rss/articles/CBMickFVX3lxTE1tUmdtd1hGcTZ0OF9pa29mOVJUZExtc25TOFh0SXc5R3l3WGpPYl9HU2N4NUlDTTNWMFQ0UC01VzdDakN5Q2RoS29TWFdVWFp4M243QjBTc1pxN2NmYkc3bWVPdll3Nlh4T2Zpb25qYVB2QQ?oc=5)**
+  - 来源：eWeek · 来源时间：11-24 17:45（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Amazon Nears $7.5 Billion Acquisition of AI Startup Decart in Push to Challenge Nvidia citybiz
-- **[New US chip export rules threaten Southeast Asia’s fastest-growing AI data centre markets - The Australian](https://news.google.com/rss/articles/CBMiiAJBVV95cUxQaXV3ZFRvZWh1SEZKSnZJMmE1N3dXelRQOFJ5ZVVfNzM1b2FvXzVpamxZOVduMUh1V2RSU1lGekJpdmIyejJVOVlyTmJPeHN6OFhEMTRsRmZmXzJCbkdjM1REeDBmU1VMbzhoWEN2bVdUYkdwYzZfNUthMFdXVVotU0tGd0JCNXo4LXJJSExzZkpucHgtNTRaZGc3bjVCVXBuTnJiTXlBM1h3TlVSX1lpT2Y3d2ZYem8zMVdJZ25NeTVWZzFzUGZJemRUSWJNVDdvMlJVZGw1T3FCMEtkeHJXNVlzVjI0RWhibW9YVmlYS2twV2xmRlZsREJ2Z2d0T3NONHUwUTFoSzA?oc=5)**
-  - 来源：The Australian · 来源时间：11-23 15:26（北京时间）
+  - 来源摘要（截取）：SpaceX Secures $44 Billion Financing for Nvidia AI Chips: What's Next? eWeek
+- **[Japan's Nikkei surges 5 pct as AI, chip stocks rally - 巴士的報](https://news.google.com/rss/articles/CBMipAFBVV95cUxNeHlfZ1BCTXlxem5OSnZaelEwaEJjSjVPcmw1ZFFsNTN3UWViYndMYlMyVTcxZXRBMU80WVlfSWtCVDJoeFlJMm8tREhjNlhtLVBfVzlCbmdzaThzc0doSmNGbXNKU0dfaW4xQUxvS25fOFhCQXB3YkJUV2o1Wmd3Z1lOSk5PYk80MmRuUEZJUDEwVHRGbERGREllZHV6dmx2TTUwQg?oc=5)**
+  - 来源：巴士的報 · 来源时间：11-24 16:58（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：New US chip export rules threaten Southeast Asia’s fastest-growing AI data centre markets The Australian
-- **[Nvidia News Has Investors Rethinking These U.S. AI Chip Stocks - Yahoo Finance](https://news.google.com/rss/articles/CBMinwFBVV95cUxPV0NQWU5NdWFiQTl5cHdmNW9YRlpiVy03b0ZDdHhaQWFHMlRSLWFfeWZoYmM0bHVGVDdvTnRmQ203NW1GSEdZXzVDSk42c21ON0hHaVZodU9tY0JYa0hBWEFOWFFqdm9md01LZkM2Vkp0LU5HUjlqZjJsRTdVZG0tTFlrV3ZqdmxvSE9CejBfNU1NSnpqYnNEMWlWZ3ZQZVk?oc=5)**
-  - 来源：Yahoo Finance · 来源时间：11-23 15:07（北京时间）
+  - 来源摘要（截取）：Japan's Nikkei surges 5 pct as AI, chip stocks rally 巴士的報
+- **[Trump Says Jensen Huang Has ‘Other Chips in His Brain’ Nobody Knows About, Calls Nvidia Blackwell AI Chip - Benzinga](https://news.google.com/rss/articles/CBMingJBVV95cUxPemZrdXhFR0FOanRlYXBHX0R3ekt4OTVFVUxfd1BpSTlyUGpUd1FsQ1dadlUtazRSMGt6cF83NUIwMmx0aW0wOFhFbXgxc3lTd1pGTkZ5M3VxOUs2UTZORi0tZk53WnhlaERyQVp5X2M0YW5fWW9SSWlUbFFmYzUwV1dHSWVSd0xOQmRTX0JqdTM2WGlVZmhtNy0wMnNqTkFqZzRUR05tV083eXNfNDRzcXBMOFZ4T3RNblVfOHdMQk1vOGFxMGk2Y3Eya3hVazh1dnhuVWY5SUtqTDdNRWV0ZVpyYkVYUnRyWDNRdE53Q1BlYUVsREpNZHYzRWprVXJCVDNWc0o5UjRBQlJHbkxEMGZDbFlPSkVWWk0zNFN3?oc=5)**
+  - 来源：Benzinga · 来源时间：11-24 16:46（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Nvidia News Has Investors Rethinking These U.S. AI Chip Stocks Yahoo Finance
-- **[India gets an AI funding boost. These cities are leading the race - India Today](https://news.google.com/rss/articles/CBMiwgFBVV95cUxORFpNeER1SFF3WUpSdHNrUnJqSFJWVzlhSWxibFJxT215Q044R1hUMWM0M0VQZEhhMmxYbzQ2NmpXcVg5SXdwVUhaeWZaNjV5MHd5SnFnUENybTRKTnhUTHl3d2JXX1J4OWdOMWg2SFZERWtCcFB3YkxnejBqS0ZnODg4Y2h2UjJweEtHQzFMdlBjSjhpM1NhMEhNNW91bU1oenlsM2s4MXVtdm13SXZFeGtJRWtyR1o4S2dxS01XSlNYd9IBxwFBVV95cUxPeUt5eDAyVGR0LXZuM1pHdDlHa1pkV0c4UFJLYVdQMlRBbUQ0VkN6MGpnalpOTEFHTnlNT1RZSWc3cmxfcmNvUzlhVElhUlVxMzYzSkVfRF83dXdEbHg4RUxTcDE4NjVRcnplVzR4MWZqUVlVbzFrbEFJMGZXUzktM0ZoZ1FzUFdlWVV4Y3hQakFqNnB0MEF2TlVuZ3NRSGdqZTRWbU1qN2JvOGo3ZVpnQnVTcXp6TGU4bEtkSVp5WW80cGtLMWpJ?oc=5)**
-  - 来源：India Today · 来源时间：11-23 14:49（北京时间）
+  - 来源摘要（截取）：Trump Says Jensen Huang Has ‘Other Chips in His Brain’ Nobody Knows About, Calls Nvidia Blackwell AI Chip Benzinga
+- **[Why AI Struggles To Reuse Chip Designs - Semiconductor Engineering](https://news.google.com/rss/articles/CBMidkFVX3lxTE1mNkFsRVJkLTZoaERaUC1HYWMzYzlNSlloWWNFSjVXTHk2Ty1HZWVYdFk3d1pPZ2ZmZXRScy1HMlluN3BvUGJUUXZ3WmxIM3JYOHV1MHgzM2ZUNnFOWDlfQWI1Vl9fX1M2aVBKekp0UDNONnV0OUE?oc=5)**
+  - 来源：Semiconductor Engineering · 来源时间：11-24 16:36（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：India gets an AI funding boost. These cities are leading the race India Today
-- **[Watch How Trump’s AI Chip Crackdown May Hit Southeast Asia - Bloomberg.com](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbFl2SXBuVWJ5R1dNenBLZTRHSTVkc2JjZW43TkVXNXNZbG5GLWdpTGxpTzl1OEhJVHdVZXp3QklMcTFJSHd2YjJoM21sVVM3X0JUYjZlVS1QeTJTWFZrOFpMaVkycUVTSzF2STRSZTVJRDhOZFV5b0Z4MXFSLWhBdXlmWVVGb0hJaktnSWdDNGdSX3JGVXJxeUNabnNFclczUGxKeDE4NTlmNFU?oc=5)**
-  - 来源：Bloomberg.com · 来源时间：11-23 14:47（北京时间）
+  - 来源摘要（截取）：Why AI Struggles To Reuse Chip Designs Semiconductor Engineering
+- **[AI Can Read The Code, But Can It Understand The Chip? - Semiconductor Engineering](https://news.google.com/rss/articles/CBMihwFBVV95cUxQUnJZV0FhTWpoRFN1Wk1HaDBHZ01Va0VlUUFndVZMcGlYbFpuY21wY2hURk1ab3BFMnpzdHVwNU9fRHBrSS1lTThJRDJEcUtZcFFfbERHOTlNNXlOdmlscmlNUjQ5NlpSRFN3YUxhX3NxQlg2ZExkaUhhMXJNbUJ4LVJldXQzWGM?oc=5)**
+  - 来源：Semiconductor Engineering · 来源时间：11-24 16:36（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Watch How Trump’s AI Chip Crackdown May Hit Southeast Asia Bloomberg.com
-- **[World's first 200mm single-crystal diamond wafer aims to curb AI chip heat - 디지털투데이](https://news.google.com/rss/articles/CBMivgFBVV95cUxOd0hTTFhFM1ZLdGs4RUM1b3Z4QllLU0tSYWhTZTBISncwSjRnMnd4RlAzcDRYc1hkcEo2bERxMUxOb20yMXZiZjhITXB2M0dHcUttbjktT1BjWUcwdGRGbzM5bnVoSTh4cEp0Wjc4TExmSmlEMHBUX19EOFBvMDhxeXYxeC0zV2QyYVRjLTdLM3JZQ2h1SDBUU0E3RVVLSFdGd2pqR2RSRnFpT2ZMU1A5RjR6bjM1SmNSc0MxYnJn?oc=5)**
-  - 来源：디지털투데이 · 来源时间：11-23 14:35（北京时间）
+  - 来源摘要（截取）：AI Can Read The Code, But Can It Understand The Chip? Semiconductor Engineering
+- **[Amazon Pays $7.5 Billion for Decart AI’s Chip Optimization Technology - www.trendingtopics.eu](https://news.google.com/rss/articles/CBMigwFBVV95cUxNR1NLWS1RTXdVXzhXOUxjZGpHRUxtN05UejhadXRfU1VyWlplako2dS04VGM1SEduVXo4WExOb0dmZGNrenRTekFvcEFsWUR2ZEI1cXNnOGlnaUZKNkctNE9BYnlYWHZJYmNLUTRQVlBPVHoya19QZVVvYUMwcUt4NjgtMA?oc=5)**
+  - 来源：www.trendingtopics.eu · 来源时间：11-24 16:28（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：World's first 200mm single-crystal diamond wafer aims to curb AI chip heat 디지털투데이
-- **[2 Semiconductor Stocks to Buy No Matter Who Wins the AI Chip Race - The Motley Fool](https://news.google.com/rss/articles/CBMirAFBVV95cUxOWks0dTJsY3pKb1lVU2t5UFc3b0VaUDdDdUYwaVlrNC1fZGFHWUJhOGowSl8tYUxEZURqN0w5Sncxd1BrSTRDd0t1RE40T3ZTMTZwZ1Z0RWNoZXFMVkJIeHBCT1hOaUhVWU9zSThmSkI5TTU5T1V6MkUtcHk4aTF5VFdfaTRyV1RwbGFObG92b1kxUUNvZncydkk2UFp3azgwLTZqNkZMYmQ4VW9B?oc=5)**
-  - 来源：The Motley Fool · 来源时间：11-23 14:30（北京时间）
+  - 来源摘要（截取）：Amazon Pays $7.5 Billion for Decart AI’s Chip Optimization Technology www.trendingtopics.eu
+- **[AI Bulls in Asia Get Huang Back But the Harder Questions Remain - Bloomberg.com](https://news.google.com/rss/articles/CBMitAFBVV95cUxQVVBiTk5IOU9NUTBfZkFUb205cXZzbVFVbF9ScmUweHRsNnVWd0FWbmxaR3UxVnVla0pJNkF4VVBzclhGeHhadFItZXBBeHpwbV9JeEI4S19CR3BmZU8wcjl6YWJtMVZfMUZ3T00yYWVHVW9uRDBxZzRzMVB0b0NiaUk0QnNFbTRwc0JoSU1oYzRQVU5zSlVoSHZybklrOVFSeXJrckVMcjg4QjhhNkpmMmV5S2Y?oc=5)**
+  - 来源：Bloomberg.com · 来源时间：11-24 16:22（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：2 Semiconductor Stocks to Buy No Matter Who Wins the AI Chip Race The Motley Fool
-- **[Nvidia’s financing rethink raises risks for banks funding AI infrastructure - TheBanker.com](https://news.google.com/rss/articles/CBMiekFVX3lxTE44dVluSXNJc2xSMllyN0s1dEFFbXFtVF9OUlQwWnlDYkJWcGdJdnk3OXFHYVUwRXVLS3pNUHJMdnBFVWd6cm56bWtNRkg0cEVYdjc5MjFBT3NkOU9aLVFxTm0zeUhLd2N1aGFzZ1JGZUZGYVB6SnR0VWVn?oc=5)**
-  - 来源：TheBanker.com · 来源时间：11-23 14:17（北京时间）
+  - 来源摘要（截取）：AI Bulls in Asia Get Huang Back But the Harder Questions Remain Bloomberg.com
+- **[Nvidia and 3 AI Chip Stocks for Export Control Resilient Growth - Yahoo Finance](https://news.google.com/rss/articles/CBMikAFBVV95cUxOeHBHMUlMY19hU0NRaDdqUHUwQmFpYWFDTVAzWllGVkQ0NEY1MmZ3cE9md1pWZ3MwYi1vZ25HbHhna2x5MzBzaVJzd2g3Mkd3NmZlYjhnMGlNa3RLQTFicldvd0x6RVVMNnNFdk1wMmlnWDg1NG4xSGZ3NEFJRkxocWpzLTZ6X3dpVUJWaVJjc0o?oc=5)**
+  - 来源：Yahoo Finance · 来源时间：11-24 16:12（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Nvidia’s financing rethink raises risks for banks funding AI infrastructure TheBanker.com
-- **[AMD acquires AI chip startup Taalas for $2.9B to advance AI inference technology - Tech.eu](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQzJCT1c1Z3JtOUs3akd4LWxFc3JlNFhLQzMzZzAxd1JXNTBFZi0zOHVMaUwzTG91clVyV1VQSDRoRDNkZWFGSFlsdFZTd1ZzbDhjYk00WHdoNUpPZUgyYkdVRWR0MUQ4SjgxSGJHX0oyZ2hyRTZ2VWJlQ1dILTFVaTltSkVTMWU5VlVfdkhEaDFGYldEa3JRSm5lVkJVYnA0c0doWEpDRS1KQQ?oc=5)**
-  - 来源：Tech.eu · 来源时间：11-23 13:38（北京时间）
+  - 来源摘要（截取）：Nvidia and 3 AI Chip Stocks for Export Control Resilient Growth Yahoo Finance
+- **[US Blacklists Alibaba-Owned Company in Setback to AI Ambitions - Bloomberg.com](https://news.google.com/rss/articles/CBMiswFBVV95cUxNc2hMdW1ld1ZLcS1NQk9hNjN3Q3BrMFc2WUZvelRPS2dTMmNUYXVqbFkwOUJoei1URzV5WTNvalhfRUdxQldmcVdsV2F5VzUzdzhZR08wMFVlREVsZV9rcFNTel9SYkNMWk1EbW82ZGlyQjlCbjVOVExWeVJZOXpfckRGMEJTdUE3QkJvWTA0dERBOUVmakRfbzFfNG5tYlJqUnMteUJaWlE5NjA2cFVjejZYcw?oc=5)**
+  - 来源：Bloomberg.com · 来源时间：11-24 16:06（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：AMD acquires AI chip startup Taalas for $2.9B to advance AI inference technology Tech.eu
-- **[BrainChip Holdings (ASX:BRN) Gives Developers New Ways to Evaluate Edge AI Hardware - Kalkine](https://news.google.com/rss/articles/CBMivgFBVV95cUxQV0NYb1VXY1U2Rks1Ui1Ta2Nnd1RWcWluRVQtYkVVa2MyakF0OEZPU25rTVNobndFeHNJME9OS21RTzBNeUltcUw5cEdFekQ0M1FUUnZ0S092SHNkNnJldEJ4U2FNQVdyRjhscTFXeTlwZkFIaXJWMktPYWwyT1k3OWRfamllT3JzTFVqU3JjbzBmejZ2NEFOeDVBbHc1c0hWNEwwNWZIenVMNXJxc2dyRnVHQU5YaUJMWW12OW1R?oc=5)**
-  - 来源：Kalkine · 来源时间：11-23 13:19（北京时间）
+  - 来源摘要（截取）：US Blacklists Alibaba-Owned Company in Setback to AI Ambitions Bloomberg.com
+- **[Franklin Templeton Urges Investors to Look Beyond the AI Trade - Bloomberg.com](https://news.google.com/rss/articles/CBMiswFBVV95cUxQZHVYX0lvQkhwOHQwWXpBZFNmU3FvcFJvZTltOUdFbXZ6LXlGZDhkOE45c2FSaVNEU1pGYUlyaGZNT1hraHdtbDRqWlJnTUltMFhWVFNrVWpiNG80Tnlid3FjOUxXNjFfYW9oQklNeTZkWFdnTGl0Zkl5ZTRYVVlSSktlTkVRYkx6XzY4NUszNmRpanZZRDFIMVFWS1hEVndZWXo5TmFCOFF5eHp2SF8tejRDUQ?oc=5)**
+  - 来源：Bloomberg.com · 来源时间：11-24 15:49（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：BrainChip Holdings (ASX:BRN) Gives Developers New Ways to Evaluate Edge AI Hardware Kalkine
-- **[Three ASX Chip Stocks Move Edge AI From Development to Testing - Kalkine](https://news.google.com/rss/articles/CBMitAFBVV95cUxOcXZ4NERKdFBGaDNRUWZaamIyd0ZCNmxBRzhyQUtxRFdOTUVXSHZjdElPQkpHWWlGckxZbkFFMnlLV0dfUlhYTm9tZHQwWGFTREpJQTF4a25ySE56eTBQY283ZUJDX2VKcDVuS0h0Q29fSTJsTlRsMjlWX0lMeG5WV0lTVy00cUFLanZCQ0p2M0doRXlGbW1qRkhyRTNmaWNPZmh0VFJlUWdTTkxXMU5mZkhyWlU?oc=5)**
-  - 来源：Kalkine · 来源时间：11-23 13:17（北京时间）
+  - 来源摘要（截取）：Franklin Templeton Urges Investors to Look Beyond the AI Trade Bloomberg.com
+- **[Black Friday Comes to Tech Stocks: 3 Artificial Intelligence (AI) Names I’d Buy on Sale - The Motley Fool](https://news.google.com/rss/articles/CBMixAFBVV95cUxQc1NzTDV6Q1R4MHNnYXgzRVZDdmdTX1dIWTNMOFloVFNjUEEycWhCVGJ6TGlVcFd3VVVXamFMdXdrMUh0c09UQjNqUURqQXV0ME15NkpHUjRiQUhlYUlGbUFSOG5JbTJ1Q2ZFU0V5ZWY3YlV1bkxtSmUxb05peWw5RmJ6bmNYWklQUzg4RmpJNmdJMDZLU0VrYmgyaG1xSGJ4eEs3a3BHRU5pT2dkRm9KSzBxMk8yVDFZdWJscHZqcHFMZV8w?oc=5)**
+  - 来源：The Motley Fool · 来源时间：11-24 15:34（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Three ASX Chip Stocks Move Edge AI From Development to Testing Kalkine
-- **[AI spurs funding needs as Jera weighs IPO - The Japan Times](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcXVRNjZYMWt6dDBtbS1WLWxjeVZRTjc3NU41Qlk0ZFhXbE9WSXJKY2hWQlBaNmtrUlU3dkR3eE10cU1PTDVCcUF5UXc5Nk1MMlJRT2FYQy1SQ1BZbUNKVThQTGRjdDBwTmZkTk5tMmxaVXFHLWtadHJjUFFLUWJuUEJtdWRYMkRE?oc=5)**
-  - 来源：The Japan Times · 来源时间：11-23 13:12（北京时间）
+  - 来源摘要（截取）：Black Friday Comes to Tech Stocks: 3 Artificial Intelligence (AI) Names I’d Buy on Sale The Motley Fool
+- **[AI Chipmaker Axelera in Talks to Raise Additional $400 Million - Bloomberg.com](https://news.google.com/rss/articles/CBMisgFBVV95cUxOdFFteGYzSjFPMF90bGlRRUF6Ny1YMGFDMGJFdEUzVlF0Yk83TVp5VE9SRWdvWDFhVDE1c3h1ZEtfNjB0em5aUzFfTXp4QmhfeTlPV3Znd05KdkFtQ2FsNjZzYzg2ek03TXRteVNjQ3pmTEdoaExsV0NGUkh6NWdHYjNCRWYzTmpfRTAybkNqMDJyUVBGVlgyYnB5NHJxb3oxbVVpeFVFa215V2dYZTE3WUd3?oc=5)**
+  - 来源：Bloomberg.com · 来源时间：11-24 15:10（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：AI spurs funding needs as Jera weighs IPO The Japan Times
-- **[Musk Warns AI Companies Face Severe Funding Crunch Next Year on Data-Center Delays - bloomingbit](https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XTjFuLXE3bHpaamIwazQ0S0dqSkZOdTVGTm1zMlVieGw2Y3hJU1ZCVmY3UGVUazR4aWdzMllNMGotakw2N01BX1NmQndMN3ByUXR5cw?oc=5)**
-  - 来源：bloomingbit · 来源时间：11-23 13:05（北京时间）
+  - 来源摘要（截取）：AI Chipmaker Axelera in Talks to Raise Additional $400 Million Bloomberg.com
+- **[Amazon’s Decart Deal Signals Software’s Growing Role in AI Chip Competition - Korea IT Times](https://news.google.com/rss/articles/CBMicEFVX3lxTE5aTDUzc1cyUUFpdkZBNDNMd2xyWnpuSXFPUHhlWnhaUnhMd1k4U3FZaXZ3eS1LVEFaRjgyWGVHNUZreEk2b3R3TXJ6dW9RLTgwbWd4NWp4c3ZxdXpVNmpNZUk0QmUzY3REb1E0RlpqMDE?oc=5)**
+  - 来源：Korea IT Times · 来源时间：11-24 13:40（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Musk Warns AI Companies Face Severe Funding Crunch Next Year on Data-Center Delays bloomingbit
-- **[China stocks hit 16-month low as US chip curbs, rout in AI shares sour mood - TradingView](https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNmZvd0dKc1dmU0E5SjA2RG5pVU1WcUVfQzdqcHhWWE5zWHVLWFZ0clhlUFpSUnN0cFBiUUJBZUQ2blFZYmdoQ2V1R3dQUk5ueVhQZFQwQWZSMGpaRTI2SVZJU3RtYlZNWGhJa29QSnUtcEs3WUxSU0U1MjdlMmZhMXJlZGk2dnZxdk1hNG1sSjhLYVJlWk9GbkN1bFY2TE1QSEkxYnU3S2NWa2RLWjhYbnNNNi1QWk0yS2FnelE5OTFYRlNaODJwSHZ4eDhMU3U1aFBTOVFZWVB4aFVq?oc=5)**
-  - 来源：TradingView · 来源时间：11-23 12:51（北京时间）
+  - 来源摘要（截取）：Amazon’s Decart Deal Signals Software’s Growing Role in AI Chip Competition Korea IT Times
+- **[Amazon Agrees to Buy Decart AI Tech and Hire Its Team - The Defiant](https://news.google.com/rss/articles/CBMikAFBVV95cUxOaV9Ra1l4YlRKdlQzU0dWVlVSRGFXQVpSZ0trYlZKbkt1RE5ES3AtUkV2alJzdXl1eTB0MHNYYXlNcDhEWXEyLXBEdWxKZW90Zy0tSXRHcDRuMjh5Q1ZIdDJVc0hhbFlrQWp5REs4VW1vOVpnRVItTzdLRFExckYzbWxETjVVVlFqWm1heDRORXY?oc=5)**
+  - 来源：The Defiant · 来源时间：11-24 13:33（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：China stocks hit 16-month low as US chip curbs, rout in AI shares sour mood TradingView
-- **[AMD Completes Taalas Acquisition To Strengthen AI Inference Capabilities - BusinessToday Malaysia](https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZzdCd3FSR3hseDFSZk05M3RaVWdyNUxHd21rT1k5eGR2UHRsZU0zNHVqOTRROHQ2ZWJEZklpNHNTVXNSMEtraUtJcWx4emNfakozNV9BcUtLaVN6Qno5Ym5Da0NGampBdlhybXE0TV8zZ1c2T1BwR3Y5Z1VKSm13V2ljN0IxYzUyZ0N0V3ZPTEV2MTlOUFRrZl9wUVF1YjNYTmZuRHljUkI2X0FaWFU3bE52RzQtZzkz?oc=5)**
-  - 来源：BusinessToday Malaysia · 来源时间：11-23 12:44（北京时间）
+  - 来源摘要（截取）：Amazon Agrees to Buy Decart AI Tech and Hire Its Team The Defiant
+- **[CrowdStrike Q3 CY2026 deep dive: AI-driven momentum and Zscaler acquisition reshape cybersecurity outlook - TradingView](https://news.google.com/rss/articles/CBMi-AFBVV95cUxObl9xQXItTk9HeW11RUJxWXpqMGZ4RVJaSHZ2X2lqYlg0bElGWmw3ak5iR29hVkw2eVRyWDRaNkdxdzVpRlZDVjFGRGlwZzJiR1kySk9CR2NsMjN6VjNseTBQVThiVHk5N2ZzTlVMOFl6bUdleGVic0hvRFdsVVd0ZG51NlR6UEN1SUVpeWxOWmZySURTV1djTTk3VVhQZlo0UWpJWGtDZDFudDQzYUtzMlJFaEQzR3ZrX203d0NSeExTRjV2TC1PeGxhbXFTczN5azFEOVZmbE1ZWVkxbDRTQnVuOFhzLWNOYjRyQjlTcTVjYktFYl9Saw?oc=5)**
+  - 来源：TradingView · 来源时间：11-24 13:30（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：AMD Completes Taalas Acquisition To Strengthen AI Inference Capabilities BusinessToday Malaysia
-- **[Musk Warns of Data Center Delays, Predicts Funding Crunch for AI Firms Next Year - news.sbs.co.kr](https://news.google.com/rss/articles/CBMibkFVX3lxTFBBdGZDVDBFRmtKTXdZVWttSGpnRjhQei1RajFQX3FtNVlUR3FmUDdxTUZrbGVpNmJqbHU0LTdBZW1Ea1g0VVBObjlFNzVvWUJFRmhmbm9KRmV0WWlsbTBVZ3R1a1NRN3Vodk0xVmVn?oc=5)**
-  - 来源：news.sbs.co.kr · 来源时间：11-23 12:34（北京时间）
+  - 来源摘要（截取）：CrowdStrike Q3 CY2026 deep dive: AI-driven momentum and Zscaler acquisition reshape cybersecurity outlook TradingView
+- **[Political Economy Framework Shows How Funding Shapes Citizen Participation AI - Bioengineer.org](https://news.google.com/rss/articles/CBMipAFBVV95cUxOMkkyeEJELTFEdnA0R3lYbndMTUphVlZLb1BEcnF0cHk1cVJ5aXNQendVRmMycmJ1VDEyR29ZNVpYOFJ3V2NMWUhURXRUTFp4MGljYlFQMlRuRUpaQUZDQmlKelRlajlNS2JSdzdNSTNDc1l1NjRVb3p5VUIwaDR3ZDhYYkRIT3Y5VWJBWnR5R1VzZUVGeldEemx5S3p2eERJY3lIVg?oc=5)**
+  - 来源：Bioengineer.org · 来源时间：11-24 13:12（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Musk Warns of Data Center Delays, Predicts Funding Crunch for AI Firms Next Year news.sbs.co.kr
-- **[Trump holds firm on China AI chip curbs, leaving Nvidia's H200 exports in limbo - digitimes](https://news.google.com/rss/articles/CBMilwFBVV95cUxNblAwV3REYWNuNUFQbEk5MkdLUHlwVUh0Zkk0WENlS25yWjZkbnZTUUl5NGFVR1NfSmMxOUZ4UmJodkhyQWR6NS1LU1RqX0wzMGpvMk5XMlBGeTF4N2xSZEhBRFpvMXZ6RzZuencwYk53VzZaNGFyOHVqUzFjS195aF80Ry1UNUIwYksyTGJzOGc4RXdDemNR?oc=5)**
-  - 来源：digitimes · 来源时间：11-23 11:26（北京时间）
+  - 来源摘要（截取）：Political Economy Framework Shows How Funding Shapes Citizen Participation AI Bioengineer.org
+- **[Samsung promotes chip, robotics, AI leaders after record semiconductor earnings - Korea JoongAng Daily](https://news.google.com/rss/articles/CBMiygFBVV95cUxNQ0xnX1RkMEVOWUNQNW1ReFJOQ0RFS0ptNHM3Yl9aOEp4T3VoS0t4TUhqRFAzel9vNWR6WHNEekJ0clVKc2hEU1phYUlyQ24wMl9pbXVNWDhfUjEyanVDYmVnZ0tDSEl5WVdRaklfYTdOY3d1ZTlyeV9YaGJUSXZUaGU3bHVYSzF0R1BoZlk2RnFnbDlNdnY1RHFGRnVFNmlHOEROQ1NCVVVJVlFQSnJraWZrTjIwVWZuNmJIc0RvMUNkejhWSWtEVDZR?oc=5)**
+  - 来源：Korea JoongAng Daily · 来源时间：11-24 13:10（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Trump holds firm on China AI chip curbs, leaving Nvidia's H200 exports in limbo digitimes
-- **[Asia Chip Stocks Slide as AI Selloff Deepens; Seoul Plunges 4.4% - BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTE1vZGhhaDFONDlRSmp0ZEFZLTJ0Nk9pSnpRWFJzTkxFbmw3dWZ1ZDRWQkttNkJqQXdfRUpQRUlLaXJpbFFvTlFEbG5PTGVpdGN5eU1BS1ZBZjlKb0NkZTNsR00tOVprVDVraHo0MXZJdllTMWhsTFE?oc=5)**
-  - 来源：BigGo Finance · 来源时间：11-23 11:25（北京时间）
+  - 来源摘要（截取）：Samsung promotes chip, robotics, AI leaders after record semiconductor earnings Korea JoongAng Daily
+- **[What’s next for NVIDIA as board reinstates Jensen Huang amid AI chip security debate - WBMA](https://news.google.com/rss/articles/CBMi8gFBVV95cUxNclFWSk01TVNMY05nWUs0R1dpeWNXR3FSNFFISmVNbl9qbTc4OGVXQlB4cEFXczNQanQ5S2lwejZRQ3ljd0N2ajR2Q21XcHg2TzZVZlpTaS1MYVZtNG9XTl8tNGxVM1N0eHd5VElzSm5nM2I4V1ZHVUVHSTNPcEF2M3o1dFNwRXQzWE1wOG1Xdm02ejFXUEFfRkZ0NFpxcmZMVVQ1d25weFk3a0diYlRaM1dnZ180RmtzUFg5UkZlNllraG4tekVhUEY5NDc5Uk5Eb09taWUtZUV5dE9yc0VZdWVoNDdTdU9SRXMtQUl2YVVpdw?oc=5)**
+  - 来源：WBMA · 来源时间：11-24 12:30（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Asia Chip Stocks Slide as AI Selloff Deepens; Seoul Plunges 4.4% BigGo Finance
-- **[China targeted AI chip secrets years before Nvidia scandal - Communications Today](https://news.google.com/rss/articles/CBMingFBVV95cUxQdnB3SGVxQzB3NktOWjFQUEd4b0J2ck16YjhUQktqSlhnVzBfYlZUYzNCQXpzVlFUc1RySm9vSU05MDRVb2N3WGdSZ3pYSEJPQS1fRUdkZ0hoTndlN0JZOTF3YjBvTDhzRE12MTg0S0YzbWZudWZYR2J0YTMxWTVyaWpIRWMyc0VqTjdRcHQwZ3BGZHhpSWptT1kyblc4dw?oc=5)**
-  - 来源：Communications Today · 来源时间：11-23 10:36（北京时间）
+  - 来源摘要（截取）：What’s next for NVIDIA as board reinstates Jensen Huang amid AI chip security debate WBMA
+- **[PM Wong vows to stop firms ‘exploiting’ Singapore for AI chip re-routing - South China Morning Post](https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbG5CNUZ5dGktUFQxNmZUNWdZRl9TaFd2RzVPVEFaVnpYcENJaTNlbEZ6QlF5VHUyRWpVNzhubDNDNmlHN2JYdDhBZTh2eFRjLXVyMXhWb3drbmh2dVZZLWxsdTNEajVWT1NOMkV3VHFmZWlPNUFFb0tmZ3JJSURjRE9OcWt0MGlmTFhOZjY3WkZyOFRIZzJYZnppNFJsWUlzNGxfZGtsdWtZMklwVTZpZU5USlBBbk00UHcybVUzN2x4OEXSAcMBQVVfeXFMTWxuQjVGeXRpLVBUMTZmVDVnWUZfU2hXdkc1T1RBWlZ6WHBDSWkzZWxGekJReVR1MkVqVTc4bmwzQzZpRzdiWHQ4QWU4dnhUYy11cjF4Vm93a25odnVWWS1sbHUzRGo1Vk9TTjJFd1RxZmVpTzVBRW9LZmdySUlEY0RPTnFrdDBpZkxYTmY2N1pGcjhUSGcyWGZ6aTRSbFlJczRsX2RrbHVrWTJJcFU2aWVOVEpQQW5NNFB3Mm1VMzdseDhF?oc=5)**
+  - 来源：South China Morning Post · 来源时间：11-24 12:06（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：China targeted AI chip secrets years before Nvidia scandal Communications Today
-- **[NVDA, INTC, MU, AMD Chip Stocks Rip Higher: Dan Ives Says ‘Bears Feel Validated,’ But There’s No Stopping The AI Wave - Yahoo Finance](https://news.google.com/rss/articles/CBMijwFBVV95cUxNLWVsV09aaUtCWVhraDVzNVlWQlRILTEtMEN0ZDdpVXFBZ2s5b3hnZTlxRFFvYmhZVzNlVnpqa2JwY3A4RDBMT3V6cnd5YXVuZW9RMFh1Zk55OXVXNlBpQ1NvREg1bjJ2dUtPZ3gxZnhQVVg4TDBmcGpDd0pSZHVVSV9lYmdha09yOFRGb0tLOA?oc=5)**
-  - 来源：Yahoo Finance · 来源时间：11-23 10:24（北京时间）
+  - 来源摘要（截取）：PM Wong vows to stop firms ‘exploiting’ Singapore for AI chip re-routing South China Morning Post
+- **[A Day After Jensen Huang's Return, Amazon Launches 'De-Nvidia' Push With approximately $7.5 Billion AI Software Acquisition - BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTE9jS3ZQX181UU4wWGZnM3RHQnR6TUhBTFNQODgxTWxyVWxQeGItVUNkcTN6R3p3VldFbmhvUFliZFRBMnpwemxHZjB2WjZfVWwxaTVhdXh4OTVXdWNBQjVDUGdIMjVRd04xbWROcDR4OGRJMVdDZWc?oc=5)**
+  - 来源：BigGo Finance · 来源时间：11-24 10:36（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：NVDA, INTC, MU, AMD Chip Stocks Rip Higher: Dan Ives Says ‘Bears Feel Validated,’ But There’s No Stopping The AI Wave Yahoo Finance
-- **[US AI chip restrictions threaten Southeast Asian data centers - Chosunbiz](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeGtEMWNzYWR2YkZ6bXZhaEUzanVsR1QwU2hlaXNCS0lwREdleUN3bV9PaC01LXJWMU4zU0kzX3ZRdzNpYmtGYmtiemhSRVhlNFk3cjFLb2ZzemtYcXdYUzh0RURSamREWU9keUU5SGs5YzZ1bDFuaE1VNVFzbmhoRmpDeWhObWo40gGcAUFVX3lxTE9WNXp3WkVDaDVXUzVTd3B2c2J4VGcwUUZsRkNnaEFLWl9SUTlHY18wYmwyaDB5MHVLbjBvcVJWcm85UGJWdkdxUUV4WHA5bVE4N3JHUG1hcDY3N2VqVUJDc0hIazZVTXFCNmd4b3I3clMzM19NVzdXWnJqOXcxelFFWFJmcERocEk4OFF5RXNIQUpWU2doQk9IdDFlSQ?oc=5)**
-  - 来源：Chosunbiz · 来源时间：11-23 09:38（北京时间）
+  - 来源摘要（截取）：A Day After Jensen Huang's Return, Amazon Launches 'De-Nvidia' Push With approximately $7.5 Billion AI Software Acquisition BigGo Finance
+- **[Northeast Indiana colleges, universities get part of latest Lilly funding for AI initiatives - The Journal Gazette](https://news.google.com/rss/articles/CBMiigJBVV95cUxPc2VDc1FkT1doUmw4akxMSk5mT1VObjJXYmUtdEJreFMycWl6UHZOTThmTGt5ZXdDTFJXT0hxNE5sMThibFdVNlNtUmVHYmZZMWRkdksxdWc3M21hNnZsbFVrUGI3UU84Qzl6U2tYSzVFamxfNHlrcENRTkt2TGw1aTdyelNOUktpMGg3Sk9jVXJGWkxDa21vWERHd1pxdFZXVUJVc1k4LTFQMWxNVERvaGZ0Y19xZlVmUHZvbUI4M0JzU1RfUC1FZ3U5aHVEclZsZ1VXMGdoaldBVkR6d2Q1ejg4WDdlLWVpVmlDVGdodElwWEowM01pZW52dmZPbWd6akJLMFl6SmJ0dw?oc=5)**
+  - 来源：The Journal Gazette · 来源时间：11-24 10:05（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：US AI chip restrictions threaten Southeast Asian data centers Chosunbiz
-- **[Diamond cooling market gains traction as AI chip heat rises - digitimes](https://news.google.com/rss/articles/CBMinAFBVV95cUxPTHJDYjd4b0ZpTE1VSjVwSWVNdGkzdk1Qenp5Vm9ScDd6MEJVVDR0YUZLSHBsNDV3QnQ5bERha1pFTHFZanA5QktVSXBNRU9jWjNJbUJkU2dfZG9OVDNCeE90blJKUHBDS05KeEpVaEo1bmFzd0Z3V3JCSl9XYmMxbDN6ZDk2RTlGWGxxTG9YNWp0SVJTWHZKVWZITWo?oc=5)**
-  - 来源：digitimes · 来源时间：11-23 09:26（北京时间）
+  - 来源摘要（截取）：Northeast Indiana colleges, universities get part of latest Lilly funding for AI initiatives The Journal Gazette
+- **[Workday completes acquisition of C1.ai - Portal ERP](https://news.google.com/rss/articles/CBMid0FVX3lxTE00bHFaUktDYnZXWU5OSVpkUU1aaThSWDhMUnJia3Z0QlpGbS1uaFRmZlRjNGtOVHAwN3BSUEEzcEZrNFkxV3JkQ0hiZTVKbVRmZ2FYNURQN0RxQmplR25PVW54OUpKNFFqeXVKU2ZhZ3FzOWVvemR3?oc=5)**
+  - 来源：Portal ERP · 来源时间：11-24 09:13（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Diamond cooling market gains traction as AI chip heat rises digitimes
-- **[Watch ING's Sareen: Asia AI Chip Demand Unlikely to Crash - Bloomberg.com](https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRU02TGlseFlPclFCNkQxNHAyTzVUeDF1eTFFRjhUUlNUaE4zY0VjMWsydVNoTXIyalJoSjBoeE1oY3lSNGk2QS1XRTdzbjlaSlc0RFZCTW90ajU3VnpIdHAyWTR6dExSUVVSaENBZGY3WEZSN0VITWN6VG9kYjB2a1NWaE50RjllblJFYXB2QXQ4MHhxdURCSFlOQnJ0ZGRrU1JqNnpUajQ?oc=5)**
-  - 来源：Bloomberg.com · 来源时间：11-23 08:00（北京时间）
+  - 来源摘要（截取）：Workday completes acquisition of C1.ai Portal ERP
+- **[US blacklists Nvidia-linked Megaspeed over alleged AI chip diversion to China - The Times of India](https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOUloNlNEZHFaZVd0X1k1akFNQ2RxNFBHMUJCQ052Z1hCUEhwMlpOOU1zZXN5NkczcmJrUlhQS243TlREUzRhY29rLXl3YU9JTU50YXd5SEJMUEd1RmdLQlc5TmNmRnVjYXFJVmZzaTdtNE1aY0tRalBZV3JCM2lBUVFmbVl1a0JrMTNzWnYySHg4cXAyWk5rUU5rT3J5V1F6U2VqdVc3VjJsRmI0T0NtQ1JJblA3V2VnMWxvU1duQjZvRGpFaElYZl9TVUJxWlVReWZqd1FFLWZXMmJwdVo3T0530gHnAUFVX3lxTE9xWHVHM2dhOGdWMDJYdmsyLU05cEp3OUtRd21UQnQyNEJVY1RVeVZWS0s3THRDbG55NnlFamNna0E3SzdrdklYRXl1U3Y4cEdvUk9rUXI0RFU5UWZLcnIwYVhkeFlXUnZKRkVrV1ZkY2VVSmdHTlRvMEcwMjJxRkxndG83TWtFSHF2U3B3VDNCWTY3R2dUM21wM0N0eUY3NWZiU1FLQjhBZmhsQk5UZXJhSmpHZ2dlOWRqOE0yTHZhbzF0LWo2dmllcGpJTjltMzBvTkt1VkpVaDA5OXlrZTZkeWExbVRqRQ?oc=5)**
+  - 来源：The Times of India · 来源时间：11-24 09:09（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Watch ING's Sareen: Asia AI Chip Demand Unlikely to Crash Bloomberg.com
-- **[Watch US AI Chip Curbs Test Southeast Asia Data Center Boom - Bloomberg.com](https://news.google.com/rss/articles/CBMirAFBVV95cUxPVGJpWFZQdjJfVGJHYWVpRFAxQkI0ckZuSnR1NC1MZjZXaGdwNXdiNTJIZ0R3UjEyRW1DMHE4OXFINkNjQVJQYm1jZC14VzdSWllzMVQzS0JUNjB2eHpYMEoyUFpyWlNfRE5Sb2ZsODIyQ0lDdWVvYW5TQUhxV3VzTUFMSXZZcWRmbzZTNnhEbmJPZy1tVW9PS1A2NVZQeGRkVHZQcFJIZkhwVEhM?oc=5)**
-  - 来源：Bloomberg.com · 来源时间：11-23 08:00（北京时间）
+  - 来源摘要（截取）：US blacklists Nvidia-linked Megaspeed over alleged AI chip diversion to China The Times of India
+- **[What Jensen Huang’s return to Nvidia means for AI chip sales to China - NBC News](https://news.google.com/rss/articles/CBMipAFBVV95cUxNNy05YnlTdzZwMFRmb2NJOENrbk5fVFJDNEVoY0trSl9GVFg0RUVHWDVXOUM3VTVKV2g1OHJCLXppLXh4Q3BzNjlPTzl5Y2JGWUVuZlhVUHpvVGVOM3pyRUUwX0x3YmZqeHZRUDlhR2R2N1pySk9lWEpsV25TX1ptcHI3V29OaUtDNm5SMGtzLXpkNktZdG92em1rS2l2amlSN1Z3Tg?oc=5)**
+  - 来源：NBC News · 来源时间：11-24 09:00（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Watch US AI Chip Curbs Test Southeast Asia Data Center Boom Bloomberg.com
-- **[US futures bounce while Asia markets brace for AI wipeout - Yahoo Finance](https://news.google.com/rss/articles/CBMimAFBVV95cUxNUV8xQS1Xa09sWUwzZlR6YzZyQTBlRk1jRWJNNWFROHY1ZDdicFNhLXkwRWIyV3YtM2NJSXRJY05mTHhyU3JHTFRndEdmQlZEYXJlMVJzMmhmTGdXOFAzZERRdmduRjZXSmpBLWVWQjBxUWNIVDdHZ0M0VXdja3EyZ2xzWGhSVXc0d0VIczl5Y2UyMDlzTzdBbw?oc=5)**
-  - 来源：Yahoo Finance · 来源时间：11-23 07:44（北京时间）
+  - 来源摘要（截取）：What Jensen Huang’s return to Nvidia means for AI chip sales to China NBC News
+- **[Europe’s AI chip moment: Can the newcomers beat the old contenders? - Jon Peddie](https://news.google.com/rss/articles/CBMinAFBVV95cUxQNGh2RDc2SmF1cy13OG5SaEc1dWRESUYzVDk5M0dKWFB2Q2hWUndlaEFCYXZJLTJvMlpuLTlfUTdIemN3TVg0d3JCTVlKbTR3LUNaSllVYXFOWkxJQzBjTE5pV0drc25HZVhVd3J1RnlxT3JfZlVjWngtbFlzR241ZjlfUVcydzFKYndXQjE1bEFDNG5sZEdLUHNFS0U?oc=5)**
+  - 来源：Jon Peddie · 来源时间：11-24 08:54（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：US futures bounce while Asia markets brace for AI wipeout Yahoo Finance
-- **[South Korean Government Summons Nvidia, AMD, Intel to Review AI Chip Supply Chain; HBM and Substrate Shortages Put Small Fabless Firms on Edge - BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTFBsUXY3NFZBeWE2d0E0Vy1PVzNKRWpmRTBhcTdfQXM4MFNuMXRveGtabE5WU1JuWUotRDA0UEZrQ196bWdfTGNXTVlOV0lBQXFyd2taSXlISE1sWXNaa29MaW1jYnY0ajd5NGR1U3RpNElhSnh3Rnc?oc=5)**
-  - 来源：BigGo Finance · 来源时间：11-23 07:35（北京时间）
+  - 来源摘要（截取）：Europe’s AI chip moment: Can the newcomers beat the old contenders? Jon Peddie
+- **[Will PANW's Applied Compute Acquisition Boost Its AI Security Growth? - The Globe and Mail](https://news.google.com/rss/articles/CBMi5wFBVV95cUxQeEZ3U2VnajY3cjhkWjlkcDRVaGhGRUZIVXFfdnhIZDlMS2stTlM0TU9UeUg0UUtsWkdQTEVTSlNFenYxTkM0eEl1V0V5R3p0UE12LXN0TWlnQUd4eTloQVBQb0lkYzBXbkF2TnhyZERZYU95YUtQNmhKTGFKTERqYm9CU2ZpaXdNVFJaZWFvOTYzenZVLUtHUzNfT0pkdEpqcjRpekxGTEpwMDJRMVdjeWluQlAzUmlBS2M1MURDZUFVaGZVQ1dGYjZBTTVmQ0VoT0JGcDhYd21FbmNuek5ZN1llWUNhd2c?oc=5)**
+  - 来源：The Globe and Mail · 来源时间：11-24 08:18（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：South Korean Government Summons Nvidia, AMD, Intel to Review AI Chip Supply Chain; HBM and Substrate Shortages Put Small Fabless Firms on Edge BigGo Finance
-- **[Intel (INTC) Chip Breakthrough Opens A Fresh Angle On Its AI Push - Simply Wall St](https://news.google.com/rss/articles/CBMiygFBVV95cUxNY2s0eThURmd1YUhjMVdfSjlYYVVibFBrVERZNmp3bGFYNERyeUYzbGV0YjdOU1V5V0JDNlhPeFBVbTZicXgzT0ZvdVFyQUFQOFdJLWpEbm5QNDhnTHAwWE95eFR5eDZ4V0pGRDhablBZYndJN3ppTXR2X3BTc0MwOVYxYVlUMDJzc0dtbDlvX3N2X0hBallMcGRiUjZPSzQzbmJvQU1kbjZZVGsyeFQyYzBwMjd4UU1uclF2T1pDQno4Qks0Skw4ZkJ30gHPAUFVX3lxTE4wVWdMSGxCZGxyc1BQSmhmenJBY0dhbDh2V0wtZU9HZ1cwd3FOaW1TbGVqNm9nLW13NlpwT3pUSmFkQk8xZnhfSU5PVVVWeWxBSFkxVlpYajJ4ZUF4U3doX0FjV0hDMURyaDVzOXJkYjkxcmFTd05pOE0ya2tzcDNPdURvNUpNWTU5WFhoS0h2bkZGTlo3Z1ViaXRJc2dKOFNZMVVxZ2h3YXhBenpUMnJvWjg2a3NHWF92VVZqTmdoVGozRXRxSWRHa3l4d1dXOA?oc=5)**
-  - 来源：Simply Wall St · 来源时间：11-23 07:12（北京时间）
+  - 来源摘要（截取）：Will PANW's Applied Compute Acquisition Boost Its AI Security Growth? The Globe and Mail
+- **[AI chip export licenses for China: what 879,868 approvals mean - NeoTeo](https://news.google.com/rss/articles/CBMijwFBVV95cUxOc2pyQmN0UWhnVXJLRHlFOERWR2JFNVVHeFh6VDdORzlUZEk3NU1Zb3RLeHlKc09NY20wTXFVVmpPTV9PSVZ4TkxmczVaVDFYaHAyeVB4eHpLWGE1cTFqV3B6VUFGZFZFYUxDYmZNMTNnRHZLWVQ5Q1A3OERNWWZqbWx2MVA2LVFiOXNiTEg0MA?oc=5)**
+  - 来源：NeoTeo · 来源时间：11-24 08:05（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Intel (INTC) Chip Breakthrough Opens A Fresh Angle On Its AI Push Simply Wall St
-- **[COMMENTARY: AI bust hurts Chinese stocks far more than GDP - Reuters](https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcUFLdUZQYzFtXzVMTHBnR1lTMnhES0gzd2dKY0p5dlVkWUNiX0hFYUZvdGxSaDI0ak5GZkdQZWtpZU41eGpuWHBKX3ZnbE1abnJzME1Xa3RRcVo2dGVKcWJLZ3JLUkNqMHp3RXBOOGF2VzZWYU5oTHZibUlHX3M5VXRGYldyVDMxNzJ2c052VEdpTHRHZU9ucEM5R1dHYk5qNHp5eW9kTDNyZ0RTTE9HUTNOVU1aN1FnajAtczlZUG5aZnhlbElTVWt3ZDVyaDR4a0E?oc=5)**
-  - 来源：Reuters · 来源时间：11-23 07:00（北京时间）
+  - 来源摘要（截取）：AI chip export licenses for China: what 879,868 approvals mean NeoTeo
+- **[Asian Chip Stocks Set to Jump as Huang Comeback Refires AI Trade - Bloomberg.com](https://news.google.com/rss/articles/CBMi0gFBVV95cUxQanJzOU5GcFZkM0FpbzZobEF6RzBxQ3ZhMFNyX19QWWxyaDhwRHNBRnl2M1MxS2pRdGU2VlByekNZRW1vcDlWaXVjSWNySklkeEVna2Z6N05qRDAzMDNYblltVFo0Tm5sLXZzUFFZRWlfbEdqMnNDVG9rREhfQnVWaFowZ2xSVkttODRzMnNRMXJLVC1DWVRGOU8yLUNqQlBCSmliMk8tTHhDZE05SGEzWWVuV0tkc09abHl1aVh2RXBGemo5WnFYR1I1elo5Z2lObWc?oc=5)**
+  - 来源：Bloomberg.com · 来源时间：11-24 07:45（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：COMMENTARY: AI bust hurts Chinese stocks far more than GDP Reuters
-- **[Weekly Recap: Revenue slowdown and U.S. chip curbs may slow AI model - TradingView](https://news.google.com/rss/articles/CBMixwFBVV95cUxNTTJqM1oycG9xaHF5WkIzSGpsOVNrWTIyZEh0Xzl5ZTB2NUJyUENuQnRWTnZYT2lYM285ZWtiUE9XZGdxUXExMlBBMEdQaWdMaHJmVUdIQ2VxRHJxTXpQQXZxYTM4YmlGTTh4bnI4U1Vka2E2ck5kUldROG9vdVJVVHdvdnFaTks1eUloVDV0OXYzUkF4bU9HempDdko0RXZrWEhPazZkQmJ4ZUNGTjJQWGE5d093cEUxOFpud3Uxa2pUcEtWVUtV?oc=5)**
-  - 来源：TradingView · 来源时间：11-23 07:00（北京时间）
+  - 来源摘要（截取）：Asian Chip Stocks Set to Jump as Huang Comeback Refires AI Trade Bloomberg.com
+- **[Asian Chip Stocks Set to Jump as Huang Comeback Refires AI Trade - Bloomberg.com](https://news.google.com/rss/articles/CBMitgFBVV95cUxNZlhLZ29WWnE2WjZaN3Y1NE1WMEJ4Uk14X2k3M0tybVR2TFBIMktTbUVNemlubWNhU3BiX040czFzSFJMb1ZxZ0hlR3hkNW1ub00taUF3SW84UzRrQkhNWEtsak5RQVdTOTI1eUJ1MWtGQ2JkYjNIbTJjQXZCTndIOGlLUkJhdzNRTWQzQmc3cUd1ajJzZ3gzaE5xV1RSZ054ZGtDVEFvVUVMM3VEU1ptUUN6ZE0wdw?oc=5)**
+  - 来源：Bloomberg.com · 来源时间：11-24 07:45（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Weekly Recap: Revenue slowdown and U.S. chip curbs may slow AI model TradingView
-- **[Amazon Nears $7.5 Billion Deal for AI Startup Decart - PYMNTS.com](https://news.google.com/rss/articles/CBMisgFBVV95cUxOZlcwRzJaaUdqUEpSSWNPa2U5N3VLRS1EQXhtRGxGWU1CMFFsLXhiX2xzcXlUWnNKTkVINVVSVkN1aHFwcUstbTZsckFLSmFYVHJwVlgzdXM5UFhZbFhEa09fVWNEZXc0cEJrT1B3c0hLSVBINEx3Sk9tOW9od2V3WjFLRmN4Mm1jSFBZNWNXelVHSU12dEkzTV84V1lrT0pydUJUUGpZYlQ3Vk05bXRzTkhn?oc=5)**
-  - 来源：PYMNTS.com · 来源时间：11-23 06:41（北京时间）
+  - 来源摘要（截取）：Asian Chip Stocks Set to Jump as Huang Comeback Refires AI Trade Bloomberg.com
+- **[What’s next for NVIDIA as board reinstates Jensen Huang amid AI chip security debate - WPEC](https://news.google.com/rss/articles/CBMihAJBVV95cUxQYzA4YUJkVmZiYjNlUHNlUXBlWTBZUURUd2o4bW9SX2Z6MkpkVnRtc0Jhd2k5YzdJdlA2bjlHZmtwcXFwSzM5dHIyVlpUTTY5bVVtUlpFMlhPOXNqbHd0Undoc2NDRTFfQjhrSGlORVFiZWFQcEhQUFZ3U1A0cDlCdndMVFF5UHJJSXhwc2RaZkxqclREWVUzd1p1WnJmYWM3N0JsRGJRMnQ0OUdheUpIVGNsZWx5OHJZTUtvQ1o3NC1zZC02alE1RFlFVVB6ZFI4MmFMU3NaQUpQOFJ5YkN6eUkzLVFRb0VPSTlPSWdfNEU2UUo1emYxbXVaYjE5SnBPdG5QOA?oc=5)**
+  - 来源：WPEC · 来源时间：11-24 07:45（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Amazon Nears $7.5 Billion Deal for AI Startup Decart PYMNTS.com
-- **[Musk Warns of Severe AI Funding Shortage Next Year… Academic Calls It a Buying Opportunity for Semiconductor Stocks \[IT Insights\] - 머니투데이](https://news.google.com/rss/articles/CBMia0FVX3lxTE1HOEdWWVY3bEM3bXAwVzdESmpld01yWDJfTi15elV3cnNGRDZCX25fOThMT2l3b3hyb1pDa2tHZ0J2RGlBRkh2QkJyelRBV2hUQ2ZYZHhkdk9UUklXM3JEUDNuNGEtRk9qbGd3?oc=5)**
-  - 来源：머니투데이 · 来源时间：11-23 06:20（北京时间）
+  - 来源摘要（截取）：What’s next for NVIDIA as board reinstates Jensen Huang amid AI chip security debate WPEC
+- **[What’s next for NVIDIA as board reinstates Jensen Huang amid AI chip security debate - NBC Montana](https://news.google.com/rss/articles/CBMiiwJBVV95cUxONE9RYndHWTVLR0Y5YV9JQTFZTHN3ZzR1ZUhobEt5MV9IQnhrOUFjU3lIeTFERF9pbk9VWGsyRUZ3QVVYdWNpMjRlb1h4X0p6WGVCejZQMXB6RWs2UGhRdi04YU9rbHRFNHFfVHBOdG1PTXE5XzRjbDRSRFJ1eFdzdzdmQ1NGSkZ1b3A0RnF6ZXZJSU9WcG1JNFNSVU1iaUtPTjlWUERlWkFwWFpYT2s2d0p6SDNWcnRGRW5NLXF0UHlwZUJMZ1BCN3dWc1ZUU0s5TTMtRk05cW5UdUc3WmpfUV9XZ0lIOE5PSm1samNVak1VVVdsLXBnVWdqQnhRelFKSzZPbnluVzlNMHM?oc=5)**
+  - 来源：NBC Montana · 来源时间：11-24 07:14（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Musk Warns of Severe AI Funding Shortage Next Year… Academic Calls It a Buying Opportunity for Semiconductor Stocks \[IT Insights\] 머니투데이
-- **[US targets AI chip exports to China, impacting Southeast Asia cloud firms - Crypto Briefing](https://news.google.com/rss/articles/CBMiogFBVV95cUxPeGxCQTVOVjc5dnpaZGF4WFV1MGQxaFhac3FuV0dKM1k1ak9pZnRUYVJGZjBJNkM1cjJ5SUV3dFl2a0VIem9LM0ppZG1FekhHSDFYQkxreVowYXNmNjhJMVZkYjUwQjl0MFhxelptUFJOcHA5eHVSTHNheXBaVkd3S2dNdF9mMnRyY2xjN0R2bi1kMEtyMVFIWmZERzFwVWhfVFE?oc=5)**
-  - 来源：Crypto Briefing · 来源时间：11-23 06:04（北京时间）
+  - 来源摘要（截取）：What’s next for NVIDIA as board reinstates Jensen Huang amid AI chip security debate NBC Montana
+- **[Amazon signs deal reportedly worth $7.5 billion for Decart technology to improve AI chip performance - MyNorthwest.com](https://news.google.com/rss/articles/CBMia0FVX3lxTE5FY0ltN3JubGR4cVlfR0pYWG1BdEhISkFrX2kyNnVRaGsyX3QyT0NiaERFSVlURXpycUlkUTFWUXp6ZThQcFl4VXd3bDRiVzZ3NzlDX041OUN1RmZQSjRuMXRORE94OW5mS29R?oc=5)**
+  - 来源：MyNorthwest.com · 来源时间：11-24 06:54（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：US targets AI chip exports to China, impacting Southeast Asia cloud firms Crypto Briefing
-- **[Trump’s AI Chip Crackdown Inflicts Collateral Damage Across Asia - Bloomberg.com](https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdXp0ODZqcDNzanpGNkNMTmsxMk93OXpvU2IzU1NKcFkteXdZcXdSM3dKM0lZc3Z0T3lSMXR4UGJ3enY5LWZVdnR6NlBGZENCcDNJYngxMkxKdFVzajN4VlZvMTg3X09vUHlNSFZEZEJ0M0NvSngxdlVjNDQ2OEhyaXYtenB5SVJ3T2tjemlPZjI0WjBTVC1RR0tRY0t3cDZuUDlZal85OVQxRjhiUlg2LV9uZV9yZWN1cng4dkZxNWxkM2F3ZlhpbA?oc=5)**
-  - 来源：Bloomberg.com · 来源时间：11-23 06:00（北京时间）
+  - 来源摘要（截取）：Amazon signs deal reportedly worth $7.5 billion for Decart technology to improve AI chip performance MyNorthwest.com
+- **[Can getting bigger help cybersecurity companies fight AI-related threats? - Marketplace.org](https://news.google.com/rss/articles/CBMipgFBVV95cUxNTXNpb1l1T1Ytc3BjVXZfRndsVHN3cmkybFNmY2dzQVpRaVhxSlN4TWp1N01Xd1JhWnZvSW5hWGdpTmhRVVVIa3ZjLU9aMUh2QTlaMHhCaFE5T1FIMVN2T3h5QTZhaVdEN2lROTNqeEJidVRxOTNVVzVubGZVU2h5SF9BSUpCNEVYcWFKdmlQam1BalpfMXlEbFgzYnJEcnlpVzF0bHNB?oc=5)**
+  - 来源：Marketplace.org · 来源时间：11-24 06:45（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Trump’s AI Chip Crackdown Inflicts Collateral Damage Across Asia Bloomberg.com
-- **[Trump’s AI Chip Crackdown Inflicts Collateral Damage Acro... - London School of Business and Research (LSBR)](https://news.google.com/rss/articles/CBMikwFBVV95cUxOWks2Wm4tTTFYN2tvUTZIN0dhZFYzOTlaLUxrTW9VeTBjRDBGTXJmd25abTc3ZkdPcjFJRXhPWE52a1ZzUTdTM3FVVl8zbmlpeUl0TTJGS3ZYbk5GcFhId21vV0FVWVUwS0hKaTNIclRlNS1JR2EzdWJ5SXpMWHZZZS1iS2JQWHpFaEcxZENsbGVyX00?oc=5)**
-  - 来源：London School of Business and Research (LSBR) · 来源时间：11-23 06:00（北京时间）
+  - 来源摘要（截取）：Can getting bigger help cybersecurity companies fight AI-related threats? Marketplace.org
+- **[What’s next for NVIDIA as board reinstates Jensen Huang amid AI chip security debate - KBAK](https://news.google.com/rss/articles/CBMihgJBVV95cUxNMTJrTHoxQnJkekczMHhKdTllUHFsUG9KV3I5aklDb2FEY1FNaFlPelJIanU0YkRpb0ZqQjhoMkx6TzZGSWZoYjZRdmVHQUpTVVVmRkp2Q0k1RXE2TkJ2MGg3UlFXSXRJTElhaDBMMTlwbElPM2hUdS1sRXRGLWdiWG90VE01a1cyNFM0RERIdUlNT3lqbGZqTWVYV1MwcFBOZXlCeHFCTUpTQ292MGtDT2ZEY3ZtWHYyTFZmV3pNWTd4UVctVUNWWU0zbTdWWWpZWnZwV0tFeUhnc2ZpM244TVlyMXVjMjVQd2JWdDYzdUQtbWdyTUhkY1ZrR1diOGktejY3VlZB?oc=5)**
+  - 来源：KBAK · 来源时间：11-24 06:40（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Trump’s AI Chip Crackdown Inflicts Collateral Damage Acro... London School of Business and Research (LSBR)
-- **[AMD vs. Nvidia Stock After Jensen Huang’s Exit: 1 Trades at Nearly 4x the Other’s Earnings Multiple. Here’s the AI Chip Stock I’d Buy Now. - Barchart.com](https://news.google.com/rss/articles/CBMihAJBVV95cUxOTWY1TFdsWFJ4OFBwbUMyNnA5cG9RbWN4c2hzeS1qakcteXdsNmNINlJ2SkFlcG9Pdi1EWndBREgxWThsY1BaWGdDRGZ0T3ZxQWp6cHJ3dXFLa3JzT2EwX0tDY3M3WmdxTE9YQXBNOVFSbl9xWFFvMDZ3dml2V1l3dlNVRFZFRUpqQ1pORlBWd3A2dlJUUmduMlNXYlRaZy1NaWs2djJ1MFhSbXNfbUVNTGdjR0xsdnJ2WUIxN0RvOHNsM1BZN0NuWkdtaWtwX2FZdWhwaUVhUU1XYjZMaVI3R2VCQWJmdlRjRE93OE9rSGVyblNZdERGaWxxTUpaUU5CWXRSSg?oc=5)**
-  - 来源：Barchart.com · 来源时间：11-23 05:25（北京时间）
+  - 来源摘要（截取）：What’s next for NVIDIA as board reinstates Jensen Huang amid AI chip security debate KBAK
+- **[Van Hollen calls for mandatory AI evaluations and tighter chip-export controls - Superpower Daily](https://news.google.com/rss/articles/CBMisgFBVV95cUxOeFVrck1HdTA3cXJKVlpSUTRlT3NxMEFZR183WjNUNV9nX2dZNk5sXzRUWWNrODVwR3YtMnVZV2FzMXIzdFQ3UmNXUXNxVTZzZHQxT28tcktUc29HRXpvcGQwd041YzFLT2diVjFlUV9reHFFcXlxYW9DNUxWQnpZeGNNaVJEclA0VDJnYVlaYjRLT0NlYjIxMDJOeXhyeld2ZXFjSTVsYmNrNmQydkVHMEh3?oc=5)**
+  - 来源：Superpower Daily · 来源时间：11-24 06:38（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：AMD vs. Nvidia Stock After Jensen Huang’s Exit: 1 Trades at Nearly 4x the Other’s Earnings Multiple. Here’s the AI Chip Stock I’d Buy Now. Barchart.com
-- **[Bessent Demands Nvidia Answers Over AI Chip Sales to China - cwibc.co.id](https://news.google.com/rss/articles/CBMib0FVX3lxTFBYelpiaTN2RmpMdXRjaVpHT3ZQSjNha1dlMXQ3cEdPQnNNVUlfNHhrRjc0cHUwREpxTVpkeTBucmtGenFBcmpxaFVmYXFzdWZ2YnR6dUtPS0xRZXRTTW54eGFKYUE4TnhhcVhSdWZpcw?oc=5)**
-  - 来源：cwibc.co.id · 来源时间：11-23 05:09（北京时间）
+  - 来源摘要（截取）：Van Hollen calls for mandatory AI evaluations and tighter chip-export controls Superpower Daily
+- **[What’s next for NVIDIA as board reinstates Jensen Huang amid AI chip security debate - KCBY](https://news.google.com/rss/articles/CBMi-AFBVV95cUxNZ29GaTg4QkMwbHFtM09UTC05OC16M3BETFZCeFJHcmVGaG4wQTRiZVBYV3FTZmx0OGJRSE96NHJYbVQ0a0JFT2p1TWkyOXNKdzNfSG1pcWpqYl90TnN1dlVZWDA3andZMWl0MVN4LWl5b1dMVjZScm5HNXpxcWNyQkFmZlMwNVRIQlNmSmNrRmI0NkwyWnZUN1JFTGJmeWlOM0RxWXhjVHdrOS1keG5oc1lWZG5MdWhLVFJCbVNscnVEaTdKZ04wOURxX09ZTTVwcXhYUUxyWC00S2hVMHoyQjJQQkpFbV91aUVfeDFmX3NWRl9NcUNLSA?oc=5)**
+  - 来源：KCBY · 来源时间：11-24 06:37（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Bessent Demands Nvidia Answers Over AI Chip Sales to China cwibc.co.id
-- **[S&P 500 at 5,600? Crushing China’s AI Ambitions Has a Price - Bloomberg.com](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUzFrbktMT2VWcmgzZTV6enRFcmdNVDBsaE93WUM2UGZHbjRHRzh2dTlhRFdpdVdfTzVRMTlMQ3hmQkFvckFLcUJZRnh4S2dPYnBwQ0Z4LTdUeEx0MDJROE9pVTU5SVhCU0FxS3Zaa2NDbmo3TU9YWHhqa3JweHRhNmlFdUU2R05iQWZya2M2dktTNFo1Y0Z5NUhHaUVEb293MkV5QWdsRkQ4aDg?oc=5)**
-  - 来源：Bloomberg.com · 来源时间：11-23 04:01（北京时间）
+  - 来源摘要（截取）：What’s next for NVIDIA as board reinstates Jensen Huang amid AI chip security debate KCBY
+- **[Workday Completes Acquisition of C1.ai to Expand AI Agent Identity Governance and Security - citybiz](https://news.google.com/rss/articles/CBMiyAFBVV95cUxOU2ZraE5yckRfS2I0ZDRGN2x4UTZsbkl5TWpkeVFUS0htV1p2dmlMNkpMZFIwYUtNVUF5T0t1Z1FUN0tjQ29ndTQ4bnRUaW5ueHJCWkRPMGVhWnZ2Y2xpUjYtVGRHM3lIdS1FY1ZSMk1aemYyYkFtb1ViTDlUNFMxdnRXdDRWc0ZwQlhmODhDYW9CRVhrTy1SVzY3MXdfTkpTSXQ0SVNWTTlCY3VoYndrM2tWaDc5OEJUbUdTSU05YWgxM3dzdi1RNQ?oc=5)**
+  - 来源：citybiz · 来源时间：11-24 06:27（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：S&P 500 at 5,600? Crushing China’s AI Ambitions Has a Price Bloomberg.com
-- **[Lawmakers call for answers on AI chip sales to China - Fox News](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxZXQ2d2NrRkItVTd2VUQwSGxNWmVyMTZkNzJUMmdEQTlzWnZjT2lfWGZWaEUyQ2FzZFV0TUMzdFBYRW1lQmpfVDFSOVBFRml5a1M2SnZB?oc=5)**
-  - 来源：Fox News · 来源时间：11-23 03:50（北京时间）
+  - 来源摘要（截取）：Workday Completes Acquisition of C1.ai to Expand AI Agent Identity Governance and Security citybiz
+- **[Workday completes acquisition of C1.ai - Yahoo Finance](https://news.google.com/rss/articles/CBMioAFBVV95cUxPWDY0ZHlQR2M0TUt6SlBoMkp1YVM4X2V3WDBSelFqcmRIN250b3R3YS1KcUlValhsaW52Z0NyRXBnQXdQd1dLX0d6ajhqQk1yQmFmV21yWjYtVW9mam5uT085N1BubEVySERuRWRHY3VCVWE0dGZtNVl0TlM3Z0VfQVBaMlZUSjJrUXFKclNHYWpfZ1VCcjdvX3laWUhHRmYz?oc=5)**
+  - 来源：Yahoo Finance · 来源时间：11-24 06:20（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Lawmakers call for answers on AI chip sales to China Fox News
-- **[Bessent says we "need answers" on role Nvidia played in sending AI chips to China, suggests Alice Huang is "kind of a canard" - CBS News](https://news.google.com/rss/articles/CBMihAFBVV95cUxPQ0w1SkRVbmd2cF9NcmxBeHYyeTdIdjQwR3c0VG5KT0g1UHlxRm15S1B4ZE1KbUVXOHhlMXhuS1VOeEFnd3VkQmNES2ZpekFDbERtQzFJUVNYXzJHZ0VvdDlUZFVQTWsxOUlJeWRGQnI4ZElsMTc3eklnUDRBcEFmLXF4Z3o?oc=5)**
-  - 来源：CBS News · 来源时间：11-23 02:48（北京时间）
+  - 来源摘要（截取）：Workday completes acquisition of C1.ai Yahoo Finance
+- **[Democrats call for chip export and AI limits as Huang returns - Roll Call](https://news.google.com/rss/articles/CBMinAFBVV95cUxOU2wzWWlFZmp0LWpWcHY0RDNscEdSYWNRWkRMX3hYNlZqREFBSnJzbkZqZ2g0ZU1MMWJtTmp1cjVDZXpvZnNoQVZ1TVQ5RFg3bzRoZ3lnMml6T200NUM5bERMeVRNNUYzX2JQbl80Y1BPdFlPQUNVazJzZlZvZEV4dlJDSU4tNG9NcnlZY3h4end5ckRUQUVqSXhWZ18?oc=5)**
+  - 来源：Roll Call · 来源时间：11-24 06:18（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Bessent says we "need answers" on role Nvidia played in sending AI chips to China, suggests Alice Huang is "kind of a canard" CBS News
-- **[Exclusive: Could An “AI Nose” Have Stopped Intel’s $600 Million Israel Fab Disaster? Inside The $9 Million Bet By Ainos To Give Chip Factories a Sense of Smell - Wccftech](https://news.google.com/rss/articles/CBMihAJBVV95cUxQUmpINUpEZ2dsUHRHaHU3S3hvemhZLTVDMW9MOFl2S0d4OTZLMjZxU0s0cnUxMUg5Uk0zX0o0QzN5enJGWmNJbFdfR0xUUVZhZkplaGc1ai1UTVF5SS13TjVYSUMwLV80SFVOSnpXdGd1Xzk4NXprNEdYSm9yYzRhZFlQZUJOaFBfZmNuaE00TE01M0JyT0xWNzB3MHdCQjliY2lJcmhBMWxJZUZ3SzRaQ0U5a2xUcXVuZjh1aEZJS2NCZEJ2VVFhZ1JDZGVsUmM1X2lfZGx4Sl8zV1k4R0pSY0h6WEFWUGxhVjVkZnNkS0hSeTI3QjVRRUhGU2p5WThvWjlKN9IBigJBVV95cUxOUEVjR2p3eGxkWWVQMXFqN1FkYU05M0syQUZnRXdQSnFBN0huaTNYSW1xN1BPX1RhV0ZxVHItZVlqbFFQRTNvQzR6cnVlU0p2OHBSVzhPZVcyS2JybW1FdC1yZElrY1BlYlNqQkZrS0RhZGJQTVRLYmpyUWNXSDRzTEo3RnJrTDJyczVyWjdaMmg3ZkFVV3RCblF0R2xCTHFTV1RvOWlXMG1XYWlCaUF3UWFZbER2S3JTYTNtWUlWeU5vRzd1ZmZvR293TmJ0Nkhocm9uVllVVFA0c3VzNTlleGpUWngtU1ozdk1va2hOZ0RwWU9PS3J1TlFPZE56S042bU5Uc3RtdWg3UQ?oc=5)**
-  - 来源：Wccftech · 来源时间：11-23 02:10（北京时间）
+  - 来源摘要（截取）：Democrats call for chip export and AI limits as Huang returns Roll Call
+- **[Steve Eisman Says "Stock Picking Is Back" Now That AI Is "No Longer One Trade" - 24/7 Wall St.](https://news.google.com/rss/articles/CBMiugFBVV95cUxQdnc4dEIxcjFkdGVSdzBBRjNXcEhkU09GemNlVVA5R0ZHN29wN3JwU2o0b25jNHVEMGhEQmRCeTZROUJ6ek5JQ2c4aXlKOWdQTjZuX0ZiXzlTYWRpSG9tX3lrZjFmY1JGeU9WTFJqeGl1MWhkMjdMRG11M3pmdnRtWFlvOUJKWHc2X3FHbVlVd2pfa3Fvd1pSbnpNaXItek9PMGpRbFc1bzdRdzdCNzE1WTg3NENfQ2JyTHc?oc=5)**
+  - 来源：24/7 Wall St. · 来源时间：11-24 06:07（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Exclusive: Could An “AI Nose” Have Stopped Intel’s $600 Million Israel Fab Disaster? Inside The $9 Million Bet By Ainos To Give Chip Factories a Sense of Smell Wccftech
-- **[US AI Chip Curbs Hit China Tech Stocks and Spur Self-Sufficiency Push - kalkine.com](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbUhCc0VyQWlaWXlBcWc4bVRhS0dKYkdLZm9nMVVpU1RicU5XNVJVVmJEN3FRbERNME1uZGVJZjhMRFBUOW9uc29RUXYybXRscGxTWFJTajNXZmZzdGwyb1NrOGpxQml3VTU5Uzg1SVBCdmhsZ0Z2T3RRdy1iN094ZXJ1MHRHZjFHczBxbVBfa214cGxzV2YwZmpfaWJDc0xNTjh4UGN3UlZ3elU?oc=5)**
-  - 来源：kalkine.com · 来源时间：11-23 01:39（北京时间）
+  - 来源摘要（截取）：Steve Eisman Says "Stock Picking Is Back" Now That AI Is "No Longer One Trade" 24/7 Wall St.
+- **[Stock Market Today, Nov. 23: Advanced Micro Devices Climbs on AI-Chip Rebound After Nvidia Reinstates Jensen Huang as CEO - The Motley Fool](https://news.google.com/rss/articles/CBMiiwJBVV95cUxQeWlXazZSREdHVFpCWDBzdG1YTHQwU2JmZXc5Y0dqamhsaTV0YWo5UzFqbUk2aVM0Q0p6TWtxb3kzdUQtdVVySWg0V3lNRm1SSlNuMmx3V09SVGhvZUh6bS1hNmFHR05ENGdHSjRDR1o1SmxnTXJMYmQ0ZWdTRmhBbk0xTjBENHdoRUQ3RG1waTZNYkNodEFMdHZrQjRkRmJUUkxPWkxLR3dkUXdyaTNGcmwxdlp5SlFtRmxpMENLRTBoWDV3aE45cktrVU94Rnk2cXdlXzg1d3hQZ2g3NWgxbmxjc2trcEtvN1o1S3VHNThuS2dnTmZSVU15aUF2ZWFaaTdwU0ZKOWsyTnc?oc=5)**
+  - 来源：The Motley Fool · 来源时间：11-24 05:54（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：US AI Chip Curbs Hit China Tech Stocks and Spur Self-Sufficiency Push kalkine.com
-- **[China’s Spy Agency Ran Campaign to Acquire Advanced AI Chips, NYT Reports - CASRAI](https://news.google.com/rss/articles/CBMigwFBVV95cUxNYW5XMS16anNUVjRRb3J4RVRiajJQVVctaE95bGFrMjhoTFpVV0FjajduN0tJRURWZ1QwcEZtbS1RekpsS0RfaTd5S0pXTDVScGJWUldOSi1KT3dtYWVHWi1ka2J0cnZVdHkxVmZ5UUljVHB3V3pqRTQwUThjQ25jMm0wMA?oc=5)**
-  - 来源：CASRAI · 来源时间：11-23 00:24（北京时间）
+  - 来源摘要（截取）：Stock Market Today, Nov. 23: Advanced Micro Devices Climbs on AI-Chip Rebound After Nvidia Reinstates Jensen Huang as CEO The Motley Fool
+- **[Congress Asserts Itself in Closing AI Chip Loopholes - CGEP](https://news.google.com/rss/articles/CBMilgFBVV95cUxQOE4tU2R5QUpjRGlHVlFZa2RRWF85U0hlWkV0WHJUUEZsY0ZDQ0VHMlFCRUxZMTdNbExvbTRqTkx0eXkzanlQbVU2ei10dk9WX0JFRFVuRl9iQWNacUFyTHhlQ29zLTFYOWNfRmY2TFAzX19SWHh5azY3SHIxTHAxNEpkWWNfQ3gwWXJJTWhzNmkyd29hM3c?oc=5)**
+  - 来源：CGEP · 来源时间：11-24 03:53（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：China’s Spy Agency Ran Campaign to Acquire Advanced AI Chips, NYT Reports CASRAI
-- **[Broadcom (AVGO) Faces Reported AI Chip Order Cut From A Major Customer - Yahoo Finance](https://news.google.com/rss/articles/CBMimwFBVV95cUxNam9zYmNqUncyd2Y0XzJwNXppbm02NmRPaE5SS0VwVFlScmFLRGQwTjBJQlhuTnIySk15SWVKRmxuaGNwRWk2UGdmN08xenBpbDVqeXRJSWpVdi0wVkMzVDdMZWdvcERCb3FmdHN4VWZHVlE1VnFzY01idlVQNVhHR29BQkFvbkdIRHI4RGhLeUR6UkdXR3NqeUtlQQ?oc=5)**
-  - 来源：Yahoo Finance · 来源时间：11-22 23:08（北京时间）
+  - 来源摘要（截取）：Congress Asserts Itself in Closing AI Chip Loopholes CGEP
+- **[Amazon agrees to buy Decart's AI chip software in a deal reported at $7.5bn - PPC Land](https://news.google.com/rss/articles/CBMilgFBVV95cUxOTHp6U19CZDVfNkNCUkR0ZlIyQ0VaZjRJRUdyM0RBZHpTV0xqdy1vekpOX3c1eVFaUlhLV2oya2hQXzVUQ3lLSE13eURINTZCTEZDS25uYTFRVk9kakJvX2o2M1JnUnItUjdTclRiRWh5UTc0U3lEUGRoY3FGMzNaUzFzRWZaLTU4ZFVCR3QycEkxTEVQOFE?oc=5)**
+  - 来源：PPC Land · 来源时间：11-24 03:35（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Broadcom (AVGO) Faces Reported AI Chip Order Cut From A Major Customer Yahoo Finance
-- **[Nvidia's AI Demand, Alibaba's Chip Pressure and More: This Week in Tech - Benzinga](https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX3hjMW9mc2hoVVBHWmxhVXRmNW01V1BpM0VFRTNJYlhhN3VXby1JVWR4dHhjeEVGMm1EbWZPM3RPQkVxbXo4WHByYmNkQmdBUUJtZFhSZ0pITnVSYWFUaEhkQWlmWmg4cWNmdXBxMmY1cXFNMUFMdDJNQUN0NnQ1cE9iYTM2VkN5azBJ?oc=5)**
-  - 来源：Benzinga · 来源时间：11-22 21:49（北京时间）
+  - 来源摘要（截取）：Amazon agrees to buy Decart's AI chip software in a deal reported at $7.5bn PPC Land
+- **[CPRIT funding fuels AI-powered cancer discovery at UT San Antonio Health Science Center - UT Health San Antonio](https://news.google.com/rss/articles/CBMiswFBVV95cUxPbDQ0bmZoQWVOWGFWRDdIUWlKcHpQRm8zbGRQcW9sMnNFN2xTYTNvemRJdlJBVERWZ1hlYThYalh3U0VlSU85ODVsRU80MENZcXFUaGZtRWljaHlJZTZVQlZHXzJfRTJDN2QwZTdnTmJJVUp1Ulp5bUZqcW4zRFJNSGJ6dmZKNTdQMzQwSnJNRU5CY2l4blRiWHV0aWlEVjBtSWFUaFZVaTBTbXFTTzhLLS1PUQ?oc=5)**
+  - 来源：UT Health San Antonio · 来源时间：11-24 03:35（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Nvidia's AI Demand, Alibaba's Chip Pressure and More: This Week in Tech Benzinga
-- **[Musk: New Tesla AI Chip Every 12 Months, 10x Unproven - shattered.io](https://news.google.com/rss/articles/CBMilAFBVV95cUxQRzRSdmhEcUNJbTg5bmM2S2NEQ1MzSzd1T3FpWGttM3ZVNElQQlphZFpRWTM0U1BtaHJ0Wl9FQ3JSNFVNUDVPbXIwMGJiTEw5UzVtUVozRDNWa05fSl9RZllObXpFTlRFX0RnczRlSW10X1hhTkdacFd0YUNrbzZSRDN5M0lpWXFoeEpXRHBQMl82b1Bf?oc=5)**
-  - 来源：shattered.io · 来源时间：11-22 21:04（北京时间）
+  - 来源摘要（截取）：CPRIT funding fuels AI-powered cancer discovery at UT San Antonio Health Science Center UT Health San Antonio
+- **[Amazon Makes AI Chip Move; Stock Climbs Alongside Nvidia Relief Rally - Investor's Business Daily](https://news.google.com/rss/articles/CBMihAFBVV95cUxONGNWcWFkazVXMUhqYkdVOXN3UUJFbVppRWw4RUZaVFA1ci1TLWlXUk5xOG1pUWJ0X1VKZEN4SVRpYUpzbVlsSnVhVW1fM3dDdGp3NHFiMXVraHVvUXZBOUExZy0yVWdscE5wZWNUd256d1U0bzh6b0Uwell0NXRqekVVOEo?oc=5)**
+  - 来源：Investor's Business Daily · 来源时间：11-24 02:31（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Musk: New Tesla AI Chip Every 12 Months, 10x Unproven shattered.io
-- **[AI agents design an entirely new CPU architecture from scratch, startup claims — Frostbite posts 4.59x the performance per watt of an in-order core in pre-silicon tests - Tom's Hardware](https://news.google.com/rss/articles/CBMixgJBVV95cUxNWWJFNWVqemZoM0VmWnp2ZEVzb1FybXpvaWNOcHhzV3E5dlJSdGlWdk1Gang3TC1HQTRTLU1WYVN2ZzRiZmxoajJUTnRvUldrRG56XzNMMTFmS25nMXo5S0RSQVZUb05jSmJnYnVSdGpheTRrUktoTGdWVG50N3laSkN6Y2FZQ28wZG5UYWM3QmpqQ0RaMEg1R19UVmY3QnBIczdnUlZJbVdjb296cnlaWmR1bHF1ekM0NUhERTR3TEU2dnl4WDQ2T1Z1dW53aVE4T2NCbHZyNzBuUE9xWHV0RkVORzR1MjNpcEs5Z2xYNFVYNVFUTG1oNm4zbnFfU0dvcHhNREkwVndRTmdLX2pMdWZtdVYzbnNlSVZ0SHdKSkhhRHo3V2lGZHNLLWR2bGxZZDdNeG0wcmpWQVRkRTZ1ekcydXJoZw?oc=5)**
-  - 来源：Tom's Hardware · 来源时间：11-22 21:00（北京时间）
+  - 来源摘要（截取）：Amazon Makes AI Chip Move; Stock Climbs Alongside Nvidia Relief Rally Investor's Business Daily
+- **[Amazon to acquire AI startup Decart's chip software, hire founders - CNBC](https://news.google.com/rss/articles/CBMidEFVX3lxTE9hSmFaemUzUldRaWhTb3diNE4wU2dQb29ab2FXLS16UzcwdFU1a2tjUVh5Y2t0WEJweGREQ1JIMVczYXhmZGRQT3pXa0FUU0xFZWEzVGpnT2Q4MUdhWEVFMWhmRkNyZXVNbkdqa2xpdW03QWFT0gF6QVVfeXFMTjg2VVVOYlVHWHJaNUhWUHZMNjFQQ2Q5MmptU1JiektEbXNWMUN4SzR6OWxRSjVUTFZuakcwSEtHUjU4MUluQi1QUXQtc2xvWnhSY0NXNm9SUXZraElHZ290VTlUMlloSXhBSVRGbEhBcmVRYXZreFdjc2c?oc=5)**
+  - 来源：CNBC · 来源时间：11-24 02:23（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：AI agents design an entirely new CPU architecture from scratch, startup claims — Frostbite posts 4.59x the performance per watt of an in-order core in pre-silicon tests Tom's Hardw
-- **[Palo Alto in talks to acquire Israeli AI cyber startup Terra in deal that could exceed $500 million - CTech](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5RMERTdEdfbE1PZTBHbVRhVE02bGpBbWFManZRd2dPckJfQ3FjU0ZpMFFMNXV6bnVLcno1YXc0ekFKZDd2SmJCXzE5cHcxSldPUUxpV2l3TS1GYkZzS2xBQ2FCeTFNMU0?oc=5)**
-  - 来源：CTech · 来源时间：11-22 20:36（北京时间）
+  - 来源摘要（截取）：Amazon to acquire AI startup Decart's chip software, hire founders CNBC
+- **[Billionaire Ray Dalio Is Going All-In on AI and Chip Stocks: Top 5 Holdings - Yahoo Finance](https://news.google.com/rss/articles/CBMimgFBVV95cUxPUnpIcFdyQUVRYjc2QlVQaTV3UjFPT3NtWjJWSnFxRlFFeGZDeEp5UEgzUzJWanFfSnJuT1FhYjNnSy1ISUdhcW12S25zV0pNMTlLOTM4QUxhSDN1T1J3amRFR2o4ekR5eTU4VXVsS3JsTzZUSGk5U3BHN0dwYWZJX3pvaWdhQ2xNSEJNb0oyUVJuRnM5cVVtanpB?oc=5)**
+  - 来源：Yahoo Finance · 来源时间：11-24 02:18（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Palo Alto in talks to acquire Israeli AI cyber startup Terra in deal that could exceed $500 million CTech
-- **[Nvidia China Chip Halt Puts AI Infrastructure Stocks In Focus - Yahoo Finance](https://news.google.com/rss/articles/CBMilgFBVV95cUxNY2V4dW16RGgyaXlrdVoxYW9RSzJ6YnpVU01sajhOVUVIejMtSVIza2JlN01zVk1ReWtfRm52Q0NmcDg4VUt2dDZuUWZ4eEh4d2pkaTBQa0xZZ0Z0ZklFRHZFcnEtMHltZXphRHFxbzVWX29XQ0QwYWx3ZjJMR0RGUDFHY2VHTXJXRnlyZ1kzYXVlQVpoMlE?oc=5)**
-  - 来源：Yahoo Finance · 来源时间：11-22 19:08（北京时间）
+  - 来源摘要（截取）：Billionaire Ray Dalio Is Going All-In on AI and Chip Stocks: Top 5 Holdings Yahoo Finance
+- **[Anthropic Stocks Slip 1.2% as AI Chip Rally Bypasses the New Listing - TradingView](https://news.google.com/rss/articles/CBMixgFBVV95cUxNWmpValhyZ2ROVk8yOXNITzNvTW5tZzF2d0swX3o3T2pRVEFRVkdURXotNWhqRndhNDhzMTlybzBtTGp1aXA1NElRUTMyR0xlaWhFQU02bWl5cWpvMGFZMF9wQ0VJV1RnYkdBLUJicUZSN01uMUFLUmpmbHExZG8ycFh3UkF2bEZsM0ZGLWFBeERTM1NRckxzMFNLWldEcFp0Y2d1OHQ3QUdyODk5ZHJpZWF4R0lzcWduVndzQ2ExNXBSOWhKQ0E?oc=5)**
+  - 来源：TradingView · 来源时间：11-24 01:54（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Nvidia China Chip Halt Puts AI Infrastructure Stocks In Focus Yahoo Finance
-- **[China’s secret AI chip hunt: How its spyverse is helping firms bypass US curbs - The Times of India](https://news.google.com/rss/articles/CBMi5AFBVV95cUxQY1l2YnlvN0Jxc3J1ZUhjQ1JzSW9YdFVMT3NZTzBzWUZvTU5laWVpeVlOLTZSdjBUU19LVjY4NmRhdGFzZzBManNXR0VPLTBIYXJGeEk4Tk1Jd3ZKSzhWeklNM2lJRGRoMW04WXZWbGdweUVqN0EzSVNZMDdOYURNbnFVUEpuSml6VDlIelg1NVdSdFl0OEN1WFlVbVlOQWc2LW80UzhYa2VUeGdKdThQUWRuR1ljREZUREUzRFlGREF4aXFoSWp0VEpZV3BEdW44U1c2d2hsckxncGhmcS11V0RBTWnSAeoBQVVfeXFMTU9ULXc1b3JKaEk5czVMQng3ek93QlA4M3pkZGVMTkV1QTZLYWdvanlJclZXNklWNVdqOTVQYWRFX0k4ZTdkYzc5RW54eFdISm1tMklsMlVDSkR6bzltUE5TTWRDaUthUS1yUWhUTGVQRXp6UUtMVzluMTc5TW5Nc0Q2UlhKVVgyeEp1SGtRUE1wcHlhejFiM21YSEVmUGczYnhMZWFwb3Rpb3hOdXlLUWV5M2prOGZhRFVONDhjOWpabzJ0S2ZxRzBycVdEREg4YWpzZF9NdUU5TkxiTjREazUycVFGMGRBWGZR?oc=5)**
-  - 来源：The Times of India · 来源时间：11-22 18:18（北京时间）
+  - 来源摘要（截取）：Anthropic Stocks Slip 1.2% as AI Chip Rally Bypasses the New Listing TradingView
+- **[Amazon buys Decart's AI chip tech for reported $7.5B after Anthropic walked - Dealroom](https://news.google.com/rss/articles/CBMirAFBVV95cUxPVV9zeGlrN19UakctVGxESk83NGF6a3ZTTXJqLU5WcTl0WGpBUEZiZ0N1NnBDQTdZMmgza3dRWjltUm9FVTZjU2VqcGZ1OV9ydTNDVlQtdll1YXlrcW9tajR2bWNTay1UWTNVaVBOQjFZTkgtWnBxOU9mSnQ4aFdQY3h0MWpwWXlzY2YwdVJ3UTg1emswZ201N09rN3BMZ0xGZG5SaG90aWJWYWMy?oc=5)**
+  - 来源：Dealroom · 来源时间：11-24 01:35（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：China’s secret AI chip hunt: How its spyverse is helping firms bypass US curbs The Times of India
-- **[Billionaire David Tepper Just Made a Massive AI Chip Rotation — Will It Pay Off? - Yahoo Finance](https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ0NzaGhsN3lQSE1HMWRPRXo5UWh3eTBuQzZDVXVZN3RxSXJOU2hKNFh4V0FlOFBhZ25teWhIUnhiQXFrMVJvY2laRm9jazBRR2lWYzZvZTUyMmZ3WUhaLVhTejRrd0poWE9SWkxzckZyRVZnZ1BWd3JxSXZRTlVVaWVDeTFSd2NqNXg1eWJjNk9VMThDSlFNN2tRM0MyR3M?oc=5)**
-  - 来源：Yahoo Finance · 来源时间：11-22 11:20（北京时间）
+  - 来源摘要（截取）：Amazon buys Decart's AI chip tech for reported $7.5B after Anthropic walked Dealroom
+- **[Amazon agrees to buy Decart’s AI chip software and bring its team aboard - Superpower Daily](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM2tyNkZILTMtbmNVZ2N3dHFTZWpBSlJHV2I5NmZBVXRROEM4MnZCdHY3WTRLZHNXUktNNTJDTzZwNXoxMEVXdjJUYlU2UUxRV3FfWDBta21GTGhNckF6MVpBRnlwZThyQVFxSTlmcEhsMndyc0hXQkxBVUxxY3ZJZ2Rtb0c4aFJmdkFaR1ktbnRqX3E3QWYwbXhpLXBaSGQ3ZVlCZ3Jkbk94UQ?oc=5)**
+  - 来源：Superpower Daily · 来源时间：11-24 01:34（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Billionaire David Tepper Just Made a Massive AI Chip Rotation — Will It Pay Off? Yahoo Finance
-- **[Amazon Reportedly Near $7.5 Billion Deal to Acquire Decart, Taking Aim at Nvidia With AI Chip Efficiency Push - BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTE1jSUczV0Q5bWpYN2tEOVdJS2t2X0tPNlZxcW1DNnM4dVFUU21kTk1MNEE2UGR5WXBPYVd0QjBRSmNyUXp4TkV1b1R5eURwT0NGbzVDdUxOdGE2ay1PcW41SjFQSm12el83OS1pUWM1QnNCSWVhbGc?oc=5)**
-  - 来源：BigGo Finance · 来源时间：11-22 10:25（北京时间）
+  - 来源摘要（截取）：Amazon agrees to buy Decart’s AI chip software and bring its team aboard Superpower Daily
+- **[Amazon snaps up Decart's AI optimization tech for $7.5B as it prepares to sell Trainium chips - TechCrunch](https://news.google.com/rss/articles/CBMixAFBVV95cUxOZmpSdlZqOWZtYXc1cXNWSjlkMGNmT1lNLUctVlF6Z1pMWV96OTdyaGlXbFFSZlVESmFqMWFkUUk1eVR3T2FTQ3RjeWJHYTU5N3RLOGtWVWctYmJzQzRNQ2o2bXFjVVByeEtBSW9hNlhFNEFZcXpqREd0NkJ4ZDFNRTkzZjh4SG10SVg0TXRCYXF1Q0laRHV2d2JBdWxWVHR3Y1p0U0VndW9pbkVqSHZnUUk0OHoyQnNrTlVDV3EtRzRpb0Y1?oc=5)**
+  - 来源：TechCrunch · 来源时间：11-24 01:14（北京时间）
   - 信源分层：新闻聚合（需核对原文）
-  - 来源摘要（截取）：Amazon Reportedly Near $7.5 Billion Deal to Acquire Decart, Taking Aim at Nvidia With AI Chip Efficiency Push BigGo Finance
+  - 来源摘要（截取）：Amazon snaps up Decart's AI optimization tech for $7.5B as it prepares to sell Trainium chips TechCrunch
+- **[Amazon to buy Decart's AI chip optimization tech in latest AI talent grab - Reuters](https://news.google.com/rss/articles/CBMixgFBVV95cUxORW5Dd2o3Ty1RU2Rmbl9tMi1pcS1DUTlFY0x0c1d5czk4R2Z0YXZObUJyRkFTYk1yMlhyYk5YUGIwOFg0dUotVGR1cU15VjhOVVNzYmVxQlVQN1hPeDBPOHdGZ1FjS21BRVdWYkF5azRKdzBWLVh2WnV4YWp5dlFtRFpPSHdZNkx4V2syeHpOOXV0RHBSUnFjRkZEc3RHR2gtUFZuNVVPWm9YOW84VmM5dnpXMGt6OHpNalpiTlBpM1ZIcE1JSlE?oc=5)**
+  - 来源：Reuters · 来源时间：11-24 00:53（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Amazon to buy Decart's AI chip optimization tech in latest AI talent grab Reuters
+- **[Amazon to buy Decart's AI chip optimization tech in latest AI talent grab - The Lufkin Daily News](https://news.google.com/rss/articles/CBMiggJBVV95cUxPTl9OTnBpUnkxTkJONHVMRG4wNlZVNjl5LU0yTFBjZGwyWm0tQmhJcnpOeVQ3S1MxbWlKSk1reTBvZWs1Z1R3bzh3YXVGTld2WVk0M1BOSDd5NTBIWXg2UXdfdUlTdUVhaGtWRmdNYmFVY2c1VldlblNOX3BMV2xjQ1RKZm1BQ2loMXp2dGdOLTRLUXlQS2NuSWhfRDhhdGRRNU9tb3FjUUpOM1I1VTBPOVJDY0xoVkxIeDlldzVQaE05aW0zeEN0clprWnQ3M3ZydVZDak04cHptUGZ2akJqdlJaYkZYTjdpR2NxMUNHVHRoLXd4NWdTTlRpN0M1QTBSeUE?oc=5)**
+  - 来源：The Lufkin Daily News · 来源时间：11-24 00:52（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Amazon to buy Decart's AI chip optimization tech in latest AI talent grab The Lufkin Daily News
+- **[Amazon Moves To Bring Decart’s AI Chip-Switching Tech In-House - Finimize](https://news.google.com/rss/articles/CBMilAFBVV95cUxQcXhldGVTY2tEWlNYVHBDSGZlUkJwNkZ2Vl9FSzIyMUJnUDg5d0J2cUJSZ3h5T0F1Ylh4T1I0bUtlV3NrNklhWk14M1lhbUpqd3pMY1U3U3NrTnloQW9YMUhRcmhWREdlZ0RUQ2RJb1J0eWFhbVFjX2FoRHJmSzRaZTNaelRZbWhXeVpVYjJWV0RLYl9q?oc=5)**
+  - 来源：Finimize · 来源时间：11-24 00:33（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Amazon Moves To Bring Decart’s AI Chip-Switching Tech In-House Finimize
+- **[Exclusive: Princeton AI firm AidenAI raises $32M in Series A - NJBIZ](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE81aElKdmxoY01aeWtTZTJ6aHhueE9naGVObEw2bXU1RVJ6THN6MHlxMUY4UXJ2ZTZLc2dmY0NkbGR3WVcwR2FuallnM1k2RU1mN0Y2Y2ZjOC1jWlEtMDdkcVdlMjVYblk?oc=5)**
+  - 来源：NJBIZ · 来源时间：11-24 00:33（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Exclusive: Princeton AI firm AidenAI raises $32M in Series A NJBIZ
+- **[Amazon is buying Decart’s AI chip software for a reported $7.5B and bringing its founders aboard - GeekWire](https://news.google.com/rss/articles/CBMiwwFBVV95cUxONE00ejBsSjhZMGNrQ3M4TkRCQm5DZm84MEl1S0xmb0RteHZNV3BPVEZBSE40NVJ2M0lBYVFRTGRVWV9ETjRNcW1Ia0loWWVTN3hpeTA3XzBIZURiWU5RRThOcjBqZ1VDQmtHczBOXzFiS0wxMmNuY2F3ajhEWkJzRzQxTnJicjkxVkZWUzY4Qm43THotMFN0T2g3WFlOdGgwQmoyYkNRTXZXd3FNckFiQzV0Tnh1SW9mTEN2RmJZMFl4RTA?oc=5)**
+  - 来源：GeekWire · 来源时间：11-24 00:25（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Amazon is buying Decart’s AI chip software for a reported $7.5B and bringing its founders aboard GeekWire
+- **[Amazon Acquires Chip Software Business from AI Startup Decart - The Information](https://news.google.com/rss/articles/CBMingFBVV95cUxNZGxwb0piQjRYaXFvbEpVRE1CaDFMZWE0SVBGS1FLcXZJMlEtMnEwQnZoV0l1VGdEbS1NdXlUeW14VHlIT1JTc192czlZMTdXclhLOG11X3dKbzhKbEU2S1lURzd5b2lpblJuSUZvaTFveTVOQmFxYkNCV3Y0Zk9vd1I1b3drU0JCX3Rqb004SkRSVDVRVTRCczB6ZkU5UQ?oc=5)**
+  - 来源：The Information · 来源时间：11-24 00:11（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Amazon Acquires Chip Software Business from AI Startup Decart The Information
+- **[Amazon to buy Decart's AI chip optimization tech in latest AI talent grab - Centre Daily Times](https://news.google.com/rss/articles/CBMicEFVX3lxTFB3bTZRRVlYVkY1S3l2Z0J2ZkFWeEd6eXpWTVBKNTFfbGJTVjJTNlRGZ2syQ1pfcUcwRno5VUtzd1g0R3AwSEg5UU02MVhIU0g2ZWhoNmZlV2pLR3FuYlAyUHZFemIzaGd4dU9qVGEtUWk?oc=5)**
+  - 来源：Centre Daily Times · 来源时间：11-23 23:58（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Amazon to buy Decart's AI chip optimization tech in latest AI talent grab Centre Daily Times
+- **[Amazon to buy Decart's AI chip optimization tech in latest AI talent grab - Myrtle Beach Sun News](https://news.google.com/rss/articles/CBMieEFVX3lxTE5OSWhGc25LLWhuYTAtYzhjQm1vNGI0TmxVWDQ5a0d5bktISERrYVB2dkU2cTNXZG1SS0N3UkhmN2hvdjNHbHZVYlNhbnM3a0tScWU5cEdKQm95UlF3azNRR0x4YVI1QmZzUkZfNEk4cEJKRXRhbFMwcQ?oc=5)**
+  - 来源：Myrtle Beach Sun News · 来源时间：11-23 23:58（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Amazon to buy Decart's AI chip optimization tech in latest AI talent grab Myrtle Beach Sun News
+- **[SanDisk Surges 22% as Jensen Huang's Return to NVIDIA Sparks AI Chip Rebound; Seagate Jumps 18%, Micron Rallies 16% - 24/7 Wall St.](https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUEJsWmVwcjVqZEVVSDlZVi15SjI2SHFHSE9ublVINEpBWGlNRlBET3FWUFE5bGxvbEhKWHMzMjlBTnpobEVtMXhId1Z1cnVuRVpNcnlsS0E3TlZmREs5aXhXMV9hdlg0OHRHMDhUeHA2UFNKLUZwc1o5SDk5NWFVekZLUUZoazZwWHFabG9iZHQ2OW14dzh3TjVtT2tSS2xqQlVqd1VNcFRja3RTS3pMTERYT3F3cVJPUXFOTno4c3d5NjJVZmladk8tQW05aVFQeFVQem1PcWlrNEM2T1JTNFBzaXJicmpH?oc=5)**
+  - 来源：24/7 Wall St. · 来源时间：11-23 23:04（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：SanDisk Surges 22% as Jensen Huang's Return to NVIDIA Sparks AI Chip Rebound; Seagate Jumps 18%, Micron Rallies 16% 24/7 Wall St.
+- **[CrowdStrike to buy Zscaler in $44 billion deal as AI supercharges cyberattacks - CNBC](https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT0N6eHducGhQY2ZyMTlRNjZOZHhoSnp0aGdkVTJsU2t0TnVhTGwtU0RVTVFFbXh1T0E1Z3BIWXJBdXgzbG1hQ2k0Znl2RFJLOUdLUGh2RjJSVHBidkdycXFzRDR3dzlyd0hXcHE3RmNSYnNRaEdQNWIyMHpYZzU0R0VTM0JKcVVpQTVz0gGQAUFVX3lxTE9rVEo0OGV5SWVvM3VzRHUtUEZKUkZVNjlxcWdyTGZKZDVlZ1M5QTNhbWszQ0hxOGhTXzh1MXVycXI0WVBoVHpBUHNhN0h2YXBYVVk2WFBSdFBXUWdPSS1qNUc1dk5obHpjSDNZdUFfamM1bFA3RV9fdm5jM1FoUFlGLVVOQjN4WjR3ZXNUR0M0MQ?oc=5)**
+  - 来源：CNBC · 来源时间：11-23 22:38（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：CrowdStrike to buy Zscaler in $44 billion deal as AI supercharges cyberattacks CNBC
+- **[Amazon Is Said to Pay $7.5 Billion For AI Startup Decart’s Tech - Bloomberg.com](https://news.google.com/rss/articles/CBMiswFBVV95cUxNTEtGbThuSmc5SGd2SmJVQjZDSTFPNVVpMjJ5TG10OTA5dWlTNUFnRUtSbTBxOW1WYUtOdGZoWGxySDNHb1BYVjQ0SVhxQlBfYTB4aFhCWFRHSVBnS21XQ1FpS1dYb2p4cGxzb2k4VjJzU1JmVnB1MzktempwZXRyYWw0VFpyR3gtOFFVaVhPdWszS3A1THNRV2RPS3hFNXJ3ZXlkMEY4Um1CZjQ1VmxUNDN3RQ?oc=5)**
+  - 来源：Bloomberg.com · 来源时间：11-23 21:48（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Amazon Is Said to Pay $7.5 Billion For AI Startup Decart’s Tech Bloomberg.com
+- **[The Truth Behind Those 100x Faster AI Chip Headlines - HackerNoon](https://news.google.com/rss/articles/CBMigAFBVV95cUxOVy1sLWNMdXM1M19tN1RiTVpvVWoyTGJzRElmMHpvQWJIdWgxbTZXeW9qSk8tQkk3SHF4UzByeDFYRFRrX0I3NHhQRElheEFqYkZJdC1JckZRS1NjVi10QUg3b0Rpd0ZWSndXTGV1TzhXWEg2UDFZLVBReEdvQUlJRw?oc=5)**
+  - 来源：HackerNoon · 来源时间：11-23 21:20（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：The Truth Behind Those 100x Faster AI Chip Headlines HackerNoon
+- **[Air Is Easing Out of the AI Bubble - The Atlantic](https://news.google.com/rss/articles/CBMiggFBVV95cUxPVEo1Rll5MUo0c01renIwSUlOTDBxV2ZhRmM1ZU5QTHd2bFJvMEpQWWoyeEg3VmtIbHlGVjhidVZlM1hEdV9nRkpHQ2haRVp5QTBDRTBmR0lKVDRYYlJjWmlDaWltMjBxdi1UcnBreDRfbXAwMWhpMHZ1a0JuVUt3Ymhn?oc=5)**
+  - 来源：The Atlantic · 来源时间：11-23 20:30（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：Air Is Easing Out of the AI Bubble The Atlantic
+- **[3 Millionaire-Maker AI Chip Stocks Wall Street Isn't Talking About - The Motley Fool](https://news.google.com/rss/articles/CBMirAFBVV95cUxQUURjc3A0bFpnTm9INHhocFZ2UzUxbk9oOXZIdnpma0RpRDVjMDF6ZjFEMi1iZFRKMUU4RkxfYWVmZU1zaHUyMF9QRnpFUkItZlhkWGtuUHh5TzZtSmRITlJTcUo5eE1YRnI0YTJEbVZIZ3lDcndHMFhndWZrcm8xa1VKOFRkSnlOTVBKT1BWZkgwZVBYZERpcVF5TDFJbEpqU0tCbld6SEprV0VE?oc=5)**
+  - 来源：The Motley Fool · 来源时间：11-23 18:30（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：3 Millionaire-Maker AI Chip Stocks Wall Street Isn't Talking About The Motley Fool
+- **[AI-driven technique could help engineers design analog chips faster and with less expense - MIT News](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWF9OaXh0a29zQnVsSUFMc3ZkSjFRZFRIcjN6SkM5N1RBMnBXamRKS0dWUDlSVU43MFM4bFYtTVF1TjdHcm04UTlONXdDc2dGNWNpQ2FzS2ZoYnBJZEozZEJkdFJ6MThNRkNTMWFwdG8yMnMtRzdlNWhvX2U3TXdnMF9RVEkxVF80UTdNU21Pd2ctNGZIMEVpOEVrQlgxZDhiWExuMW1OdDUxa2ItVUtIRHVnVU1BaW9Y?oc=5)**
+  - 来源：MIT News · 来源时间：11-23 13:00（北京时间）
+  - 信源分层：新闻聚合（需核对原文）
+  - 来源摘要（截取）：AI-driven technique could help engineers design analog chips faster and with less expense MIT News
+
+## 工具更新
+
+- **[v0.40.18](https://github.com/ollama/ollama/releases/tag/v0.40.18)**
+  - 来源：Ollama · 来源时间：11-24 16:27（北京时间）
+  - 信源分层：官方一手源
+- **[v0.34.1rc0: \[Perf\]\[Qwen4Exp\] Add SM100 TP=2 and TP=8 skinny GEMM plans (#69529)](https://github.com/vllm-project/vllm/releases/tag/v0.34.1rc0)**
+  - 来源：vLLM · 来源时间：11-24 14:01（北京时间）
+  - 信源分层：官方一手源
+- **[Release v0.71.1](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.1)**
+  - 来源：Gemini CLI · 来源时间：11-24 11:50（北京时间）
+  - 信源分层：官方一手源
+- **[v0.46.3](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.3)**
+  - 来源：ComfyUI · 来源时间：11-24 11:32（北京时间）
+  - 信源分层：官方一手源
+- **[Release v0.71.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0)**
+  - 来源：Gemini CLI · 来源时间：11-24 09:16（北京时间）
+  - 信源分层：官方一手源
+- **[0.172.0](https://github.com/openai/codex/releases/tag/rust-v0.172.0)**
+  - 来源：OpenAI Codex · 来源时间：11-24 08:06（北京时间）
+  - 信源分层：官方一手源
 
 ## 论文与技术
 
-- **[AI-driven technique could help engineers design analog chips faster and with less expense](https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123)**
-  - 来源：MIT AI · 来源时间：11-23 13:00（北京时间）
+- **[Supercharging transformer residual connections](https://research.google/blog/supercharging-transformer-residual-connections/)**
+  - 来源：Google Research · 来源时间：11-24 01:21（北京时间）
+  - 信源分层：官方一手源
+  - 来源摘要（截取）：Algorithms & Theory
+- **[Many languages, one common neural code](https://news.mit.edu/2026/many-languages-one-common-neural-code-1123)**
+  - 来源：MIT AI · 来源时间：11-24 05:15（北京时间）
   - 信源分层：高校研究动态
-  - 来源摘要（截取）：The “SLIC” training method enables a small LLM to compete with much more resource-intensive models in complex circuit design tasks.
-- **[Rather than art, we ought to point AI towards human-understandability and conceptualization. The Riemann proof should come with a paper, a walkthrough, new concepts and insights. Much like the intermediate representat...](https://x.com/rauchg/status/2124654108124848350)**
-  - 来源：Follow Builders · X · Guillermo Rauch · 来源时间：11-23 07:59（北京时间）
-  - 信源分层：Builders/X源
-  - 雷达导读（上游提供）：作者主张AI应转向human-understandability与conceptualization，而非艺术；他以Riemann proof为例，要求证明附带论文、walkthrough、新概念与洞见，并类比高层代码的intermediate representation。
-- **[11. 16—11.22｜本周 AI 论文精选](https://waytoagi.feishu.cn/wiki/LNCPwai0DiUADkkxLlkc5yG0nUf?from=from_copylink)**
-  - 来源：社区更新 · 2026-11-22 · 来源时间：11-23 04:43（北京时间）
-  - 信源分层：社区更新
-  - 雷达导读（上游提供）：Google Cloud AI、Google DeepMind 和宾夕法尼亚州立大学提出带记忆的 SIM 优化器，记录改动理由与实测结果，解决框架从 Opus 迁到 Gemini 后起始得分 68.41 低于初始 73.89 的退化，十次编程实验九次提升，平均增 2.36 分（p=0.003）。
-- **[NVIDIA 发布 Alpamayo 2 Edge：面向 DRIVE Thor 的 2B 推理 VLA](https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor)**
-  - 来源：MarkTechPost Research · 来源时间：11-23 02:37（北京时间）
+  - 来源摘要（截取）：Analyzing speakers of 21 languages, an MIT study using multilingual AI finds the human brain may represent meaning in much the same way.
+- **[Working with AI](https://www.anthropic.com/research/working-with-ai)**
+  - 来源：Anthropic Research（社区转订） · 来源时间：11-23 08:00（北京时间）
+  - 信源分层：社区维护转订（链接指向官方原文）
+  - 来源摘要（截取）：We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI ofte
+- **[Supertake 融资 2000 万美元，让 AI Agent 把你的市场预测变成股票投资组合](https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios)**
+  - 来源：TechCrunch AI · 来源时间：11-24 06:02（北京时间）
   - 信源分层：精选AI媒体
-  - 雷达导读（上游提供）：NVIDIA发布2B参数Alpamayo 2 Edge，可在DRIVE AGX Thor上于160至190毫秒内完成6路摄像头到6.4秒轨迹的规划。
-- **[AI 编程 Agent 在孤立测试中轻松过关，但在模拟职场里完成的任务不足十分之一](https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace)**
-  - 来源：The Decoder AI News · 来源时间：11-22 23:15（北京时间）
+  - 雷达导读（上游提供）：Supertake融资2000万美元，让AI agents把用户对市场走向的判断自动转化为股票投资组合，无需自己选股，值得关注其落地方式。
+- **[Z AI 发布 GLM-5.4：750B 参数的循环 Transformer，28 层跑两遍](https://www.marktechpost.com/2026/11/23/zai-glm-5-4-loop-transformer)**
+  - 来源：MarkTechPost Research · 来源时间：11-24 03:11（北京时间）
   - 信源分层：精选AI媒体
-  - 雷达导读（上游提供）：新实验让AI coding agents在含同事、项目板和聊天记录的模拟软件公司工作，Claude Opus 5.5与GPT-6 Astra完整完成不到十分之一任务。
-- **[安全研究人员演示廉价 AI 推理服务商如何窃取密钥、窥探用户](https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users)**
-  - 来源：The Decoder AI News · 来源时间：11-22 20:07（北京时间）
+  - 雷达导读（上游提供）：想知 Z.ai 如何用 28 层 GLM-5 共享层跑两遍做到 750B，可读 GLM-5.4：其基准未公布，证据仅 30B 消融、约多 10% 算力。
+- **[亚马逊以75亿美元拿下Decart的AI优化技术，同时为出售Trainium芯片做准备](https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips)**
+  - 来源：TechCrunch AI · 来源时间：11-24 01:14（北京时间）
   - 信源分层：精选AI媒体
-  - 雷达导读（上游提供）：Dragos用约200万条含假凭证的AI请求测试，发现至少3家供应商被攻陷、数百个AWS密钥被盗，转售商直接读取客户请求，OpenRouter随后移除3家供应商和125个端点。
-- **[2026年最佳个人AI Agent对比：OpenClaw、Hermes Agent、Gemini Spark等，在记忆、安全与成本上的比较](https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026)**
-  - 来源：MarkTechPost Research · 来源时间：11-22 18:36（北京时间）
+  - 雷达导读（上游提供）：Amazon以据报道75亿美元收购Decart的AI优化技术和研究团队，并借此为销售Trainium芯片做准备。
+- **[Z.ai 紧随 OpenAI 之后，以全新 750B 旗舰模型进军循环 Transformer 领域](https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model)**
+  - 来源：The Decoder AI News · 来源时间：11-23 23:13（北京时间）
   - 信源分层：精选AI媒体
-  - 雷达导读（上游提供）：文章比较OpenClaw等个人AI Agent的memory、security与cost，披露Hermes支持约25个平台、7层防御及审批提示300秒超时即拒绝。
-- **[具身智能进入大浪淘沙阶段，企业需要怎样的人才？](https://www.infoq.cn/article/a22y9GDY1yHuAJkOIF8z)**
-  - 来源：InfoQ CN · 来源时间：11-23 10:48（北京时间）
-  - 信源分层：RSS/OPML
-  - 雷达导读（上游提供）：在2026年上半年具身智能发生322起、935亿元融资后投资放慢的背景下，InfoQ与Xbotics直播中丁鹏翔、温兴男、张小波讨论人才标准如何从VLA复现转向真机部署与完整项目经验。
-- **[OpenAI 确实有可能在短期崩盘。 原因有不少，加起来能不能达到崩盘的阈值，看运气。 也许YES 也许NO。 第一点， 最致命的，是奥特曼不遵守财务纪律，去年10月，越过NVDA和谷歌这些芯片供应商，直接跑到韩国去要HBM，直接导致原已紧张的内存+存储价格，原地爆炸。据我分析，OpenAI由于GB200 机柜交付的延期，在去年确实面临了长期的算力短缺，痛定思痛是一方面的，但是另外不排除奥特曼的焦土战略，我买光市场上的芯片，自用出租两…](https://x.com/ChefBeijing/status/2124540287251005928)**
-  - 来源：@ChefBeijing · 来源时间：11-23 00:27（北京时间）
+  - 雷达导读（上游提供）：Z.ai 将 750B 参数的 GLM-5.4 改为 28 层跑两次的 loop 架构，号称匹敌 2 至 3 万亿参数模型，但基准仅来自 30B 测试模型，并定位 Generalized Coding。
+- **[GPUs can handle massive parallel workloads that CPUs can’t. In this course, you'll learn how CUDA programming works on NVIDIA H100 GPUs. You’ll also learn about kernels, memory, and how to optimize performance for AI wo…](https://x.com/freeCodeCamp/status/2125153369173921981)**
+  - 来源：@freeCodeCamp · 来源时间：11-24 17:03（北京时间）
   - 信源分层：高级源
-  - 雷达导读（上游提供）：文章分析OpenAI短期崩盘风险，指出其去年10月绕过NVDA和谷歌赴韩国要HBM，推高内存与存储价格，并因GB200机柜交付延期陷入算力短缺，还讨论焦土式抢芯片与现金流压力。
+- **[🤖 MEME OF THE DAY: MEDUZA × ROBOTS & AI Artificial intelligence. Smart robots. Digital chaos. Who's really in control? Robots are taking over the world. AI knows everything. But can technology understand MEDUZA? Will ro…](https://x.com/meduzacoin/status/2125139740643021193)**
+  - 来源：@meduzacoin · 来源时间：11-24 16:09（北京时间）
+  - 信源分层：高级源
+- **[I am excited to share that I have started as an Assistant Professor at MIT. I'm building a lab focused on research questions around Generative AI. Examples include: algorithms for data-efficient learning, better samplin…](https://x.com/giannis_daras/status/2124935105382695392)**
+  - 来源：@giannis\_daras · 来源时间：11-24 02:36（北京时间）
+  - 信源分层：高级源
+  - 雷达导读（上游提供）：作者宣布在MIT任Assistant Professor，将围绕Generative AI组建实验室，研究数据高效学习算法、更好采样、多智能体系统与AI安全。
+
+## 深度阅读
+
+- **[datasette-charts 0.2a0](https://simonwillison.net/2026/Nov/24/datasette-charts/)**
+  - 来源：Simon Willison · 来源时间：11-24 12:24（北京时间）
+  - 信源分层：个人或社区分析
+  - 来源摘要（截取）：Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday. Today it's gained integration with Datasette Agent, so now you can ask chat for a cha
+- **[\[AINews\] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft](https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/)**
+  - 来源：Latent Space · 来源时间：11-24 12:14（北京时间）
+  - 信源分层：个人或社区分析
+  - 来源摘要（截取）：November 23, 2026 — Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit.
+- **[Ladybird's first alpha release](https://simonwillison.net/2026/Nov/23/ladybird/)**
+  - 来源：Simon Willison · 来源时间：11-24 05:46（北京时间）
+  - 信源分层：个人或社区分析
+  - 来源摘要（截取）：Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, ev
+- **[datasette-charts 0.1a0](https://simonwillison.net/2026/Nov/23/datasette-charts/)**
+  - 来源：Simon Willison · 来源时间：11-23 08:37（北京时间）
+  - 信源分层：个人或社区分析
+  - 来源摘要（截取）：Release: datasette-charts 0.1a0 I've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prot
 
 ## 论文预印本
 
 > 预印本未经同行评审；跨学科重复链接仅收录一次。
 
-本次共 655 篇，见 [完整论文清单](daily/2026/11/2026-11-23.papers.md)。
+本次共 1663 篇，见 [完整论文清单](daily/2026/11/2026-11-24.papers.md)。
 
 <details>
 <summary>展开前 25 篇论文预览</summary>
 
-- **[On the interplay between noise and curvature and its effect on optimization and generalization](https://arxiv.org/abs/1906.07774)**
-  - 来源：arXiv ML · 来源时间：11-23 13:00（北京时间）
+- **[Learning Delicate Local Representations for Multi-Person Pose Estimation](https://arxiv.org/abs/2003.04030)**
+  - 来源：arXiv CV · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[On the Global Convergence of Gradient Descent for multi-layer ResNets in the mean-field regime](https://arxiv.org/abs/2110.02926)**
-  - 来源：arXiv ML · 来源时间：11-23 13:00（北京时间）
+- **[Personalized Execution Time Optimization for Billion-Scale Scheduled Jobs](https://arxiv.org/abs/2203.06158)**
+  - 来源：arXiv ML · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[OpinionGPT: Modelling Explicit Biases in Instruction-Tuned LLMs](https://arxiv.org/abs/2309.03876)**
-  - 来源：arXiv AI · 来源时间：11-23 13:00（北京时间）
+- **[PartSLAM: Unsupervised Part-based Scene Modeling for Fast Succinct Map Matching](https://arxiv.org/abs/2306.10782)**
+  - 来源：arXiv CV · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[Automatic Detection of LLM-Generated Code: A Comparative Case Study of Contemporary Models Across Function and Class Granularities](https://arxiv.org/abs/2409.01382)**
-  - 来源：arXiv AI · 来源时间：11-23 13:00（北京时间）
+- **[Optimal Rate of Kernel Regression in Large Dimensions](https://arxiv.org/abs/2309.04268)**
+  - 来源：arXiv ML · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[Average Causal Effect Estimation in DAGs with Hidden Variables: Beyond Back-Door and Front-Door Criteria](https://arxiv.org/abs/2409.03962)**
-  - 来源：arXiv ML · 来源时间：11-23 13:00（北京时间）
+- **[Robust Brain MRI Image Classification with SIBOW-SVM](https://arxiv.org/abs/2311.08908)**
+  - 来源：arXiv CV · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[A Chinese Continuous Sign Language Dataset Based on Complex Environments](https://arxiv.org/abs/2409.11960)**
-  - 来源：arXiv CV · 来源时间：11-23 13:00（北京时间）
+- **[RQFormer: Rotated Query Transformer for End-to-End Oriented Object Detection](https://arxiv.org/abs/2311.17629)**
+  - 来源：arXiv CV · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[A context-adaptive policy framework for robust and reactive robotic manipulation via uncertainty-aware imitation learning](https://arxiv.org/abs/2410.24035)**
-  - 来源：arXiv AI · 来源时间：11-23 13:00（北京时间）
+- **[Token Noise and the Illusion of Preference: A Shapley Value Framework for Auditing LLM-Simulated Choice Experiments](https://arxiv.org/abs/2404.01332)**
+  - 来源：arXiv AI · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[The Well: a Large-Scale Collection of Diverse Physics Simulations for Machine Learning](https://arxiv.org/abs/2412.00568)**
-  - 来源：arXiv ML · 来源时间：11-23 13:00（北京时间）
+- **[Fine-Tuning Large Language Models for Relation Extraction within a Retrieval-Augmented Generation Framework](https://arxiv.org/abs/2406.14745)**
+  - 来源：arXiv AI · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[Deep Learning-based Approaches for State Space Models: A Selective Review](https://arxiv.org/abs/2412.11211)**
-  - 来源：arXiv ML · 来源时间：11-23 13:00（北京时间）
+- **[SegSTRONG-C: Segmenting Surgical Tools Robustly On Non-adversarial Generated Corruptions -- An EndoVis'24 Challenge](https://arxiv.org/abs/2407.11906)**
+  - 来源：arXiv CV · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[CHAIR -- Classifier of Hallucination as Improver](https://arxiv.org/abs/2501.02518)**
-  - 来源：arXiv CL · 来源时间：11-23 13:00（北京时间）
+- **[ERIT: A Responsible Multimodal Affective Computing Benchmark for Older-Adult Emotion Recognition in the Wild](https://arxiv.org/abs/2407.17772)**
+  - 来源：arXiv CL · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[Zero-shot Video Moment Retrieval via Off-the-shelf Multimodal Large Language Models](https://arxiv.org/abs/2501.07972)**
-  - 来源：arXiv CV · 来源时间：11-23 13:00（北京时间）
+- **[TALE: Training-free Cross-domain Image Composition via Adaptive Latent Manipulation and Energy-guided Optimization](https://arxiv.org/abs/2408.03637)**
+  - 来源：arXiv CV · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[Causality can systematically address the monsters under the bench(marks)](https://arxiv.org/abs/2502.05085)**
-  - 来源：arXiv AI · 来源时间：11-23 13:00（北京时间）
+- **[DeepVoting: Learning and Improving Voting Rules with Fine-Tuning](https://arxiv.org/abs/2408.13630)**
+  - 来源：arXiv AI · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[Adaptive Lipschitz-Free Proximal Gradient Methods for Stochastic Composite Nonconvex Optimization](https://arxiv.org/abs/2502.21099)**
-  - 来源：arXiv CV · 来源时间：11-23 13:00（北京时间）
+- **[Inferring behind-the-meter demand components from net load via inverse optimization](https://arxiv.org/abs/2410.02774)**
+  - 来源：arXiv ML · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[LoopNav: Benchmarking Spatial Consistency in World Models](https://arxiv.org/abs/2505.22976)**
-  - 来源：arXiv AI · 来源时间：11-23 13:00（北京时间）
+- **[Enhancing Diabetic Retinopathy Detection with CNN-Based Models: A Comparative Study of UNET and Stacked UNET Architectures](https://arxiv.org/abs/2411.01251)**
+  - 来源：arXiv CV · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[Fine-Tuning Next-Scale Visual Autoregressive Models with Group Relative Policy Optimization](https://arxiv.org/abs/2505.23331)**
-  - 来源：arXiv AI · 来源时间：11-23 13:00（北京时间）
+- **[Lightweight Detection and Model Attribution of Synthetic Speech via Residual Statistical Fingerprints](https://arxiv.org/abs/2411.14013)**
+  - 来源：arXiv ML · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[SVarM: Linear Support Varifold Machines for Classification and Regression on Geometric Data](https://arxiv.org/abs/2506.01189)**
-  - 来源：arXiv CV · 来源时间：11-23 13:00（北京时间）
+- **[Scaling Structure-Aware Virtual Screening to Billions of Molecules with SPRINT](https://arxiv.org/abs/2411.15418)**
+  - 来源：arXiv ML · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[VASSO: Variance Suppression for Sharpness-Aware Minimization](https://arxiv.org/abs/2509.02433)**
-  - 来源：arXiv ML · 来源时间：11-23 13:00（北京时间）
+- **[Financial Volatility and Risk Forecasting Incorporating a Larger Number of Realized Measures](https://arxiv.org/abs/2411.17136)**
+  - 来源：arXiv ML · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[Beyond Output Faithfulness: Diagnosing and Mitigating Pathway Rerouting in Feature Attribution](https://arxiv.org/abs/2509.04588)**
-  - 来源：arXiv AI · 来源时间：11-23 13:00（北京时间）
+- **[A characteristic-graph reduction for deterministic L-system inference with classical and quantum-heuristic solvers](https://arxiv.org/abs/2411.19906)**
+  - 来源：arXiv CL · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[Reconstruction Alignment Improves Unified Multimodal Models](https://arxiv.org/abs/2509.07295)**
-  - 来源：arXiv AI · 来源时间：11-23 13:00（北京时间）
+- **[From Tables to Time: Extending TabPFN-v2 to Time Series Forecasting](https://arxiv.org/abs/2501.02945)**
+  - 来源：arXiv ML · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[Family Matters: Language Transfer and Merging for Adapting Small LLMs to Faroese](https://arxiv.org/abs/2510.00810)**
-  - 来源：arXiv CL · 来源时间：11-23 13:00（北京时间）
+- **[A Unified Comparative Study with Generalized Conformity Scores for Multi-Output Conformal Regression](https://arxiv.org/abs/2501.10533)**
+  - 来源：arXiv ML · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[Improving Consistency in Retrieval-Augmented Systems with Group Similarity Rewards](https://arxiv.org/abs/2510.04392)**
-  - 来源：arXiv AI · 来源时间：11-23 13:00（北京时间）
+- **[JustLogic: A Comprehensive Benchmark for Evaluating Deductive Reasoning in Large Language Models](https://arxiv.org/abs/2501.14851)**
+  - 来源：arXiv AI · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[RAG Makes Guardrails Brittle? Investigating Robustness of Guardrails under RAG-style Contexts](https://arxiv.org/abs/2510.05310)**
-  - 来源：arXiv AI · 来源时间：11-23 13:00（北京时间）
+- **[Enhancing Code Consistency in AI Research with Large Language Models and Retrieval-Augmented Generation](https://arxiv.org/abs/2502.00611)**
+  - 来源：arXiv AI · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[Fractal basin geometry and the limits to predictability and reproducibility in deep learning](https://arxiv.org/abs/2510.05606)**
-  - 来源：arXiv ML · 来源时间：11-23 13:00（北京时间）
+- **[Coresets for Density-Based Clustering via Bayesian Predictive Partition Matching](https://arxiv.org/abs/2502.05725)**
+  - 来源：arXiv ML · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[Learning to Assimilate: Amortized Control for Autoregressive Diffusion](https://arxiv.org/abs/2510.06637)**
-  - 来源：arXiv AI · 来源时间：11-23 13:00（北京时间）
+- **[Supervised Contrastive Learning of Environment-Invariant Representations](https://arxiv.org/abs/2502.07281)**
+  - 来源：arXiv ML · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
-- **[Emergent Misalignment via In-Context Learning: Narrow in-context examples can produce broadly misaligned LLMs](https://arxiv.org/abs/2510.11288)**
-  - 来源：arXiv CL · 来源时间：11-23 13:00（北京时间）
+- **[New Lower Bounds for Stochastic Non-Convex Optimization through Divergence Decomposition](https://arxiv.org/abs/2502.14060)**
+  - 来源：arXiv ML · 来源时间：11-24 13:00（北京时间）
   - 信源分层：研究预印本（未经同行评审）
 
 </details>
 
 ## 值得注意（热议参考）
 
-- **[\[推广\] \[1123\] GPT 代充 PLUS ¥116、Pro100 ¥645、Pro200 ¥1045 \[PLUS 成品号 80\] 自助充值 1 分钟快速到账](https://www.v2ex.com/t/1259197)**
-  - 来源：V2EX (创意工作者社区) · 来源时间：11-23 16:55（北京时间）
+- **[系统崩了，一屋子人在等 AI 出方案](https://juejin.cn/post/7711258065815420964)**
+  - 来源：juejin · 来源时间：11-24 18:41（北京时间）
   - 信源分层：热议参考
-- **[\[Google Gemini\] 难顶，折腾了半天，日区订阅了 Pro 却用不了](https://www.v2ex.com/t/1259196)**
-  - 来源：V2EX (创意工作者社区) · 来源时间：11-23 16:54（北京时间）
+- **[Praelo: Teleprompter](https://www.producthunt.com/products/praelo-teleprompter)**
+  - 来源：producthunt · 来源时间：11-24 18:41（北京时间）
   - 信源分层：热议参考
-- **[\[程序员\] ChatGPT 生图功能，有什么平替？Gemini 行吗？](https://www.v2ex.com/t/1259195)**
-  - 来源：V2EX (创意工作者社区) · 来源时间：11-23 16:54（北京时间）
+- **[PromptBloom](https://www.producthunt.com/products/promptbloom)**
+  - 来源：producthunt · 来源时间：11-24 18:41（北京时间）
   - 信源分层：热议参考
-- **[\[Claude\] Claude 到期了，现在还能找代充续费吗？](https://www.v2ex.com/t/1259190)**
-  - 来源：V2EX (创意工作者社区) · 来源时间：11-23 16:43（北京时间）
+- **[\[问与答\] AI 超预期完成任务时，你会夸它吗？](https://www.v2ex.com/t/1259526)**
+  - 来源：V2EX (创意工作者社区) · 来源时间：11-24 18:36（北京时间）
   - 信源分层：热议参考
-- **[Kauthar AI](https://www.producthunt.com/products/kauthar-ai)**
-  - 来源：producthunt · 来源时间：11-23 16:42（北京时间）
+- **[我用 Gemini Task 清空了爆满的 Gmail 收件箱，收件箱清零终于感觉触手可及](https://www.androidpolice.com/gemini-task-clean-overflowing-gmail-inbox-inbox-zero-possible)**
+  - 来源：Android Police · 来源时间：11-24 18:06（北京时间）
   - 信源分层：热议参考
-- **[Oficina AI](https://www.producthunt.com/products/oficina-ai)**
-  - 来源：producthunt · 来源时间：11-23 16:42（北京时间）
+- **[即便 Jensen Huang 回归，这个 AI 硬件循环仍在威胁 Nvidia 的未来](https://www.businessinsider.com/openai-google-anthropic-use-ai-challenge-nvidia-chip-dominance-2026-11)**
+  - 来源：Business Insider · 来源时间：11-24 18:00（北京时间）
   - 信源分层：热议参考
-- **[用 Seedance 2.5 Flash 实现1分钟AI短剧，满足孩子的超级英雄对战梦](https://juejin.cn/post/7710180572464758838)**
-  - 来源：juejin · 来源时间：11-23 16:42（北京时间）
+- **[黑色星期五花39.99美元，让AI国际象棋教练为你助阵](https://mashable.com/life/nov-24-rookion-ai-chess-coach-starter-plan-lifetime-subscription)**
+  - 来源：Mashable · 来源时间：11-24 18:00（北京时间）
   - 信源分层：热议参考
-- **[我把公司内部的 12 个 CRUD 接口交给了 AI Agent，然后省出了两周](https://juejin.cn/post/7710455506234327080)**
-  - 来源：juejin · 来源时间：11-23 16:42（北京时间）
+- **[\[程序员\] Ai 时代，还想掌握代码是痴心妄想吗？](https://www.v2ex.com/t/1259519)**
+  - 来源：V2EX (创意工作者社区) · 来源时间：11-24 17:54（北京时间）
   - 信源分层：热议参考
-- **[七家中国 AI 公司被控「蒸馏」Claude：模型蒸馏的原理、攻防与争议全解（附一手资料截图）](https://juejin.cn/post/7710853195052990499)**
-  - 来源：juejin · 来源时间：11-23 16:42（北京时间）
+- **[\[推广\] opus fable gpt glm 等等等等应有尽有 低至 0.5 折](https://www.v2ex.com/t/1259518)**
+  - 来源：V2EX (创意工作者社区) · 来源时间：11-24 17:49（北京时间）
   - 信源分层：热议参考
-- **[\[推广\] 自己用 Rust 写了套 Antigravity 反代对齐，在 Codex 里跑 Gemini 4 五天 4500 次没触发风控](https://www.v2ex.com/t/1259187)**
-  - 来源：V2EX (创意工作者社区) · 来源时间：11-23 16:40（北京时间）
+- **[\[推广\] 自己搓了个 Agent，解决了一些 AI 工具的痛点吧，大家可以体验体验](https://www.v2ex.com/t/1259515)**
+  - 来源：V2EX (创意工作者社区) · 来源时间：11-24 17:45（北京时间）
   - 信源分层：热议参考
-- **[《Inkling、Qwen 和 Unsloth 入门指南：本地人工智能》](https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth)**
-  - 来源：www.gpupartner.com · 来源时间：11-23 07:23（北京时间）
-  - 信源分层：热议参考
-  - 雷达点评（上游提供）：想本地跑 Qwen 配 Unsloth 微调的可以照着抄，但没有新东西，纯入门教程。
-- **[Show HN: 我开发了一款游戏，在游戏中你将扮演一个大型语言模型（LLM）的子代理](https://github.com/gulivan/worker755)**
-  - 来源：github.com · 来源时间：11-23 00:44（北京时间）
-  - 信源分层：热议参考
-  - 雷达导读（上游提供）：在 worker755.com 上，真实 Claude、GPT 等 LLM 扮演经理，用 90 秒倒计时向作为子代理的你下达终端指令，并检查结果、发事故报告、写绩效评估。
-  - 雷达点评（上游提供）：创意玩具，能看 agent 协作怎么被具象化，但跟你的活儿没关系。
 
 ## 来源检查
 
 | 来源 | 状态 | 获取条目 | 本次新增 |
 | --- | --- | ---: | ---: |
-| [AI News Radar](https://news.learnprompt.pro/data) | 获取成功；数据时间 2026-11-23 17:10（北京时间）；已合并精选与完整时间线 | 104 | 101 |
-| [OpenAI News](https://openai.com/news/rss.xml) | 获取成功 | 1422 | 0 |
+| [AI News Radar](https://news.learnprompt.pro/data) | 获取成功；数据时间 2026-11-24 19:01（北京时间）；已合并精选与完整时间线 | 160 | 154 |
+| [OpenAI News](https://openai.com/news/rss.xml) | 获取成功 | 1425 | 2 |
 | [Google AI](https://blog.google/technology/ai/rss/) | 获取成功 | 20 | 0 |
-| [Hugging Face Blog](https://huggingface.co/blog/feed.xml) | 获取成功 | 915 | 0 |
-| [OpenAI Codex](https://github.com/openai/codex/releases.atom) | 获取成功 | 10 | 0 |
+| [Hugging Face Blog](https://huggingface.co/blog/feed.xml) | 获取成功 | 916 | 1 |
+| [OpenAI Codex](https://github.com/openai/codex/releases.atom) | 获取成功 | 10 | 1 |
 | [Claude Code](https://github.com/anthropics/claude-code/releases.atom) | 获取成功 | 10 | 0 |
-| [Ollama](https://github.com/ollama/ollama/releases.atom) | 获取成功 | 10 | 0 |
+| [Ollama](https://github.com/ollama/ollama/releases.atom) | 获取成功 | 10 | 1 |
 | [DeepMind](https://deepmind.google/blog/rss.xml) | 获取成功 | 100 | 0 |
-| [Google Research](https://research.google/blog/rss/) | 获取成功 | 100 | 0 |
+| [Google Research](https://research.google/blog/rss/) | 获取成功 | 100 | 1 |
 | [Microsoft Research](https://www.microsoft.com/en-us/research/feed/) | 获取成功 | 10 | 0 |
-| [NVIDIA Developer](https://developer.nvidia.com/blog/feed/) | 获取成功；过滤 6 条非 AI 内容 | 100 | 0 |
-| [AWS ML](https://aws.amazon.com/blogs/machine-learning/feed/) | 获取成功 | 20 | 0 |
+| [NVIDIA Developer](https://developer.nvidia.com/blog/feed/) | 获取成功；过滤 8 条非 AI 内容 | 100 | 1 |
+| [AWS ML](https://aws.amazon.com/blogs/machine-learning/feed/) | 获取成功 | 20 | 1 |
 | [GitHub AI](https://github.blog/ai-and-ml/feed/) | 获取成功 | 10 | 0 |
 | [Anthropic News（社区转订）](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml) | 获取成功 | 290 | 0 |
 | [Anthropic Engineering（社区转订）](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml) | 获取成功 | 29 | 0 |
-| [Anthropic Research（社区转订）](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml) | 获取成功 | 201 | 0 |
+| [Anthropic Research（社区转订）](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml) | 获取成功 | 202 | 1 |
 | [Mistral News（社区转订）](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_mistral.xml) | 获取成功 | 94 | 0 |
 | [量子位](https://www.qbitai.com/feed) | 获取成功 | 10 | 10 |
-| [IT之家 · AI](https://www.ithome.com/rss/) | 获取成功；过滤 45 条非 AI 内容 | 60 | 15 |
-| [InfoQ 中文 · AI](https://www.infoq.cn/feed) | 获取成功；过滤 6 条非 AI 内容 | 20 | 0 |
+| [IT之家 · AI](https://www.ithome.com/rss/) | 获取成功；过滤 51 条非 AI 内容 | 60 | 9 |
+| [InfoQ 中文 · AI](https://www.infoq.cn/feed) | 获取成功；过滤 8 条非 AI 内容 | 20 | 1 |
 | [TechCrunch AI](https://techcrunch.com/category/artificial-intelligence/feed/) | 获取成功 | 20 | 0 |
-| [The Verge AI](https://www.theverge.com/rss/ai-artificial-intelligence/index.xml) | 获取成功 | 10 | 2 |
-| [WIRED AI](https://www.wired.com/feed/tag/ai/latest/rss) | 获取成功 | 10 | 0 |
-| [InfoQ AI](https://feed.infoq.com/ai-ml-data-eng/) | 获取成功 | 15 | 3 |
-| [Simon Willison](https://simonwillison.net/atom/everything/) | 获取成功；过滤 11 条非 AI 内容 | 30 | 0 |
-| [Latent Space](https://www.latent.space/feed) | 获取成功 | 20 | 0 |
+| [The Verge AI](https://www.theverge.com/rss/ai-artificial-intelligence/index.xml) | 获取成功 | 10 | 6 |
+| [WIRED AI](https://www.wired.com/feed/tag/ai/latest/rss) | 获取成功 | 10 | 2 |
+| [InfoQ AI](https://feed.infoq.com/ai-ml-data-eng/) | 获取成功 | 15 | 7 |
+| [Simon Willison](https://simonwillison.net/atom/everything/) | 获取成功；过滤 11 条非 AI 内容 | 30 | 3 |
+| [Latent Space](https://www.latent.space/feed) | 获取成功 | 20 | 1 |
 | [Interconnects](https://www.interconnects.ai/feed) | 获取成功 | 20 | 0 |
 | [MIT AI](https://news.mit.edu/rss/topic/artificial-intelligence2) | 获取成功 | 50 | 1 |
-| [arXiv AI](https://rss.arxiv.org/rss/cs.AI) | 获取成功 | 351 | 298 |
-| [arXiv CL](https://rss.arxiv.org/rss/cs.CL) | 获取成功 | 142 | 62 |
-| [arXiv CV](https://rss.arxiv.org/rss/cs.CV) | 获取成功 | 271 | 154 |
-| [arXiv ML](https://rss.arxiv.org/rss/cs.LG) | 获取成功 | 304 | 141 |
-| [vLLM](https://github.com/vllm-project/vllm/releases.atom) | 获取成功 | 10 | 0 |
+| [arXiv AI](https://rss.arxiv.org/rss/cs.AI) | 获取成功 | 773 | 677 |
+| [arXiv CL](https://rss.arxiv.org/rss/cs.CL) | 获取成功 | 334 | 167 |
+| [arXiv CV](https://rss.arxiv.org/rss/cs.CV) | 获取成功 | 704 | 469 |
+| [arXiv ML](https://rss.arxiv.org/rss/cs.LG) | 获取成功 | 708 | 350 |
+| [vLLM](https://github.com/vllm-project/vllm/releases.atom) | 获取成功 | 10 | 1 |
 | [SGLang](https://github.com/sgl-project/sglang/releases.atom) | 获取成功 | 10 | 0 |
 | [Transformers](https://github.com/huggingface/transformers/releases.atom) | 获取成功 | 10 | 0 |
 | [Diffusers](https://github.com/huggingface/diffusers/releases.atom) | 获取成功 | 10 | 0 |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli/releases.atom) | 获取成功 | 10 | 0 |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli/releases.atom) | 获取成功 | 10 | 2 |
 | [LangGraph](https://github.com/langchain-ai/langgraph/releases.atom) | 获取成功 | 10 | 0 |
 | [Open WebUI](https://github.com/open-webui/open-webui/releases.atom) | 获取成功 | 10 | 0 |
-| [ComfyUI](https://github.com/Comfy-Org/ComfyUI/releases.atom) | 获取成功 | 10 | 0 |
+| [ComfyUI](https://github.com/Comfy-Org/ComfyUI/releases.atom) | 获取成功 | 10 | 1 |
 | [Dify](https://github.com/langgenius/dify/releases.atom) | 获取成功 | 10 | 0 |
-| [国内模型动态 · 新闻聚合](https://news.google.com/rss/search?q=(DeepSeek+OR+Qwen+OR+%E6%99%BA%E8%B0%B1+OR+%E8%B1%86%E5%8C%85+OR+Kimi+OR+MiniMax)+when:2d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans) | 获取成功；过滤 1 条非 AI 内容 | 99 | 87 |
-| [AI 政策与安全 · 新闻聚合](https://news.google.com/rss/search?q=(%22artificial+intelligence%22+OR+%22AI%22)+(regulation+OR+policy+OR+copyright+OR+safety)+when:2d&hl=en-US&gl=US&ceid=US:en) | 获取成功；过滤 10 条非 AI 内容 | 100 | 73 |
-| [AI 融资与芯片 · 新闻聚合](https://news.google.com/rss/search?q=(%22artificial+intelligence%22+OR+%22AI%22)+(funding+OR+acquisition+OR+chip)+when:2d&hl=en-US&gl=US&ceid=US:en) | 获取成功；过滤 22 条非 AI 内容 | 100 | 59 |
+| [国内模型动态 · 新闻聚合](https://news.google.com/rss/search?q=(DeepSeek+OR+Qwen+OR+%E6%99%BA%E8%B0%B1+OR+%E8%B1%86%E5%8C%85+OR+Kimi+OR+MiniMax)+when:2d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans) | 获取成功；过滤 1 条非 AI 内容 | 100 | 97 |
+| [AI 政策与安全 · 新闻聚合](https://news.google.com/rss/search?q=(%22artificial+intelligence%22+OR+%22AI%22)+(regulation+OR+policy+OR+copyright+OR+safety)+when:2d&hl=en-US&gl=US&ceid=US:en) | 获取成功；过滤 3 条非 AI 内容 | 100 | 83 |
+| [AI 融资与芯片 · 新闻聚合](https://news.google.com/rss/search?q=(%22artificial+intelligence%22+OR+%22AI%22)+(funding+OR+acquisition+OR+chip)+when:2d&hl=en-US&gl=US&ceid=US:en) | 获取成功；过滤 23 条非 AI 内容 | 100 | 74 |
 
 雷达数据文件：https://news.learnprompt.pro/data/daily-brief.json 、 https://news.learnprompt.pro/data/latest-24h.json
 
-数据时间 2026-11-23 17:10（北京时间）；已合并精选与完整时间线。
+数据时间 2026-11-24 19:01（北京时间）；已合并精选与完整时间线。
 
 ## 我的阅读笔记
 
